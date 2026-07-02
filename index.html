@@ -12,81 +12,96 @@
     --tA:#4a9df0; --tAb:#0c2a48;
     --tB:#e0a336; --tBb:#3a2c0c;
     --tC:#7c8794; --tCb:#22282f;
-    --accent:#4a9df0;
+    --accent:#4a9df0; --up:#2dd4a7; --down:#e0736b;
   }
   *{box-sizing:border-box;margin:0;padding:0}
-  body{
-    background:var(--bg); color:var(--ink);
+  body{background:var(--bg); color:var(--ink);
     font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-    -webkit-font-smoothing:antialiased; line-height:1.5;
-    padding:0 16px 80px;
-  }
+    -webkit-font-smoothing:antialiased; line-height:1.5; padding:0 16px 80px;}
   .wrap{max-width:920px;margin:0 auto}
 
-  header{
-    display:flex; align-items:baseline; justify-content:space-between;
-    flex-wrap:wrap; gap:12px; padding:28px 0 20px;
-    border-bottom:1px solid var(--line); margin-bottom:20px;
-  }
-  .title{font-size:15px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:var(--ink)}
+  header{display:flex; align-items:baseline; justify-content:space-between;
+    flex-wrap:wrap; gap:12px; padding:28px 0 16px;
+    border-bottom:1px solid var(--line); margin-bottom:16px;}
+  .title{font-size:15px; font-weight:600; letter-spacing:.14em; text-transform:uppercase}
   .title span{color:var(--accent)}
   .meta{font-size:12px; color:var(--ink3); font-variant-numeric:tabular-nums}
   .meta b{color:var(--ink2); font-weight:500}
 
-  .runbar{display:flex; gap:6px; margin:0 0 20px}
-  .runchip{
-    font-size:11px; padding:5px 11px; border-radius:6px;
-    border:1px solid var(--line); color:var(--ink3);
-    font-variant-numeric:tabular-nums;
-  }
-  .runchip.on{background:var(--panel2); color:var(--ink); border-color:var(--accent)}
+  .controls{display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin-bottom:16px}
+  .btn{font-size:12px; padding:6px 12px; border-radius:7px; border:1px solid var(--line);
+    color:var(--ink2); background:transparent; cursor:pointer; transition:.12s}
+  .btn:hover{border-color:#33404f; color:var(--ink)}
+  .btn.active{background:var(--panel2); color:var(--ink); border-color:var(--accent)}
+  .btn.warn.active{border-color:var(--tB); color:var(--tB)}
+  .live{display:flex; align-items:center; gap:6px; font-size:12px; color:var(--ink3); margin-left:auto}
+  .dot{width:7px; height:7px; border-radius:50%; background:var(--up)}
+  .dot.paused{background:var(--tB)}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+  .dot:not(.paused){animation:pulse 2s infinite}
 
-  .stats{display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:24px}
+  .stats{display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:20px}
   .stat{background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:12px 14px}
   .stat .k{font-size:11px; color:var(--ink3); text-transform:uppercase; letter-spacing:.06em}
   .stat .v{font-size:22px; font-weight:600; font-variant-numeric:tabular-nums; margin-top:3px}
 
-  .hd{display:grid; grid-template-columns:28px 40px 1fr 84px 20px; gap:12px;
+  .hd{display:grid; grid-template-columns:26px 40px 1fr 92px 44px; gap:12px;
       padding:0 14px 8px; font-size:11px; color:var(--ink3);
       text-transform:uppercase; letter-spacing:.06em}
   .hd .r{text-align:right}
 
-  .row{
-    background:var(--panel); border:1px solid var(--line); border-radius:10px;
-    margin-bottom:8px; overflow:hidden; transition:border-color .12s;
-  }
+  .row{background:var(--panel); border:1px solid var(--line); border-radius:10px;
+    margin-bottom:8px; overflow:hidden; transition:border-color .12s, opacity .3s}
   .row:hover{border-color:#33404f}
-  .rowhead{
-    display:grid; grid-template-columns:28px 40px 1fr 84px 20px; gap:12px;
-    align-items:center; padding:12px 14px; cursor:pointer;
-  }
-  .rank{font-size:18px; font-weight:600; color:var(--ink3); font-variant-numeric:tabular-nums}
-  .tier{
-    width:34px; height:34px; border-radius:8px; display:flex; align-items:center;
-    justify-content:center; font-weight:700; font-size:15px;
-  }
+  .row.pinned{border-color:var(--accent)}
+  .row.cooling{opacity:.5}
+  .row.cooling:hover{opacity:.8}
+  .rowhead{display:grid; grid-template-columns:26px 40px 1fr 92px 44px; gap:12px;
+    align-items:center; padding:12px 14px; cursor:pointer}
+  .rank{font-size:17px; font-weight:600; color:var(--ink3); font-variant-numeric:tabular-nums}
+  .tier{width:34px; height:34px; border-radius:8px; display:flex; align-items:center;
+    justify-content:center; font-weight:700; font-size:15px}
   .tier.S{background:var(--tSb); color:var(--tS)}
   .tier.A{background:var(--tAb); color:var(--tA)}
   .tier.B{background:var(--tBb); color:var(--tB)}
   .tier.C{background:var(--tCb); color:var(--tC)}
   .tk{font-size:15px; font-weight:600; letter-spacing:.02em}
   .nm{font-size:12px; color:var(--ink3); margin-left:8px; font-weight:400}
+  .coolTag{font-size:10px; color:var(--tB); border:1px solid var(--tBb);
+    background:var(--tBb); padding:1px 6px; border-radius:5px; margin-left:8px; vertical-align:1px}
   .cat{font-size:13px; color:var(--ink2); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
   .score{text-align:right}
   .score .big{font-size:20px; font-weight:600; font-variant-numeric:tabular-nums}
   .score .sub{font-size:11px; color:var(--ink3); font-variant-numeric:tabular-nums}
-  .chev{color:var(--ink3); transition:transform .15s; text-align:center; font-size:14px}
+  .flash{transition:color .1s}
+  .flash.up{color:var(--up)} .flash.down{color:var(--down)}
+  .rowtools{display:flex; gap:2px; justify-content:flex-end; align-items:center}
+  .icon{width:22px; height:22px; border:none; background:transparent; cursor:pointer;
+    color:var(--ink3); font-size:13px; border-radius:5px; display:flex;
+    align-items:center; justify-content:center}
+  .icon:hover{background:var(--panel2); color:var(--ink)}
+  .icon.on{color:var(--accent)}
+  .chev{color:var(--ink3); transition:transform .15s; font-size:12px}
   .row.open .chev{transform:rotate(180deg)}
 
   .detail{display:none; grid-template-columns:1fr 1fr; gap:20px;
-          padding:4px 14px 16px; border-top:1px solid var(--line); margin-top:0}
+    padding:4px 14px 16px; border-top:1px solid var(--line)}
   .row.open .detail{display:grid}
   .detail h4{font-size:11px; color:var(--ink3); text-transform:uppercase;
-             letter-spacing:.06em; margin:14px 0 8px; font-weight:600}
+    letter-spacing:.06em; margin:14px 0 8px; font-weight:600}
   .bd{display:flex; justify-content:space-between; font-size:12px; padding:3px 0}
   .bd .l{color:var(--ink2)}
   .bd .p{color:var(--ink); font-weight:600; font-variant-numeric:tabular-nums}
-  .bd .p.neg{color:#e0736b}
+  .bd .p.neg{color:var(--down)}
+
+  .divider{display:flex; align-items:center; gap:12px; margin:20px 4px 12px; color:var(--ink3); font-size:11px;
+    text-transform:uppercase; letter-spacing:.08em}
+  .divider::before,.divider::after{content:""; flex:1; height:1px; background:var(--line)}
+
+  .resortBar{display:none; position:sticky; top:8px; z-index:5; margin:0 0 10px;
+    background:var(--panel2); border:1px solid var(--accent); border-radius:8px;
+    padding:8px 12px; font-size:12px; color:var(--ink); cursor:pointer; text-align:center}
+  .resortBar.show{display:block}
 
   .empty{text-align:center; padding:60px 20px; color:var(--ink3)}
   .empty .big{font-size:16px; color:var(--ink2); margin-bottom:6px}
@@ -94,7 +109,7 @@
   @media(max-width:640px){
     .stats{grid-template-columns:repeat(2,1fr)}
     .hd{display:none}
-    .rowhead,.detail{grid-template-columns:24px 34px 1fr 70px 18px}
+    .rowhead,.detail{grid-template-columns:22px 34px 1fr 76px 40px}
     .nm{display:none}
     .detail{grid-template-columns:1fr}
   }
@@ -107,14 +122,15 @@
     <div class="meta" id="meta">loading…</div>
   </header>
 
-  <div class="runbar" id="runbar">
-    <div class="runchip" data-run="0">Run 0 · overnight</div>
-    <div class="runchip" data-run="1">Run 1 · 8:00 ET</div>
-    <div class="runchip" data-run="2">Run 2 · 8:45 ET</div>
-    <div class="runchip" data-run="3">Run 3 · 9:15 ET</div>
+  <div class="controls">
+    <button class="btn active" id="liveBtn">Live prices: on</button>
+    <button class="btn warn" id="freezeBtn">Freeze</button>
+    <div class="live"><span class="dot" id="dot"></span><span id="liveTxt">live</span></div>
   </div>
 
   <div class="stats" id="stats"></div>
+
+  <div class="resortBar" id="resortBar">↑ New order available — tap to re-sort</div>
 
   <div class="hd">
     <div>#</div><div>Tier</div><div>Ticker · catalyst</div><div class="r">Score</div><div></div>
@@ -123,108 +139,266 @@
 </div>
 
 <script>
-const tierName = {S:"S",A:"A",B:"B",C:"C"};
+// ============================ state ============================
+let board = [];           // current rows (from data.json, then live-updated)
+let dataMeta = {};        // last loaded meta
+let pinned = new Set();   // tickers pinned by user
+let frozen = false;       // freeze toggle
+let liveOn = true;        // live price ticking toggle
+let pendingResort = false;// a live update changed scores; offer manual re-sort
+const openRows = new Set();// which tickers are expanded (survive re-render)
 
-function fmtTime(iso){
+const FMP_KEY_NOTE = "browser"; // prices fetched client-side; see note in code
+
+// ============================ helpers ============================
+const tierClass = {S:"S",A:"A",B:"B",C:"C"};
+function fmtTime(iso){try{return new Date(iso).toLocaleString("en-GB",
+  {hour:"2-digit",minute:"2-digit",day:"2-digit",month:"short"})+" UK";}catch(e){return iso;}}
+function gapOf(r){return r.premarket_change ?? r.gap_pct;}
+
+// ============================ initial load ============================
+async function loadBoard(){
   try{
-    const d = new Date(iso);
-    return d.toLocaleString("en-GB",{hour:"2-digit",minute:"2-digit",day:"2-digit",month:"short"}) + " UK";
-  }catch(e){ return iso; }
-}
-
-function render(data){
-  const rows = data.rows || [];
-
-  // meta + run marker
-  const aiTag = data.ai_used
-    ? '<span style="color:var(--tS)">AI-classified</span>'
-    : '<span style="color:var(--ink3)">keyword mode</span>';
-  document.getElementById("meta").innerHTML =
-    `<b>${rows.length}</b> ranked · ${aiTag} · updated ${fmtTime(data.generated_utc)}`;
-  document.querySelectorAll(".runchip").forEach(c=>{
-    c.classList.toggle("on", c.dataset.run === String(data.run_label));
-  });
-
-  // stats
-  const tierSA = rows.filter(r=>["S","A"].includes(r.catalyst_tier)).length;
-  const gaps = rows.map(r=>r.premarket_change ?? r.gap_pct).filter(g=>g!=null);
-  const avgGap = gaps.length ? Math.round(gaps.reduce((a,b)=>a+b,0)/gaps.length) : 0;
-  document.getElementById("stats").innerHTML = `
-    <div class="stat"><div class="k">Ranked</div><div class="v">${rows.length}</div></div>
-    <div class="stat"><div class="k">Tier S/A</div><div class="v">${tierSA}</div></div>
-    <div class="stat"><div class="k">Avg gap</div><div class="v">${avgGap}%</div></div>
-    <div class="stat"><div class="k">Top score</div><div class="v">${rows[0]?rows[0].total:"—"}</div></div>`;
-
-  // list
-  const list = document.getElementById("list");
-  if(!rows.length){
-    list.innerHTML = `<div class="empty"><div class="big">No episodic pivots right now</div>
-      That's fine — quiet days happen. Check back at the next run.</div>`;
-    return;
-  }
-
-  list.innerHTML = rows.map((r,i)=>{
-    const tier = r.catalyst_tier || "C";
-    const gap = r.premarket_change ?? r.gap_pct;
-    const dv = r.dollar_volume_m;
-    const sub = [
-      gap!=null ? `gap ${gap.toFixed(0)}%` : null,
-      dv!=null ? `$${dv.toFixed(0)}M` : null
-    ].filter(Boolean).join(" · ");
-
-    const cbreak = (r.cbreak||[]).map(b=>bdRow(b)).join("");
-    const tbreak = (r.tbreak||[]).map(b=>bdRow(b)).join("");
-    const extra = [];
-    if(r.neglect) extra.push(["Neglect", r.neglect]);
-    if(r.adr_pct!=null) extra.push(["ADR", r.adr_pct.toFixed(1)+"%"]);
-    if(r.vol_expansion!=null) extra.push(["Vol expansion", r.vol_expansion.toFixed(1)+"x"]);
-    const extraRows = extra.map(e=>`<div class="bd"><span class="l">${e[0]}</span><span class="p">${e[1]}</span></div>`).join("");
-
-    return `<div class="row" data-i="${i}">
-      <div class="rowhead">
-        <div class="rank">${i+1}</div>
-        <div class="tier ${tier}">${tierName[tier]}</div>
-        <div style="min-width:0">
-          <div><span class="tk">${r.ticker}</span><span class="nm">${r.name||""}</span></div>
-          <div class="cat">${r.catalyst_desc||""}</div>
-        </div>
-        <div class="score"><div class="big">${r.total}</div><div class="sub">${sub}</div></div>
-        <div class="chev">▾</div>
-      </div>
-      <div class="detail">
-        <div>
-          <h4>Catalyst · ${r.catalyst_score}</h4>
-          ${cbreak || '<div class="bd"><span class="l">—</span></div>'}
-        </div>
-        <div>
-          <h4>Technicals · ${r.technical_score}</h4>
-          ${tbreak}
-          ${extraRows}
-        </div>
-      </div>
-    </div>`;
-  }).join("");
-
-  document.querySelectorAll(".row").forEach(el=>{
-    el.querySelector(".rowhead").addEventListener("click",()=>el.classList.toggle("open"));
-  });
-}
-
-function bdRow(b){
-  const neg = String(b[1]).trim().startsWith("-");
-  return `<div class="bd"><span class="l">${b[0]}</span><span class="p ${neg?'neg':''}">${b[1]}</span></div>`;
-}
-
-// Load data.json (cache-busted so each run shows fresh)
-fetch("data.json?t=" + Date.now())
-  .then(r=>r.json())
-  .then(render)
-  .catch(e=>{
-    document.getElementById("meta").textContent = "no data yet";
+    const res = await fetch("data.json?t="+Date.now());
+    const data = await res.json();
+    dataMeta = data;
+    // merge: keep pins + open state, replace data
+    board = data.rows.map(r=>({...r}));
+    renderAll();
+  }catch(e){
+    document.getElementById("meta").textContent="waiting for first scan";
     document.getElementById("list").innerHTML =
       `<div class="empty"><div class="big">Waiting for first scan</div>
        Once the scanner runs, results appear here.</div>`;
+  }
+}
+
+// ============================ render ============================
+function renderAll(){
+  const active = board.filter(r=>!r.cooling);
+  const cooling = board.filter(r=>r.cooling);
+
+  // meta
+  const aiTag = dataMeta.ai_used
+    ? '<span style="color:var(--tS)">AI-classified</span>'
+    : '<span style="color:var(--ink3)">keyword mode</span>';
+  const modeTag = dataMeta.mode==="refresh" ? "refresh" : "full scan";
+  document.getElementById("meta").innerHTML =
+    `<b>${active.length}</b> active · ${cooling.length} cooling · ${aiTag} · ${modeTag} · ${fmtTime(dataMeta.generated_utc)}`;
+
+  // stats
+  const gaps = active.map(gapOf).filter(g=>g!=null);
+  const avgGap = gaps.length?Math.round(gaps.reduce((a,b)=>a+b,0)/gaps.length):0;
+  const tierSA = active.filter(r=>["S","A"].includes(r.catalyst_tier)).length;
+  document.getElementById("stats").innerHTML = `
+    <div class="stat"><div class="k">Active</div><div class="v">${active.length}</div></div>
+    <div class="stat"><div class="k">Tier S/A</div><div class="v">${tierSA}</div></div>
+    <div class="stat"><div class="k">Avg gap</div><div class="v">${avgGap}%</div></div>
+    <div class="stat"><div class="k">Top score</div><div class="v">${active[0]?active[0].total:"—"}</div></div>`;
+
+  // list — pinned first (in their pinned order), then active by score, then cooling
+  const pinnedRows = board.filter(r=>pinned.has(r.ticker));
+  const activeUnpinned = active.filter(r=>!pinned.has(r.ticker));
+  const coolingUnpinned = cooling.filter(r=>!pinned.has(r.ticker));
+
+  let html = "";
+  let rank = 1;
+  pinnedRows.forEach(r=>{ html += rowHtml(r, rank++, true); });
+  activeUnpinned.forEach(r=>{ html += rowHtml(r, rank++, false); });
+  if(coolingUnpinned.length){
+    html += `<div class="divider">cooling — dropped below cutoff, still watchable</div>`;
+    coolingUnpinned.forEach(r=>{ html += rowHtml(r, null, false); });
+  }
+  if(!board.length){
+    html = `<div class="empty"><div class="big">No episodic pivots right now</div>
+      That's fine — quiet mornings happen. The board fills as catalysts hit.</div>`;
+  }
+  document.getElementById("list").innerHTML = html;
+  wireRows();
+}
+
+function rowHtml(r, rank, isPinned){
+  const tier = r.catalyst_tier||"C";
+  const gap = gapOf(r);
+  const dv = r.dollar_volume_m;
+  const sub = [gap!=null?`gap ${gap.toFixed(0)}%`:null, dv!=null?`$${dv.toFixed(0)}M`:null].filter(Boolean).join(" · ");
+  const isOpen = openRows.has(r.ticker);
+  const coolTag = r.cooling ? `<span class="coolTag">cooling</span>` : "";
+  const cbreak = (r.cbreak||[]).map(bd).join("");
+  const tbreak = (r.tbreak||[]).map(bd).join("");
+  const extra = [];
+  if(r.neglect) extra.push(["Neglect", r.neglect]);
+  if(r.adr_pct!=null) extra.push(["ADR", r.adr_pct.toFixed(1)+"%"]);
+  if(r.vol_expansion!=null) extra.push(["Vol expansion", r.vol_expansion.toFixed(1)+"x"]);
+  const extraRows = extra.map(e=>`<div class="bd"><span class="l">${e[0]}</span><span class="p">${e[1]}</span></div>`).join("");
+
+  return `<div class="row ${isPinned?'pinned':''} ${r.cooling?'cooling':''} ${isOpen?'open':''}" data-tk="${r.ticker}">
+    <div class="rowhead">
+      <div class="rank">${rank??"·"}</div>
+      <div class="tier ${tier}">${tierClass[tier]}</div>
+      <div style="min-width:0">
+        <div><span class="tk">${r.ticker}</span><span class="nm">${r.name||""}</span>${coolTag}</div>
+        <div class="cat">${r.catalyst_desc||""}</div>
+      </div>
+      <div class="score">
+        <div class="big" data-score="${r.ticker}">${r.total}</div>
+        <div class="sub" data-sub="${r.ticker}">${sub}</div>
+      </div>
+      <div class="rowtools">
+        <button class="icon pin ${isPinned?'on':''}" data-pin="${r.ticker}" title="Pin to top">${isPinned?'★':'☆'}</button>
+        <span class="chev">▾</span>
+      </div>
+    </div>
+    <div class="detail">
+      <div><h4>Catalyst · ${r.catalyst_score}</h4>${cbreak||'<div class="bd"><span class="l">—</span></div>'}</div>
+      <div><h4>Technicals · ${r.technical_score}</h4>${tbreak}${extraRows}</div>
+    </div>
+  </div>`;
+}
+function bd(b){const neg=String(b[1]).trim().startsWith("-");
+  return `<div class="bd"><span class="l">${b[0]}</span><span class="p ${neg?'neg':''}">${b[1]}</span></div>`;}
+
+function wireRows(){
+  document.querySelectorAll(".row").forEach(el=>{
+    const tk = el.dataset.tk;
+    el.querySelector(".rowhead").addEventListener("click",(e)=>{
+      if(e.target.closest("[data-pin]")) return;   // pin handled separately
+      el.classList.toggle("open");
+      if(openRows.has(tk)) openRows.delete(tk); else openRows.add(tk);
+    });
+    const pinBtn = el.querySelector("[data-pin]");
+    if(pinBtn) pinBtn.addEventListener("click",(e)=>{
+      e.stopPropagation();
+      if(pinned.has(tk)) pinned.delete(tk); else pinned.add(tk);
+      renderAll();   // pin/unpin is a user command, so re-order now
+    });
   });
+}
+
+// ============================ live price ticking ============================
+// Updates gap/score IN PLACE every minute. Does NOT re-sort (per your choice);
+// if the new numbers would change the order, we show the "re-sort" bar and
+// wait for you to tap it. Anything expanded or pinned never moves.
+async function tick(){
+  if(!liveOn || frozen || !board.length) { scheduleTick(); return; }
+  try{
+    const tickers = board.map(r=>r.ticker);
+    const quotes = await fetchQuotes(tickers);   // {tk: {price, changesPercentage}}
+    let orderChanged = false;
+    const activeBefore = board.filter(r=>!r.cooling).map(r=>r.ticker).join(",");
+
+    board.forEach(r=>{
+      const q = quotes[r.ticker];
+      if(!q) return;
+      const oldGap = gapOf(r);
+      const newGap = q.changesPercentage;
+      if(newGap!=null){
+        r.premarket_change = newGap;
+        // rescore catalyst gap portion approx: recompute total delta from gap change
+        applyGapDelta(r, oldGap, newGap);
+        flashCell(r.ticker, oldGap, newGap);
+      }
+    });
+
+    // recompute cooling flags against the gate (gap only, client-side approximation)
+    board.forEach(r=>{ r.cooling = (gapOf(r) < (dataMeta.config_summary?.gap_pivot ?? 7.5) - 2.5); });
+    const activeAfter = board.filter(r=>!r.cooling).map(r=>r.ticker).join(",");
+    if(activeBefore!==activeAfter) orderChanged = true;
+
+    // update the on-screen numbers WITHOUT re-sorting
+    board.forEach(r=>{
+      const sc = document.querySelector(`[data-score="${r.ticker}"]`);
+      if(sc) sc.textContent = r.total;
+      const sub = document.querySelector(`[data-sub="${r.ticker}"]`);
+      if(sub){const g=gapOf(r); const dv=r.dollar_volume_m;
+        sub.textContent=[g!=null?`gap ${g.toFixed(0)}%`:null,dv!=null?`$${dv.toFixed(0)}M`:null].filter(Boolean).join(" · ");}
+    });
+
+    // if order would change, offer a manual re-sort (never auto)
+    if(isOrderStale()) document.getElementById("resortBar").classList.add("show");
+
+    document.getElementById("liveTxt").textContent = "updated "+new Date().toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit"});
+  }catch(e){ /* quiet: keep last good board */ }
+  scheduleTick();
+}
+
+function applyGapDelta(r, oldGap, newGap){
+  // Re-derive just the gap contribution and update total. Mirrors scanner ramp.
+  const g = dataMeta.config_summary?.gap_pivot ?? 7.5;
+  const pts = (x)=>{
+    if(x==null) return 0;
+    if(x>=g) return Math.round(18+Math.min(15,(x-g)*0.6));
+    if(x>=5) return Math.round(18*(x-5)/(g-5));
+    return -6;
+  };
+  r.total = (r.total||0) - pts(oldGap) + pts(newGap);
+}
+
+function flashCell(tk, oldGap, newGap){
+  const sc = document.querySelector(`[data-score="${tk}"]`);
+  if(!sc || oldGap==null) return;
+  sc.classList.remove("up","down");
+  void sc.offsetWidth;
+  sc.classList.add("flash", newGap>oldGap?"up":"down");
+  setTimeout(()=>sc.classList.remove("up","down"), 600);
+}
+
+function isOrderStale(){
+  // is the active list currently NOT in score order on screen?
+  const active = board.filter(r=>!r.cooling && !pinned.has(r.ticker));
+  const sorted = [...active].sort((a,b)=>b.total-a.total);
+  return active.map(r=>r.ticker).join(",") !== sorted.map(r=>r.ticker).join(",");
+}
+
+document.getElementById("resortBar").addEventListener("click",()=>{
+  board.sort((a,b)=>b.total-a.total);   // active/cooling split handled in render
+  document.getElementById("resortBar").classList.remove("show");
+  renderAll();
+});
+
+// ---- quote fetching ----
+// Prices are fetched CLIENT-SIDE while you watch. This keeps GitHub out of the
+// per-minute loop. The scanner (server-side) still does all the heavy AI work.
+//
+// NOTE ON THE KEY: browser fetches expose whatever key they use. So DO NOT put
+// your paid FMP key here. Two safe options (pick one in setup):
+//   (A) Use FMP's delayed/free quote or a keyless quote source for the live tick.
+//   (B) Run a tiny free proxy (e.g. a Cloudflare Worker) that holds the key
+//       server-side and returns just {tk, price, change}. The site calls the proxy.
+// Until one is configured, live ticking simply no-ops and you still get the
+// 15-min server refreshes. The board never breaks.
+const QUOTE_ENDPOINT = ""; // e.g. "https://your-worker.workers.dev/quote?tickers=";
+
+async function fetchQuotes(tickers){
+  if(!QUOTE_ENDPOINT) return {};        // not configured -> no-op, safe
+  try{
+    const res = await fetch(QUOTE_ENDPOINT+encodeURIComponent(tickers.join(",")));
+    const arr = await res.json();
+    const out = {};
+    (arr||[]).forEach(q=>{ out[q.symbol||q.ticker] = {
+      price:q.price, changesPercentage:q.changesPercentage ?? q.change}; });
+    return out;
+  }catch(e){ return {}; }
+}
+
+// ============================ controls ============================
+document.getElementById("liveBtn").addEventListener("click",function(){
+  liveOn=!liveOn; this.textContent="Live prices: "+(liveOn?"on":"off");
+  this.classList.toggle("active",liveOn);
+  document.getElementById("dot").classList.toggle("paused",!liveOn);
+});
+document.getElementById("freezeBtn").addEventListener("click",function(){
+  frozen=!frozen; this.classList.toggle("active",frozen);
+  this.textContent=frozen?"Frozen":"Freeze";
+  document.getElementById("dot").classList.toggle("paused",frozen);
+  document.getElementById("liveTxt").textContent=frozen?"frozen":"live";
+});
+
+// ============================ loops ============================
+function scheduleTick(){ setTimeout(tick, 60*1000); }   // live prices: every 60s
+setInterval(loadBoard, 5*60*1000);                       // pull server board every 5 min
+loadBoard();                                             // initial
+scheduleTick();                                          // start live loop
 </script>
 </body>
 </html>

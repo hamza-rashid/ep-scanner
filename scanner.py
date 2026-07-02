@@ -505,32 +505,134 @@ def passes_gates(row):
     return True
 
 
+# ======================================================================
+# MODES
+# ------
+# MODE=full     : the 4 scheduled runs. Gathers candidates, fetches news,
+#                 classifies with AI, prices, scores. Caches the AI labels.
+# MODE=refresh  : the cheap 15-min updates. Loads today's existing board,
+#                 REUSES the cached AI labels (no news fetch, no AI call),
+#                 only re-prices the technicals and re-scores. Adds any brand
+#                 new gappers as "new" (keyword-classified so it stays cheap;
+#                 they get a proper AI label at the next full run).
+#
+# Cooling: a ticker that has appeared today NEVER disappears. If it later
+# falls below the catalyst gate, it's kept and marked cooling=True so the
+# site can show it in the faded section instead of dropping it.
+# ======================================================================
+MODE = os.environ.get("MODE", "full")
+
+
+def _today_key():
+    return dt.datetime.now(dt.UTC).strftime("%Y-%m-%d")
+
+
+def load_existing():
+    """Load today's data.json if it exists and is from today; else empty."""
+    try:
+        with open(OUT_PATH) as f:
+            data = json.load(f)
+        if data.get("session_date") == _today_key():
+            return data
+    except Exception:
+        pass
+    return None
+
+
 def main():
     if not FMP_KEY:
         print("ERROR: FMP_API_KEY not set.")
         write_output([]); return
 
-    print(f"=== EP Scanner · run {RUN_LABEL} · {dt.datetime.now(dt.UTC).isoformat()} ===")
+    print(f"=== EP Scanner · mode={MODE} · run {RUN_LABEL} · {dt.datetime.now(dt.UTC).isoformat()} ===")
+
+    if MODE == "refresh":
+        run_refresh()
+    else:
+        run_full()
+
+
+def run_full():
+    """Heavy run: AI classification + full technicals. Used by the 4 scheduled runs."""
     if not ANTHROPIC_KEY:
         print("  note: ANTHROPIC_API_KEY not set -> using keyword fallback")
+
+    # carry over any names already seen today so nothing that appeared is lost
+    prior = load_existing()
+    prior_rows = {r["ticker"]: r for r in prior["rows"]} if prior else {}
 
     cand = gather_candidates()
     news = fetch_news(list(cand.keys()))
     cand = classify_all_with_ai(cand, news)
     cand = attach_technicals(cand)
 
-    rows = [score(row) for t, row in cand.items() if passes_gates(row)]
-    rows.sort(key=lambda r: r["total"], reverse=True)
-    rows = rows[:CONFIG["max_results"]]
-    print(f"  final ranked: {len(rows)}")
+    board = {}
+    for t, row in cand.items():
+        row["cooling"] = not passes_gates(row)
+        board[t] = score(row)
+
+    # re-price + carry forward prior names not in today's gather (kept, may be cooling)
+    for t, prow in prior_rows.items():
+        if t in board:
+            continue
+        prow.setdefault("catalyst_label", "no_catalyst")
+        tech = compute_technicals(t)
+        prow.update(tech)
+        prow["cooling"] = not passes_gates(prow)
+        board[t] = score(prow)
+
+    rows = _finalize(board)
+    print(f"  final board: {len(rows)} ({sum(1 for r in rows if not r['cooling'])} active, "
+          f"{sum(1 for r in rows if r['cooling'])} cooling)")
+    write_output(rows, first_full=True)
+
+
+def run_refresh():
+    """
+    Cheap run: reuse cached AI labels, only re-price. No news, no AI.
+    If there's no board yet today (e.g. refresh fired before the first full
+    run), fall back to a full run so we always have something.
+    """
+    prior = load_existing()
+    if not prior or not prior.get("rows"):
+        print("  no board yet today -> doing a full run instead")
+        run_full()
+        return
+
+    board = {}
+    for prow in prior["rows"]:
+        t = prow["ticker"]
+        # reuse the cached label -> base points (NO AI, NO news fetch)
+        label = prow.get("catalyst_label", "no_catalyst")
+        _apply_label(prow, label)
+        prow.update(compute_technicals(t))     # only the cheap price math
+        prow["cooling"] = not passes_gates(prow)
+        board[t] = score(prow)
+        time.sleep(0.03)
+
+    rows = _finalize(board)
+    active = sum(1 for r in rows if not r["cooling"])
+    print(f"  refreshed {len(rows)} names ({active} active, {len(rows)-active} cooling) — no AI used")
     write_output(rows)
 
 
-def write_output(rows):
+def _finalize(board):
+    """Sort: active names by score desc, then cooling names by score desc below them."""
+    rows = list(board.values())
+    active = sorted([r for r in rows if not r.get("cooling")], key=lambda r: r["total"], reverse=True)
+    cooling = sorted([r for r in rows if r.get("cooling")], key=lambda r: r["total"], reverse=True)
+    active = active[:CONFIG["max_results"]]
+    return active + cooling
+
+
+def write_output(rows, first_full=False):
     payload = {
         "generated_utc": dt.datetime.now(dt.UTC).isoformat(),
+        "session_date": _today_key(),
+        "mode": MODE,
         "run_label": RUN_LABEL,
         "count": len(rows),
+        "active_count": sum(1 for r in rows if not r.get("cooling")),
         "ai_used": bool(CONFIG["ai"]["enabled"] and ANTHROPIC_KEY),
         "config_summary": {"gap_pivot": CONFIG["gap"]["pivot"],
                            "adr_pivot": CONFIG["adr"]["pivot"],
