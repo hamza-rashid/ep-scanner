@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EP Scanner</title>
+<style>
+  :root{
+    --bg:#0e1116; --panel:#161b22; --panel2:#1c2230; --line:#26303d;
+    --ink:#e6edf3; --ink2:#9aa7b4; --ink3:#6b7684;
+    --tS:#2dd4a7; --tSb:#0c3a2e;
+    --tA:#4a9df0; --tAb:#0c2a48;
+    --tB:#e0a336; --tBb:#3a2c0c;
+    --tC:#7c8794; --tCb:#22282f;
+    --accent:#4a9df0;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    -webkit-font-smoothing:antialiased; line-height:1.5;
+    padding:0 16px 80px;
+  }
+  .wrap{max-width:920px;margin:0 auto}
+
+  header{
+    display:flex; align-items:baseline; justify-content:space-between;
+    flex-wrap:wrap; gap:12px; padding:28px 0 20px;
+    border-bottom:1px solid var(--line); margin-bottom:20px;
+  }
+  .title{font-size:15px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:var(--ink)}
+  .title span{color:var(--accent)}
+  .meta{font-size:12px; color:var(--ink3); font-variant-numeric:tabular-nums}
+  .meta b{color:var(--ink2); font-weight:500}
+
+  .runbar{display:flex; gap:6px; margin:0 0 20px}
+  .runchip{
+    font-size:11px; padding:5px 11px; border-radius:6px;
+    border:1px solid var(--line); color:var(--ink3);
+    font-variant-numeric:tabular-nums;
+  }
+  .runchip.on{background:var(--panel2); color:var(--ink); border-color:var(--accent)}
+
+  .stats{display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:24px}
+  .stat{background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:12px 14px}
+  .stat .k{font-size:11px; color:var(--ink3); text-transform:uppercase; letter-spacing:.06em}
+  .stat .v{font-size:22px; font-weight:600; font-variant-numeric:tabular-nums; margin-top:3px}
+
+  .hd{display:grid; grid-template-columns:28px 40px 1fr 84px 20px; gap:12px;
+      padding:0 14px 8px; font-size:11px; color:var(--ink3);
+      text-transform:uppercase; letter-spacing:.06em}
+  .hd .r{text-align:right}
+
+  .row{
+    background:var(--panel); border:1px solid var(--line); border-radius:10px;
+    margin-bottom:8px; overflow:hidden; transition:border-color .12s;
+  }
+  .row:hover{border-color:#33404f}
+  .rowhead{
+    display:grid; grid-template-columns:28px 40px 1fr 84px 20px; gap:12px;
+    align-items:center; padding:12px 14px; cursor:pointer;
+  }
+  .rank{font-size:18px; font-weight:600; color:var(--ink3); font-variant-numeric:tabular-nums}
+  .tier{
+    width:34px; height:34px; border-radius:8px; display:flex; align-items:center;
+    justify-content:center; font-weight:700; font-size:15px;
+  }
+  .tier.S{background:var(--tSb); color:var(--tS)}
+  .tier.A{background:var(--tAb); color:var(--tA)}
+  .tier.B{background:var(--tBb); color:var(--tB)}
+  .tier.C{background:var(--tCb); color:var(--tC)}
+  .tk{font-size:15px; font-weight:600; letter-spacing:.02em}
+  .nm{font-size:12px; color:var(--ink3); margin-left:8px; font-weight:400}
+  .cat{font-size:13px; color:var(--ink2); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+  .score{text-align:right}
+  .score .big{font-size:20px; font-weight:600; font-variant-numeric:tabular-nums}
+  .score .sub{font-size:11px; color:var(--ink3); font-variant-numeric:tabular-nums}
+  .chev{color:var(--ink3); transition:transform .15s; text-align:center; font-size:14px}
+  .row.open .chev{transform:rotate(180deg)}
+
+  .detail{display:none; grid-template-columns:1fr 1fr; gap:20px;
+          padding:4px 14px 16px; border-top:1px solid var(--line); margin-top:0}
+  .row.open .detail{display:grid}
+  .detail h4{font-size:11px; color:var(--ink3); text-transform:uppercase;
+             letter-spacing:.06em; margin:14px 0 8px; font-weight:600}
+  .bd{display:flex; justify-content:space-between; font-size:12px; padding:3px 0}
+  .bd .l{color:var(--ink2)}
+  .bd .p{color:var(--ink); font-weight:600; font-variant-numeric:tabular-nums}
+  .bd .p.neg{color:#e0736b}
+
+  .empty{text-align:center; padding:60px 20px; color:var(--ink3)}
+  .empty .big{font-size:16px; color:var(--ink2); margin-bottom:6px}
+
+  @media(max-width:640px){
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .hd{display:none}
+    .rowhead,.detail{grid-template-columns:24px 34px 1fr 70px 18px}
+    .nm{display:none}
+    .detail{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="title">Episodic&nbsp;pivot <span>scanner</span></div>
+    <div class="meta" id="meta">loading…</div>
+  </header>
+
+  <div class="runbar" id="runbar">
+    <div class="runchip" data-run="0">Run 0 · overnight</div>
+    <div class="runchip" data-run="1">Run 1 · 8:00 ET</div>
+    <div class="runchip" data-run="2">Run 2 · 8:45 ET</div>
+    <div class="runchip" data-run="3">Run 3 · 9:15 ET</div>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="hd">
+    <div>#</div><div>Tier</div><div>Ticker · catalyst</div><div class="r">Score</div><div></div>
+  </div>
+  <div id="list"></div>
+</div>
+
+<script>
+const tierName = {S:"S",A:"A",B:"B",C:"C"};
+
+function fmtTime(iso){
+  try{
+    const d = new Date(iso);
+    return d.toLocaleString("en-GB",{hour:"2-digit",minute:"2-digit",day:"2-digit",month:"short"}) + " UK";
+  }catch(e){ return iso; }
+}
+
+function render(data){
+  const rows = data.rows || [];
+
+  // meta + run marker
+  const aiTag = data.ai_used
+    ? '<span style="color:var(--tS)">AI-classified</span>'
+    : '<span style="color:var(--ink3)">keyword mode</span>';
+  document.getElementById("meta").innerHTML =
+    `<b>${rows.length}</b> ranked · ${aiTag} · updated ${fmtTime(data.generated_utc)}`;
+  document.querySelectorAll(".runchip").forEach(c=>{
+    c.classList.toggle("on", c.dataset.run === String(data.run_label));
+  });
+
+  // stats
+  const tierSA = rows.filter(r=>["S","A"].includes(r.catalyst_tier)).length;
+  const gaps = rows.map(r=>r.premarket_change ?? r.gap_pct).filter(g=>g!=null);
+  const avgGap = gaps.length ? Math.round(gaps.reduce((a,b)=>a+b,0)/gaps.length) : 0;
+  document.getElementById("stats").innerHTML = `
+    <div class="stat"><div class="k">Ranked</div><div class="v">${rows.length}</div></div>
+    <div class="stat"><div class="k">Tier S/A</div><div class="v">${tierSA}</div></div>
+    <div class="stat"><div class="k">Avg gap</div><div class="v">${avgGap}%</div></div>
+    <div class="stat"><div class="k">Top score</div><div class="v">${rows[0]?rows[0].total:"—"}</div></div>`;
+
+  // list
+  const list = document.getElementById("list");
+  if(!rows.length){
+    list.innerHTML = `<div class="empty"><div class="big">No episodic pivots right now</div>
+      That's fine — quiet days happen. Check back at the next run.</div>`;
+    return;
+  }
+
+  list.innerHTML = rows.map((r,i)=>{
+    const tier = r.catalyst_tier || "C";
+    const gap = r.premarket_change ?? r.gap_pct;
+    const dv = r.dollar_volume_m;
+    const sub = [
+      gap!=null ? `gap ${gap.toFixed(0)}%` : null,
+      dv!=null ? `$${dv.toFixed(0)}M` : null
+    ].filter(Boolean).join(" · ");
+
+    const cbreak = (r.cbreak||[]).map(b=>bdRow(b)).join("");
+    const tbreak = (r.tbreak||[]).map(b=>bdRow(b)).join("");
+    const extra = [];
+    if(r.neglect) extra.push(["Neglect", r.neglect]);
+    if(r.adr_pct!=null) extra.push(["ADR", r.adr_pct.toFixed(1)+"%"]);
+    if(r.vol_expansion!=null) extra.push(["Vol expansion", r.vol_expansion.toFixed(1)+"x"]);
+    const extraRows = extra.map(e=>`<div class="bd"><span class="l">${e[0]}</span><span class="p">${e[1]}</span></div>`).join("");
+
+    return `<div class="row" data-i="${i}">
+      <div class="rowhead">
+        <div class="rank">${i+1}</div>
+        <div class="tier ${tier}">${tierName[tier]}</div>
+        <div style="min-width:0">
+          <div><span class="tk">${r.ticker}</span><span class="nm">${r.name||""}</span></div>
+          <div class="cat">${r.catalyst_desc||""}</div>
+        </div>
+        <div class="score"><div class="big">${r.total}</div><div class="sub">${sub}</div></div>
+        <div class="chev">▾</div>
+      </div>
+      <div class="detail">
+        <div>
+          <h4>Catalyst · ${r.catalyst_score}</h4>
+          ${cbreak || '<div class="bd"><span class="l">—</span></div>'}
+        </div>
+        <div>
+          <h4>Technicals · ${r.technical_score}</h4>
+          ${tbreak}
+          ${extraRows}
+        </div>
+      </div>
+    </div>`;
+  }).join("");
+
+  document.querySelectorAll(".row").forEach(el=>{
+    el.querySelector(".rowhead").addEventListener("click",()=>el.classList.toggle("open"));
+  });
+}
+
+function bdRow(b){
+  const neg = String(b[1]).trim().startsWith("-");
+  return `<div class="bd"><span class="l">${b[0]}</span><span class="p ${neg?'neg':''}">${b[1]}</span></div>`;
+}
+
+// Load data.json (cache-busted so each run shows fresh)
+fetch("data.json?t=" + Date.now())
+  .then(r=>r.json())
+  .then(render)
+  .catch(e=>{
+    document.getElementById("meta").textContent = "no data yet";
+    document.getElementById("list").innerHTML =
+      `<div class="empty"><div class="big">Waiting for first scan</div>
+       Once the scanner runs, results appear here.</div>`;
+  });
+</script>
+</body>
+</html>
