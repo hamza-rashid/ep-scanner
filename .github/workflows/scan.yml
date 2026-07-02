@@ -1,0 +1,58 @@
+name: EP Scanner
+
+# Four runs a day, scheduled in UTC. GitHub cron is always UTC, so these
+# are set for US Eastern STANDARD time (winter). During US summer (EDT,
+# mid-Mar to early-Nov) each run lands 1 hour earlier in ET — still well
+# inside premarket, so it's fine. UK time shown is approximate.
+#
+#   Run 0  07:00 UTC  = 02:00 ET (~07:00 UK)  overnight catalyst watchlist
+#   Run 1  13:00 UTC  = 08:00 ET (~13:00 UK)  premarket, gaps live
+#   Run 2  13:45 UTC  = 08:45 ET (~13:45 UK)
+#   Run 3  14:15 UTC  = 09:15 ET (~14:15 UK)  sharpest pre-open read
+
+on:
+  schedule:
+    - cron: "0 7 * * 1-5"     # Run 0
+    - cron: "0 13 * * 1-5"    # Run 1
+    - cron: "45 13 * * 1-5"   # Run 2
+    - cron: "15 14 * * 1-5"   # Run 3
+  workflow_dispatch:           # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write              # allow the job to commit data.json back
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Work out which run this is
+        id: runlabel
+        run: |
+          case "${{ github.event.schedule }}" in
+            "0 7 * * 1-5")   echo "label=0" >> $GITHUB_OUTPUT ;;
+            "0 13 * * 1-5")  echo "label=1" >> $GITHUB_OUTPUT ;;
+            "45 13 * * 1-5") echo "label=2" >> $GITHUB_OUTPUT ;;
+            "15 14 * * 1-5") echo "label=3" >> $GITHUB_OUTPUT ;;
+            *)               echo "label=manual" >> $GITHUB_OUTPUT ;;
+          esac
+
+      - name: Run scanner
+        env:
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RUN_LABEL: ${{ steps.runlabel.outputs.label }}
+        run: python scanner.py
+
+      - name: Commit results
+        run: |
+          git config user.name "ep-scanner-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data.json
+          git commit -m "scan run ${{ steps.runlabel.outputs.label }} $(date -u +%Y-%m-%dT%H:%MZ)" || echo "no changes"
+          git push
