@@ -15,7 +15,7 @@ Your CONFIG then looks up the points for that label. So:
   - Arithmetic decides *how many points that kind gets*  (from your config table)
 
 To make it repeatable ~99/100:
-  - temperature = 0            (model takes its single most-likely answer)
+  - thinking disabled          (no variable reasoning path; classification is direct)
   - fixed menu of labels       (it can only pick from a closed list)
   - it classifies, never scores (no subjective "42 vs 45")
   - deterministic tie-break     (ambiguous cases resolve the same way every time)
@@ -160,38 +160,22 @@ def fmp(path, params=""):
 # ======================================================================
 def gather_candidates():
     cand = {}
-    # stable: biggest gainers (reflects premarket reaction near the open)
+    # stable: biggest gainers (reflects premarket reaction near the open).
+    # This already provides ticker, name, price, and change % — everything we
+    # need to seed the board. (We intentionally do NOT call batch-quote here:
+    # it isn't included on this FMP plan, and biggest-gainers covers us.)
     gainers = fmp("biggest-gainers") or []
     for g in gainers[:80]:
         t = g.get("symbol")
         if not t:
             continue
+        chg = _to_float(g.get("changesPercentage"))
         cand[t] = {"ticker": t, "name": g.get("name", ""),
-                   "changesPercentage": _to_float(g.get("changesPercentage")),
+                   "changesPercentage": chg,
                    "price": _to_float(g.get("price"))}
-
-    # Optional enrichment: batch-quote adds live change % and market cap.
-    # Some FMP plans don't include this endpoint (returns 402) — that's fine,
-    # biggest-gainers already gave us price + change, so we just skip it.
-    syms = list(cand.keys())
-    got_quotes = False
-    for chunk in _chunks(syms, 50):
-        q = fmp("batch-quote", f"&symbols={quote(','.join(chunk))}") or []
-        if q:
-            got_quotes = True
-        for row in q:
-            t = row.get("symbol")
-            if not t or t not in cand:
-                continue
-            chg = _to_float(row.get("changesPercentage"))
-            if chg is not None and RUN_LABEL in ("1", "2", "3"):
-                cand[t]["premarket_change"] = chg
-            cand[t]["price"] = _to_float(row.get("price")) or cand[t].get("price")
-            mc = _to_float(row.get("marketCap"))
-            if mc:
-                cand[t]["market_cap_m"] = mc / 1_000_000
-    if not got_quotes:
-        print("  (batch-quote unavailable on this plan — using gainers data only)")
+        # gainers change % reflects the current move; use it as the premarket gap
+        if chg is not None and RUN_LABEL in ("1", "2", "3"):
+            cand[t]["premarket_change"] = chg
 
     print(f"  candidates gathered: {len(cand)}")
     return cand
@@ -232,7 +216,7 @@ def fetch_news(tickers):
 def classify_all_with_ai(cand, news):
     """
     Batch every candidate's news through the model. The model returns, per
-    ticker, ONE label from ALLOWED_LABELS. temperature=0 + closed menu +
+    ticker, ONE label from ALLOWED_LABELS. Disabled thinking + closed menu +
     tie-break rule => repeatable. No scores come from the model.
     """
     if not (CONFIG["ai"]["enabled"] and ANTHROPIC_KEY):
@@ -297,10 +281,14 @@ def _ai_classify_batch(batch):
         "Use only labels from the menu."
     )
 
+    # Sonnet 5 rejects non-default sampling params (temperature/top_p/top_k) with
+    # a 400. We also turn thinking OFF — classification needs no reasoning, and
+    # thinking tokens would eat into max_tokens. Determinism comes from the closed
+    # label menu + tie-break rule + disabled thinking, not from temperature.
     body = json.dumps({
         "model": CONFIG["ai"]["model"],
-        "max_tokens": 2000,
-        "temperature": 0,               # <-- determinism
+        "max_tokens": 1500,
+        "thinking": {"type": "disabled"},
         "system": system,
         "messages": [{"role": "user", "content": user}],
     }).encode()
@@ -314,35 +302,17 @@ def _ai_classify_batch(batch):
             "anthropic-version": "2023-06-01",
         },
     )
-    result = _do_ai_request(req)
-    if result is not None:
-        return result
-
-    # Retry once WITHOUT temperature — the newest thinking-on models can 400
-    # on an explicit temperature. Determinism still holds via the closed menu
-    # + tie-break rule, which don't depend on temperature.
-    body2 = json.dumps({
-        "model": CONFIG["ai"]["model"],
-        "max_tokens": 2000,
-        "system": system,
-        "messages": [{"role": "user", "content": user}],
-    }).encode()
-    req2 = Request(
-        "https://api.anthropic.com/v1/messages",
-        data=body2,
-        headers={
-            "Content-Type": "application/json",
-            "x-api-key": ANTHROPIC_KEY,
-            "anthropic-version": "2023-06-01",
-        },
-    )
-    return _do_ai_request(req2, note="(retry without temperature)")
+    return _do_ai_request(req)
 
 
 def _do_ai_request(req, note=""):
     try:
         with urlopen(req, timeout=45) as r:
             data = json.loads(r.read().decode())
+        # refusals come back as HTTP 200 with stop_reason "refusal" — treat as no result
+        if data.get("stop_reason") == "refusal":
+            print("  ! AI returned a refusal; keyword fallback for this batch")
+            return None
         text = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
         text = text.strip().replace("```json", "").replace("```", "").strip()
         parsed = json.loads(text)
