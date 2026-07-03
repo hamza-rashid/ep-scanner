@@ -1,15 +1,33 @@
 {
-  "generated_utc": "2026-07-03T00:07:16.587264+00:00",
-  "session_date": "2026-07-03",
-  "mode": "full",
-  "run_label": "manual",
-  "count": 0,
-  "active_count": 0,
+  "generated_utc": "2026-07-02T13:15:00Z",
+  "session_date": "2026-07-02",
+  "mode": "refresh",
+  "run_label": "refresh",
+  "count": 7,
+  "active_count": 5,
   "ai_used": true,
-  "config_summary": {
-    "gap_pivot": 7.5,
-    "adr_pivot": 4.0,
-    "dollar_volume_pivot": 100
-  },
-  "rows": []
+  "config_summary": {"gap_pivot": 7.5, "adr_pivot": 4.0, "dollar_volume_pivot": 100},
+  "rows": [
+    {"ticker":"CRVX","name":"CereVax Bio","cooling":false,"catalyst_tier":"S","catalyst_label":"fda_approval","catalyst_desc":"FDA approval / positive pivotal trial","catalyst_score":80,"technical_score":45,"total":125,"premarket_change":47,"dollar_volume_m":340,"adr_pct":9.2,"neglect":"high","vol_expansion":6.2,
+     "cbreak":[["FDA approval / positive pivotal trial (Tier S)","+50"],["Gap 47.0% (market voting)","+15"],["Volume 6.2x expansion","+12"]],
+     "tbreak":[["$ vol $340M","+15"],["Above 200d, 50d, 20d, 10d","+19"],["High neglect (quiet base)","+10"]]},
+    {"ticker":"NVDX","name":"NovaDyne Systems","cooling":false,"catalyst_tier":"S","catalyst_label":"earnings_blowout_raise","catalyst_desc":"Earnings blowout + raised guidance","catalyst_score":72,"technical_score":42,"total":114,"premarket_change":22,"dollar_volume_m":890,"adr_pct":5.1,"neglect":"med","vol_expansion":4.1,
+     "cbreak":[["Earnings blowout + raised guidance (Tier S)","+50"],["Gap 22.0% (market voting)","+15"],["Volume 4.1x expansion","+12"]],
+     "tbreak":[["$ vol $890M","+15"],["Above 200d, 50d, 20d","+17"],["Med neglect (quiet base)","+6"]]},
+    {"ticker":"HELX","name":"Helix Contracts","cooling":false,"catalyst_tier":"S","catalyst_label":"major_contract","catalyst_desc":"Major contract / government award","catalyst_score":69,"technical_score":41,"total":110,"premarket_change":19,"dollar_volume_m":210,"adr_pct":4.4,"neglect":"high","vol_expansion":3.8,
+     "cbreak":[["Major contract / government award (Tier S)","+44"],["Gap 19.0% (market voting)","+14"],["Volume 3.8x expansion","+11"]],
+     "tbreak":[["$ vol $210M","+15"],["Above 50d, 20d","+9"],["High neglect (quiet base)","+10"]]},
+    {"ticker":"ARQT","name":"Arqit Micro","cooling":false,"catalyst_tier":"A","catalyst_label":"analyst_upgrade_big_pt","catalyst_desc":"Upgrade + big price-target raise","catalyst_score":56,"technical_score":33,"total":89,"premarket_change":14,"dollar_volume_m":120,"adr_pct":6.8,"neglect":"med","vol_expansion":3.1,
+     "cbreak":[["Upgrade + big price-target raise (Tier A)","+38"],["Gap 14.0% (market voting)","+10"],["Volume 3.1x expansion","+9"]],
+     "tbreak":[["$ vol $120M","+15"],["Above 50d, 20d","+9"],["Med neglect (quiet base)","+6"]]},
+    {"ticker":"SOLR","name":"Solaria Energy","cooling":false,"catalyst_tier":"B","catalyst_label":"sector_sympathy","catalyst_desc":"Sector sympathy move","catalyst_score":34,"technical_score":22,"total":56,"premarket_change":11,"dollar_volume_m":74,"adr_pct":5.5,"neglect":"low","vol_expansion":2.0,
+     "cbreak":[["Sector sympathy move (Tier B)","+22"],["Gap 11.0% (market voting)","+8"],["Volume 2.0x expansion","+6"]],
+     "tbreak":[["$ vol $74M","+8"],["Above 20d, 10d","+5"]]},
+    {"ticker":"MRNO","name":"Marino Foods","cooling":true,"catalyst_tier":"B","catalyst_label":"product_launch","catalyst_desc":"Notable product launch","catalyst_score":30,"technical_score":18,"total":48,"premarket_change":4,"dollar_volume_m":55,"adr_pct":4.2,"neglect":"low","vol_expansion":1.8,
+     "cbreak":[["Notable product launch (Tier B)","+26"],["Gap 4.0% (market voting)","-6"]],
+     "tbreak":[["$ vol $55M","+8"],["Above 20d","+3"]]},
+    {"ticker":"BLTZ","name":"Blitz Pharma","cooling":true,"catalyst_tier":"C","catalyst_label":"dilution_offering","catalyst_desc":"Share offering / dilution (bearish)","catalyst_score":15,"technical_score":22,"total":37,"premarket_change":16,"dollar_volume_m":90,"adr_pct":6.0,"neglect":"low","vol_expansion":4.0,
+     "cbreak":[["Share offering / dilution (bearish) (Tier C)","-8"],["Gap 16.0% (market voting)","+13"],["Volume 4.0x expansion","+10"]],
+     "tbreak":[["$ vol $90M","+8"],["Above 50d, 20d","+9"]]}
+  ]
 }

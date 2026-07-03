@@ -127,7 +127,7 @@ CONFIG = {
 
 FMP_KEY = os.environ.get("FMP_API_KEY", "")
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
-FMP_BASE = "https://financialmodelingprep.com/api/v3"
+FMP_BASE = "https://financialmodelingprep.com/stable"
 OUT_PATH = os.environ.get("OUT_PATH", "data.json")
 RUN_LABEL = os.environ.get("RUN_LABEL", "manual")
 
@@ -159,7 +159,8 @@ def fmp(path, params=""):
 # ======================================================================
 def gather_candidates():
     cand = {}
-    gainers = fmp("stock_market/gainers") or []
+    # stable: biggest gainers (reflects premarket reaction near the open)
+    gainers = fmp("biggest-gainers") or []
     for g in gainers[:80]:
         t = g.get("symbol")
         if not t:
@@ -168,16 +169,20 @@ def gather_candidates():
                    "changesPercentage": _to_float(g.get("changesPercentage")),
                    "price": _to_float(g.get("price"))}
 
-    pre = fmp("pre-post-market/gainers") if RUN_LABEL in ("1", "2", "3") else None
-    if pre:
-        for g in pre[:80]:
-            t = g.get("symbol") or g.get("ticker")
-            if not t:
+    # Enrich with a batch quote so we get live change % / price for each name.
+    # stable batch-quote takes ?symbols=A,B,C
+    syms = list(cand.keys())
+    for chunk in _chunks(syms, 50):
+        q = fmp("batch-quote", f"&symbols={quote(','.join(chunk))}") or []
+        for row in q:
+            t = row.get("symbol")
+            if not t or t not in cand:
                 continue
-            row = cand.get(t, {"ticker": t, "name": g.get("name", "")})
-            row["premarket_change"] = _to_float(g.get("changesPercentage") or g.get("change"))
-            row["price"] = _to_float(g.get("price")) or row.get("price")
-            cand[t] = row
+            chg = _to_float(row.get("changesPercentage"))
+            if chg is not None and RUN_LABEL in ("1", "2", "3"):
+                cand[t]["premarket_change"] = chg
+            cand[t]["price"] = _to_float(row.get("price")) or cand[t].get("price")
+            cand[t]["market_cap_m"] = (_to_float(row.get("marketCap")) or 0) / 1_000_000 or None
 
     print(f"  candidates gathered: {len(cand)}")
     return cand
@@ -188,21 +193,22 @@ def gather_candidates():
 # ======================================================================
 def fetch_news(tickers):
     """
-    FMP stock news for our candidates. Returns ticker -> list of recent
-    headline+text snippets. The AI reads these to classify the catalyst.
+    FMP stock news for our candidates (stable: news/stock?symbols=).
+    Returns ticker -> list of recent headline+text snippets for the AI to read.
     """
     news = {}
     for chunk in _chunks(tickers, 20):
         joined = ",".join(chunk)
-        data = fmp("stock_news", f"&tickers={quote(joined)}&limit=60") or []
+        data = fmp("news/stock", f"&symbols={quote(joined)}&limit=100") or []
         for n in data:
             t = n.get("symbol")
             if not t:
                 continue
             item = {
                 "title": (n.get("title") or "").strip(),
-                "text": (n.get("text") or "")[:400].strip(),
-                "published": n.get("publishedDate", ""),
+                # stable uses "text" for the snippet body
+                "text": (n.get("text") or n.get("content") or "")[:400].strip(),
+                "published": n.get("publishedDate") or n.get("date") or "",
             }
             news.setdefault(t, []).append(item)
     for t in news:
@@ -373,13 +379,20 @@ def attach_technicals(cand):
 
 
 def compute_technicals(t):
-    hist = fmp(f"historical-price-full/{t}", "&timeseries=220")
+    # stable: historical-price-eod/full?symbol=X returns a FLAT array (newest first)
+    hist = fmp("historical-price-eod/full", f"&symbol={t}")
     out = {"adr_pct": None, "dollar_volume_m": None, "gap_pct": None,
            "above_10": False, "above_20": False, "above_50": False, "above_200": False,
            "neglect": "low", "vol_expansion": None, "market_cap_m": None}
-    if not hist or "historical" not in hist or not hist["historical"]:
+    # stable returns a plain list; guard for that + legacy dict shape just in case
+    if isinstance(hist, dict) and "historical" in hist:
+        bars = hist["historical"]
+    elif isinstance(hist, list):
+        bars = hist
+    else:
+        bars = None
+    if not bars:
         return out
-    bars = hist["historical"]
     closes = [_to_float(b.get("close")) for b in bars if b.get("close")]
     highs = [_to_float(b.get("high")) for b in bars if b.get("high")]
     lows = [_to_float(b.get("low")) for b in bars if b.get("low")]
