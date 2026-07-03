@@ -945,9 +945,14 @@ def run_full():
 
 def run_refresh():
     """
-    Cheap run: reuse cached AI labels, only re-price. No news, no AI.
-    If there's no board yet today (e.g. refresh fired before the first full
-    run), fall back to a full run so we always have something.
+    Refresh run (design B):
+      - Re-price every ticker already on today's board, REUSING cached AI labels
+        (no news fetch, no AI for these — cheap).
+      - ALSO detect genuinely NEW gappers that appeared since the last run and
+        fully process just those (news + AI classify + freshness bucket +
+        enrich). This catches catalysts that break mid-premarket (8:30am, 9am)
+        without re-classifying names already done.
+    If there's no board yet today, fall back to a full run.
     """
     prior = load_existing()
     if not prior or not prior.get("rows"):
@@ -955,24 +960,65 @@ def run_refresh():
         run_full()
         return
 
+    known = {r["ticker"] for r in prior["rows"]}
+
+    # 1) Re-price known names, reusing cached labels (no AI)
     board = {}
     for prow in prior["rows"]:
         t = prow["ticker"]
-        # reuse the cached label -> base points (NO AI, NO news fetch)
-        label = prow.get("catalyst_label", "no_catalyst")
-        _apply_label(prow, label)
-        prow.update(compute_technicals(t))     # only the cheap price math
+        _apply_label(prow, prow.get("catalyst_label", "no_catalyst"))
+        prow.update(compute_technicals(t))
         prow.setdefault("section", "ep")
-        if prow["section"] == "ep":
-            prow["cooling"] = not passes_gates(prow)
-        else:
-            prow["cooling"] = False
+        prow["cooling"] = (prow["section"] == "ep") and (not passes_gates(prow))
         board[t] = score(prow)
-        time.sleep(0.03)
+        time.sleep(0.02)
+
+    # 2) Find NEW gappers not already on the board
+    fresh_gainers = gather_candidates()
+    new_cand = {t: r for t, r in fresh_gainers.items() if t not in known}
+    # price gate on the new ones
+    new_cand = {t: r for t, r in new_cand.items()
+                if r.get("price") is not None and r["price"] >= CONFIG["gates"]["min_price"]}
+
+    n_new_ai = 0
+    if new_cand:
+        window = fresh_window_utc()
+        news = fetch_news(list(new_cand.keys()))
+        fresh, no_news = {}, {}
+        for t, row in new_cand.items():
+            bucket, item = assign_bucket(row, news.get(t, []), window)
+            if item:
+                row["headline"] = item.get("title", "")
+                row["news_url"] = item.get("url", "")
+                row["news_site"] = item.get("site", "")
+                row["news_time"] = item.get("published", "")
+            if bucket == "fresh":
+                fresh[t] = row
+            elif bucket == "no_news":
+                no_news[t] = row
+            # stale new names are discarded
+
+        # AI-classify ONLY the new fresh names
+        fresh = classify_all_with_ai(fresh, news)
+        fresh = enrich_profile(fresh)
+        fresh = attach_technicals(fresh)
+        for t, row in fresh.items():
+            row["section"] = "ep"
+            row["cooling"] = not passes_gates(row)
+            board[t] = score(row)
+        n_new_ai = len(fresh)
+
+        for t, row in no_news.items():
+            _apply_label(row, "no_catalyst")
+            row.update(compute_technicals(t))
+            row["section"] = "no_catalyst"
+            row["cooling"] = False
+            board[t] = score(row)
 
     rows = _finalize(board)
     ep_active = sum(1 for r in rows if r.get("section", "ep") == "ep" and not r["cooling"])
-    print(f"  refreshed {len(rows)} names ({ep_active} active EP) — no AI used")
+    print(f"  refreshed {len(rows)} names ({ep_active} active EP) · "
+          f"{len(new_cand)} new gappers, {n_new_ai} newly AI-classified")
     write_output(rows)
 
 
