@@ -42,6 +42,7 @@ import json
 import time
 import datetime as dt
 from urllib.request import urlopen, Request
+from urllib.error import HTTPError
 from urllib.parse import quote
 
 # ======================================================================
@@ -169,11 +170,15 @@ def gather_candidates():
                    "changesPercentage": _to_float(g.get("changesPercentage")),
                    "price": _to_float(g.get("price"))}
 
-    # Enrich with a batch quote so we get live change % / price for each name.
-    # stable batch-quote takes ?symbols=A,B,C
+    # Optional enrichment: batch-quote adds live change % and market cap.
+    # Some FMP plans don't include this endpoint (returns 402) — that's fine,
+    # biggest-gainers already gave us price + change, so we just skip it.
     syms = list(cand.keys())
+    got_quotes = False
     for chunk in _chunks(syms, 50):
         q = fmp("batch-quote", f"&symbols={quote(','.join(chunk))}") or []
+        if q:
+            got_quotes = True
         for row in q:
             t = row.get("symbol")
             if not t or t not in cand:
@@ -182,7 +187,11 @@ def gather_candidates():
             if chg is not None and RUN_LABEL in ("1", "2", "3"):
                 cand[t]["premarket_change"] = chg
             cand[t]["price"] = _to_float(row.get("price")) or cand[t].get("price")
-            cand[t]["market_cap_m"] = (_to_float(row.get("marketCap")) or 0) / 1_000_000 or None
+            mc = _to_float(row.get("marketCap"))
+            if mc:
+                cand[t]["market_cap_m"] = mc / 1_000_000
+    if not got_quotes:
+        print("  (batch-quote unavailable on this plan — using gainers data only)")
 
     print(f"  candidates gathered: {len(cand)}")
     return cand
@@ -290,7 +299,7 @@ def _ai_classify_batch(batch):
 
     body = json.dumps({
         "model": CONFIG["ai"]["model"],
-        "max_tokens": 1000,
+        "max_tokens": 2000,
         "temperature": 0,               # <-- determinism
         "system": system,
         "messages": [{"role": "user", "content": user}],
@@ -305,6 +314,32 @@ def _ai_classify_batch(batch):
             "anthropic-version": "2023-06-01",
         },
     )
+    result = _do_ai_request(req)
+    if result is not None:
+        return result
+
+    # Retry once WITHOUT temperature — the newest thinking-on models can 400
+    # on an explicit temperature. Determinism still holds via the closed menu
+    # + tie-break rule, which don't depend on temperature.
+    body2 = json.dumps({
+        "model": CONFIG["ai"]["model"],
+        "max_tokens": 2000,
+        "system": system,
+        "messages": [{"role": "user", "content": user}],
+    }).encode()
+    req2 = Request(
+        "https://api.anthropic.com/v1/messages",
+        data=body2,
+        headers={
+            "Content-Type": "application/json",
+            "x-api-key": ANTHROPIC_KEY,
+            "anthropic-version": "2023-06-01",
+        },
+    )
+    return _do_ai_request(req2, note="(retry without temperature)")
+
+
+def _do_ai_request(req, note=""):
     try:
         with urlopen(req, timeout=45) as r:
             data = json.loads(r.read().decode())
@@ -313,8 +348,15 @@ def _ai_classify_batch(batch):
         parsed = json.loads(text)
         return {t: (lbl if lbl in CATALYST_TYPES else "no_catalyst")
                 for t, lbl in parsed.items()}
+    except HTTPError as e:
+        try:
+            err_body = e.read().decode()[:500]
+        except Exception:
+            err_body = "(no body)"
+        print(f"  ! AI batch HTTP {e.code} {note}: {err_body}")
+        return None
     except Exception as e:
-        print(f"  ! AI batch failed: {e}")
+        print(f"  ! AI batch failed {note}: {e}")
         return None
 
 
