@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-07-03T00:46:05.707708+00:00",
+  "generated_utc": "2026-07-03T10:09:04.277714+00:00",
   "session_date": "2026-07-03",
   "mode": "full",
-  "run_label": "manual",
+  "run_label": "0",
   "count": 50,
   "active_count": 11,
   "ai_used": true,
@@ -22,14 +22,14 @@
       "catalyst_desc": "Acquisition / buyout (target)",
       "catalyst_base_points": 50,
       "adr_pct": 22.84,
-      "dollar_volume_m": 564.5,
+      "dollar_volume_m": 573.7,
       "gap_pct": 101.24223602484473,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 3807.9,
+      "vol_expansion": 3870.1,
       "market_cap_m": null,
       "cooling": false,
       "catalyst_score": 95,
@@ -45,13 +45,13 @@
           "+33"
         ],
         [
-          "Volume 3807.9x expansion",
+          "Volume 3870.1x expansion",
           "+12"
         ]
       ],
       "tbreak": [
         [
-          "$ vol $564M",
+          "$ vol $574M",
           "+15"
         ],
         [
@@ -78,19 +78,19 @@
       "catalyst_desc": "Acquisition / buyout (target)",
       "catalyst_base_points": 50,
       "adr_pct": 18.84,
-      "dollar_volume_m": 29.4,
+      "dollar_volume_m": 30.9,
       "gap_pct": 13.669064748201452,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 1.1,
+      "vol_expansion": 1.2,
       "market_cap_m": null,
       "cooling": false,
-      "catalyst_score": 75,
+      "catalyst_score": 76,
       "technical_score": 35,
-      "total": 110,
+      "total": 111,
       "cbreak": [
         [
           "Acquisition / buyout (target) (Tier S)",
@@ -101,13 +101,13 @@
           "+22"
         ],
         [
-          "Volume 1.1x expansion",
-          "+3"
+          "Volume 1.2x expansion",
+          "+4"
         ]
       ],
       "tbreak": [
         [
-          "$ vol $29M",
+          "$ vol $31M",
           "+8"
         ],
         [
@@ -117,6 +117,62 @@
         [
           "Above 200d, 50d, 20d, 10d",
           "+19"
+        ]
+      ]
+    },
+    {
+      "ticker": "SLBT",
+      "name": "Horizon Space Acquisition II Corp.",
+      "changesPercentage": 34.60674,
+      "price": 5.99,
+      "catalyst_label": "acquisition_target",
+      "catalyst_tier": "S",
+      "catalyst_desc": "Acquisition / buyout (target)",
+      "catalyst_base_points": 50,
+      "adr_pct": 35.66,
+      "dollar_volume_m": 7.3,
+      "gap_pct": 34.60674157303371,
+      "above_10": true,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "med",
+      "vol_expansion": 0.6,
+      "market_cap_m": null,
+      "cooling": false,
+      "catalyst_score": 85,
+      "technical_score": 20,
+      "total": 105,
+      "cbreak": [
+        [
+          "Acquisition / buyout (target) (Tier S)",
+          "+50"
+        ],
+        [
+          "Gap 34.6% (market voting)",
+          "+33"
+        ],
+        [
+          "Volume 0.6x expansion",
+          "+2"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $7M",
+          "+4"
+        ],
+        [
+          "ADR 35.7%",
+          "+8"
+        ],
+        [
+          "Above 10d",
+          "+2"
+        ],
+        [
+          "Med neglect (quiet base)",
+          "+6"
         ]
       ]
     },
@@ -186,7 +242,7 @@
       "catalyst_desc": "Raised guidance (standalone)",
       "catalyst_base_points": 30,
       "adr_pct": 6.9,
-      "dollar_volume_m": 18.1,
+      "dollar_volume_m": 18.2,
       "gap_pct": 15.852168601099564,
       "above_10": true,
       "above_20": true,
@@ -289,68 +345,16 @@
       ]
     },
     {
-      "ticker": "TENX",
-      "name": "Tenax Therapeutics, Inc.",
-      "changesPercentage": 16.32807,
-      "price": 15.46,
-      "catalyst_label": "vague_pr",
-      "catalyst_tier": "C",
-      "catalyst_desc": "Vague PR / promotional",
-      "catalyst_base_points": 14,
-      "adr_pct": 7.31,
-      "dollar_volume_m": 59.0,
-      "gap_pct": 16.328066215199414,
-      "above_10": true,
-      "above_20": true,
-      "above_50": true,
-      "above_200": true,
-      "neglect": "low",
-      "vol_expansion": 3.2,
-      "market_cap_m": null,
-      "cooling": false,
-      "catalyst_score": 47,
-      "technical_score": 35,
-      "total": 82,
-      "cbreak": [
-        [
-          "Vague PR / promotional (Tier C)",
-          "+14"
-        ],
-        [
-          "Gap 16.3% (market voting)",
-          "+23"
-        ],
-        [
-          "Volume 3.2x expansion",
-          "+10"
-        ]
-      ],
-      "tbreak": [
-        [
-          "$ vol $59M",
-          "+8"
-        ],
-        [
-          "ADR 7.3%",
-          "+8"
-        ],
-        [
-          "Above 200d, 50d, 20d, 10d",
-          "+19"
-        ]
-      ]
-    },
-    {
       "ticker": "SOXS",
       "name": "Direxion Daily Semiconductor Bear 3X ETF",
       "changesPercentage": 16.83938,
       "price": 4.51,
-      "catalyst_label": "unclassified_move",
-      "catalyst_tier": "C",
-      "catalyst_desc": "Moving on unclear news",
-      "catalyst_base_points": 14,
+      "catalyst_label": "sector_sympathy",
+      "catalyst_tier": "B",
+      "catalyst_desc": "Sector sympathy move",
+      "catalyst_base_points": 22,
       "adr_pct": 16.66,
-      "dollar_volume_m": 4160.5,
+      "dollar_volume_m": 4198.4,
       "gap_pct": 16.83937823834197,
       "above_10": true,
       "above_20": false,
@@ -360,13 +364,13 @@
       "vol_expansion": 1.2,
       "market_cap_m": null,
       "cooling": false,
-      "catalyst_score": 42,
+      "catalyst_score": 50,
       "technical_score": 35,
-      "total": 77,
+      "total": 85,
       "cbreak": [
         [
-          "Moving on unclear news (Tier C)",
-          "+14"
+          "Sector sympathy move (Tier B)",
+          "+22"
         ],
         [
           "Gap 16.8% (market voting)",
@@ -379,7 +383,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $4160M",
+          "$ vol $4198M",
           "+15"
         ],
         [
@@ -397,6 +401,58 @@
       ]
     },
     {
+      "ticker": "TENX",
+      "name": "Tenax Therapeutics, Inc.",
+      "changesPercentage": 16.32807,
+      "price": 15.46,
+      "catalyst_label": "unclassified_move",
+      "catalyst_tier": "C",
+      "catalyst_desc": "Moving on unclear news",
+      "catalyst_base_points": 14,
+      "adr_pct": 7.31,
+      "dollar_volume_m": 60.2,
+      "gap_pct": 16.328066215199414,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "low",
+      "vol_expansion": 3.3,
+      "market_cap_m": null,
+      "cooling": false,
+      "catalyst_score": 47,
+      "technical_score": 35,
+      "total": 82,
+      "cbreak": [
+        [
+          "Moving on unclear news (Tier C)",
+          "+14"
+        ],
+        [
+          "Gap 16.3% (market voting)",
+          "+23"
+        ],
+        [
+          "Volume 3.3x expansion",
+          "+10"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $60M",
+          "+8"
+        ],
+        [
+          "ADR 7.3%",
+          "+8"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+19"
+        ]
+      ]
+    },
+    {
       "ticker": "BWET",
       "name": "Breakwave Tanker Shipping ETF",
       "changesPercentage": 16.98886,
@@ -406,7 +462,7 @@
       "catalyst_desc": "Sector sympathy move",
       "catalyst_base_points": 22,
       "adr_pct": 10.06,
-      "dollar_volume_m": 16.1,
+      "dollar_volume_m": 16.2,
       "gap_pct": 14.478453483689101,
       "above_10": true,
       "above_20": false,
@@ -462,19 +518,19 @@
       "catalyst_desc": "Moving on unclear news",
       "catalyst_base_points": 14,
       "adr_pct": 17.38,
-      "dollar_volume_m": 129.1,
+      "dollar_volume_m": 130.0,
       "gap_pct": 15.240328253223925,
       "above_10": true,
       "above_20": false,
       "above_50": false,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 1.8,
+      "vol_expansion": 1.9,
       "market_cap_m": null,
       "cooling": false,
-      "catalyst_score": 42,
+      "catalyst_score": 43,
       "technical_score": 31,
-      "total": 73,
+      "total": 74,
       "cbreak": [
         [
           "Moving on unclear news (Tier C)",
@@ -485,13 +541,13 @@
           "+23"
         ],
         [
-          "Volume 1.8x expansion",
-          "+5"
+          "Volume 1.9x expansion",
+          "+6"
         ]
       ],
       "tbreak": [
         [
-          "$ vol $129M",
+          "$ vol $130M",
           "+15"
         ],
         [
@@ -518,7 +574,7 @@
       "catalyst_desc": "Sector sympathy move",
       "catalyst_base_points": 22,
       "adr_pct": 12.42,
-      "dollar_volume_m": 272.3,
+      "dollar_volume_m": 274.6,
       "gap_pct": 13.02654867256638,
       "above_10": true,
       "above_20": false,
@@ -547,7 +603,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $272M",
+          "$ vol $275M",
           "+15"
         ],
         [
@@ -561,62 +617,6 @@
       ]
     },
     {
-      "ticker": "SLBT",
-      "name": "Horizon Space Acquisition II Corp.",
-      "changesPercentage": 34.60674,
-      "price": 5.99,
-      "catalyst_label": "unclassified_move",
-      "catalyst_tier": "C",
-      "catalyst_desc": "Moving on unclear news",
-      "catalyst_base_points": 14,
-      "adr_pct": 35.66,
-      "dollar_volume_m": 7.0,
-      "gap_pct": 34.60674157303371,
-      "above_10": true,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "med",
-      "vol_expansion": 0.6,
-      "market_cap_m": null,
-      "cooling": false,
-      "catalyst_score": 49,
-      "technical_score": 20,
-      "total": 69,
-      "cbreak": [
-        [
-          "Moving on unclear news (Tier C)",
-          "+14"
-        ],
-        [
-          "Gap 34.6% (market voting)",
-          "+33"
-        ],
-        [
-          "Volume 0.6x expansion",
-          "+2"
-        ]
-      ],
-      "tbreak": [
-        [
-          "$ vol $7M",
-          "+4"
-        ],
-        [
-          "ADR 35.7%",
-          "+8"
-        ],
-        [
-          "Above 10d",
-          "+2"
-        ],
-        [
-          "Med neglect (quiet base)",
-          "+6"
-        ]
-      ]
-    },
-    {
       "ticker": "SURG",
       "name": "SurgePays, Inc.",
       "changesPercentage": 38.08147,
@@ -626,14 +626,14 @@
       "catalyst_desc": "Major contract / government award",
       "catalyst_base_points": 44,
       "adr_pct": 13.0,
-      "dollar_volume_m": 101.4,
+      "dollar_volume_m": 102.0,
       "gap_pct": 38.08146541335261,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 47.2,
+      "vol_expansion": 47.4,
       "market_cap_m": null,
       "cooling": true,
       "catalyst_score": 89,
@@ -649,13 +649,13 @@
           "+33"
         ],
         [
-          "Volume 47.2x expansion",
+          "Volume 47.4x expansion",
           "+12"
         ]
       ],
       "tbreak": [
         [
-          "$ vol $101M",
+          "$ vol $102M",
           "+15"
         ],
         [
@@ -682,14 +682,14 @@
       "catalyst_desc": "Major partnership / collaboration",
       "catalyst_base_points": 36,
       "adr_pct": 22.07,
-      "dollar_volume_m": 36.8,
+      "dollar_volume_m": 37.2,
       "gap_pct": 34.405719392314566,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 17.5,
+      "vol_expansion": 17.7,
       "market_cap_m": null,
       "cooling": true,
       "catalyst_score": 81,
@@ -705,7 +705,7 @@
           "+33"
         ],
         [
-          "Volume 17.5x expansion",
+          "Volume 17.7x expansion",
           "+12"
         ]
       ],
@@ -729,114 +729,6 @@
       ]
     },
     {
-      "ticker": "AIRT",
-      "name": "Air T, Inc.",
-      "changesPercentage": 13.8856,
-      "price": 28.87,
-      "catalyst_label": "acquisition_target",
-      "catalyst_tier": "S",
-      "catalyst_desc": "Acquisition / buyout (target)",
-      "catalyst_base_points": 50,
-      "adr_pct": 4.67,
-      "dollar_volume_m": 0.2,
-      "gap_pct": 13.885601577909268,
-      "above_10": true,
-      "above_20": true,
-      "above_50": true,
-      "above_200": true,
-      "neglect": "low",
-      "vol_expansion": 3.0,
-      "market_cap_m": null,
-      "cooling": true,
-      "catalyst_score": 81,
-      "technical_score": 31,
-      "total": 112,
-      "cbreak": [
-        [
-          "Acquisition / buyout (target) (Tier S)",
-          "+50"
-        ],
-        [
-          "Gap 13.9% (market voting)",
-          "+22"
-        ],
-        [
-          "Volume 3.0x expansion",
-          "+9"
-        ]
-      ],
-      "tbreak": [
-        [
-          "$ vol $0M",
-          "+4"
-        ],
-        [
-          "ADR 4.7%",
-          "+8"
-        ],
-        [
-          "Above 200d, 50d, 20d, 10d",
-          "+19"
-        ]
-      ]
-    },
-    {
-      "ticker": "SDEV",
-      "name": "NovaBay Pharmaceuticals, Inc.",
-      "changesPercentage": 30.76923,
-      "price": 1.36,
-      "catalyst_label": "legal_ruling_favorable",
-      "catalyst_tier": "A",
-      "catalyst_desc": "Favourable legal / regulatory ruling",
-      "catalyst_base_points": 30,
-      "adr_pct": 11.54,
-      "dollar_volume_m": 31.4,
-      "gap_pct": 30.769230769230777,
-      "above_10": true,
-      "above_20": true,
-      "above_50": true,
-      "above_200": false,
-      "neglect": "high",
-      "vol_expansion": 34.7,
-      "market_cap_m": null,
-      "cooling": true,
-      "catalyst_score": 74,
-      "technical_score": 37,
-      "total": 111,
-      "cbreak": [
-        [
-          "Favourable legal / regulatory ruling (Tier A)",
-          "+30"
-        ],
-        [
-          "Gap 30.8% (market voting)",
-          "+32"
-        ],
-        [
-          "Volume 34.7x expansion",
-          "+12"
-        ]
-      ],
-      "tbreak": [
-        [
-          "$ vol $31M",
-          "+8"
-        ],
-        [
-          "ADR 11.5%",
-          "+8"
-        ],
-        [
-          "Above 50d, 20d, 10d",
-          "+11"
-        ],
-        [
-          "High neglect (quiet base)",
-          "+10"
-        ]
-      ]
-    },
-    {
       "ticker": "YRD",
       "name": "Yiren Digital Ltd.",
       "changesPercentage": 59.68064,
@@ -846,14 +738,14 @@
       "catalyst_desc": "Earnings beat",
       "catalyst_base_points": 38,
       "adr_pct": 9.86,
-      "dollar_volume_m": 80.9,
+      "dollar_volume_m": 81.5,
       "gap_pct": 59.68063872255488,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 476.1,
+      "vol_expansion": 479.6,
       "market_cap_m": null,
       "cooling": true,
       "catalyst_score": 83,
@@ -869,13 +761,13 @@
           "+33"
         ],
         [
-          "Volume 476.1x expansion",
+          "Volume 479.6x expansion",
           "+12"
         ]
       ],
       "tbreak": [
         [
-          "$ vol $81M",
+          "$ vol $82M",
           "+8"
         ],
         [
@@ -889,62 +781,6 @@
         [
           "Med neglect (quiet base)",
           "+6"
-        ]
-      ]
-    },
-    {
-      "ticker": "CMMB",
-      "name": "Chemomab Therapeutics Ltd.",
-      "changesPercentage": 33.52941,
-      "price": 2.27,
-      "catalyst_label": "earnings_inline",
-      "catalyst_tier": "B",
-      "catalyst_desc": "In-line earnings, strong reaction",
-      "catalyst_base_points": 24,
-      "adr_pct": 9.86,
-      "dollar_volume_m": 3.1,
-      "gap_pct": 33.529411764705884,
-      "above_10": true,
-      "above_20": true,
-      "above_50": true,
-      "above_200": true,
-      "neglect": "high",
-      "vol_expansion": 33.9,
-      "market_cap_m": null,
-      "cooling": true,
-      "catalyst_score": 69,
-      "technical_score": 41,
-      "total": 110,
-      "cbreak": [
-        [
-          "In-line earnings, strong reaction (Tier B)",
-          "+24"
-        ],
-        [
-          "Gap 33.5% (market voting)",
-          "+33"
-        ],
-        [
-          "Volume 33.9x expansion",
-          "+12"
-        ]
-      ],
-      "tbreak": [
-        [
-          "$ vol $3M",
-          "+4"
-        ],
-        [
-          "ADR 9.9%",
-          "+8"
-        ],
-        [
-          "Above 200d, 50d, 20d, 10d",
-          "+19"
-        ],
-        [
-          "High neglect (quiet base)",
-          "+10"
         ]
       ]
     },
@@ -1005,54 +841,110 @@
       ]
     },
     {
-      "ticker": "VACH",
-      "name": "Voyager Acquisition Corp.",
-      "changesPercentage": 20.0,
-      "price": 2.07,
-      "catalyst_label": "acquisition_target",
-      "catalyst_tier": "S",
-      "catalyst_desc": "Acquisition / buyout (target)",
-      "catalyst_base_points": 50,
-      "adr_pct": 37.46,
-      "dollar_volume_m": 10.3,
-      "gap_pct": 17.91907514450867,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "med",
-      "vol_expansion": 14.8,
+      "ticker": "CMMB",
+      "name": "Chemomab Therapeutics Ltd.",
+      "changesPercentage": 33.52941,
+      "price": 2.27,
+      "catalyst_label": "vague_pr",
+      "catalyst_tier": "C",
+      "catalyst_desc": "Vague PR / promotional",
+      "catalyst_base_points": 14,
+      "adr_pct": 9.86,
+      "dollar_volume_m": 3.2,
+      "gap_pct": 33.529411764705884,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "high",
+      "vol_expansion": 34.5,
       "market_cap_m": null,
       "cooling": true,
-      "catalyst_score": 86,
-      "technical_score": 18,
-      "total": 104,
+      "catalyst_score": 59,
+      "technical_score": 41,
+      "total": 100,
       "cbreak": [
         [
-          "Acquisition / buyout (target) (Tier S)",
-          "+50"
+          "Vague PR / promotional (Tier C)",
+          "+14"
         ],
         [
-          "Gap 17.9% (market voting)",
-          "+24"
+          "Gap 33.5% (market voting)",
+          "+33"
         ],
         [
-          "Volume 14.8x expansion",
+          "Volume 34.5x expansion",
           "+12"
         ]
       ],
       "tbreak": [
         [
-          "$ vol $10M",
+          "$ vol $3M",
           "+4"
         ],
         [
-          "ADR 37.5%",
+          "ADR 9.9%",
           "+8"
         ],
         [
-          "Med neglect (quiet base)",
-          "+6"
+          "Above 200d, 50d, 20d, 10d",
+          "+19"
+        ],
+        [
+          "High neglect (quiet base)",
+          "+10"
+        ]
+      ]
+    },
+    {
+      "ticker": "AIRT",
+      "name": "Air T, Inc.",
+      "changesPercentage": 13.8856,
+      "price": 28.87,
+      "catalyst_label": "earnings_beat",
+      "catalyst_tier": "A",
+      "catalyst_desc": "Earnings beat",
+      "catalyst_base_points": 38,
+      "adr_pct": 4.67,
+      "dollar_volume_m": 0.2,
+      "gap_pct": 13.885601577909268,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "low",
+      "vol_expansion": 3.1,
+      "market_cap_m": null,
+      "cooling": true,
+      "catalyst_score": 69,
+      "technical_score": 31,
+      "total": 100,
+      "cbreak": [
+        [
+          "Earnings beat (Tier A)",
+          "+38"
+        ],
+        [
+          "Gap 13.9% (market voting)",
+          "+22"
+        ],
+        [
+          "Volume 3.1x expansion",
+          "+9"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+4"
+        ],
+        [
+          "ADR 4.7%",
+          "+8"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+19"
         ]
       ]
     },
@@ -1066,14 +958,14 @@
       "catalyst_desc": "Vague PR / promotional",
       "catalyst_base_points": 14,
       "adr_pct": 10.85,
-      "dollar_volume_m": 414.0,
+      "dollar_volume_m": 415.8,
       "gap_pct": 90.60901906090191,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 4506.2,
+      "vol_expansion": 4526.1,
       "market_cap_m": null,
       "cooling": true,
       "catalyst_score": 59,
@@ -1089,13 +981,13 @@
           "+33"
         ],
         [
-          "Volume 4506.2x expansion",
+          "Volume 4526.1x expansion",
           "+12"
         ]
       ],
       "tbreak": [
         [
-          "$ vol $414M",
+          "$ vol $416M",
           "+15"
         ],
         [
@@ -1129,7 +1021,7 @@
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 1.3,
+      "vol_expansion": 1.4,
       "market_cap_m": null,
       "cooling": true,
       "catalyst_score": 64,
@@ -1145,7 +1037,7 @@
           "+24"
         ],
         [
-          "Volume 1.3x expansion",
+          "Volume 1.4x expansion",
           "+4"
         ]
       ],
@@ -1169,6 +1061,62 @@
       ]
     },
     {
+      "ticker": "SDEV",
+      "name": "NovaBay Pharmaceuticals, Inc.",
+      "changesPercentage": 30.76923,
+      "price": 1.36,
+      "catalyst_label": "unclassified_move",
+      "catalyst_tier": "C",
+      "catalyst_desc": "Moving on unclear news",
+      "catalyst_base_points": 14,
+      "adr_pct": 11.54,
+      "dollar_volume_m": 31.8,
+      "gap_pct": 31.730769230769234,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": false,
+      "neglect": "high",
+      "vol_expansion": 35.0,
+      "market_cap_m": null,
+      "cooling": true,
+      "catalyst_score": 59,
+      "technical_score": 37,
+      "total": 96,
+      "cbreak": [
+        [
+          "Moving on unclear news (Tier C)",
+          "+14"
+        ],
+        [
+          "Gap 31.7% (market voting)",
+          "+33"
+        ],
+        [
+          "Volume 35.0x expansion",
+          "+12"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $32M",
+          "+8"
+        ],
+        [
+          "ADR 11.5%",
+          "+8"
+        ],
+        [
+          "Above 50d, 20d, 10d",
+          "+11"
+        ],
+        [
+          "High neglect (quiet base)",
+          "+10"
+        ]
+      ]
+    },
+    {
       "ticker": "VRXA",
       "name": "Veraxa Biotech Holding AG",
       "changesPercentage": 18.26087,
@@ -1178,14 +1126,14 @@
       "catalyst_desc": "Major partnership / collaboration",
       "catalyst_base_points": 36,
       "adr_pct": 37.46,
-      "dollar_volume_m": 10.2,
+      "dollar_volume_m": 10.3,
       "gap_pct": 17.91907514450867,
       "above_10": false,
       "above_20": false,
       "above_50": false,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 14.7,
+      "vol_expansion": 14.8,
       "market_cap_m": null,
       "cooling": true,
       "catalyst_score": 72,
@@ -1201,7 +1149,7 @@
           "+24"
         ],
         [
-          "Volume 14.7x expansion",
+          "Volume 14.8x expansion",
           "+12"
         ]
       ],
@@ -1221,6 +1169,62 @@
       ]
     },
     {
+      "ticker": "COSM",
+      "name": "Cosmos Health Inc.",
+      "changesPercentage": 17.60913,
+      "price": 0.2371,
+      "catalyst_label": "insider_cluster_buy",
+      "catalyst_tier": "A",
+      "catalyst_desc": "Insider cluster buying",
+      "catalyst_base_points": 34,
+      "adr_pct": 17.69,
+      "dollar_volume_m": 4.5,
+      "gap_pct": 17.609126984126984,
+      "above_10": true,
+      "above_20": true,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "high",
+      "vol_expansion": 1.1,
+      "market_cap_m": null,
+      "cooling": true,
+      "catalyst_score": 61,
+      "technical_score": 27,
+      "total": 88,
+      "cbreak": [
+        [
+          "Insider cluster buying (Tier A)",
+          "+34"
+        ],
+        [
+          "Gap 17.6% (market voting)",
+          "+24"
+        ],
+        [
+          "Volume 1.1x expansion",
+          "+3"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $4M",
+          "+4"
+        ],
+        [
+          "ADR 17.7%",
+          "+8"
+        ],
+        [
+          "Above 20d, 10d",
+          "+5"
+        ],
+        [
+          "High neglect (quiet base)",
+          "+10"
+        ]
+      ]
+    },
+    {
       "ticker": "PPCB",
       "name": "Propanc Biopharma, Inc.",
       "changesPercentage": 22.91667,
@@ -1230,7 +1234,7 @@
       "catalyst_desc": "Vague PR / promotional",
       "catalyst_base_points": 14,
       "adr_pct": 24.49,
-      "dollar_volume_m": 93.8,
+      "dollar_volume_m": 94.1,
       "gap_pct": 22.91666666666667,
       "above_10": true,
       "above_20": true,
@@ -1286,19 +1290,19 @@
       "catalyst_desc": "Vague PR / promotional",
       "catalyst_base_points": 14,
       "adr_pct": 6.75,
-      "dollar_volume_m": 24.0,
+      "dollar_volume_m": 26.3,
       "gap_pct": 16.66666666666665,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 1.1,
+      "vol_expansion": 1.3,
       "market_cap_m": null,
       "cooling": true,
-      "catalyst_score": 40,
+      "catalyst_score": 41,
       "technical_score": 37,
-      "total": 77,
+      "total": 78,
       "cbreak": [
         [
           "Vague PR / promotional (Tier C)",
@@ -1309,13 +1313,13 @@
           "+23"
         ],
         [
-          "Volume 1.1x expansion",
-          "+3"
+          "Volume 1.3x expansion",
+          "+4"
         ]
       ],
       "tbreak": [
         [
-          "$ vol $24M",
+          "$ vol $26M",
           "+8"
         ],
         [
@@ -1342,14 +1346,14 @@
       "catalyst_desc": "Vague PR / promotional",
       "catalyst_base_points": 14,
       "adr_pct": 19.89,
-      "dollar_volume_m": 5.4,
+      "dollar_volume_m": 5.5,
       "gap_pct": 27.207607755959007,
       "above_10": true,
       "above_20": false,
       "above_50": false,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 3.7,
+      "vol_expansion": 3.8,
       "market_cap_m": null,
       "cooling": true,
       "catalyst_score": 55,
@@ -1365,13 +1369,13 @@
           "+30"
         ],
         [
-          "Volume 3.7x expansion",
+          "Volume 3.8x expansion",
           "+11"
         ]
       ],
       "tbreak": [
         [
-          "$ vol $5M",
+          "$ vol $6M",
           "+4"
         ],
         [
@@ -1454,7 +1458,7 @@
       "catalyst_desc": "Moving on unclear news",
       "catalyst_base_points": 14,
       "adr_pct": 15.17,
-      "dollar_volume_m": 9.0,
+      "dollar_volume_m": 9.1,
       "gap_pct": 17.38961038961039,
       "above_10": true,
       "above_20": true,
@@ -1501,27 +1505,27 @@
       ]
     },
     {
-      "ticker": "COSM",
-      "name": "Cosmos Health Inc.",
-      "changesPercentage": 17.60913,
-      "price": 0.2371,
+      "ticker": "VACH",
+      "name": "Voyager Acquisition Corp.",
+      "changesPercentage": 20.0,
+      "price": 2.07,
       "catalyst_label": "vague_pr",
       "catalyst_tier": "C",
       "catalyst_desc": "Vague PR / promotional",
       "catalyst_base_points": 14,
-      "adr_pct": 17.69,
-      "dollar_volume_m": 4.4,
-      "gap_pct": 17.609126984126984,
-      "above_10": true,
-      "above_20": true,
+      "adr_pct": 37.46,
+      "dollar_volume_m": 10.3,
+      "gap_pct": 17.91907514450867,
+      "above_10": false,
+      "above_20": false,
       "above_50": false,
       "above_200": false,
-      "neglect": "high",
-      "vol_expansion": 1.1,
+      "neglect": "med",
+      "vol_expansion": 14.8,
       "market_cap_m": null,
       "cooling": true,
-      "catalyst_score": 41,
-      "technical_score": 27,
+      "catalyst_score": 50,
+      "technical_score": 18,
       "total": 68,
       "cbreak": [
         [
@@ -1529,30 +1533,26 @@
           "+14"
         ],
         [
-          "Gap 17.6% (market voting)",
+          "Gap 17.9% (market voting)",
           "+24"
         ],
         [
-          "Volume 1.1x expansion",
-          "+3"
+          "Volume 14.8x expansion",
+          "+12"
         ]
       ],
       "tbreak": [
         [
-          "$ vol $4M",
+          "$ vol $10M",
           "+4"
         ],
         [
-          "ADR 17.7%",
+          "ADR 37.5%",
           "+8"
         ],
         [
-          "Above 20d, 10d",
-          "+5"
-        ],
-        [
-          "High neglect (quiet base)",
-          "+10"
+          "Med neglect (quiet base)",
+          "+6"
         ]
       ]
     },
@@ -1566,7 +1566,7 @@
       "catalyst_desc": "Vague PR / promotional",
       "catalyst_base_points": 14,
       "adr_pct": 35.78,
-      "dollar_volume_m": 8.4,
+      "dollar_volume_m": 8.5,
       "gap_pct": 16.570685491361683,
       "above_10": true,
       "above_20": true,
@@ -1629,12 +1629,12 @@
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.4,
+      "vol_expansion": 0.5,
       "market_cap_m": null,
       "cooling": true,
-      "catalyst_score": 20,
+      "catalyst_score": 21,
       "technical_score": 41,
-      "total": 61,
+      "total": 62,
       "cbreak": [
         [
           "Share offering / dilution (bearish) (Tier C)",
@@ -1645,8 +1645,8 @@
           "+27"
         ],
         [
-          "Volume 0.4x expansion",
-          "+1"
+          "Volume 0.5x expansion",
+          "+2"
         ]
       ],
       "tbreak": [
@@ -1678,7 +1678,7 @@
       "catalyst_desc": "Moving on unclear news",
       "catalyst_base_points": 14,
       "adr_pct": 22.66,
-      "dollar_volume_m": 0.5,
+      "dollar_volume_m": 0.6,
       "gap_pct": 12.989377845220032,
       "above_10": true,
       "above_20": false,
@@ -1707,7 +1707,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $1M",
           "+4"
         ],
         [
@@ -1734,14 +1734,14 @@
       "catalyst_desc": "Share offering / dilution (bearish)",
       "catalyst_base_points": -8,
       "adr_pct": 14.0,
-      "dollar_volume_m": 74.1,
+      "dollar_volume_m": 74.8,
       "gap_pct": 24.128919860627168,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 71.5,
+      "vol_expansion": 72.2,
       "market_cap_m": null,
       "cooling": true,
       "catalyst_score": 32,
@@ -1757,13 +1757,13 @@
           "+28"
         ],
         [
-          "Volume 71.5x expansion",
+          "Volume 72.2x expansion",
           "+12"
         ]
       ],
       "tbreak": [
         [
-          "$ vol $74M",
+          "$ vol $75M",
           "+8"
         ],
         [
@@ -1905,12 +1905,12 @@
       "above_50": false,
       "above_200": false,
       "neglect": "low",
-      "vol_expansion": 1.1,
+      "vol_expansion": 1.2,
       "market_cap_m": null,
       "cooling": true,
-      "catalyst_score": 17,
+      "catalyst_score": 18,
       "technical_score": 12,
-      "total": 29,
+      "total": 30,
       "cbreak": [
         [
           "Share offering / dilution (bearish) (Tier C)",
@@ -1921,8 +1921,8 @@
           "+22"
         ],
         [
-          "Volume 1.1x expansion",
-          "+3"
+          "Volume 1.2x expansion",
+          "+4"
         ]
       ],
       "tbreak": [
