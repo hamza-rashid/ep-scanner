@@ -15,7 +15,7 @@ Your CONFIG then looks up the points for that label. So:
   - Arithmetic decides *how many points that kind gets*  (from your config table)
 
 To make it repeatable ~99/100:
-  - thinking disabled          (no variable reasoning path; classification is direct)
+  - temperature = 0            (model takes its single most-likely answer)
   - fixed menu of labels       (it can only pick from a closed list)
   - it classifies, never scores (no subjective "42 vs 45")
   - deterministic tie-break     (ambiguous cases resolve the same way every time)
@@ -45,82 +45,199 @@ from urllib.request import urlopen, Request
 from urllib.error import HTTPError
 from urllib.parse import quote
 
+# Market calendar for the freshness window. pandas_market_calendars knows every
+# NYSE holiday and half-day, so "last close -> next open" is always correct,
+# including across the July 4th weekend. If the import fails for any reason we
+# fall back to a simple weekday rule so the scanner still runs.
+try:
+    import pandas_market_calendars as mcal
+    _NYSE = mcal.get_calendar("XNYS")
+    _HAS_CAL = True
+except Exception:
+    _NYSE = None
+    _HAS_CAL = False
+
+# US/Eastern handling without extra deps: use fixed offset via zoneinfo.
+try:
+    from zoneinfo import ZoneInfo
+    _ET = ZoneInfo("America/New_York")
+except Exception:
+    _ET = None
+
+
+def fresh_window_utc(now_utc=None):
+    """
+    Return (window_start_utc, window_end_utc): a catalyst is 'fresh' (day-1 EP)
+    if its publish time falls in [previous session close, next session open].
+
+    Uses the real NYSE calendar so holidays/weekends are handled. Example:
+    on Monday premarket after a Friday-July-3rd holiday, the window opens at
+    Thursday's 4pm ET close and runs to Monday's 9:30am ET open.
+    """
+    if now_utc is None:
+        now_utc = dt.datetime.now(dt.UTC)
+
+    if _HAS_CAL and _ET is not None:
+        # Look at a generous span around now to find sessions.
+        start = (now_utc - dt.timedelta(days=10)).date()
+        end = (now_utc + dt.timedelta(days=3)).date()
+        sched = _NYSE.schedule(start_date=start.isoformat(), end_date=end.isoformat())
+        # sched has market_open / market_close as tz-aware UTC timestamps.
+        opens = list(sched["market_open"])
+        closes = list(sched["market_close"])
+        # Find the most recent close at or before now = start of the fresh window.
+        prev_close = None
+        for c in closes:
+            c_utc = c.to_pydatetime().astimezone(dt.UTC)
+            if c_utc <= now_utc:
+                prev_close = c_utc
+            else:
+                break
+        # Find the next open at or after now = end of the fresh window.
+        next_open = None
+        for o in opens:
+            o_utc = o.to_pydatetime().astimezone(dt.UTC)
+            if o_utc >= now_utc:
+                next_open = o_utc
+                break
+        if prev_close is None:
+            prev_close = now_utc - dt.timedelta(days=4)
+        if next_open is None:
+            next_open = now_utc + dt.timedelta(days=1)
+        return prev_close, next_open
+
+    # Fallback (no calendar lib): last weekday 4pm ET -> next weekday 9:30am ET,
+    # skipping Sat/Sun only (won't know holidays, but keeps running).
+    ref = now_utc
+    # crude ET offset (-4 or -5); use -4 as summer default for the fallback only
+    et_off = dt.timedelta(hours=4)
+    et_now = ref - et_off
+    d = et_now.date()
+    # walk back to the previous weekday close
+    prev = d
+    while True:
+        prev_dt = dt.datetime.combine(prev, dt.time(16, 0)) + et_off
+        if prev_dt.replace(tzinfo=dt.UTC) <= now_utc and prev.weekday() < 5:
+            break
+        prev = prev - dt.timedelta(days=1)
+    nxt = d
+    while nxt.weekday() >= 5:
+        nxt = nxt + dt.timedelta(days=1)
+    next_dt = (dt.datetime.combine(nxt, dt.time(9, 30)) + et_off).replace(tzinfo=dt.UTC)
+    return prev_dt.replace(tzinfo=dt.UTC), next_dt
+
+
+def parse_news_time(s):
+    """FMP news publishedDate looks like '2026-07-02 09:25:00' (US/Eastern)."""
+    if not s:
+        return None
+    for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%d"):
+        try:
+            naive = dt.datetime.strptime(s.strip()[:19], fmt)
+            if _ET is not None:
+                return naive.replace(tzinfo=_ET).astimezone(dt.UTC)
+            # assume ET as -4 if no zoneinfo
+            return (naive + dt.timedelta(hours=4)).replace(tzinfo=dt.UTC)
+        except ValueError:
+            continue
+    return None
+
+
 # ======================================================================
 # CATALYST TYPES  — the fixed menu the AI must choose from.
 # The AI picks the LABEL. The points come from here. Tune points freely.
 # `tier` is just for the badge colour on the site.
 # ======================================================================
 CATALYST_TYPES = {
-    # label                     points  tier   human description
-    "fda_approval":            (50, "S", "FDA approval / positive pivotal trial"),
-    "acquisition_target":      (50, "S", "Acquisition / buyout (target)"),
-    "major_contract":          (44, "S", "Major contract / government award"),
-    "earnings_blowout_raise":  (50, "S", "Earnings blowout + raised guidance"),
-    "earnings_beat":           (38, "A", "Earnings beat"),
-    "analyst_upgrade_big_pt":  (38, "A", "Upgrade + big price-target raise"),
-    "major_partnership":       (36, "A", "Major partnership / collaboration"),
-    "insider_cluster_buy":     (34, "A", "Insider cluster buying"),
-    "positive_guidance":       (30, "A", "Raised guidance (standalone)"),
-    "earnings_inline":         (24, "B", "In-line earnings, strong reaction"),
-    "sector_sympathy":         (22, "B", "Sector sympathy move"),
-    "index_inclusion":         (24, "B", "Index inclusion"),
-    "product_launch":          (26, "B", "Notable product launch"),
-    "legal_ruling_favorable":  (30, "A", "Favourable legal / regulatory ruling"),
-    "vague_pr":                (14, "C", "Vague PR / promotional"),
-    "dilution_offering":       (-8, "C", "Share offering / dilution (bearish)"),
-    "unclassified_move":       (14, "C", "Moving on unclear news"),
-    "no_catalyst":             (0,  None, "No real catalyst"),
+    # Ordered by Stockbee/Bonde's own catalyst hierarchy: fundamental
+    # re-ratings (earnings/sales acceleration, FDA, contracts) at the top;
+    # media mentions at the bottom (Bonde rates those low-success / one-day).
+    # Points are on a ~0-100 scale so catalyst dominates the total (~60%).
+    # label                       points  tier   human description
+    "earnings_accel_blowout":    (100, "S", "Earnings/sales acceleration, blowout + raised guidance"),
+    "fda_approval":              (98,  "S", "FDA approval / positive pivotal trial"),
+    "acquisition_target":        (96,  "S", "Acquisition / buyout (target)"),
+    "biotech_bigpharma_deal":    (92,  "S", "Biotech tie-up with large pharma"),
+    "major_contract":            (90,  "S", "Major new contract / government order"),
+    "earnings_beat_growth":      (84,  "A", "Earnings beat with strong sales/EPS growth"),
+    "sales_acceleration":        (82,  "A", "Sales acceleration"),
+    "guidance_raised":           (78,  "A", "Company raised earnings guidance"),
+    "new_orders":                (74,  "A", "New orders / demand surge"),
+    "sector_runaway":            (70,  "A", "Sector runaway move"),
+    "insider_buy_1m":            (66,  "A", "Insider buying > $1M"),
+    "new_product":               (62,  "B", "New product launch / major product news"),
+    "analyst_upgrade_big_pt":    (58,  "B", "Analyst upgrade + big price-target raise"),
+    "ibd_highlight":             (54,  "B", "IBD rating / IBD 100 / IBD highlight"),
+    "legal_ruling_favorable":    (60,  "B", "Favourable legal / regulatory ruling"),
+    "index_inclusion":           (50,  "B", "Index inclusion"),
+    "earnings_inline":           (44,  "B", "In-line earnings, strong reaction"),
+    "media_mention":             (24,  "C", "Barron's / Cramer / media mention (low success)"),
+    "vague_pr":                  (20,  "C", "Vague PR / promotional"),
+    "unclassified_move":         (22,  "C", "Moving on unclear news"),
+    "dilution_offering":         (-15, "C", "Share offering / dilution (bearish)"),
+    "no_catalyst":               (0,   None, "No real catalyst"),
 }
 
 # The closed list of labels the AI is allowed to return.
 ALLOWED_LABELS = list(CATALYST_TYPES.keys())
 
-# Deterministic tie-break priority: if the model is ever ambiguous between
-# two types, we instruct it to prefer the one higher in THIS list. Same
-# input -> same winner, every time.
+# Deterministic tie-break priority: prefer the type higher in this list when
+# two could fit. Same input -> same winner, every time. Mirrors the hierarchy.
 TIEBREAK_PRIORITY = [
-    "acquisition_target", "fda_approval", "earnings_blowout_raise",
-    "major_contract", "legal_ruling_favorable", "earnings_beat",
-    "analyst_upgrade_big_pt", "major_partnership", "positive_guidance",
-    "insider_cluster_buy", "index_inclusion", "product_launch",
-    "earnings_inline", "sector_sympathy", "dilution_offering",
-    "vague_pr", "unclassified_move", "no_catalyst",
+    "earnings_accel_blowout", "fda_approval", "acquisition_target",
+    "biotech_bigpharma_deal", "major_contract", "earnings_beat_growth",
+    "sales_acceleration", "guidance_raised", "new_orders", "sector_runaway",
+    "insider_buy_1m", "legal_ruling_favorable", "new_product",
+    "analyst_upgrade_big_pt", "ibd_highlight", "index_inclusion",
+    "earnings_inline", "media_mention", "unclassified_move", "vague_pr",
+    "dilution_offering", "no_catalyst",
 ]
 
 
 # ======================================================================
 # CONFIG  — tunable weights. Single source of truth.
+# Weighting target (Stockbee-informed): catalyst ~60%, neglect ~25%,
+# gap/volume/MA ~15%. Catalyst points run 0-100 (above); the technical
+# blocks below are scaled so their combined max is ~40% of a top score.
 # ======================================================================
 CONFIG = {
-    # ---- Gap % ramp (Stockbee: 7.5% pivot) ----
-    "gap": {"pivot": 7.5, "floor": 5.0, "full_points": 18,
-            "per_pct_above": 0.6, "max_bonus": 15},
+    # ---- Neglect (SECOND pillar — Bonde lists it as a core EP element) ----
+    # Scaled up so a fully-neglected stock adds a big chunk (~25% of total).
+    "neglect": {"high_points": 42, "med_points": 24, "low_points": 0},
 
-    # ---- ADR % ramp (Qullamaggie: 4% min) ----
-    "adr": {"pivot": 4.0, "full_points": 8, "per_pct_below": 1.5},
+    # ---- Gap % ramp (Stockbee ~7.5-10% pivot) ----
+    "gap": {"pivot": 7.5, "floor": 5.0, "full_points": 12,
+            "per_pct_above": 0.4, "max_bonus": 10},
+
+    # ---- Volume-expansion bonus (massive volume near open = key) ----
+    "volume_expansion": {"per_x": 2.5, "max_points": 10},
 
     # ---- Dollar volume ramp (>$100M for best) ----
-    "dollar_volume": {"pivot": 100, "full_points": 15, "below_points": 8,
-                      "thin_floor": 20, "thin_points": 4},
+    "dollar_volume": {"pivot": 100, "full_points": 8, "below_points": 4,
+                      "thin_floor": 20, "thin_points": 2},
 
-    # ---- Moving averages (200d most important, then 50d) ----
-    "ma": {"above_200": 8, "above_50": 6, "above_20": 3, "above_10": 2},
+    # ---- Moving averages (200d most important, then 50d) — minor ----
+    "ma": {"above_200": 5, "above_50": 4, "above_20": 2, "above_10": 1},
 
-    # ---- Neglect bonus (quiet base before the move = ideal EP) ----
-    "neglect": {"high_points": 10, "med_points": 6, "low_points": 0},
+    # ---- ADR % ramp (Qullamaggie 4% min) — minor, informational-ish ----
+    "adr": {"pivot": 4.0, "full_points": 5, "per_pct_below": 1.2},
 
-    # ---- Volume-expansion bonus ----
-    "volume_expansion": {"per_x": 3, "max_points": 12},
+    # ---- Low-float flag (Stockbee: <20M shares = explosive). INFO ONLY,
+    #      does not change score — just flagged on the card. ----
+    "low_float_shares_m": 20,
 
-    # ---- Sanity gates (the ONLY hard filters) ----
+    # ---- Sanity gates (hard filters) ----
     "gates": {"min_price": 3.0, "min_market_cap_m": 100,
               "min_dollar_volume_m": 5, "require_catalyst": True},
 
+    # ---- News freshness window (built on the market calendar) ----
+    "freshness": {"enabled": True},
+
     # ---- AI classification ----
     "ai": {
-        "model": "claude-sonnet-5",   # good + cheap for classification
-        "enabled": True,               # set False to fall back to keyword-only
-        "batch_size": 15,              # headlines per API call (keeps it cheap/fast)
+        "model": "claude-sonnet-5",
+        "enabled": True,
+        "batch_size": 15,
     },
 
     "max_results": 40,
@@ -159,11 +276,12 @@ def fmp(path, params=""):
 # 1. Gather candidates — the day's gappers / big movers
 # ======================================================================
 def gather_candidates():
+    """
+    Gainers-first: pull what's actually MOVING in premarket, then (later) we
+    check each for a fresh catalyst. No point classifying catalysts on stocks
+    that aren't gapping. biggest-gainers gives ticker, name, price, change %.
+    """
     cand = {}
-    # stable: biggest gainers (reflects premarket reaction near the open).
-    # This already provides ticker, name, price, and change % — everything we
-    # need to seed the board. (We intentionally do NOT call batch-quote here:
-    # it isn't included on this FMP plan, and biggest-gainers covers us.)
     gainers = fmp("biggest-gainers") or []
     for g in gainers[:80]:
         t = g.get("symbol")
@@ -173,11 +291,45 @@ def gather_candidates():
         cand[t] = {"ticker": t, "name": g.get("name", ""),
                    "changesPercentage": chg,
                    "price": _to_float(g.get("price"))}
-        # gainers change % reflects the current move; use it as the premarket gap
-        if chg is not None and RUN_LABEL in ("1", "2", "3"):
+        # gainers change % is the current move; treat as the premarket gap
+        if chg is not None:
             cand[t]["premarket_change"] = chg
 
     print(f"  candidates gathered: {len(cand)}")
+    return cand
+
+
+def enrich_profile(cand):
+    """
+    Per-candidate company-profile enrichment (Premium): market cap, 52-week
+    range, shares outstanding / float for the low-float flag. Degrades quietly
+    if a field is missing so a thin plan never breaks the run.
+    """
+    for t, row in cand.items():
+        prof = fmp("profile", f"&symbol={t}")
+        p = prof[0] if isinstance(prof, list) and prof else (prof if isinstance(prof, dict) else None)
+        if p:
+            mc = _to_float(p.get("marketCap") or p.get("mktCap"))
+            if mc:
+                row["market_cap_m"] = mc / 1_000_000
+            row["price"] = _to_float(p.get("price")) or row.get("price")
+            # 52-week range comes as "12.34-56.78"
+            rng = p.get("range") or ""
+            if "-" in str(rng):
+                try:
+                    lo, hi = [float(x) for x in str(rng).split("-")[:2]]
+                    row["wk52_high"] = hi
+                    row["wk52_low"] = lo
+                except ValueError:
+                    pass
+        # shares float (separate endpoint on Premium)
+        fl = fmp("shares-float", f"&symbol={t}")
+        f = fl[0] if isinstance(fl, list) and fl else (fl if isinstance(fl, dict) else None)
+        if f:
+            fs = _to_float(f.get("floatShares") or f.get("freeFloat") or f.get("outstandingShares"))
+            if fs:
+                row["float_m"] = fs / 1_000_000
+        time.sleep(0.03)
     return cand
 
 
@@ -202,10 +354,18 @@ def fetch_news(tickers):
                 # stable uses "text" for the snippet body
                 "text": (n.get("text") or n.get("content") or "")[:400].strip(),
                 "published": n.get("publishedDate") or n.get("date") or "",
+                "url": (n.get("url") or "").strip(),
+                "site": (n.get("site") or n.get("publisher") or "").strip(),
             }
+            item["published_utc"] = parse_news_time(item["published"])
             news.setdefault(t, []).append(item)
     for t in news:
-        news[t] = sorted(news[t], key=lambda x: x["published"], reverse=True)[:3]
+        # sort newest-first by parsed time where available, else string
+        news[t] = sorted(
+            news[t],
+            key=lambda x: x["published_utc"] or dt.datetime.min.replace(tzinfo=dt.UTC),
+            reverse=True,
+        )[:5]
     print(f"  news pulled for: {len(news)} tickers")
     return news
 
@@ -216,7 +376,7 @@ def fetch_news(tickers):
 def classify_all_with_ai(cand, news):
     """
     Batch every candidate's news through the model. The model returns, per
-    ticker, ONE label from ALLOWED_LABELS. Disabled thinking + closed menu +
+    ticker, ONE label from ALLOWED_LABELS. temperature=0 + closed menu +
     tie-break rule => repeatable. No scores come from the model.
     """
     if not (CONFIG["ai"]["enabled"] and ANTHROPIC_KEY):
@@ -277,18 +437,14 @@ def _ai_classify_batch(batch):
     user = (
         f"MENU (label = definition):\n{menu}\n\n"
         f"STOCKS TO CLASSIFY:\n{stocks_block}\n\n"
-        'Return JSON like {"AAPL":"earnings_beat","XYZ":"no_catalyst"}. '
+        'Return JSON like {"AAPL":"earnings_beat_growth","XYZ":"no_catalyst"}. '
         "Use only labels from the menu."
     )
 
-    # Sonnet 5 rejects non-default sampling params (temperature/top_p/top_k) with
-    # a 400. We also turn thinking OFF — classification needs no reasoning, and
-    # thinking tokens would eat into max_tokens. Determinism comes from the closed
-    # label menu + tie-break rule + disabled thinking, not from temperature.
     body = json.dumps({
         "model": CONFIG["ai"]["model"],
-        "max_tokens": 1500,
-        "thinking": {"type": "disabled"},
+        "max_tokens": 2000,
+        "temperature": 0,               # <-- determinism
         "system": system,
         "messages": [{"role": "user", "content": user}],
     }).encode()
@@ -302,17 +458,35 @@ def _ai_classify_batch(batch):
             "anthropic-version": "2023-06-01",
         },
     )
-    return _do_ai_request(req)
+    result = _do_ai_request(req)
+    if result is not None:
+        return result
+
+    # Retry once WITHOUT temperature — the newest thinking-on models can 400
+    # on an explicit temperature. Determinism still holds via the closed menu
+    # + tie-break rule, which don't depend on temperature.
+    body2 = json.dumps({
+        "model": CONFIG["ai"]["model"],
+        "max_tokens": 2000,
+        "system": system,
+        "messages": [{"role": "user", "content": user}],
+    }).encode()
+    req2 = Request(
+        "https://api.anthropic.com/v1/messages",
+        data=body2,
+        headers={
+            "Content-Type": "application/json",
+            "x-api-key": ANTHROPIC_KEY,
+            "anthropic-version": "2023-06-01",
+        },
+    )
+    return _do_ai_request(req2, note="(retry without temperature)")
 
 
 def _do_ai_request(req, note=""):
     try:
         with urlopen(req, timeout=45) as r:
             data = json.loads(r.read().decode())
-        # refusals come back as HTTP 200 with stop_reason "refusal" — treat as no result
-        if data.get("stop_reason") == "refusal":
-            print("  ! AI returned a refusal; keyword fallback for this batch")
-            return None
         text = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
         text = text.strip().replace("```json", "").replace("```", "").strip()
         parsed = json.loads(text)
@@ -354,24 +528,25 @@ def keyword_fallback(t, row, headlines):
         return "fda_approval"
     if has("to be acquired", "acquisition of", "buyout", "takeover", "merger agreement"):
         return "acquisition_target"
-    if has("awarded contract", "wins contract", "contract award", "defense contract"):
+    if has("collaboration with", "licensing deal", "partners with pfizer", "big pharma"):
+        return "biotech_bigpharma_deal"
+    if has("awarded contract", "wins contract", "contract award", "defense contract", "new order"):
         return "major_contract"
-    if has("raises guidance", "raised full-year", "boosts outlook"):
-        if has("beats", "tops estimates", "record revenue"):
-            return "earnings_blowout_raise"
-        return "positive_guidance"
-    if has("beats", "tops estimates", "earnings beat", "q1 beat", "q2 beat", "q3 beat", "q4 beat"):
-        return "earnings_beat"
+    if has("raises guidance", "raised full-year", "boosts outlook", "raises outlook"):
+        return "guidance_raised"
+    if has("beats", "tops estimates", "earnings beat", "record revenue",
+           "sales growth", "revenue growth"):
+        return "earnings_beat_growth"
     if has("upgrades to buy", "price target raised", "raises price target", "upgraded"):
         return "analyst_upgrade_big_pt"
-    if has("partnership", "collaboration", "teams up", "strategic alliance"):
-        return "major_partnership"
+    if has("insider buy", "ceo buys", "director buys"):
+        return "insider_buy_1m"
     if has("offering", "prices offering", "registered direct", "dilut"):
         return "dilution_offering"
     if has("added to s&p", "joins index", "index inclusion"):
         return "index_inclusion"
-    if has("launches", "unveils", "introduces"):
-        return "product_launch"
+    if has("launches", "unveils", "introduces", "new product"):
+        return "new_product"
     move = abs(row.get("premarket_change") or row.get("changesPercentage") or 0)
     if move >= 7.5:
         return "unclassified_move"
@@ -430,6 +605,19 @@ def compute_technicals(t):
     for k, key in [(10, "above_10"), (20, "above_20"), (50, "above_50"), (200, "above_200")]:
         m = sma(k)
         out[key] = bool(m and last > m)
+
+    # RVOL (relative volume): today's volume vs the 20-day average. The key
+    # premarket participation tell — is the gap backed by real volume?
+    if len(vols) > 21 and vols[0]:
+        avg20 = sum(vols[1:21]) / 20
+        out["rvol"] = round(vols[0] / avg20, 1) if avg20 else None
+
+    # Distance from 52-week high, from the price history (fallback if profile
+    # didn't supply it): >0 means below the high, ~0 means at/near blue-sky.
+    if closes:
+        hi_252 = max(closes[:252]) if len(closes) >= 2 else last
+        if hi_252:
+            out["pct_below_52w_high"] = round((hi_252 - last) / hi_252 * 100, 1)
 
     if len(closes) > 21:
         base = closes[1:21]
@@ -497,16 +685,34 @@ def score(row):
         tech_pts += ma_pts
         tbreak.append([f"Above {', '.join(ma_desc)}", f"+{ma_pts}"])
 
+    # Neglect is its own major pillar (~25%), not a small technical bonus.
     neg = row.get("neglect", "low")
     npts = c["neglect"].get(f"{neg}_points", 0)
-    if npts:
-        tech_pts += npts
-        tbreak.append([f"{neg.capitalize()} neglect (quiet base)", f"+{npts}"])
+    neglect_pts = npts
+    nbreak = [[f"{neg.capitalize()} neglect (quiet base)", f"+{npts}"]] if npts else []
+
+    # ---- Info-only enrichments: shown on the card, NOT added to the score ----
+    info = []
+    rvol = row.get("rvol")
+    if rvol is not None:
+        info.append(["RVOL", f"{rvol:.1f}x"])
+    fl = row.get("float_m")
+    if fl is not None:
+        low = fl < c["low_float_shares_m"]
+        row["low_float"] = low
+        info.append(["Float", f"{fl:.0f}M{' · LOW' if low else ''}"])
+    pbh = row.get("pct_below_52w_high")
+    if pbh is not None:
+        tag = "at highs" if pbh <= 2 else f"{pbh:.0f}% below high"
+        info.append(["52wk", tag])
+    row["info"] = info
 
     row["catalyst_score"] = cat_pts
+    row["neglect_score"] = neglect_pts
     row["technical_score"] = tech_pts
-    row["total"] = cat_pts + tech_pts
+    row["total"] = cat_pts + neglect_pts + tech_pts
     row["cbreak"] = cbreak
+    row["nbreak"] = nbreak
     row["tbreak"] = tbreak
     return row
 
@@ -565,9 +771,18 @@ def load_existing():
 
 
 def main():
+    global MODE
     if not FMP_KEY:
         print("ERROR: FMP_API_KEY not set.")
         write_output([]); return
+
+    # Auto-detect mode unless explicitly forced. First run of the day (no
+    # board yet for today) = full scan; every later run = cheap refresh.
+    forced = os.environ.get("MODE", "").strip()
+    if forced in ("full", "refresh"):
+        MODE = forced
+    else:
+        MODE = "refresh" if load_existing() else "full"
 
     print(f"=== EP Scanner · mode={MODE} · run {RUN_LABEL} · {dt.datetime.now(dt.UTC).isoformat()} ===")
 
@@ -577,38 +792,93 @@ def main():
         run_full()
 
 
+def assign_bucket(row, news_items, window):
+    """
+    Decide the freshness bucket for a candidate:
+      "fresh"    - has a catalyst-bearing news item inside [last close, next open]
+      "no_news"  - gapping but NO datable news in the window (shown separately)
+      "stale"    - newest news is OLDER than the window (discarded)
+    Returns (bucket, freshest_item_or_None).
+    """
+    win_start, win_end = window
+    dated = [n for n in news_items if n.get("published_utc")]
+    if not dated:
+        return "no_news", (news_items[0] if news_items else None)
+
+    freshest = max(dated, key=lambda n: n["published_utc"])
+    ts = freshest["published_utc"]
+    if win_start <= ts <= win_end + dt.timedelta(hours=1):
+        return "fresh", freshest
+    # newest news predates the window entirely -> stale, already-played-out
+    return "stale", freshest
+
+
 def run_full():
-    """Heavy run: AI classification + full technicals. Used by the 4 scheduled runs."""
+    """Heavy run: gainers-first, fresh-catalyst filter, AI classification, score."""
     if not ANTHROPIC_KEY:
         print("  note: ANTHROPIC_API_KEY not set -> using keyword fallback")
 
-    # carry over any names already seen today so nothing that appeared is lost
     prior = load_existing()
     prior_rows = {r["ticker"]: r for r in prior["rows"]} if prior else {}
 
+    window = fresh_window_utc()
+    print(f"  fresh window: {window[0].isoformat()} -> {window[1].isoformat()}")
+
     cand = gather_candidates()
+
+    # Price gate FIRST (cheap) — drop sub-$3 and missing-price before any paid calls
+    cand = {t: r for t, r in cand.items()
+            if (r.get("price") is not None and r["price"] >= CONFIG["gates"]["min_price"])}
+    print(f"  after price >= ${CONFIG['gates']['min_price']:.0f} gate: {len(cand)}")
+
     news = fetch_news(list(cand.keys()))
-    cand = classify_all_with_ai(cand, news)
-    cand = attach_technicals(cand)
+
+    # Bucket by freshness
+    fresh, no_news, stale = {}, {}, 0
+    for t, row in cand.items():
+        bucket, item = assign_bucket(row, news.get(t, []), window)
+        if item:
+            row["headline"] = item.get("title", "")
+            row["news_url"] = item.get("url", "")
+            row["news_site"] = item.get("site", "")
+            row["news_time"] = item.get("published", "")
+        if bucket == "fresh":
+            fresh[t] = row
+        elif bucket == "no_news":
+            no_news[t] = row
+        else:
+            stale += 1
+    print(f"  buckets: {len(fresh)} fresh · {len(no_news)} gapping-no-catalyst · {stale} stale (discarded)")
+
+    # AI-classify ONLY the fresh ones (that's where catalysts matter)
+    fresh = classify_all_with_ai(fresh, news)
+    fresh = enrich_profile(fresh)
+    fresh = attach_technicals(fresh)
 
     board = {}
-    for t, row in cand.items():
+    for t, row in fresh.items():
+        row["section"] = "ep"
         row["cooling"] = not passes_gates(row)
         board[t] = score(row)
 
-    # re-price + carry forward prior names not in today's gather (kept, may be cooling)
+    # gapping-no-catalyst: keep, but mark section; light technicals, no AI
+    for t, row in no_news.items():
+        _apply_label(row, "no_catalyst")
+        row.update(compute_technicals(t))
+        row["section"] = "no_catalyst"
+        row["cooling"] = False
+        board[t] = score(row)
+
+    # carry forward prior fresh names not in today's gather (re-price, keep)
     for t, prow in prior_rows.items():
-        if t in board:
+        if t in board or prow.get("section") != "ep":
             continue
-        prow.setdefault("catalyst_label", "no_catalyst")
-        tech = compute_technicals(t)
-        prow.update(tech)
+        prow.update(compute_technicals(t))
         prow["cooling"] = not passes_gates(prow)
         board[t] = score(prow)
 
     rows = _finalize(board)
-    print(f"  final board: {len(rows)} ({sum(1 for r in rows if not r['cooling'])} active, "
-          f"{sum(1 for r in rows if r['cooling'])} cooling)")
+    print(f"  final board: {len(rows)} rows")
     write_output(rows, first_full=True)
 
 
@@ -631,34 +901,50 @@ def run_refresh():
         label = prow.get("catalyst_label", "no_catalyst")
         _apply_label(prow, label)
         prow.update(compute_technicals(t))     # only the cheap price math
-        prow["cooling"] = not passes_gates(prow)
+        prow.setdefault("section", "ep")
+        if prow["section"] == "ep":
+            prow["cooling"] = not passes_gates(prow)
+        else:
+            prow["cooling"] = False
         board[t] = score(prow)
         time.sleep(0.03)
 
     rows = _finalize(board)
-    active = sum(1 for r in rows if not r["cooling"])
-    print(f"  refreshed {len(rows)} names ({active} active, {len(rows)-active} cooling) — no AI used")
+    ep_active = sum(1 for r in rows if r.get("section", "ep") == "ep" and not r["cooling"])
+    print(f"  refreshed {len(rows)} names ({ep_active} active EP) — no AI used")
     write_output(rows)
 
 
 def _finalize(board):
-    """Sort: active names by score desc, then cooling names by score desc below them."""
+    """
+    Order the board:
+      1. EP section, active, by score desc
+      2. EP section, cooling, by score desc
+      3. gapping-no-catalyst section, by gap desc
+    """
     rows = list(board.values())
-    active = sorted([r for r in rows if not r.get("cooling")], key=lambda r: r["total"], reverse=True)
-    cooling = sorted([r for r in rows if r.get("cooling")], key=lambda r: r["total"], reverse=True)
-    active = active[:CONFIG["max_results"]]
-    return active + cooling
+    ep = [r for r in rows if r.get("section", "ep") == "ep"]
+    noc = [r for r in rows if r.get("section") == "no_catalyst"]
+
+    ep_active = sorted([r for r in ep if not r.get("cooling")], key=lambda r: r["total"], reverse=True)
+    ep_cool = sorted([r for r in ep if r.get("cooling")], key=lambda r: r["total"], reverse=True)
+    ep_active = ep_active[:CONFIG["max_results"]]
+    noc = sorted(noc, key=lambda r: (r.get("premarket_change") or r.get("gap_pct") or 0), reverse=True)
+    return ep_active + ep_cool + noc
 
 
 def write_output(rows, first_full=False):
+    ep = [r for r in rows if r.get("section", "ep") == "ep"]
     payload = {
         "generated_utc": dt.datetime.now(dt.UTC).isoformat(),
         "session_date": _today_key(),
         "mode": MODE,
         "run_label": RUN_LABEL,
         "count": len(rows),
-        "active_count": sum(1 for r in rows if not r.get("cooling")),
+        "active_count": sum(1 for r in ep if not r.get("cooling")),
+        "no_catalyst_count": sum(1 for r in rows if r.get("section") == "no_catalyst"),
         "ai_used": bool(CONFIG["ai"]["enabled"] and ANTHROPIC_KEY),
+        "fresh_window_ok": _HAS_CAL,
         "config_summary": {"gap_pivot": CONFIG["gap"]["pivot"],
                            "adr_pivot": CONFIG["adr"]["pivot"],
                            "dollar_volume_pivot": CONFIG["dollar_volume"]["pivot"]},
