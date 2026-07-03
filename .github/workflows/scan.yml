@@ -1,43 +1,37 @@
 name: EP Scanner
 
 # ---------------------------------------------------------------------------
-# TWO kinds of run:
+# Runs every 5 minutes across US premarket (4:00am–9:29am ET), weekdays only.
 #
-#   FULL runs (4x/day)  — gather candidates, fetch news, classify with AI,
-#                          price, score. These set the catalysts for the day.
-#     Run 0  07:00 UTC = 02:00 ET (~07:00 UK)  overnight catalyst watchlist
-#     Run 1  13:00 UTC = 08:00 ET (~13:00 UK)  premarket, gaps live
-#     Run 2  13:45 UTC = 08:45 ET (~13:45 UK)
-#     Run 3  14:15 UTC = 09:15 ET (~14:15 UK)  sharpest pre-open read
+# GitHub cron is UTC. US premarket in ET maps to UTC as follows:
+#   - During EDT (mid-Mar to early-Nov, incl. now): 4:00am ET = 08:00 UTC,
+#     9:29am ET = 13:29 UTC.
+#   - During EST (winter): shift +1h (09:00–14:29 UTC).
+# To keep it simple and cover both, we run every 5 min from 08:00–14:29 UTC.
+# That's the union of both DST windows; a few runs land pre-4am/post-open on
+# one side of the DST switch, which is harmless (the freshness filter and
+# gainers list simply reflect whatever's there).
 #
-#   REFRESH runs (every 15 min, premarket window) — reuse the cached AI
-#                          labels, only re-price the technicals. NO AI cost,
-#                          NO news fetch. Cheap. Keeps gaps/scores current.
-#     Every 15 min from 13:00–14:15 UTC on weekdays.
+# Public repo = unlimited free Actions minutes, so the ~78 runs/weekday cost
+# nothing. Label-caching means only genuinely new names hit the AI.
+# Note: GitHub may delay scheduled runs 5–15 min under load.
 #
-# Times are pinned in UTC (GitHub cron is always UTC). In US summer the ET
-# offset shifts 1 hour earlier — still inside premarket, so fine.
-# Note: GitHub may delay scheduled runs by 5–15 min under load. Public repo
-# = unlimited free Actions minutes, so the 15-min cadence costs nothing.
+# The FIRST run of each UTC day is a FULL scan (classifies catalysts);
+# every subsequent run that day is a cheap REFRESH (re-price, reuse labels).
 # ---------------------------------------------------------------------------
 
 on:
   schedule:
-    # --- FULL runs ---
-    - cron: "0 7 * * 1-5"      # Run 0  (full)
-    - cron: "0 13 * * 1-5"     # Run 1  (full)
-    - cron: "45 13 * * 1-5"    # Run 2  (full)
-    - cron: "15 14 * * 1-5"    # Run 3  (full)
-    # --- REFRESH runs (every 15 min across the premarket window) ---
-    - cron: "15 13 * * 1-5"
-    - cron: "30 13 * * 1-5"
-    - cron: "0 14 * * 1-5"
-    - cron: "30 14 * * 1-5"
-    - cron: "45 14 * * 1-5"
-  workflow_dispatch:            # manual trigger (runs a FULL scan)
+    - cron: "*/5 8-13 * * 1-5"     # 08:00–13:55 UTC, every 5 min, Mon–Fri
+    - cron: "0-29/5 14 * * 1-5"    # 14:00–14:29 UTC, every 5 min (tail of window)
+  workflow_dispatch:                # manual trigger (forces a FULL scan)
 
 permissions:
   contents: write
+
+concurrency:
+  group: ep-scanner
+  cancel-in-progress: false
 
 jobs:
   scan:
@@ -49,24 +43,14 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Decide run label + mode
-        id: cfg
-        run: |
-          case "${{ github.event.schedule }}" in
-            "0 7 * * 1-5")   echo "label=0"       >> $GITHUB_OUTPUT; echo "mode=full"    >> $GITHUB_OUTPUT ;;
-            "0 13 * * 1-5")  echo "label=1"       >> $GITHUB_OUTPUT; echo "mode=full"    >> $GITHUB_OUTPUT ;;
-            "45 13 * * 1-5") echo "label=2"       >> $GITHUB_OUTPUT; echo "mode=full"    >> $GITHUB_OUTPUT ;;
-            "15 14 * * 1-5") echo "label=3"       >> $GITHUB_OUTPUT; echo "mode=full"    >> $GITHUB_OUTPUT ;;
-            "")              echo "label=manual"  >> $GITHUB_OUTPUT; echo "mode=full"    >> $GITHUB_OUTPUT ;;
-            *)               echo "label=refresh" >> $GITHUB_OUTPUT; echo "mode=refresh" >> $GITHUB_OUTPUT ;;
-          esac
+      - name: Install deps
+        run: pip install pandas_market_calendars
 
       - name: Run scanner
         env:
           FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          RUN_LABEL: ${{ steps.cfg.outputs.label }}
-          MODE: ${{ steps.cfg.outputs.mode }}
+          RUN_LABEL: scheduled
         run: python scanner.py
 
       - name: Commit results
@@ -74,5 +58,5 @@ jobs:
           git config user.name "ep-scanner-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data.json
-          git commit -m "${{ steps.cfg.outputs.mode }} run ${{ steps.cfg.outputs.label }} $(date -u +%Y-%m-%dT%H:%MZ)" || echo "no changes"
+          git commit -m "scan $(date -u +%Y-%m-%dT%H:%MZ)" || echo "no changes"
           git push
