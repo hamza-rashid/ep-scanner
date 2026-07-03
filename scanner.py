@@ -230,6 +230,13 @@ CONFIG = {
     "gates": {"min_price": 3.0, "min_market_cap_m": 100,
               "min_dollar_volume_m": 5, "require_catalyst": True},
 
+    # ---- Table filter defaults (SOFT — the site toggles these; nothing is
+    #      dropped by the scanner, just flagged so the site can filter) ----
+    "table_filters": {
+        "adr_min": 4.0,            # Qullamaggie ADR floor (toggleable on site)
+        "dollar_vol_floor_m": 1.5, # low floor to cut true illiquid junk
+    },
+
     # ---- News freshness window (built on the market calendar) ----
     "freshness": {"enabled": True},
 
@@ -275,45 +282,73 @@ def fmp(path, params=""):
 # ======================================================================
 # 1. Gather candidates — the day's gappers / big movers
 # ======================================================================
+# Name patterns that reliably indicate a leveraged/inverse ETF or fund rather
+# than a company. These aren't episodic pivots — they gap because their
+# UNDERLYING moved, with no catalyst of their own. Dropped up front.
+ETF_NAME_MARKERS = (
+    " etf", " etn", "daily target", "2x long", "2x short", "3x long", "3x short",
+    "2x bull", "2x bear", "leverage shares", "graniteshares", "direxion",
+    "proshares", "defiance daily", "-1x", "ultrapro", "ultrashort",
+    "daily bull", "daily bear", " fund", "leveraged", "inverse",
+)
+
+
+def looks_like_etf(name):
+    n = (name or "").lower()
+    return any(m in n for m in ETF_NAME_MARKERS)
+
+
 def gather_candidates():
     """
     Gainers-first: pull what's actually MOVING in premarket, then (later) we
     check each for a fresh catalyst. No point classifying catalysts on stocks
     that aren't gapping. biggest-gainers gives ticker, name, price, change %.
+    Leveraged/inverse ETFs are dropped here — they gap on their underlying,
+    not on any catalyst of their own, so they're never EPs.
     """
     cand = {}
+    skipped_etf = 0
     gainers = fmp("biggest-gainers") or []
-    for g in gainers[:80]:
+    for g in gainers[:100]:
         t = g.get("symbol")
         if not t:
             continue
+        name = g.get("name", "")
+        if looks_like_etf(name):
+            skipped_etf += 1
+            continue
         chg = _to_float(g.get("changesPercentage"))
-        cand[t] = {"ticker": t, "name": g.get("name", ""),
+        cand[t] = {"ticker": t, "name": name,
                    "changesPercentage": chg,
                    "price": _to_float(g.get("price"))}
-        # gainers change % is the current move; treat as the premarket gap
         if chg is not None:
             cand[t]["premarket_change"] = chg
 
-    print(f"  candidates gathered: {len(cand)}")
+    print(f"  candidates gathered: {len(cand)} ({skipped_etf} ETFs/funds skipped)")
     return cand
 
 
 def enrich_profile(cand):
     """
     Per-candidate company-profile enrichment (Premium): market cap, 52-week
-    range, shares outstanding / float for the low-float flag. Degrades quietly
-    if a field is missing so a thin plan never breaks the run.
+    range, shares outstanding / float for the low-float flag. Also a second
+    ETF/fund defense — the profile endpoint flags funds via isEtf/isFund, so
+    anything that slipped past the name filter is dropped here. Degrades
+    quietly if a field is missing so a thin plan never breaks the run.
     """
+    drop = []
     for t, row in cand.items():
         prof = fmp("profile", f"&symbol={t}")
         p = prof[0] if isinstance(prof, list) and prof else (prof if isinstance(prof, dict) else None)
         if p:
+            # second ETF/fund defense: trust the profile flags
+            if p.get("isEtf") or p.get("isFund") or p.get("isEtn"):
+                drop.append(t)
+                continue
             mc = _to_float(p.get("marketCap") or p.get("mktCap"))
             if mc:
                 row["market_cap_m"] = mc / 1_000_000
             row["price"] = _to_float(p.get("price")) or row.get("price")
-            # 52-week range comes as "12.34-56.78"
             rng = p.get("range") or ""
             if "-" in str(rng):
                 try:
@@ -322,7 +357,6 @@ def enrich_profile(cand):
                     row["wk52_low"] = lo
                 except ValueError:
                     pass
-        # shares float (separate endpoint on Premium)
         fl = fmp("shares-float", f"&symbol={t}")
         f = fl[0] if isinstance(fl, list) and fl else (fl if isinstance(fl, dict) else None)
         if f:
@@ -330,6 +364,10 @@ def enrich_profile(cand):
             if fs:
                 row["float_m"] = fs / 1_000_000
         time.sleep(0.03)
+    for t in drop:
+        cand.pop(t, None)
+    if drop:
+        print(f"  dropped {len(drop)} ETFs/funds via profile flag")
     return cand
 
 
@@ -770,11 +808,34 @@ def load_existing():
     return None
 
 
+def is_trading_day(now_utc=None):
+    """True if today is a NYSE trading day (full or half). Uses the calendar;
+    if unavailable, falls back to weekday check (can't detect holidays)."""
+    if now_utc is None:
+        now_utc = dt.datetime.now(dt.UTC)
+    if _HAS_CAL:
+        try:
+            et_date = (now_utc.astimezone(_ET).date() if _ET else now_utc.date())
+            sched = _NYSE.schedule(start_date=et_date.isoformat(), end_date=et_date.isoformat())
+            return len(sched) > 0
+        except Exception:
+            pass
+    return now_utc.weekday() < 5
+
+
 def main():
     global MODE
     if not FMP_KEY:
         print("ERROR: FMP_API_KEY not set.")
         write_output([]); return
+
+    # Holiday / non-trading-day guard: exit instantly on market holidays and
+    # weekends. GitHub's cron still fires (it only knows weekdays), but there's
+    # no point scanning when the market is closed — so we do nothing and leave
+    # the existing board untouched.
+    if not is_trading_day():
+        print("  not a trading day (holiday/weekend) — exiting without scanning.")
+        return
 
     # Auto-detect mode unless explicitly forced. First run of the day (no
     # board yet for today) = full scan; every later run = cheap refresh.
@@ -917,20 +978,18 @@ def run_refresh():
 
 def _finalize(board):
     """
-    Order the board:
-      1. EP section, active, by score desc
-      2. EP section, cooling, by score desc
-      3. gapping-no-catalyst section, by gap desc
+    No composite ranking here — the SITE sorts. We just emit every row with all
+    its data fields (%chg, $vol, ADR, RVOL, score, catalyst, etc.) and a
+    `section` tag (ep / no_catalyst). Default sort is applied client-side by
+    % change; the user can re-sort by any column. Score is still computed and
+    included as one sortable column, not the organizing principle.
+    A light cap keeps the payload sane.
     """
     rows = list(board.values())
-    ep = [r for r in rows if r.get("section", "ep") == "ep"]
-    noc = [r for r in rows if r.get("section") == "no_catalyst"]
-
-    ep_active = sorted([r for r in ep if not r.get("cooling")], key=lambda r: r["total"], reverse=True)
-    ep_cool = sorted([r for r in ep if r.get("cooling")], key=lambda r: r["total"], reverse=True)
-    ep_active = ep_active[:CONFIG["max_results"]]
-    noc = sorted(noc, key=lambda r: (r.get("premarket_change") or r.get("gap_pct") or 0), reverse=True)
-    return ep_active + ep_cool + noc
+    # keep newest/liveliest first as a stable default (site re-sorts anyway)
+    rows.sort(key=lambda r: (r.get("premarket_change") or r.get("gap_pct") or 0), reverse=True)
+    cap = CONFIG.get("max_results", 60) * 2
+    return rows[:cap]
 
 
 def write_output(rows, first_full=False):
@@ -945,6 +1004,7 @@ def write_output(rows, first_full=False):
         "no_catalyst_count": sum(1 for r in rows if r.get("section") == "no_catalyst"),
         "ai_used": bool(CONFIG["ai"]["enabled"] and ANTHROPIC_KEY),
         "fresh_window_ok": _HAS_CAL,
+        "table_filters": CONFIG["table_filters"],
         "config_summary": {"gap_pivot": CONFIG["gap"]["pivot"],
                            "adr_pivot": CONFIG["adr"]["pivot"],
                            "dollar_volume_pivot": CONFIG["dollar_volume"]["pivot"]},

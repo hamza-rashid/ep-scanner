@@ -6,70 +6,77 @@
 <title>EP Scanner</title>
 <style>
   :root{
-    --bg:#0e1116; --panel:#161b22; --panel2:#1c2230; --line:#26303d;
-    --ink:#e6edf3; --ink2:#9aa7b4; --ink3:#6b7684;
-    --tS:#2dd4a7; --tSb:#0c3a2e; --tA:#4a9df0; --tAb:#0c2a48;
-    --tB:#e0a336; --tBb:#3a2c0c; --tC:#7c8794; --tCb:#22282f;
-    --accent:#4a9df0; --down:#e0736b; --lowfloat:#c98bdb;
+    --bg:#0e1116;--panel:#161b22;--panel2:#1c2230;--line:#26303d;
+    --ink:#e6edf3;--ink2:#9aa7b4;--ink3:#6b7684;
+    --tS:#2dd4a7;--tSb:#0c3a2e;--tA:#4a9df0;--tAb:#0c2a48;
+    --tB:#e0a336;--tBb:#3a2c0c;--tC:#7c8794;--tCb:#22282f;
+    --accent:#4a9df0;--up:#2dd4a7;--down:#e0736b;--lowfloat:#c98bdb;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:var(--bg);color:var(--ink);
     font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-    -webkit-font-smoothing:antialiased;line-height:1.5;padding:0 16px 80px}
-  .wrap{max-width:940px;margin:0 auto}
-  header{display:flex;align-items:baseline;justify-content:space-between;
-    flex-wrap:wrap;gap:12px;padding:28px 0 16px;border-bottom:1px solid var(--line);margin-bottom:18px}
+    -webkit-font-smoothing:antialiased;line-height:1.45;padding:0 16px 80px}
+  .wrap{max-width:1120px;margin:0 auto}
+  header{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:12px;
+    padding:24px 0 14px;border-bottom:1px solid var(--line);margin-bottom:14px}
   .title{font-size:15px;font-weight:600;letter-spacing:.14em;text-transform:uppercase}
   .title span{color:var(--accent)}
   .meta{font-size:12px;color:var(--ink3);font-variant-numeric:tabular-nums}
   .meta b{color:var(--ink2);font-weight:500}
-  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:22px}
-  .stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
-  .stat .k{font-size:11px;color:var(--ink3);text-transform:uppercase;letter-spacing:.06em}
-  .stat .v{font-size:22px;font-weight:600;font-variant-numeric:tabular-nums;margin-top:3px}
-  .hd{display:grid;grid-template-columns:26px 40px 1fr 96px 18px;gap:12px;padding:0 14px 8px;
-    font-size:11px;color:var(--ink3);text-transform:uppercase;letter-spacing:.06em}
-  .hd .r{text-align:right}
-  .row{background:var(--panel);border:1px solid var(--line);border-radius:10px;
-    margin-bottom:8px;overflow:hidden;transition:border-color .12s,opacity .3s}
-  .row:hover{border-color:#33404f}
-  .row.cooling{opacity:.5}.row.cooling:hover{opacity:.85}
-  .rowhead{display:grid;grid-template-columns:26px 40px 1fr 96px 18px;gap:12px;
-    align-items:center;padding:12px 14px;cursor:pointer}
-  .rank{font-size:17px;font-weight:600;color:var(--ink3);font-variant-numeric:tabular-nums}
-  .tier{width:34px;height:34px;border-radius:8px;display:flex;align-items:center;
-    justify-content:center;font-weight:700;font-size:15px}
+
+  .controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+  .chips{display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:3px}
+  .chip{font-size:12px;padding:5px 12px;border-radius:6px;border:none;background:transparent;color:var(--ink3);cursor:pointer}
+  .chip.on{background:var(--panel2);color:var(--ink)}
+  .toggle{font-size:12px;padding:6px 11px;border-radius:7px;border:1px solid var(--line);
+    background:transparent;color:var(--ink3);cursor:pointer}
+  .toggle.on{border-color:var(--accent);color:var(--ink);background:var(--panel2)}
+  .spacer{margin-left:auto}
+  .count{font-size:12px;color:var(--ink3);font-variant-numeric:tabular-nums}
+
+  .tbl{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+  thead th{position:sticky;top:0;background:var(--bg);z-index:2;
+    font-size:11px;color:var(--ink3);text-transform:uppercase;letter-spacing:.05em;
+    text-align:right;padding:8px 10px;border-bottom:1px solid var(--line);cursor:pointer;white-space:nowrap;user-select:none}
+  thead th.l{text-align:left}
+  thead th:hover{color:var(--ink)}
+  thead th .ar{opacity:0;margin-left:3px}
+  thead th.sort .ar{opacity:1;color:var(--accent)}
+
+  tbody tr.main{border-bottom:1px solid var(--line);cursor:pointer}
+  tbody tr.main:hover{background:var(--panel)}
+  tbody td{padding:9px 10px;text-align:right;font-size:13px;white-space:nowrap}
+  td.l{text-align:left}
+  .tk{font-weight:600;font-size:14px}
+  .nm{color:var(--ink3);font-size:11px;margin-left:6px;font-weight:400}
+  .tier{display:inline-flex;width:22px;height:22px;border-radius:5px;align-items:center;justify-content:center;
+    font-weight:700;font-size:11px;margin-right:8px;vertical-align:middle}
   .tier.S{background:var(--tSb);color:var(--tS)}.tier.A{background:var(--tAb);color:var(--tA)}
   .tier.B{background:var(--tBb);color:var(--tB)}.tier.C{background:var(--tCb);color:var(--tC)}
-  .tier.none{background:var(--tCb);color:var(--tC)}
-  .tk{font-size:15px;font-weight:600}
-  .nm{font-size:12px;color:var(--ink3);margin-left:8px;font-weight:400}
-  .pill{font-size:10px;padding:1px 6px;border-radius:5px;margin-left:6px;vertical-align:1px}
-  .pill.low{color:var(--lowfloat);border:1px solid #3a2745;background:#241a2b}
-  .cat{font-size:13px;color:var(--ink2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .score{text-align:right}
-  .score .big{font-size:20px;font-weight:600;font-variant-numeric:tabular-nums}
-  .score .sub{font-size:11px;color:var(--ink3);font-variant-numeric:tabular-nums}
-  .chev{color:var(--ink3);transition:transform .15s;font-size:12px}
-  .row.open .chev{transform:rotate(180deg)}
-  .detail{display:none;padding:2px 14px 16px;border-top:1px solid var(--line)}
-  .row.open .detail{display:block}
-  .dgrid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px;margin-top:12px}
-  .detail h4{font-size:11px;color:var(--ink3);text-transform:uppercase;letter-spacing:.06em;margin:0 0 8px;font-weight:600}
-  .bd{display:flex;justify-content:space-between;font-size:12px;padding:3px 0}
-  .bd .l{color:var(--ink2)}.bd .p{color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
-  .bd .p.neg{color:var(--down)}
-  .news{margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+  .tier.none{background:var(--tCb);color:var(--ink3)}
+  .catcell{color:var(--ink2);font-size:12px;max-width:230px;overflow:hidden;text-overflow:ellipsis}
+  .up{color:var(--up)}.down{color:var(--down)}
+  .lowfloat{color:var(--lowfloat)}
+  .muted{color:var(--ink3)}
+  .pill{font-size:9px;padding:1px 5px;border-radius:4px;margin-left:5px;color:var(--lowfloat);border:1px solid #3a2745;background:#241a2b}
+
+  tr.detail td{padding:0;border-bottom:1px solid var(--line);background:var(--panel)}
+  .dwrap{display:none;padding:14px 16px}
+  tr.detail.open .dwrap{display:block}
+  .dgrid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px}
+  .dgrid h4{font-size:11px;color:var(--ink3);text-transform:uppercase;letter-spacing:.05em;margin:0 0 7px}
+  .bd{display:flex;justify-content:space-between;font-size:12px;padding:2px 0}
+  .bd .l2{color:var(--ink2)}.bd .p{font-weight:600}.bd .p.neg{color:var(--down)}
+  .news{margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}
   .news a{color:var(--accent);text-decoration:none;font-size:13px}
   .news a:hover{text-decoration:underline}
-  .news .src{font-size:11px;color:var(--ink3);margin-top:3px}
-  .divider{display:flex;align-items:center;gap:12px;margin:22px 4px 12px;color:var(--ink3);
-    font-size:11px;text-transform:uppercase;letter-spacing:.08em}
-  .divider::before,.divider::after{content:"";flex:1;height:1px;background:var(--line)}
-  .empty{text-align:center;padding:60px 20px;color:var(--ink3)}
+  .news .src{font-size:11px;color:var(--ink3);margin-top:2px}
+  .empty{text-align:center;padding:56px 20px;color:var(--ink3)}
   .empty .big{font-size:16px;color:var(--ink2);margin-bottom:6px}
-  @media(max-width:640px){.stats{grid-template-columns:repeat(2,1fr)}.hd{display:none}
-    .rowhead{grid-template-columns:22px 34px 1fr 76px 16px}.nm{display:none}.dgrid{grid-template-columns:1fr}}
+  @media(max-width:720px){
+    .hideSm{display:none}
+    .catcell{max-width:130px}
+  }
 </style>
 </head>
 <body>
@@ -78,102 +85,176 @@
     <div class="title">Episodic&nbsp;pivot <span>scanner</span></div>
     <div class="meta" id="meta">loading…</div>
   </header>
-  <div class="stats" id="stats"></div>
-  <div class="hd"><div>#</div><div>Tier</div><div>Ticker · catalyst</div><div class="r">Score</div><div></div></div>
-  <div id="list"></div>
+
+  <div class="controls">
+    <div class="chips" id="chips">
+      <button class="chip on" data-f="fresh">Fresh catalyst</button>
+      <button class="chip" data-f="no_catalyst">No catalyst</button>
+      <button class="chip" data-f="all">All</button>
+    </div>
+    <button class="toggle on" id="adrTog">ADR &gt; 4%</button>
+    <button class="toggle on" id="dvTog">$vol floor</button>
+    <span class="spacer"></span>
+    <span class="count" id="count"></span>
+  </div>
+
+  <table class="tbl">
+    <thead><tr id="head"></tr></thead>
+    <tbody id="body"></tbody>
+  </table>
+  <div id="emptyMsg"></div>
 </div>
+
 <script>
-const tierClass={S:"S",A:"A",B:"B",C:"C",null:"none"};
-const openRows=new Set();
+let DATA={rows:[]};
+let view="fresh";
+let adrOn=true, dvOn=true;
+let sortKey="pct", sortDir=-1;   // default: % change descending
+const open=new Set();
+
+const COLS=[
+  {key:"tk",   label:"Ticker", align:"l", sort:r=>r.ticker},
+  {key:"cat",  label:"Catalyst", align:"l", sort:r=>r.catalyst_desc||"", cls:"hideSm"},
+  {key:"pct",  label:"% chg", sort:r=>gap(r)},
+  {key:"dv",   label:"$vol 1d", sort:r=>r.dollar_volume_m??-1},
+  {key:"adr",  label:"ADR", sort:r=>r.adr_pct??-1},
+  {key:"rvol", label:"RVOL", sort:r=>r.rvol??-1, cls:"hideSm"},
+  {key:"neg",  label:"Neglect", sort:r=>({high:3,med:2,low:1}[r.neglect]||0), cls:"hideSm"},
+  {key:"float",label:"Float", sort:r=>r.float_m??1e9, cls:"hideSm"},
+  {key:"hi",   label:"52w", sort:r=>r.pct_below_52w_high??1e9, cls:"hideSm"},
+  {key:"score",label:"Score", sort:r=>r.total??-1},
+];
+
+function gap(r){return r.premarket_change ?? r.gap_pct ?? 0;}
 function fmtTime(iso){try{return new Date(iso).toLocaleString("en-GB",{hour:"2-digit",minute:"2-digit",day:"2-digit",month:"short"})+" UK";}catch(e){return iso;}}
-function gapOf(r){return r.premarket_change ?? r.gap_pct;}
 
 async function load(){
   try{
-    const d=await(await fetch("data.json?t="+Date.now())).json();
-    render(d);
+    DATA=await(await fetch("data.json?t="+Date.now())).json();
+    if(DATA.table_filters){/* could sync defaults */}
+    draw();
   }catch(e){
     document.getElementById("meta").textContent="waiting for first scan";
-    document.getElementById("list").innerHTML=`<div class="empty"><div class="big">Waiting for first scan</div>Results appear once the scanner runs.</div>`;
+    document.getElementById("body").innerHTML="";
+    document.getElementById("emptyMsg").innerHTML=`<div class="empty"><div class="big">Waiting for first scan</div>Results appear once the scanner runs.</div>`;
   }
 }
 
-function render(d){
-  const rows=d.rows||[];
-  const ep=rows.filter(r=>(r.section||"ep")==="ep");
-  const epActive=ep.filter(r=>!r.cooling);
-  const epCool=ep.filter(r=>r.cooling);
-  const noc=rows.filter(r=>r.section==="no_catalyst");
-
-  const ai=d.ai_used?'<span style="color:var(--tS)">AI-classified</span>':'<span style="color:var(--ink3)">keyword mode</span>';
-  const cal=d.fresh_window_ok?'':' · <span style="color:var(--tB)">calendar off</span>';
-  document.getElementById("meta").innerHTML=`<b>${epActive.length}</b> EP · ${noc.length} gapping · ${ai}${cal} · ${fmtTime(d.generated_utc)}`;
-
-  const gaps=epActive.map(gapOf).filter(g=>g!=null);
-  const avg=gaps.length?Math.round(gaps.reduce((a,b)=>a+b,0)/gaps.length):0;
-  const sa=epActive.filter(r=>["S","A"].includes(r.catalyst_tier)).length;
-  document.getElementById("stats").innerHTML=`
-    <div class="stat"><div class="k">EP board</div><div class="v">${epActive.length}</div></div>
-    <div class="stat"><div class="k">Tier S/A</div><div class="v">${sa}</div></div>
-    <div class="stat"><div class="k">Avg gap</div><div class="v">${avg}%</div></div>
-    <div class="stat"><div class="k">Top score</div><div class="v">${epActive[0]?epActive[0].total:"—"}</div></div>`;
-
-  let html="";let rank=1;
-  if(!ep.length&&!noc.length){
-    html=`<div class="empty"><div class="big">No episodic pivots right now</div>Quiet mornings happen — nothing with a fresh catalyst is gapping.</div>`;
-  }else{
-    epActive.forEach(r=>html+=rowHtml(r,rank++));
-    if(epCool.length){html+=`<div class="divider">cooling — dropped below cutoff, still watchable</div>`;epCool.forEach(r=>html+=rowHtml(r,null));}
-    if(noc.length){html+=`<div class="divider">gapping · no fresh catalyst found — check manually</div>`;noc.forEach(r=>html+=rowHtml(r,null));}
+function passFilters(r){
+  if(adrOn && (r.adr_pct==null || r.adr_pct < (DATA.table_filters?.adr_min ?? 4))) return false;
+  if(dvOn){
+    const floor=DATA.table_filters?.dollar_vol_floor_m ?? 1.5;
+    if(r.dollar_volume_m!=null && r.dollar_volume_m < floor) return false;
   }
-  document.getElementById("list").innerHTML=html;
-  document.querySelectorAll(".row").forEach(el=>{
-    const tk=el.dataset.tk;
-    el.querySelector(".rowhead").addEventListener("click",()=>{
-      el.classList.toggle("open");
-      if(openRows.has(tk))openRows.delete(tk);else openRows.add(tk);
-    });
+  return true;
+}
+
+function currentRows(){
+  let rows=DATA.rows||[];
+  if(view==="fresh") rows=rows.filter(r=>(r.section||"ep")==="ep");
+  else if(view==="no_catalyst") rows=rows.filter(r=>r.section==="no_catalyst");
+  rows=rows.filter(passFilters);
+  const col=COLS.find(c=>c.key===sortKey);
+  rows=[...rows].sort((a,b)=>{
+    const va=col.sort(a), vb=col.sort(b);
+    if(va<vb)return -1*sortDir; if(va>vb)return 1*sortDir; return 0;
+  });
+  return rows;
+}
+
+function draw(){
+  // meta
+  const ai=DATA.ai_used?'<span style="color:var(--tS)">AI-classified</span>':'<span style="color:var(--ink3)">keyword mode</span>';
+  const cal=DATA.fresh_window_ok?'':' · <span style="color:var(--tB)">calendar off</span>';
+  document.getElementById("meta").innerHTML=`${ai}${cal} · updated ${fmtTime(DATA.generated_utc)}`;
+
+  // head
+  document.getElementById("head").innerHTML=COLS.map(c=>{
+    const on=c.key===sortKey?"sort":"";
+    const ar=c.key===sortKey?(sortDir<0?"▼":"▲"):"";
+    return `<th class="${c.align==='l'?'l':''} ${c.cls||''} ${on}" data-k="${c.key}">${c.label}<span class="ar">${ar}</span></th>`;
+  }).join("");
+  document.querySelectorAll("th[data-k]").forEach(th=>{
+    th.onclick=()=>{
+      const k=th.dataset.k;
+      if(sortKey===k) sortDir*=-1;
+      else{sortKey=k; sortDir=(k==="tk"||k==="float"||k==="hi")?1:-1;}
+      draw();
+    };
+  });
+
+  const rows=currentRows();
+  document.getElementById("count").textContent=`${rows.length} shown`;
+
+  if(!rows.length){
+    document.getElementById("body").innerHTML="";
+    document.getElementById("emptyMsg").innerHTML=`<div class="empty"><div class="big">Nothing matches</div>${view==="fresh"?"No fresh-catalyst names pass the filters right now.":"Try toggling filters or the view."}</div>`;
+    return;
+  }
+  document.getElementById("emptyMsg").innerHTML="";
+  document.getElementById("body").innerHTML=rows.map(rowHtml).join("");
+  document.querySelectorAll("tr.main").forEach(tr=>{
+    tr.onclick=()=>{
+      const tk=tr.dataset.tk;
+      const d=document.querySelector(`tr.detail[data-tk="${tk}"]`);
+      if(open.has(tk)){open.delete(tk);d.classList.remove("open");}
+      else{open.add(tk);d.classList.add("open");}
+    };
   });
 }
 
-function rowHtml(r,rank){
+function rowHtml(r){
   const tier=r.catalyst_tier||"C";
-  const g=gapOf(r);const dv=r.dollar_volume_m;
-  const sub=[g!=null?`gap ${g.toFixed(0)}%`:null,dv!=null?`$${dv.toFixed(0)}M`:null].filter(Boolean).join(" · ");
-  const isOpen=openRows.has(r.ticker);
-  const low=r.low_float?`<span class="pill low">low float</span>`:"";
+  const tierC=(r.catalyst_tier==null)?"none":tier;
+  const g=gap(r);
+  const low=r.low_float?`<span class="pill">LF</span>`:"";
+  const dv=r.dollar_volume_m;
+  const isOpen=open.has(r.ticker);
+  const negTxt={high:"high",med:"med",low:"—"}[r.neglect]||"—";
+
   const cbreak=(r.cbreak||[]).map(bd).join("");
   const nbreak=(r.nbreak||[]).map(bd).join("");
   const tbreak=(r.tbreak||[]).map(bd).join("");
-  const info=(r.info||[]).map(x=>`<div class="bd"><span class="l">${x[0]}</span><span class="p">${x[1]}</span></div>`).join("");
+  const info=(r.info||[]).map(x=>`<div class="bd"><span class="l2">${x[0]}</span><span class="p">${x[1]}</span></div>`).join("");
   let news="";
   if(r.headline){
     const link=r.news_url?`<a href="${r.news_url}" target="_blank" rel="noopener">${r.headline} ↗</a>`:`<span style="font-size:13px;color:var(--ink2)">${r.headline}</span>`;
     news=`<div class="news">${link}<div class="src">${[r.news_site,r.news_time].filter(Boolean).join(" · ")}</div></div>`;
   }
-  return `<div class="row ${r.cooling?'cooling':''} ${isOpen?'open':''}" data-tk="${r.ticker}">
-    <div class="rowhead">
-      <div class="rank">${rank??"·"}</div>
-      <div class="tier ${tierClass[tier]}">${tier==null||tier==="null"?"·":tier}</div>
-      <div style="min-width:0">
-        <div><span class="tk">${r.ticker}</span><span class="nm">${r.name||""}</span>${low}</div>
-        <div class="cat">${r.catalyst_desc||""}</div>
-      </div>
-      <div class="score"><div class="big">${r.total}</div><div class="sub">${sub}</div></div>
-      <div class="chev">▾</div>
-    </div>
-    <div class="detail">
-      <div class="dgrid">
-        <div><h4>Catalyst · ${r.catalyst_score??0}</h4>${cbreak||'<div class="bd"><span class="l">—</span></div>'}</div>
-        <div><h4>Neglect · ${r.neglect_score??0}</h4>${nbreak||'<div class="bd"><span class="l">—</span></div>'}
-          <h4 style="margin-top:14px">Technicals · ${r.technical_score??0}</h4>${tbreak}</div>
-        <div><h4>Info</h4>${info||'<div class="bd"><span class="l">—</span></div>'}</div>
-      </div>
-      ${news}
-    </div>
-  </div>`;
+
+  return `<tr class="main" data-tk="${r.ticker}">
+    <td class="l"><span class="tier ${tierC}">${r.catalyst_tier==null?"·":tier}</span><span class="tk">${r.ticker}</span><span class="nm">${r.name||""}</span>${low}</td>
+    <td class="l catcell ${''}">${r.catalyst_desc||"—"}</td>
+    <td class="${g>=0?'up':'down'}">${g>=0?'+':''}${g.toFixed(1)}%</td>
+    <td>${dv!=null?'$'+fmtM(dv):'—'}</td>
+    <td>${r.adr_pct!=null?r.adr_pct.toFixed(1)+'%':'—'}</td>
+    <td class="hideSm">${r.rvol!=null?r.rvol.toFixed(1)+'x':'—'}</td>
+    <td class="hideSm ${r.neglect==='high'?'up':'muted'}">${negTxt}</td>
+    <td class="hideSm ${r.low_float?'lowfloat':''}">${r.float_m!=null?fmtM(r.float_m)+'M':'—'}</td>
+    <td class="hideSm muted">${r.pct_below_52w_high!=null?(r.pct_below_52w_high<=2?'high':r.pct_below_52w_high.toFixed(0)+'%'):'—'}</td>
+    <td>${r.total??'—'}</td>
+  </tr>
+  <tr class="detail ${isOpen?'open':''}" data-tk="${r.ticker}"><td colspan="10"><div class="dwrap">
+    <div class="dgrid">
+      <div><h4>Catalyst · ${r.catalyst_score??0}</h4>${cbreak||'<div class="bd"><span class="l2">—</span></div>'}</div>
+      <div><h4>Neglect · ${r.neglect_score??0}</h4>${nbreak||'<div class="bd"><span class="l2">—</span></div>'}
+           <h4 style="margin-top:12px">Technicals · ${r.technical_score??0}</h4>${tbreak}</div>
+      <div><h4>Info</h4>${info||'<div class="bd"><span class="l2">—</span></div>'}</div>
+    </div>${news}
+  </div></td></tr>`;
 }
-function bd(b){const neg=String(b[1]).trim().startsWith("-");return `<div class="bd"><span class="l">${b[0]}</span><span class="p ${neg?'neg':''}">${b[1]}</span></div>`;}
+function bd(b){const neg=String(b[1]).trim().startsWith("-");return `<div class="bd"><span class="l2">${b[0]}</span><span class="p ${neg?'neg':''}">${b[1]}</span></div>`;}
+function fmtM(v){return v>=1000?(v/1000).toFixed(1)+'B':v.toFixed(0)+'M';}
+
+// controls
+document.getElementById("chips").addEventListener("click",e=>{
+  const b=e.target.closest(".chip"); if(!b)return;
+  view=b.dataset.f;
+  document.querySelectorAll(".chip").forEach(c=>c.classList.toggle("on",c===b));
+  draw();
+});
+document.getElementById("adrTog").addEventListener("click",function(){adrOn=!adrOn;this.classList.toggle("on",adrOn);draw();});
+document.getElementById("dvTog").addEventListener("click",function(){dvOn=!dvOn;this.classList.toggle("on",dvOn);draw();});
 
 setInterval(load,5*60*1000);
 load();
