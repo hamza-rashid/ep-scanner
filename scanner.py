@@ -708,7 +708,12 @@ def compute_technicals(t, quote=None):
     live_vol = _to_float(quote.get("volume"))       # cumulative shares today
     mc = _to_float(quote.get("marketCap"))
 
-    hist = fmp("historical-price-eod/full", f"&symbol={t}")
+    # Request ~1 year (400 calendar days to safely cover 252 trading days for
+    # the 200-day MA and 52-week high). Bounding the range keeps the response
+    # small and saves bandwidth vs pulling the full multi-year history.
+    _to = dt.datetime.now(dt.UTC).date()
+    _from = _to - dt.timedelta(days=400)
+    hist = fmp("historical-price-eod/full", f"&symbol={t}&from={_from.isoformat()}&to={_to.isoformat()}")
     out = {"adr_pct": None, "dollar_volume_m": None, "gap_pct": None,
            "above_10": False, "above_20": False, "above_50": False, "above_200": False,
            "neglect": "low", "vol_expansion": None, "rvol": None,
