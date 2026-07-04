@@ -260,18 +260,82 @@ RUN_LABEL = os.environ.get("RUN_LABEL", "manual")
 # ======================================================================
 # HTTP helpers
 # ======================================================================
-def get_json(url, tries=3):
+def get_json(url, tries=4):
+    """HTTP GET returning parsed JSON. Handles transient failures and 429
+    rate-limits with exponential backoff (your plan is 300/min; a busy board
+    can burst near it, so we back off rather than silently drop a stock)."""
     for i in range(tries):
         try:
             req = Request(url, headers={"User-Agent": "ep-scanner/1.0"})
             with urlopen(req, timeout=30) as r:
                 return json.loads(r.read().decode())
+        except HTTPError as e:
+            if e.code == 429:                      # rate limited — back off and retry
+                wait = 2 ** i
+                print(f"  · rate limited (429), backing off {wait}s")
+                time.sleep(wait)
+                continue
+            if e.code == 402:                      # endpoint not on plan — don't retry
+                return None
+            if i == tries - 1:
+                print(f"  ! fetch failed: {url.split('?')[0][:70]} -> HTTP {e.code}")
+                return None
+            time.sleep(1.5)
         except Exception as e:
             if i == tries - 1:
-                print(f"  ! fetch failed: {url[:80]} -> {e}")
+                print(f"  ! fetch failed: {url.split('?')[0][:70]} -> {e}")
                 return None
-            time.sleep(2)
+            time.sleep(1.5)
     return None
+
+
+def live_quote(t, need_mktcap=True):
+    """
+    Live quote for one symbol, preferring PREMARKET data.
+
+    During premarket (when you scan), the aftermarket-quote endpoint carries
+    the real extended-hours price + volume — exactly what we want for a live
+    $vol / RVOL read. We try it FIRST. The regular quote endpoint is only
+    hit if we still need price/volume, or if we need marketCap (which the
+    caller can skip via need_mktcap=False when it's already known — market cap
+    doesn't change intraday, so refreshes don't need to re-fetch it).
+
+    Returns: {price, volume, marketCap?, _volume_is_rth?}
+    """
+    out = {}
+    am = fmp("aftermarket-quote", f"&symbol={t}")
+    am = am[0] if isinstance(am, list) and am else (am if isinstance(am, dict) else None)
+    if am:
+        price = _to_float(am.get("price") or am.get("askPrice") or am.get("bidPrice"))
+        vol = _to_float(am.get("volume") or am.get("tradeSize") or am.get("size"))
+        if price:
+            out["price"] = price
+        if vol:
+            out["volume"] = vol
+
+    # Only hit the regular quote if we still need something from it.
+    need_quote = need_mktcap or ("price" not in out) or ("volume" not in out)
+    if need_quote:
+        rq = fmp("quote", f"&symbol={t}")
+        rq = rq[0] if isinstance(rq, list) and rq else (rq if isinstance(rq, dict) else None)
+        if rq:
+            if need_mktcap:
+                mc = _to_float(rq.get("marketCap"))
+                if mc:
+                    out["marketCap"] = mc
+            out.setdefault("price", _to_float(rq.get("price")))
+            if "volume" not in out:
+                out["volume"] = _to_float(rq.get("volume"))
+                out["_volume_is_rth"] = True
+
+    # Tally the volume source so each run prints a one-line summary (confirms
+    # premarket volume is landing vs falling back to the regular quote).
+    if out.get("volume") is not None:
+        if out.get("_volume_is_rth"):
+            _VOL_SOURCE["rth"] += 1
+        else:
+            _VOL_SOURCE["premarket"] += 1
+    return out
 
 
 def fmp(path, params=""):
@@ -603,13 +667,55 @@ def attach_technicals(cand):
     return cand
 
 
-def compute_technicals(t):
-    # stable: historical-price-eod/full?symbol=X returns a FLAT array (newest first)
+def reprice_live(row):
+    """
+    Cheap refresh reprice: update only the LIVE fields (price, dollar volume,
+    RVOL) from one quote call, reusing the slow-moving fields (ADR, MAs,
+    neglect, 52wk) already stored on the row from the day's full run. Saves a
+    ~220-bar history fetch per ticker on every 5-min refresh.
+    """
+    t = row["ticker"]
+    # market cap is already known from the full run and doesn't change intraday,
+    # so skip re-fetching it -> one quote call per ticker on refresh
+    q = live_quote(t, need_mktcap=("market_cap_m" not in row))
+    price = _to_float(q.get("price"))
+    vol = _to_float(q.get("volume"))
+    mc = _to_float(q.get("marketCap"))
+    if price:
+        row["price"] = price
+    if mc:
+        row["market_cap_m"] = mc / 1_000_000
+    if price and vol:
+        row["dollar_volume_m"] = round(price * vol / 1_000_000, 1)
+        # reuse the stored 20-day avg volume if we cached it; else keep prior rvol
+        avg20 = row.get("_avg20_vol")
+        if avg20:
+            row["rvol"] = round(vol / avg20, 1)
+            row["vol_expansion"] = row["rvol"]
+    return row
+
+
+def compute_technicals(t, quote=None):
+    """
+    Technicals for one symbol. LIVE figures (dollar volume, RVOL) come from the
+    quote endpoint so they reflect TODAY, not yesterday's EOD. Slow-moving
+    figures (ADR, moving averages, neglect, 52wk) come from daily history.
+    Pass `quote` to reuse an already-fetched live quote and save a call.
+    """
+    if quote is None:
+        quote = live_quote(t)
+    live_price = _to_float(quote.get("price"))
+    live_vol = _to_float(quote.get("volume"))       # cumulative shares today
+    mc = _to_float(quote.get("marketCap"))
+
     hist = fmp("historical-price-eod/full", f"&symbol={t}")
     out = {"adr_pct": None, "dollar_volume_m": None, "gap_pct": None,
            "above_10": False, "above_20": False, "above_50": False, "above_200": False,
-           "neglect": "low", "vol_expansion": None, "market_cap_m": None}
-    # stable returns a plain list; guard for that + legacy dict shape just in case
+           "neglect": "low", "vol_expansion": None, "rvol": None,
+           "pct_below_52w_high": None, "market_cap_m": None}
+    if mc:
+        out["market_cap_m"] = mc / 1_000_000
+
     if isinstance(hist, dict) and "historical" in hist:
         bars = hist["historical"]
     elif isinstance(hist, list):
@@ -617,26 +723,40 @@ def compute_technicals(t):
     else:
         bars = None
     if not bars:
+        # even without history we can still give live dollar volume
+        if live_price and live_vol:
+            out["dollar_volume_m"] = round(live_price * live_vol / 1_000_000, 1)
         return out
+
     closes = [_to_float(b.get("close")) for b in bars if b.get("close")]
     highs = [_to_float(b.get("high")) for b in bars if b.get("high")]
     lows = [_to_float(b.get("low")) for b in bars if b.get("low")]
     vols = [_to_float(b.get("volume")) for b in bars if b.get("volume")]
     if len(closes) < 25:
+        if live_price and live_vol:
+            out["dollar_volume_m"] = round(live_price * live_vol / 1_000_000, 1)
         return out
 
-    last = closes[0]
-    prev = closes[1] if len(closes) > 1 else last
-    out["gap_pct"] = (last - prev) / prev * 100 if prev else None
+    last = live_price or closes[0]
 
+    # ADR% over last 20 sessions (slow-moving — history is fine)
     ranges = [(highs[i] / lows[i] - 1) * 100 for i in range(min(20, len(highs), len(lows))) if lows[i]]
     out["adr_pct"] = round(sum(ranges) / len(ranges), 2) if ranges else None
 
-    if vols and last:
+    # LIVE dollar volume + RVOL (today's cumulative vol vs 20-day avg)
+    avg20 = sum(vols[1:21]) / 20 if len(vols) > 21 else None
+    if avg20:
+        out["_avg20_vol"] = avg20        # cached so refresh can compute RVOL cheaply
+    if live_vol and last:
+        out["dollar_volume_m"] = round(last * live_vol / 1_000_000, 1)
+        if avg20:
+            out["rvol"] = round(live_vol / avg20, 1)
+            out["vol_expansion"] = out["rvol"]
+    elif vols and last:                              # fallback to EOD if no live vol
         out["dollar_volume_m"] = round(last * vols[0] / 1_000_000, 1)
-    if len(vols) > 21 and vols[0]:
-        avg = sum(vols[1:21]) / 20
-        out["vol_expansion"] = round(vols[0] / avg, 1) if avg else None
+        if avg20 and vols[0]:
+            out["rvol"] = round(vols[0] / avg20, 1)
+            out["vol_expansion"] = out["rvol"]
 
     def sma(k):
         return sum(closes[:k]) / k if len(closes) >= k else None
@@ -644,25 +764,15 @@ def compute_technicals(t):
         m = sma(k)
         out[key] = bool(m and last > m)
 
-    # RVOL (relative volume): today's volume vs the 20-day average. The key
-    # premarket participation tell — is the gap backed by real volume?
-    if len(vols) > 21 and vols[0]:
-        avg20 = sum(vols[1:21]) / 20
-        out["rvol"] = round(vols[0] / avg20, 1) if avg20 else None
-
-    # Distance from 52-week high, from the price history (fallback if profile
-    # didn't supply it): >0 means below the high, ~0 means at/near blue-sky.
-    if closes:
-        hi_252 = max(closes[:252]) if len(closes) >= 2 else last
-        if hi_252:
-            out["pct_below_52w_high"] = round((hi_252 - last) / hi_252 * 100, 1)
+    hi_252 = max(closes[:252]) if len(closes) >= 2 else last
+    if hi_252:
+        out["pct_below_52w_high"] = round((hi_252 - last) / hi_252 * 100, 1)
 
     if len(closes) > 21:
         base = closes[1:21]
         drift = abs(base[0] - base[-1]) / base[-1] * 100 if base[-1] else 999
         adr = out["adr_pct"] or 5
-        ratio = drift / adr
-        out["neglect"] = "high" if ratio < 1.5 else "med" if ratio < 3 else "low"
+        out["neglect"] = "high" if drift / adr < 1.5 else "med" if drift / adr < 3 else "low"
     return out
 
 
@@ -791,6 +901,10 @@ def passes_gates(row):
 # ======================================================================
 MODE = os.environ.get("MODE", "full")
 
+# Tally of where live volume came from this run (printed as a summary so you can
+# confirm premarket volume is landing vs falling back to the regular quote).
+_VOL_SOURCE = {"premarket": 0, "rth": 0}
+
 
 def _today_key():
     return dt.datetime.now(dt.UTC).strftime("%Y-%m-%d")
@@ -820,7 +934,10 @@ def is_trading_day(now_utc=None):
             return len(sched) > 0
         except Exception:
             pass
-    return now_utc.weekday() < 5
+    # fallback (no calendar lib): weekday check on the ET date, not UTC —
+    # a late-UK-evening run can be a different calendar day in UTC vs ET.
+    et_date = (now_utc.astimezone(_ET) if _ET else now_utc - dt.timedelta(hours=4))
+    return et_date.weekday() < 5
 
 
 def main():
@@ -856,22 +973,27 @@ def main():
 def assign_bucket(row, news_items, window):
     """
     Decide the freshness bucket for a candidate:
-      "fresh"    - has a catalyst-bearing news item inside [last close, next open]
-      "no_news"  - gapping but NO datable news in the window (shown separately)
-      "stale"    - newest news is OLDER than the window (discarded)
-    Returns (bucket, freshest_item_or_None).
+      "fresh"    - has AT LEAST ONE news item inside [last close, next open]
+      "no_news"  - gapping but NO datable news at all (shown separately)
+      "stale"    - has dated news, but ALL of it predates the window (discarded)
+    Returns (bucket, item_to_show). We check every item, not just the newest,
+    so a real overnight catalyst isn't lost just because a routine PR happens
+    to carry a later timestamp. The item shown is the freshest IN-WINDOW one.
     """
     win_start, win_end = window
+    grace_end = win_end + dt.timedelta(minutes=30)
     dated = [n for n in news_items if n.get("published_utc")]
     if not dated:
         return "no_news", (news_items[0] if news_items else None)
 
-    freshest = max(dated, key=lambda n: n["published_utc"])
-    ts = freshest["published_utc"]
-    if win_start <= ts <= win_end + dt.timedelta(hours=1):
-        return "fresh", freshest
-    # newest news predates the window entirely -> stale, already-played-out
-    return "stale", freshest
+    in_window = [n for n in dated if win_start <= n["published_utc"] <= grace_end]
+    if in_window:
+        # show the freshest item that's inside the window
+        best = max(in_window, key=lambda n: n["published_utc"])
+        return "fresh", best
+
+    # dated news exists but none is in the window -> stale
+    return "stale", max(dated, key=lambda n: n["published_utc"])
 
 
 def run_full():
@@ -922,7 +1044,8 @@ def run_full():
         row["cooling"] = not passes_gates(row)
         board[t] = score(row)
 
-    # gapping-no-catalyst: keep, but mark section; light technicals, no AI
+    # gapping-no-catalyst: enrich (also drops ETFs via profile flag) + technicals
+    no_news = enrich_profile(no_news)
     for t, row in no_news.items():
         _apply_label(row, "no_catalyst")
         row.update(compute_technicals(t))
@@ -962,12 +1085,13 @@ def run_refresh():
 
     known = {r["ticker"] for r in prior["rows"]}
 
-    # 1) Re-price known names, reusing cached labels (no AI)
+    # 1) Re-price known names, reusing cached labels + slow-moving technicals.
+    #    Only the live quote is fetched per ticker (not 220 bars of history).
     board = {}
     for prow in prior["rows"]:
         t = prow["ticker"]
         _apply_label(prow, prow.get("catalyst_label", "no_catalyst"))
-        prow.update(compute_technicals(t))
+        reprice_live(prow)
         prow.setdefault("section", "ep")
         prow["cooling"] = (prow["section"] == "ep") and (not passes_gates(prow))
         board[t] = score(prow)
@@ -1059,6 +1183,9 @@ def write_output(rows, first_full=False):
     with open(OUT_PATH, "w") as f:
         json.dump(payload, f, indent=2)
     print(f"  wrote {OUT_PATH} ({len(rows)} rows)")
+    if _VOL_SOURCE["premarket"] or _VOL_SOURCE["rth"]:
+        print(f"  volume source: {_VOL_SOURCE['premarket']} premarket · "
+              f"{_VOL_SOURCE['rth']} regular-quote fallback")
 
 
 # ======================================================================

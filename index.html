@@ -116,9 +116,9 @@ const COLS=[
   {key:"tk",   label:"Ticker", align:"l", sort:r=>r.ticker},
   {key:"cat",  label:"Catalyst", align:"l", sort:r=>r.catalyst_desc||"", cls:"hideSm"},
   {key:"pct",  label:"% chg", sort:r=>gap(r)},
-  {key:"dv",   label:"$vol 1d", sort:r=>r.dollar_volume_m??-1},
-  {key:"adr",  label:"ADR", sort:r=>r.adr_pct??-1},
-  {key:"rvol", label:"RVOL", sort:r=>r.rvol??-1, cls:"hideSm"},
+  {key:"dv",   label:"$vol 1d", sort:r=>r.dollar_volume_m??-1, tip:"Premarket dollar volume (live)"},
+  {key:"adr",  label:"ADR", sort:r=>r.adr_pct??-1, tip:"Average daily range %, 20-day"},
+  {key:"rvol", label:"PM RVOL", sort:r=>r.rvol??-1, cls:"hideSm", tip:"Premarket volume vs 20-day average DAILY volume. 1.0x = already trading a full day's volume premarket (strong EP tell)."},
   {key:"neg",  label:"Neglect", sort:r=>({high:3,med:2,low:1}[r.neglect]||0), cls:"hideSm"},
   {key:"float",label:"Float", sort:r=>r.float_m??1e9, cls:"hideSm"},
   {key:"hi",   label:"52w", sort:r=>r.pct_below_52w_high??1e9, cls:"hideSm"},
@@ -172,7 +172,7 @@ function draw(){
   document.getElementById("head").innerHTML=COLS.map(c=>{
     const on=c.key===sortKey?"sort":"";
     const ar=c.key===sortKey?(sortDir<0?"▼":"▲"):"";
-    return `<th class="${c.align==='l'?'l':''} ${c.cls||''} ${on}" data-k="${c.key}">${c.label}<span class="ar">${ar}</span></th>`;
+    return `<th class="${c.align==='l'?'l':''} ${c.cls||''} ${on}" data-k="${c.key}" title="${c.tip||c.label}">${c.label}<span class="ar">${ar}</span></th>`;
   }).join("");
   document.querySelectorAll("th[data-k]").forEach(th=>{
     th.onclick=()=>{
