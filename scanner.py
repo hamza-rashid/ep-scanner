@@ -228,14 +228,17 @@ CONFIG = {
 
     # ---- Sanity gates (hard filters) — LIQUIDITY based, not market cap.
     #      No cap floor: microcaps are part of the EP edge. Junk is kept out by
-    #      the price floor + dollar-volume floor (Qullamaggie's actual filters). ----
-    "gates": {"min_price": 3.0, "min_dollar_volume_m": 5, "require_catalyst": True},
+    #      the price floor + dollar-volume floor. The $1.5M dollar-volume floor
+    #      is derived from the user's ~£10K position size / 1% of daily volume
+    #      (£10K ÷ 0.01 ≈ $1.27M), rounded up for an exit-into-weakness margin. ----
+    "gates": {"min_price": 3.0, "min_dollar_volume_m": 1.5, "require_catalyst": True},
 
-    # ---- Table filter defaults (SOFT — the site toggles these; nothing is
-    #      dropped by the scanner, just flagged so the site can filter) ----
+    # ---- Table filter defaults (SOFT — the site toggles/sliders these; nothing
+    #      is dropped by the scanner, just filtered in the browser) ----
     "table_filters": {
-        "adr_min": 4.0,            # Qullamaggie ADR floor (toggleable on site)
-        "dollar_vol_floor_m": 1.5, # low floor to cut true illiquid junk
+        "adr_min": 4.0,               # Qullamaggie ADR floor (toggleable on site)
+        "liquid_slider_default_m": 20, # optional "liquid names only" slider start
+        "liquid_slider_max_m": 200,    # slider range top (Qualla best ~$100M+)
     },
 
     # ---- News freshness window (built on the market calendar) ----

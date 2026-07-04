@@ -31,6 +31,11 @@
   .toggle{font-size:12px;padding:6px 11px;border-radius:7px;border:1px solid var(--line);
     background:transparent;color:var(--ink3);cursor:pointer}
   .toggle.on{border-color:var(--accent);color:var(--ink);background:var(--panel2)}
+  .liqctl{display:flex;align-items:center;gap:8px}
+  .liqctl input[type=range]{width:110px;accent-color:var(--accent);cursor:pointer}
+  .liqctl input[type=range]:disabled{opacity:.35;cursor:not-allowed}
+  .liqval{font-size:12px;color:var(--ink2);font-variant-numeric:tabular-nums;min-width:42px}
+  .liqval.off{color:var(--ink3);opacity:.5}
   .spacer{margin-left:auto}
   .count{font-size:12px;color:var(--ink3);font-variant-numeric:tabular-nums}
 
@@ -93,7 +98,11 @@
       <button class="chip" data-f="all">All</button>
     </div>
     <button class="toggle on" id="adrTog">ADR &gt; 4%</button>
-    <button class="toggle on" id="dvTog">$vol floor</button>
+    <div class="liqctl">
+      <button class="toggle" id="liqTog">Min $vol</button>
+      <input type="range" id="liqSlider" min="0" max="200" step="1" value="20" disabled>
+      <span class="liqval" id="liqVal">$20M</span>
+    </div>
     <span class="spacer"></span>
     <span class="count" id="count"></span>
   </div>
@@ -108,7 +117,8 @@
 <script>
 let DATA={rows:[]};
 let view="fresh";
-let adrOn=true, dvOn=true;
+let adrOn=true;
+let liqOn=false, liqMin=20;   // optional "min $vol" liquidity slider, off by default
 let sortKey="pct", sortDir=-1;   // default: % change descending
 const open=new Set();
 
@@ -131,7 +141,17 @@ function fmtTime(iso){try{return new Date(iso).toLocaleString("en-GB",{hour:"2-d
 async function load(){
   try{
     DATA=await(await fetch("data.json?t="+Date.now())).json();
-    if(DATA.table_filters){/* could sync defaults */}
+    const tf=DATA.table_filters||{};
+    // set slider range/default from config (only once, before first draw)
+    const sl=document.getElementById("liqSlider");
+    if(sl && !sl.dataset.init){
+      sl.max=tf.liquid_slider_max_m ?? 200;
+      liqMin=tf.liquid_slider_default_m ?? 20;
+      sl.value=liqMin;
+      document.getElementById("liqVal").textContent=(liqMin>=1000?"$"+(liqMin/1000).toFixed(1)+"B":"$"+liqMin+"M");
+      document.getElementById("liqVal").classList.add("off");
+      sl.dataset.init="1";
+    }
     draw();
   }catch(e){
     document.getElementById("meta").textContent="waiting for first scan";
@@ -142,10 +162,9 @@ async function load(){
 
 function passFilters(r){
   if(adrOn && (r.adr_pct==null || r.adr_pct < (DATA.table_filters?.adr_min ?? 4))) return false;
-  if(dvOn){
-    const floor=DATA.table_filters?.dollar_vol_floor_m ?? 1.5;
-    if(r.dollar_volume_m!=null && r.dollar_volume_m < floor) return false;
-  }
+  // optional "min $vol" liquidity filter (slider). Off by default; the scanner
+  // already applies the $1.5M hard floor, this is an extra "liquid names only" lens.
+  if(liqOn && r.dollar_volume_m!=null && r.dollar_volume_m < liqMin) return false;
   return true;
 }
 
@@ -254,7 +273,24 @@ document.getElementById("chips").addEventListener("click",e=>{
   draw();
 });
 document.getElementById("adrTog").addEventListener("click",function(){adrOn=!adrOn;this.classList.toggle("on",adrOn);draw();});
-document.getElementById("dvTog").addEventListener("click",function(){dvOn=!dvOn;this.classList.toggle("on",dvOn);draw();});
+
+// Min $vol liquidity: a toggle that enables the slider, and the slider itself.
+const liqTog=document.getElementById("liqTog");
+const liqSlider=document.getElementById("liqSlider");
+const liqVal=document.getElementById("liqVal");
+function fmtLiq(v){return v>=1000?"$"+(v/1000).toFixed(1)+"B":"$"+v+"M";}
+liqTog.addEventListener("click",function(){
+  liqOn=!liqOn;
+  this.classList.toggle("on",liqOn);
+  liqSlider.disabled=!liqOn;
+  liqVal.classList.toggle("off",!liqOn);
+  draw();
+});
+liqSlider.addEventListener("input",function(){
+  liqMin=parseInt(this.value,10);
+  liqVal.textContent=fmtLiq(liqMin);
+  if(liqOn) draw();
+});
 
 setInterval(load,5*60*1000);
 load();
