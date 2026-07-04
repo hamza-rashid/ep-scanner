@@ -226,9 +226,10 @@ CONFIG = {
     #      does not change score — just flagged on the card. ----
     "low_float_shares_m": 20,
 
-    # ---- Sanity gates (hard filters) ----
-    "gates": {"min_price": 3.0, "min_market_cap_m": 100,
-              "min_dollar_volume_m": 5, "require_catalyst": True},
+    # ---- Sanity gates (hard filters) — LIQUIDITY based, not market cap.
+    #      No cap floor: microcaps are part of the EP edge. Junk is kept out by
+    #      the price floor + dollar-volume floor (Qullamaggie's actual filters). ----
+    "gates": {"min_price": 3.0, "min_dollar_volume_m": 5, "require_catalyst": True},
 
     # ---- Table filter defaults (SOFT — the site toggles these; nothing is
     #      dropped by the scanner, just flagged so the site can filter) ----
@@ -880,9 +881,10 @@ def passes_gates(row):
     price = row.get("price")
     if price and price < g["min_price"]:
         return False
-    mc = row.get("market_cap_m")
-    if mc is not None and mc < g["min_market_cap_m"]:
-        return False
+    # NOTE: no market-cap floor. Qullamaggie's EP method never filters by market
+    # cap — micro/small caps are the edge for a smaller retail account (the moves
+    # institutions can't access). Quality control is via LIQUIDITY instead: the
+    # $3 price floor and the dollar-volume floor below keep out micro-penny junk.
     dv = row.get("dollar_volume_m")
     if dv is not None and dv < g["min_dollar_volume_m"]:
         return False
