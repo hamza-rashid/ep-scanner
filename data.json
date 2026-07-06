@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-07-06T15:53:48.628022+00:00",
+  "generated_utc": "2026-07-06T16:52:58.357897+00:00",
   "session_date": "2026-07-06",
   "mode": "refresh",
   "run_label": "scheduled",
-  "count": 17,
+  "count": 18,
   "active_count": 4,
-  "no_catalyst_count": 6,
+  "no_catalyst_count": 7,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -23,14 +23,14 @@
       "ticker": "FXHO",
       "name": "UTime Limited",
       "changesPercentage": 172.08333,
-      "price": 19.59,
+      "price": 18.75,
       "premarket_change": 172.08333,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": null,
-      "dollar_volume_m": 120.6,
+      "dollar_volume_m": 122.1,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
@@ -57,7 +57,7 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $121M",
+          "$ vol $122M",
           "+8"
         ]
       ]
@@ -66,14 +66,14 @@
       "ticker": "DSY",
       "name": "Big Tree Cloud Holdings Limited",
       "changesPercentage": 55.20833,
-      "price": 4.7,
+      "price": 5.06,
       "premarket_change": 55.20833,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 28.07,
-      "dollar_volume_m": 1.9,
+      "dollar_volume_m": 2.5,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -210,7 +210,7 @@
       "technical_score": 9,
       "total": 51,
       "premarket_change": 22,
-      "dollar_volume_m": 38.3,
+      "dollar_volume_m": 48.4,
       "adr_pct": 5.1,
       "neglect": "med",
       "rvol": 5.4,
@@ -231,7 +231,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $38M",
+          "$ vol $48M",
           "+4"
         ],
         [
@@ -259,7 +259,7 @@
       "news_time": "06:30",
       "catalyst_label": "no_catalyst",
       "catalyst_base_points": 0,
-      "price": 16.31,
+      "price": 16.38,
       "market_cap_m": 347.986373,
       "cooling": true
     },
@@ -323,7 +323,7 @@
       "news_time": "08:05",
       "catalyst_label": "no_catalyst",
       "catalyst_base_points": 0,
-      "price": 41.47,
+      "price": 41.41,
       "market_cap_m": 20.351666,
       "cooling": true
     },
@@ -331,7 +331,7 @@
       "ticker": "AXTI",
       "name": "AXT, Inc.",
       "changesPercentage": 18.67132,
-      "price": 67.53,
+      "price": 66.57,
       "premarket_change": 18.67132,
       "headline": "AXT, Inc. Schedules Second Quarter 2026 Earnings Release for July 30, 2026",
       "news_url": "https://www.businesswire.com/news/home/20260702755619/en/AXT-Inc.-Schedules-Second-Quarter-2026-Earnings-Release-for-July-30-2026/",
@@ -356,8 +356,8 @@
       ],
       "catalyst_score": 16,
       "neglect_score": 0,
-      "technical_score": 0,
-      "total": 16,
+      "technical_score": 8,
+      "total": 24,
       "cbreak": [
         [
           "Gap 18.7% (market voting)",
@@ -365,28 +365,34 @@
         ]
       ],
       "nbreak": [],
-      "tbreak": []
+      "tbreak": [
+        [
+          "$ vol $531M",
+          "+8"
+        ]
+      ],
+      "dollar_volume_m": 531.0
     },
     {
       "ticker": "CHRN",
       "name": "ChronoScale Corporation",
       "changesPercentage": 18.46574,
-      "price": 19.535,
+      "price": 21.1,
       "premarket_change": 18.46574,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 16.59,
-      "dollar_volume_m": 5.5,
+      "dollar_volume_m": 6.3,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
       "above_50": true,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 0.6,
-      "rvol": 0.6,
+      "vol_expansion": 0.7,
+      "rvol": 0.7,
       "pct_below_52w_high": 23.4,
       "market_cap_m": 69.610628,
       "_avg20_vol": 435647.1,
@@ -395,7 +401,7 @@
       "info": [
         [
           "RVOL",
-          "0.6x"
+          "0.7x"
         ],
         [
           "52wk",
@@ -412,7 +418,7 @@
           "+16"
         ],
         [
-          "Volume 0.6x expansion",
+          "Volume 0.7x expansion",
           "+2"
         ]
       ],
@@ -441,7 +447,7 @@
       "ticker": "BGDE",
       "name": "Big Digital Energy, Inc.",
       "changesPercentage": 18.45638,
-      "price": 8.83,
+      "price": 8.85,
       "premarket_change": 18.45638,
       "headline": "Big Digital Energy announces partnership with 10NetZero to Acquire Power-Ready Hood County, Texas Site for AI Datacenter Development",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/06/3322404/0/en/Big-Digital-Energy-announces-partnership-with-10NetZero-to-Acquire-Power-Ready-Hood-County-Texas-Site-for-AI-Datacenter-Development.html",
@@ -456,15 +462,15 @@
       "wk52_low": 4.3,
       "float_m": 3.596531,
       "adr_pct": 14.12,
-      "dollar_volume_m": 1.0,
+      "dollar_volume_m": 1.1,
       "gap_pct": null,
       "above_10": false,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.7,
-      "rvol": 0.7,
+      "vol_expansion": 0.8,
+      "rvol": 0.8,
       "pct_below_52w_high": 21.7,
       "_avg20_vol": 163473.05,
       "section": "ep",
@@ -473,7 +479,7 @@
       "info": [
         [
           "RVOL",
-          "0.7x"
+          "0.8x"
         ],
         [
           "Float",
@@ -498,7 +504,7 @@
           "+16"
         ],
         [
-          "Volume 0.7x expansion",
+          "Volume 0.8x expansion",
           "+2"
         ]
       ],
@@ -524,25 +530,95 @@
       ]
     },
     {
+      "ticker": "MGRT",
+      "name": "Mega Fortune Company Limited",
+      "changesPercentage": 18.28285,
+      "price": 96.85,
+      "premarket_change": 18.28285,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 10.86,
+      "dollar_volume_m": 0.8,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "high",
+      "vol_expansion": 0.8,
+      "rvol": 0.8,
+      "pct_below_52w_high": 26.5,
+      "market_cap_m": 1331.6875,
+      "_avg20_vol": 9165.7,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "0.8x"
+        ],
+        [
+          "52wk",
+          "26% below high"
+        ]
+      ],
+      "catalyst_score": 18,
+      "neglect_score": 42,
+      "technical_score": 19,
+      "total": 79,
+      "cbreak": [
+        [
+          "Gap 18.3% (market voting)",
+          "+16"
+        ],
+        [
+          "Volume 0.8x expansion",
+          "+2"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $1M",
+          "+2"
+        ],
+        [
+          "ADR 10.9%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
       "ticker": "PLBL",
       "name": "Polibeli Group Ltd",
       "changesPercentage": 18.20276,
-      "price": 10.63,
+      "price": 10.51,
       "premarket_change": 18.20276,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 15.18,
-      "dollar_volume_m": 2.1,
+      "dollar_volume_m": 2.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 1.0,
-      "rvol": 1.0,
+      "vol_expansion": 1.1,
+      "rvol": 1.1,
       "pct_below_52w_high": 6.3,
       "market_cap_m": 3759.135483,
       "_avg20_vol": 192545.4,
@@ -551,25 +627,25 @@
       "info": [
         [
           "RVOL",
-          "1.0x"
+          "1.1x"
         ],
         [
           "52wk",
           "6% below high"
         ]
       ],
-      "catalyst_score": 18,
+      "catalyst_score": 19,
       "neglect_score": 24,
       "technical_score": 19,
-      "total": 61,
+      "total": 62,
       "cbreak": [
         [
           "Gap 18.2% (market voting)",
           "+16"
         ],
         [
-          "Volume 1.0x expansion",
-          "+2"
+          "Volume 1.1x expansion",
+          "+3"
         ]
       ],
       "nbreak": [
@@ -597,7 +673,7 @@
       "ticker": "SHAZ",
       "name": "SharonAI Holdings, Inc. Class A Common Stock",
       "changesPercentage": 17.6999,
-      "price": 79.93,
+      "price": 80.84,
       "premarket_change": 17.6999,
       "headline": "What's Driving SharonAI Stock as Traders Monitor Meta Compute Initiative?",
       "news_url": "https://www.benzinga.com/trading-ideas/movers/26/07/60279378/whats-driving-sharonai-stock-as-traders-monitor-meta-compute-initiative",
@@ -612,15 +688,15 @@
       "wk52_low": 16.55,
       "float_m": 0.013696,
       "adr_pct": 15.17,
-      "dollar_volume_m": 147.1,
+      "dollar_volume_m": 175.8,
       "gap_pct": null,
       "above_10": false,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 1.2,
-      "rvol": 1.2,
+      "vol_expansion": 1.5,
+      "rvol": 1.5,
       "pct_below_52w_high": 15.9,
       "_avg20_vol": 1490761.65,
       "section": "ep",
@@ -629,7 +705,7 @@
       "info": [
         [
           "RVOL",
-          "1.2x"
+          "1.5x"
         ],
         [
           "Float",
@@ -640,10 +716,10 @@
           "16% below high"
         ]
       ],
-      "catalyst_score": 4,
+      "catalyst_score": 5,
       "neglect_score": 42,
       "technical_score": 19,
-      "total": 65,
+      "total": 66,
       "cbreak": [
         [
           "Share offering / dilution (bearish) (Tier C)",
@@ -654,8 +730,8 @@
           "+16"
         ],
         [
-          "Volume 1.2x expansion",
-          "+3"
+          "Volume 1.5x expansion",
+          "+4"
         ]
       ],
       "nbreak": [
@@ -666,7 +742,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $147M",
+          "$ vol $176M",
           "+8"
         ],
         [
@@ -698,7 +774,7 @@
       "wk52_low": 5.684,
       "float_m": 16.530057,
       "adr_pct": 7.31,
-      "dollar_volume_m": 17.9,
+      "dollar_volume_m": 19.8,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -747,7 +823,7 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $18M",
+          "$ vol $20M",
           "+2"
         ],
         [
@@ -764,7 +840,7 @@
       "ticker": "BFLY",
       "name": "Butterfly Network, Inc.",
       "changesPercentage": 16.21094,
-      "price": 8.925,
+      "price": 8.85,
       "premarket_change": 16.21094,
       "headline": "Butterfly Network Insider Sheds 399K Shares \u2014 This Stock May Be Ready to Take Flight",
       "news_url": "https://www.fool.com/coverage/filings/2026/07/05/butterfly-network-insider-sheds-399k-shares-this-stock-may-be-ready-to-take-flight/",
@@ -779,15 +855,15 @@
       "wk52_low": 1.32,
       "float_m": 192.323243,
       "adr_pct": 11.53,
-      "dollar_volume_m": 64.9,
+      "dollar_volume_m": 75.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 0.6,
-      "rvol": 0.6,
+      "vol_expansion": 0.7,
+      "rvol": 0.7,
       "pct_below_52w_high": -0.2,
       "_avg20_vol": 11906727.0,
       "section": "ep",
@@ -796,7 +872,7 @@
       "info": [
         [
           "RVOL",
-          "0.6x"
+          "0.7x"
         ],
         [
           "Float",
@@ -821,14 +897,14 @@
           "+15"
         ],
         [
-          "Volume 0.6x expansion",
+          "Volume 0.7x expansion",
           "+2"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $65M",
+          "$ vol $75M",
           "+4"
         ],
         [
@@ -917,8 +993,8 @@
       "above_50": false,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 6.8,
-      "rvol": 6.8,
+      "vol_expansion": 6.9,
+      "rvol": 6.9,
       "pct_below_52w_high": 72.4,
       "market_cap_m": 4.413925,
       "_avg20_vol": 25642.8,
@@ -927,7 +1003,7 @@
       "info": [
         [
           "RVOL",
-          "6.8x"
+          "6.9x"
         ],
         [
           "52wk",
@@ -944,7 +1020,7 @@
           "+15"
         ],
         [
-          "Volume 6.8x expansion",
+          "Volume 6.9x expansion",
           "+10"
         ]
       ],
@@ -969,7 +1045,7 @@
       "ticker": "IREN",
       "name": "IREN Limited",
       "changesPercentage": 14.34827,
-      "price": 44.41,
+      "price": 44.72,
       "premarket_change": 14.34827,
       "headline": "Forget Nvidia: This Infrastructure Upstart Is The Real Backdoor AI Winner",
       "news_url": "https://www.fool.com/investing/2026/07/03/forget-nvidia-this-ai-upstart-is-the-winner/",
@@ -984,15 +1060,15 @@
       "wk52_low": 14.72,
       "float_m": 327.855622,
       "adr_pct": 9.7,
-      "dollar_volume_m": 1284.5,
+      "dollar_volume_m": 1430.0,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
       "above_50": false,
       "above_200": false,
       "neglect": "low",
-      "vol_expansion": 0.6,
-      "rvol": 0.6,
+      "vol_expansion": 0.8,
+      "rvol": 0.8,
       "pct_below_52w_high": 38.3,
       "_avg20_vol": 42181003.05,
       "section": "ep",
@@ -1001,7 +1077,7 @@
       "info": [
         [
           "RVOL",
-          "0.6x"
+          "0.8x"
         ],
         [
           "Float",
@@ -1026,14 +1102,14 @@
           "+15"
         ],
         [
-          "Volume 0.6x expansion",
+          "Volume 0.8x expansion",
           "+2"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $1284M",
+          "$ vol $1430M",
           "+8"
         ],
         [
@@ -1053,7 +1129,7 @@
       "technical_score": 7,
       "total": 46,
       "premarket_change": 14,
-      "dollar_volume_m": 13.4,
+      "dollar_volume_m": 15.6,
       "adr_pct": 6.8,
       "neglect": "med",
       "rvol": 3.4,
@@ -1074,7 +1150,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $13M",
+          "$ vol $16M",
           "+2"
         ],
         [
@@ -1102,7 +1178,7 @@
       "news_time": "07:45",
       "catalyst_label": "no_catalyst",
       "catalyst_base_points": 0,
-      "price": 25.71,
+      "price": 25.91,
       "market_cap_m": 3228.39223,
       "cooling": true
     },
