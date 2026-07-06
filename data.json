@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-06T11:06:55.603681+00:00",
+  "generated_utc": "2026-07-06T12:05:53.843748+00:00",
   "session_date": "2026-07-06",
   "mode": "refresh",
   "run_label": "scheduled",
@@ -23,7 +23,7 @@
       "ticker": "DSY",
       "name": "Big Tree Cloud Holdings Limited",
       "changesPercentage": 55.20833,
-      "price": 4.47,
+      "price": 3.69,
       "premarket_change": 55.20833,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
@@ -163,7 +163,7 @@
       "technical_score": 7,
       "total": 49,
       "premarket_change": 22,
-      "dollar_volume_m": 1.7,
+      "dollar_volume_m": 2.9,
       "adr_pct": 5.1,
       "neglect": "med",
       "rvol": 5.4,
@@ -184,7 +184,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $2M",
+          "$ vol $3M",
           "+2"
         ],
         [
@@ -212,7 +212,7 @@
       "news_time": "06:30",
       "catalyst_label": "no_catalyst",
       "catalyst_base_points": 0,
-      "price": 16.17,
+      "price": 16.22,
       "market_cap_m": 347.986373,
       "cooling": true
     },
@@ -284,7 +284,7 @@
       "ticker": "PLBL",
       "name": "Polibeli Group Ltd",
       "changesPercentage": 18.20276,
-      "price": 10.26,
+      "price": 10.4,
       "premarket_change": 18.20276,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
@@ -350,7 +350,7 @@
       "ticker": "TENX",
       "name": "Tenax Therapeutics, Inc.",
       "changesPercentage": 16.32807,
-      "price": 15.46,
+      "price": 15.52,
       "premarket_change": 16.32807,
       "headline": "Tenax Therapeutics Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/02/3321561/12401/en/Tenax-Therapeutics-Announces-Inducement-Grants-Under-Nasdaq-Listing-Rule-5635-c-4.html",
