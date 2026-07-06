@@ -1,29 +1,611 @@
 {
-  "generated_utc":"2026-07-06T13:15:00Z","session_date":"2026-07-06","mode":"refresh","ai_used":true,"fresh_window_ok":true,
-  "table_filters":{"adr_min":4.0,"dollar_vol_floor_m":1.5},
-  "rows":[
-    {"ticker":"CRVX","name":"CereVax Bio","section":"ep","catalyst_tier":"S","catalyst_desc":"FDA approval / positive pivotal trial","catalyst_score":128,"neglect_score":42,"technical_score":22,"total":192,"premarket_change":47,"dollar_volume_m":340,"adr_pct":9.2,"neglect":"high","vol_expansion":6.2,"rvol":8.0,"float_m":12,"pct_below_52w_high":1,"low_float":true,
-     "cbreak":[["FDA approval (Tier S)","+98"],["Gap 47.0%","+22"],["Vol 6.2x","+8"]],"nbreak":[["High neglect","+42"]],"tbreak":[["$vol $340M","+8"],["Above 200d,50d","+9"]],
-     "info":[["RVOL","8.0x"],["Float","12M · LOW"],["52wk","at highs"]],
-     "headline":"CereVax Bio wins FDA approval for lead oncology therapy","news_url":"https://example.com/crvx","news_site":"reuters.com","news_time":"07:02"},
-    {"ticker":"NVDX","name":"NovaDyne Systems","section":"ep","catalyst_tier":"S","catalyst_desc":"Earnings/sales acceleration, blowout + raised guidance","catalyst_score":122,"neglect_score":24,"technical_score":19,"total":165,"premarket_change":22,"dollar_volume_m":890,"adr_pct":5.1,"neglect":"med","rvol":5.4,"float_m":88,"pct_below_52w_high":3,"low_float":false,
-     "cbreak":[["Earnings blowout (Tier S)","+100"],["Gap 22.0%","+14"]],"nbreak":[["Med neglect","+24"]],"tbreak":[["$vol $890M","+8"]],
-     "info":[["RVOL","5.4x"],["Float","88M"]],
-     "headline":"NovaDyne posts triple-digit revenue growth, lifts guidance","news_url":"https://example.com/nvdx","news_site":"bloomberg.com","news_time":"06:30"},
-    {"ticker":"HELX","name":"Helix Contracts","section":"ep","catalyst_tier":"S","catalyst_desc":"Major new contract / government order","catalyst_score":104,"neglect_score":42,"technical_score":14,"total":160,"premarket_change":19,"dollar_volume_m":210,"adr_pct":4.4,"neglect":"high","rvol":4.2,"float_m":15,"pct_below_52w_high":1,"low_float":true,
-     "cbreak":[["Major contract (Tier S)","+90"],["Gap 19.0%","+12"]],"nbreak":[["High neglect","+42"]],"tbreak":[["$vol $210M","+8"]],
-     "info":[["RVOL","4.2x"],["Float","15M · LOW"]],
-     "headline":"Helix awarded $2.1B defense contract","news_url":"https://example.com/helx","news_site":"prnewswire.com","news_time":"08:05"},
-    {"ticker":"ARQT","name":"Arqit Micro","section":"ep","catalyst_tier":"B","catalyst_desc":"New product launch / major product news","catalyst_score":72,"neglect_score":24,"technical_score":15,"total":111,"premarket_change":14,"dollar_volume_m":120,"adr_pct":6.8,"neglect":"med","rvol":3.4,"float_m":45,"pct_below_52w_high":8,"low_float":false,
-     "cbreak":[["New product (Tier B)","+62"]],"nbreak":[["Med neglect","+24"]],"tbreak":[["$vol $120M","+8"]],
-     "info":[["RVOL","3.4x"]],
-     "headline":"Arqit unveils next-gen quantum encryption platform","news_url":"https://example.com/arqt","news_site":"seekingalpha.com","news_time":"07:45"},
-    {"ticker":"SMLX","name":"Simplex Micro","section":"ep","catalyst_tier":"A","catalyst_desc":"Earnings beat with strong growth","catalyst_score":90,"neglect_score":42,"technical_score":10,"total":142,"premarket_change":9,"dollar_volume_m":18,"adr_pct":3.8,"neglect":"high","rvol":2.9,"float_m":6,"pct_below_52w_high":2,"low_float":true,
-     "cbreak":[["Earnings beat + growth (Tier A)","+84"]],"nbreak":[["High neglect","+42"]],"tbreak":[["$vol $18M","+4"]],
-     "info":[["RVOL","2.9x"],["Float","6M · LOW"]],
-     "headline":"Simplex Micro tops estimates on 60% sales growth","news_url":"https://example.com/smlx","news_site":"benzinga.com","news_time":"06:50"},
-    {"ticker":"ZPHR","name":"Zephyr Mining","section":"no_catalyst","catalyst_tier":null,"catalyst_desc":"No fresh catalyst found","catalyst_score":0,"neglect_score":24,"technical_score":13,"total":37,"premarket_change":16,"dollar_volume_m":45,"adr_pct":7.0,"neglect":"med","rvol":3.5,"float_m":8,"pct_below_52w_high":1,"low_float":true,
-     "cbreak":[],"nbreak":[["Med neglect","+24"]],"tbreak":[["$vol $45M","+4"]],
-     "info":[["RVOL","3.5x"],["Float","8M · LOW"]]}
+  "generated_utc": "2026-07-06T11:06:55.603681+00:00",
+  "session_date": "2026-07-06",
+  "mode": "refresh",
+  "run_label": "scheduled",
+  "count": 9,
+  "active_count": 0,
+  "no_catalyst_count": 3,
+  "ai_used": true,
+  "fresh_window_ok": true,
+  "table_filters": {
+    "adr_min": 4.0,
+    "liquid_slider_default_m": 20,
+    "liquid_slider_max_m": 200
+  },
+  "config_summary": {
+    "gap_pivot": 7.5,
+    "adr_pivot": 4.0,
+    "dollar_volume_pivot": 100
+  },
+  "rows": [
+    {
+      "ticker": "DSY",
+      "name": "Big Tree Cloud Holdings Limited",
+      "changesPercentage": 55.20833,
+      "price": 4.47,
+      "premarket_change": 55.20833,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 28.07,
+      "dollar_volume_m": 0.3,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": false,
+      "neglect": "med",
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
+      "pct_below_52w_high": 93.2,
+      "market_cap_m": 21.240868,
+      "_avg20_vol": 7502615.65,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "0.0x"
+        ],
+        [
+          "52wk",
+          "93% below high"
+        ]
+      ],
+      "catalyst_score": 22,
+      "neglect_score": 24,
+      "technical_score": 14,
+      "total": 60,
+      "cbreak": [
+        [
+          "Gap 55.2% (market voting)",
+          "+22"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 28.1%",
+          "+5"
+        ],
+        [
+          "Above 50d, 20d, 10d",
+          "+7"
+        ]
+      ]
+    },
+    {
+      "ticker": "CRVX",
+      "name": "CereVax Bio",
+      "section": "ep",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_score": 32,
+      "neglect_score": 42,
+      "technical_score": 13,
+      "total": 87,
+      "premarket_change": 47,
+      "dollar_volume_m": 340,
+      "adr_pct": 9.2,
+      "neglect": "high",
+      "vol_expansion": 6.2,
+      "rvol": 8.0,
+      "float_m": 12,
+      "pct_below_52w_high": 1,
+      "low_float": true,
+      "cbreak": [
+        [
+          "Gap 47.0% (market voting)",
+          "+22"
+        ],
+        [
+          "Volume 6.2x expansion",
+          "+10"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $340M",
+          "+8"
+        ],
+        [
+          "ADR 9.2%",
+          "+5"
+        ]
+      ],
+      "info": [
+        [
+          "RVOL",
+          "8.0x"
+        ],
+        [
+          "Float",
+          "12M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "at highs"
+        ]
+      ],
+      "headline": "CereVax Bio wins FDA approval for lead oncology therapy",
+      "news_url": "https://example.com/crvx",
+      "news_site": "reuters.com",
+      "news_time": "07:02",
+      "catalyst_label": "no_catalyst",
+      "catalyst_base_points": 0,
+      "cooling": true
+    },
+    {
+      "ticker": "NVDX",
+      "name": "NovaDyne Systems",
+      "section": "ep",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_score": 18,
+      "neglect_score": 24,
+      "technical_score": 7,
+      "total": 49,
+      "premarket_change": 22,
+      "dollar_volume_m": 1.7,
+      "adr_pct": 5.1,
+      "neglect": "med",
+      "rvol": 5.4,
+      "float_m": 88,
+      "pct_below_52w_high": 3,
+      "low_float": false,
+      "cbreak": [
+        [
+          "Gap 22.0% (market voting)",
+          "+18"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $2M",
+          "+2"
+        ],
+        [
+          "ADR 5.1%",
+          "+5"
+        ]
+      ],
+      "info": [
+        [
+          "RVOL",
+          "5.4x"
+        ],
+        [
+          "Float",
+          "88M"
+        ],
+        [
+          "52wk",
+          "3% below high"
+        ]
+      ],
+      "headline": "NovaDyne posts triple-digit revenue growth, lifts guidance",
+      "news_url": "https://example.com/nvdx",
+      "news_site": "bloomberg.com",
+      "news_time": "06:30",
+      "catalyst_label": "no_catalyst",
+      "catalyst_base_points": 0,
+      "price": 16.17,
+      "market_cap_m": 347.986373,
+      "cooling": true
+    },
+    {
+      "ticker": "HELX",
+      "name": "Helix Contracts",
+      "section": "ep",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_score": 17,
+      "neglect_score": 42,
+      "technical_score": 7,
+      "total": 66,
+      "premarket_change": 19,
+      "dollar_volume_m": 0.0,
+      "adr_pct": 4.4,
+      "neglect": "high",
+      "rvol": 4.2,
+      "float_m": 15,
+      "pct_below_52w_high": 1,
+      "low_float": true,
+      "cbreak": [
+        [
+          "Gap 19.0% (market voting)",
+          "+17"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 4.4%",
+          "+5"
+        ]
+      ],
+      "info": [
+        [
+          "RVOL",
+          "4.2x"
+        ],
+        [
+          "Float",
+          "15M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "at highs"
+        ]
+      ],
+      "headline": "Helix awarded $2.1B defense contract",
+      "news_url": "https://example.com/helx",
+      "news_site": "prnewswire.com",
+      "news_time": "08:05",
+      "catalyst_label": "no_catalyst",
+      "catalyst_base_points": 0,
+      "price": 41.75,
+      "market_cap_m": 20.351666,
+      "cooling": true
+    },
+    {
+      "ticker": "PLBL",
+      "name": "Polibeli Group Ltd",
+      "changesPercentage": 18.20276,
+      "price": 10.26,
+      "premarket_change": 18.20276,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 15.18,
+      "dollar_volume_m": 0.0,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "med",
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
+      "pct_below_52w_high": 6.3,
+      "market_cap_m": 3759.135483,
+      "_avg20_vol": 192545.4,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "0.0x"
+        ],
+        [
+          "52wk",
+          "6% below high"
+        ]
+      ],
+      "catalyst_score": 16,
+      "neglect_score": 24,
+      "technical_score": 19,
+      "total": 59,
+      "cbreak": [
+        [
+          "Gap 18.2% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 15.2%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
+      "ticker": "TENX",
+      "name": "Tenax Therapeutics, Inc.",
+      "changesPercentage": 16.32807,
+      "price": 15.46,
+      "premarket_change": 16.32807,
+      "headline": "Tenax Therapeutics Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "news_url": "https://www.globenewswire.com/news-release/2026/07/02/3321561/12401/en/Tenax-Therapeutics-Announces-Inducement-Grants-Under-Nasdaq-Listing-Rule-5635-c-4.html",
+      "news_site": "globenewswire.com",
+      "news_time": "2026-07-02 16:05:00",
+      "catalyst_label": "unclassified_move",
+      "catalyst_tier": "C",
+      "catalyst_desc": "Moving on unclear news",
+      "catalyst_base_points": 22,
+      "market_cap_m": 265.874896,
+      "wk52_high": 18.38,
+      "wk52_low": 5.684,
+      "float_m": 16.530057,
+      "adr_pct": 7.31,
+      "dollar_volume_m": 0.1,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "low",
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
+      "pct_below_52w_high": 15.1,
+      "_avg20_vol": 1197298.5,
+      "section": "ep",
+      "cooling": true,
+      "low_float": true,
+      "info": [
+        [
+          "RVOL",
+          "0.0x"
+        ],
+        [
+          "Float",
+          "17M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "15% below high"
+        ]
+      ],
+      "catalyst_score": 38,
+      "neglect_score": 0,
+      "technical_score": 19,
+      "total": 57,
+      "cbreak": [
+        [
+          "Moving on unclear news (Tier C)",
+          "+22"
+        ],
+        [
+          "Gap 16.3% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 7.3%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
+      "ticker": "ZPHR",
+      "name": "Zephyr Mining",
+      "section": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_score": 15,
+      "neglect_score": 24,
+      "technical_score": 9,
+      "total": 48,
+      "premarket_change": 16,
+      "dollar_volume_m": 45,
+      "adr_pct": 7.0,
+      "neglect": "med",
+      "rvol": 3.5,
+      "float_m": 8,
+      "pct_below_52w_high": 1,
+      "low_float": true,
+      "cbreak": [
+        [
+          "Gap 16.0% (market voting)",
+          "+15"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $45M",
+          "+4"
+        ],
+        [
+          "ADR 7.0%",
+          "+5"
+        ]
+      ],
+      "info": [
+        [
+          "RVOL",
+          "3.5x"
+        ],
+        [
+          "Float",
+          "8M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "at highs"
+        ]
+      ],
+      "catalyst_label": "no_catalyst",
+      "catalyst_base_points": 0,
+      "cooling": false
+    },
+    {
+      "ticker": "ARQT",
+      "name": "Arqit Micro",
+      "section": "ep",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_score": 15,
+      "neglect_score": 24,
+      "technical_score": 7,
+      "total": 46,
+      "premarket_change": 14,
+      "dollar_volume_m": 0.0,
+      "adr_pct": 6.8,
+      "neglect": "med",
+      "rvol": 3.4,
+      "float_m": 45,
+      "pct_below_52w_high": 8,
+      "low_float": false,
+      "cbreak": [
+        [
+          "Gap 14.0% (market voting)",
+          "+15"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 6.8%",
+          "+5"
+        ]
+      ],
+      "info": [
+        [
+          "RVOL",
+          "3.4x"
+        ],
+        [
+          "Float",
+          "45M"
+        ],
+        [
+          "52wk",
+          "8% below high"
+        ]
+      ],
+      "headline": "Arqit unveils next-gen quantum encryption platform",
+      "news_url": "https://example.com/arqt",
+      "news_site": "seekingalpha.com",
+      "news_time": "07:45",
+      "catalyst_label": "no_catalyst",
+      "catalyst_base_points": 0,
+      "price": 29.0,
+      "market_cap_m": 3228.39223,
+      "cooling": true
+    },
+    {
+      "ticker": "SMLX",
+      "name": "Simplex Micro",
+      "section": "ep",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_score": 13,
+      "neglect_score": 42,
+      "technical_score": 7,
+      "total": 62,
+      "premarket_change": 9,
+      "dollar_volume_m": 18,
+      "adr_pct": 3.8,
+      "neglect": "high",
+      "rvol": 2.9,
+      "float_m": 6,
+      "pct_below_52w_high": 2,
+      "low_float": true,
+      "cbreak": [
+        [
+          "Gap 9.0% (market voting)",
+          "+13"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $18M",
+          "+2"
+        ],
+        [
+          "ADR 3.8%",
+          "+5"
+        ]
+      ],
+      "info": [
+        [
+          "RVOL",
+          "2.9x"
+        ],
+        [
+          "Float",
+          "6M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "at highs"
+        ]
+      ],
+      "headline": "Simplex Micro tops estimates on 60% sales growth",
+      "news_url": "https://example.com/smlx",
+      "news_site": "benzinga.com",
+      "news_time": "06:50",
+      "catalyst_label": "no_catalyst",
+      "catalyst_base_points": 0,
+      "cooling": true
+    }
   ]
 }
