@@ -1,9 +1,9 @@
 {
-  "generated_utc": "2026-07-07T10:58:00.132579+00:00",
+  "generated_utc": "2026-07-07T13:24:32.856715+00:00",
   "session_date": "2026-07-07",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
-  "count": 3,
+  "count": 4,
   "active_count": 1,
   "no_catalyst_count": 1,
   "ai_used": true,
@@ -23,7 +23,7 @@
       "ticker": "WBX",
       "name": "Wallbox N.V.",
       "changesPercentage": 35.09615,
-      "price": 5.62,
+      "price": 6.23,
       "premarket_change": 35.09615,
       "headline": "Wallbox Announces Timing of its Second Quarter 2026 Financial Results",
       "news_url": "https://www.businesswire.com/news/home/20260707970664/en/Wallbox-Announces-Timing-of-its-Second-Quarter-2026-Financial-Results/",
@@ -38,7 +38,7 @@
       "wk52_low": 2.3,
       "float_m": 3.680465,
       "adr_pct": 14.04,
-      "dollar_volume_m": 4.7,
+      "dollar_volume_m": 5.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -109,7 +109,7 @@
       "ticker": "ILAG",
       "name": "Intelligent Living Application Group Inc.",
       "changesPercentage": 23.20917,
-      "price": 4.3,
+      "price": 4.42,
       "premarket_change": 23.20917,
       "market_cap_m": 8.930876,
       "wk52_high": 9.56,
@@ -183,7 +183,7 @@
       "ticker": "CRTO",
       "name": "Criteo S.A.",
       "changesPercentage": 21.43606,
-      "price": 23.17,
+      "price": 22.88,
       "premarket_change": 21.43606,
       "headline": "Vista Equity, Quinti Capital offer to buy French adtech firm Criteo, sources say",
       "news_url": "https://www.reuters.com/legal/transactional/vista-equity-quinti-capital-offer-buy-french-adtech-firm-criteo-sources-say-2026-07-06/",
@@ -253,6 +253,88 @@
         ],
         [
           "ADR 5.6%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
+      "ticker": "AGPU",
+      "name": "Axe Compute Inc.",
+      "changesPercentage": 18.78531,
+      "price": 8.41,
+      "premarket_change": 18.78531,
+      "headline": "Axe Compute Inc. Joins Russell Microcap\u00ae Index, Reflecting Its Growth as a Publicly Traded AI Infrastructure Platform",
+      "news_url": "https://www.globenewswire.com/news-release/2026/07/07/3323186/37244/en/Axe-Compute-Inc-Joins-Russell-Microcap-Index-Reflecting-Its-Growth-as-a-Publicly-Traded-AI-Infrastructure-Platform.html",
+      "news_site": "globenewswire.com",
+      "news_time": "2026-07-07 08:30:00",
+      "catalyst_label": "major_contract",
+      "catalyst_tier": "S",
+      "catalyst_desc": "Major new contract / government order",
+      "catalyst_base_points": 90,
+      "market_cap_m": 28.53947,
+      "wk52_high": 32.1,
+      "wk52_low": 1.03,
+      "float_m": 1.817974,
+      "adr_pct": 12.64,
+      "dollar_volume_m": 0.1,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "high",
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
+      "pct_below_52w_high": 53.3,
+      "_avg20_vol": 236154.25,
+      "section": "ep",
+      "cooling": true,
+      "low_float": true,
+      "info": [
+        [
+          "RVOL",
+          "0.0x"
+        ],
+        [
+          "Float",
+          "2M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "53% below high"
+        ]
+      ],
+      "catalyst_score": 107,
+      "neglect_score": 42,
+      "technical_score": 19,
+      "total": 168,
+      "cbreak": [
+        [
+          "Major new contract / government order (Tier S)",
+          "+90"
+        ],
+        [
+          "Gap 18.8% (market voting)",
+          "+17"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 12.6%",
           "+5"
         ],
         [
