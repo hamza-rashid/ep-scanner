@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-07-07T13:24:32.856715+00:00",
+  "generated_utc": "2026-07-07T16:01:17.566736+00:00",
   "session_date": "2026-07-07",
   "mode": "refresh",
   "run_label": "scheduled",
-  "count": 4,
-  "active_count": 1,
-  "no_catalyst_count": 1,
+  "count": 10,
+  "active_count": 3,
+  "no_catalyst_count": 3,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -23,7 +23,7 @@
       "ticker": "WBX",
       "name": "Wallbox N.V.",
       "changesPercentage": 35.09615,
-      "price": 6.23,
+      "price": 5.13,
       "premarket_change": 35.09615,
       "headline": "Wallbox Announces Timing of its Second Quarter 2026 Financial Results",
       "news_url": "https://www.businesswire.com/news/home/20260707970664/en/Wallbox-Announces-Timing-of-its-Second-Quarter-2026-Financial-Results/",
@@ -38,24 +38,24 @@
       "wk52_low": 2.3,
       "float_m": 3.680465,
       "adr_pct": 14.04,
-      "dollar_volume_m": 5.4,
+      "dollar_volume_m": 0.6,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 2.0,
-      "rvol": 2.0,
+      "vol_expansion": 0.3,
+      "rvol": 0.3,
       "pct_below_52w_high": 24.2,
       "_avg20_vol": 428995.25,
       "section": "ep",
-      "cooling": false,
+      "cooling": true,
       "low_float": true,
       "info": [
         [
           "RVOL",
-          "2.0x"
+          "0.3x"
         ],
         [
           "Float",
@@ -66,10 +66,10 @@
           "24% below high"
         ]
       ],
-      "catalyst_score": 12,
+      "catalyst_score": 8,
       "neglect_score": 24,
       "technical_score": 19,
-      "total": 55,
+      "total": 51,
       "cbreak": [
         [
           "Share offering / dilution (bearish) (Tier C)",
@@ -80,8 +80,8 @@
           "+22"
         ],
         [
-          "Volume 2.0x expansion",
-          "+5"
+          "Volume 0.3x expansion",
+          "+1"
         ]
       ],
       "nbreak": [
@@ -92,7 +92,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $5M",
+          "$ vol $1M",
           "+2"
         ],
         [
@@ -109,7 +109,7 @@
       "ticker": "ILAG",
       "name": "Intelligent Living Application Group Inc.",
       "changesPercentage": 23.20917,
-      "price": 4.42,
+      "price": 4.24,
       "premarket_change": 23.20917,
       "market_cap_m": 8.930876,
       "wk52_high": 9.56,
@@ -183,7 +183,7 @@
       "ticker": "CRTO",
       "name": "Criteo S.A.",
       "changesPercentage": 21.43606,
-      "price": 22.88,
+      "price": 23.01,
       "premarket_change": 21.43606,
       "headline": "Vista Equity, Quinti Capital offer to buy French adtech firm Criteo, sources say",
       "news_url": "https://www.reuters.com/legal/transactional/vista-equity-quinti-capital-offer-buy-french-adtech-firm-criteo-sources-say-2026-07-06/",
@@ -198,24 +198,24 @@
       "wk52_low": 15.575,
       "float_m": 44.646784,
       "adr_pct": 5.63,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 12.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 1.8,
+      "rvol": 1.8,
       "pct_below_52w_high": 6.9,
       "_avg20_vol": 296512.75,
       "section": "ep",
-      "cooling": true,
+      "cooling": false,
       "low_float": false,
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "1.8x"
         ],
         [
           "Float",
@@ -226,10 +226,10 @@
           "7% below high"
         ]
       ],
-      "catalyst_score": 114,
+      "catalyst_score": 118,
       "neglect_score": 24,
       "technical_score": 19,
-      "total": 157,
+      "total": 161,
       "cbreak": [
         [
           "Acquisition / buyout (target) (Tier S)",
@@ -238,6 +238,10 @@
         [
           "Gap 21.4% (market voting)",
           "+18"
+        ],
+        [
+          "Volume 1.8x expansion",
+          "+4"
         ]
       ],
       "nbreak": [
@@ -248,7 +252,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $12M",
           "+2"
         ],
         [
@@ -262,10 +266,80 @@
       ]
     },
     {
+      "ticker": "EDHL",
+      "name": "Everbright Digital Holding Limited Ordinary Shares",
+      "changesPercentage": 19.94949,
+      "price": 4.75,
+      "premarket_change": 19.94949,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 27.27,
+      "dollar_volume_m": 17.8,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": false,
+      "neglect": "high",
+      "vol_expansion": 0.7,
+      "rvol": 0.7,
+      "pct_below_52w_high": 94.3,
+      "market_cap_m": 7.864985,
+      "_avg20_vol": 4143442.8,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "0.7x"
+        ],
+        [
+          "52wk",
+          "94% below high"
+        ]
+      ],
+      "catalyst_score": 19,
+      "neglect_score": 42,
+      "technical_score": 14,
+      "total": 75,
+      "cbreak": [
+        [
+          "Gap 19.9% (market voting)",
+          "+17"
+        ],
+        [
+          "Volume 0.7x expansion",
+          "+2"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $18M",
+          "+2"
+        ],
+        [
+          "ADR 27.3%",
+          "+5"
+        ],
+        [
+          "Above 50d, 20d, 10d",
+          "+7"
+        ]
+      ]
+    },
+    {
       "ticker": "AGPU",
       "name": "Axe Compute Inc.",
       "changesPercentage": 18.78531,
-      "price": 8.41,
+      "price": 7.32,
       "premarket_change": 18.78531,
       "headline": "Axe Compute Inc. Joins Russell Microcap\u00ae Index, Reflecting Its Growth as a Publicly Traded AI Infrastructure Platform",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/07/3323186/37244/en/Axe-Compute-Inc-Joins-Russell-Microcap-Index-Reflecting-Its-Growth-as-a-Publicly-Traded-AI-Infrastructure-Platform.html",
@@ -280,15 +354,15 @@
       "wk52_low": 1.03,
       "float_m": 1.817974,
       "adr_pct": 12.64,
-      "dollar_volume_m": 0.1,
+      "dollar_volume_m": 1.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 0.8,
+      "rvol": 0.8,
       "pct_below_52w_high": 53.3,
       "_avg20_vol": 236154.25,
       "section": "ep",
@@ -297,7 +371,7 @@
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "0.8x"
         ],
         [
           "Float",
@@ -308,10 +382,10 @@
           "53% below high"
         ]
       ],
-      "catalyst_score": 107,
+      "catalyst_score": 109,
       "neglect_score": 42,
       "technical_score": 19,
-      "total": 168,
+      "total": 170,
       "cbreak": [
         [
           "Major new contract / government order (Tier S)",
@@ -320,6 +394,10 @@
         [
           "Gap 18.8% (market voting)",
           "+17"
+        ],
+        [
+          "Volume 0.8x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
@@ -330,7 +408,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $1M",
           "+2"
         ],
         [
@@ -340,6 +418,411 @@
         [
           "Above 200d, 50d, 20d, 10d",
           "+12"
+        ]
+      ]
+    },
+    {
+      "ticker": "BBCQU",
+      "name": "Bleichroeder Acquisition Corp. II Units",
+      "changesPercentage": 15.90909,
+      "price": 12.75,
+      "premarket_change": 15.90909,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 1.6,
+      "dollar_volume_m": 0.0,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": false,
+      "neglect": "med",
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
+      "pct_below_52w_high": 1.5,
+      "market_cap_m": 318.75,
+      "_avg20_vol": 1954.7,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "0.0x"
+        ],
+        [
+          "52wk",
+          "at highs"
+        ]
+      ],
+      "catalyst_score": 15,
+      "neglect_score": 24,
+      "technical_score": 11,
+      "total": 50,
+      "cbreak": [
+        [
+          "Gap 15.9% (market voting)",
+          "+15"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 1.6%",
+          "+2"
+        ],
+        [
+          "Above 50d, 20d, 10d",
+          "+7"
+        ]
+      ]
+    },
+    {
+      "ticker": "AKTX",
+      "name": "Akari Therapeutics, Plc",
+      "changesPercentage": 15.18349,
+      "price": 12.555,
+      "premarket_change": 15.18349,
+      "headline": "Akari Therapeutics Appoints Former AACR President and Renowned Oncology Drug Development Leader, Patricia LoRusso, D.O., to Scientific Advisory Board",
+      "news_url": "https://www.globenewswire.com/news-release/2026/07/07/3323219/0/en/Akari-Therapeutics-Appoints-Former-AACR-President-and-Renowned-Oncology-Drug-Development-Leader-Patricia-LoRusso-D-O-to-Scientific-Advisory-Board.html",
+      "news_site": "globenewswire.com",
+      "news_time": "2026-07-07 08:55:00",
+      "catalyst_label": "dilution_offering",
+      "catalyst_tier": "C",
+      "catalyst_desc": "Share offering / dilution (bearish)",
+      "catalyst_base_points": -15,
+      "market_cap_m": 14.37029,
+      "wk52_high": 49.6,
+      "wk52_low": 3.015,
+      "float_m": 0.543679,
+      "adr_pct": 14.52,
+      "dollar_volume_m": 0.4,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": false,
+      "neglect": "med",
+      "vol_expansion": 0.3,
+      "rvol": 0.3,
+      "pct_below_52w_high": 69.6,
+      "_avg20_vol": 94534.0,
+      "section": "ep",
+      "cooling": true,
+      "low_float": true,
+      "info": [
+        [
+          "RVOL",
+          "0.3x"
+        ],
+        [
+          "Float",
+          "1M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "70% below high"
+        ]
+      ],
+      "catalyst_score": 1,
+      "neglect_score": 24,
+      "technical_score": 14,
+      "total": 39,
+      "cbreak": [
+        [
+          "Share offering / dilution (bearish) (Tier C)",
+          "-15"
+        ],
+        [
+          "Gap 15.2% (market voting)",
+          "+15"
+        ],
+        [
+          "Volume 0.3x expansion",
+          "+1"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 14.5%",
+          "+5"
+        ],
+        [
+          "Above 50d, 20d, 10d",
+          "+7"
+        ]
+      ]
+    },
+    {
+      "ticker": "AGIO",
+      "name": "Agios Pharmaceuticals, Inc.",
+      "changesPercentage": 13.6935,
+      "price": 42.5015,
+      "premarket_change": 13.6935,
+      "headline": "Why This Novo Nordisk Rival Just Soared Near A Profit-Taking Zone",
+      "news_url": "https://www.investors.com/news/technology/agios-stock-fda-priority-review-mitapivat-sickle-cell-disease-treatment/",
+      "news_site": "investors.com",
+      "news_time": "2026-07-07 11:30:02",
+      "catalyst_label": "fda_approval",
+      "catalyst_tier": "S",
+      "catalyst_desc": "FDA approval / positive pivotal trial",
+      "catalyst_base_points": 98,
+      "market_cap_m": 2527.632207,
+      "wk52_high": 46.0,
+      "wk52_low": 22.24,
+      "float_m": 55.684448,
+      "adr_pct": 4.76,
+      "dollar_volume_m": 72.3,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "low",
+      "vol_expansion": 1.2,
+      "rvol": 1.2,
+      "pct_below_52w_high": -12.6,
+      "_avg20_vol": 1212673.45,
+      "section": "ep",
+      "cooling": false,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "1.2x"
+        ],
+        [
+          "Float",
+          "56M"
+        ],
+        [
+          "52wk",
+          "at highs"
+        ]
+      ],
+      "catalyst_score": 115,
+      "neglect_score": 0,
+      "technical_score": 21,
+      "total": 136,
+      "cbreak": [
+        [
+          "FDA approval / positive pivotal trial (Tier S)",
+          "+98"
+        ],
+        [
+          "Gap 13.7% (market voting)",
+          "+14"
+        ],
+        [
+          "Volume 1.2x expansion",
+          "+3"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": [
+        [
+          "$ vol $72M",
+          "+4"
+        ],
+        [
+          "ADR 4.8%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
+      "ticker": "SNAL",
+      "name": "Snail, Inc. Class A Common Stock",
+      "changesPercentage": 11.07492,
+      "price": 3.41,
+      "premarket_change": 11.07492,
+      "headline": "Snail Games launches three new ARK expansions, expects to recognize $11M in deferred revenue in Q3",
+      "news_url": "https://www.proactiveinvestors.com/companies/news/1095052",
+      "news_site": "proactiveinvestors.com",
+      "news_time": "2026-07-07 09:55:37",
+      "catalyst_label": "new_product",
+      "catalyst_tier": "B",
+      "catalyst_desc": "New product launch / major product news",
+      "catalyst_base_points": 62,
+      "market_cap_m": 25.635718,
+      "wk52_high": 10.8,
+      "wk52_low": 1.695,
+      "float_m": 7.171032,
+      "adr_pct": 10.42,
+      "dollar_volume_m": 1.1,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "med",
+      "vol_expansion": 3.1,
+      "rvol": 3.1,
+      "pct_below_52w_high": 59.6,
+      "_avg20_vol": 105112.75,
+      "section": "ep",
+      "cooling": true,
+      "low_float": true,
+      "info": [
+        [
+          "RVOL",
+          "3.1x"
+        ],
+        [
+          "Float",
+          "7M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "60% below high"
+        ]
+      ],
+      "catalyst_score": 83,
+      "neglect_score": 24,
+      "technical_score": 10,
+      "total": 117,
+      "cbreak": [
+        [
+          "New product launch / major product news (Tier B)",
+          "+62"
+        ],
+        [
+          "Gap 11.1% (market voting)",
+          "+13"
+        ],
+        [
+          "Volume 3.1x expansion",
+          "+8"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $1M",
+          "+2"
+        ],
+        [
+          "ADR 10.4%",
+          "+5"
+        ],
+        [
+          "Above 20d, 10d",
+          "+3"
+        ]
+      ]
+    },
+    {
+      "ticker": "DOCN",
+      "name": "DigitalOcean Holdings, Inc.",
+      "changesPercentage": 10.68737,
+      "price": 145.34,
+      "premarket_change": 10.68737,
+      "headline": "DigitalOcean (DOCN) Anticipates Record Q2 Results with Strong Growth Indicators",
+      "news_url": "https://www.gurufocus.com/news/8947824/digitalocean-docn-anticipates-record-q2-results-with-strong-growth-indicators",
+      "news_site": "gurufocus.com",
+      "news_time": "2026-07-07 11:14:00",
+      "catalyst_label": "earnings_accel_blowout",
+      "catalyst_tier": "S",
+      "catalyst_desc": "Earnings/sales acceleration, blowout + raised guidance",
+      "catalyst_base_points": 100,
+      "market_cap_m": 15164.0892,
+      "wk52_high": 187.5,
+      "wk52_low": 25.56,
+      "float_m": 83.875405,
+      "adr_pct": 8.77,
+      "dollar_volume_m": 358.4,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": false,
+      "above_50": false,
+      "above_200": true,
+      "neglect": "med",
+      "vol_expansion": 0.7,
+      "rvol": 0.7,
+      "pct_below_52w_high": 19.5,
+      "_avg20_vol": 3674147.45,
+      "section": "ep",
+      "cooling": false,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "0.7x"
+        ],
+        [
+          "Float",
+          "84M"
+        ],
+        [
+          "52wk",
+          "20% below high"
+        ]
+      ],
+      "catalyst_score": 115,
+      "neglect_score": 24,
+      "technical_score": 19,
+      "total": 158,
+      "cbreak": [
+        [
+          "Earnings/sales acceleration, blowout + raised guidance (Tier S)",
+          "+100"
+        ],
+        [
+          "Gap 10.7% (market voting)",
+          "+13"
+        ],
+        [
+          "Volume 0.7x expansion",
+          "+2"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $358M",
+          "+8"
+        ],
+        [
+          "ADR 8.8%",
+          "+5"
+        ],
+        [
+          "Above 200d, 10d",
+          "+6"
         ]
       ]
     }
