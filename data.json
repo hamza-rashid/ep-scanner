@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-07-08T10:20:06.940549+00:00",
+  "generated_utc": "2026-07-08T12:00:02.243278+00:00",
   "session_date": "2026-07-08",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
-  "count": 6,
-  "active_count": 0,
-  "no_catalyst_count": 4,
+  "count": 7,
+  "active_count": 1,
+  "no_catalyst_count": 5,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -23,7 +23,7 @@
       "ticker": "CRNX",
       "name": "Crinetics Pharmaceuticals, Inc.",
       "changesPercentage": 98.739,
-      "price": 83.53,
+      "price": 83.52,
       "premarket_change": 98.739,
       "headline": "Strength Seen in CRINETICS PHARM (CRNX): Can Its 98.7% Jump Turn into More Strength?",
       "news_url": "https://www.zacks.com/stock/news/2949847/strength-seen-in-crinetics-pharm-crnx-can-its-98-7-jump-turn-into-more-strength?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|daily_price_change_5%-2949847",
@@ -38,7 +38,7 @@
       "wk52_low": 25.83,
       "float_m": 98.911155,
       "adr_pct": 4.64,
-      "dollar_volume_m": 0.9,
+      "dollar_volume_m": 1.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -100,7 +100,7 @@
       "ticker": "TVRD",
       "name": "Tvardi Therapeutics, Inc.",
       "changesPercentage": 54.22886,
-      "price": 3.1,
+      "price": 3.26,
       "premarket_change": 54.22886,
       "headline": "Tvardi Therapeutics, Inc. (TVRD) Discusses Phase 1 Data on TTI-109 STAT3 Inhibitor Highlighting Prodrug Design, Tolerability and Target Engagement Transcript",
       "news_url": "https://seekingalpha.com/article/4920350-tvardi-therapeutics-inc-tvrd-discusses-phase-1-data-on-ttiminus-109-stat3-inhibitor",
@@ -115,24 +115,24 @@
       "wk52_low": 1.5,
       "float_m": 6.081481,
       "adr_pct": 16.41,
-      "dollar_volume_m": 0.7,
+      "dollar_volume_m": 2.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 0.6,
-      "rvol": 0.6,
+      "vol_expansion": 1.8,
+      "rvol": 1.8,
       "pct_below_52w_high": 93.0,
       "_avg20_vol": 398634.15,
       "section": "ep",
-      "cooling": true,
+      "cooling": false,
       "low_float": true,
       "info": [
         [
           "RVOL",
-          "0.6x"
+          "1.8x"
         ],
         [
           "Float",
@@ -143,10 +143,10 @@
           "93% below high"
         ]
       ],
-      "catalyst_score": 86,
+      "catalyst_score": 88,
       "neglect_score": 24,
       "technical_score": 10,
-      "total": 120,
+      "total": 122,
       "cbreak": [
         [
           "New product launch / major product news (Tier B)",
@@ -157,8 +157,8 @@
           "+22"
         ],
         [
-          "Volume 0.6x expansion",
-          "+2"
+          "Volume 1.8x expansion",
+          "+4"
         ]
       ],
       "nbreak": [
@@ -169,7 +169,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $1M",
+          "$ vol $2M",
           "+2"
         ],
         [
@@ -186,7 +186,7 @@
       "ticker": "PHOE",
       "name": "Phoenix Asia Holdings Limited Ordinary Shares",
       "changesPercentage": 25.88416,
-      "price": 24.56,
+      "price": 21.73,
       "premarket_change": 25.88416,
       "market_cap_m": 530.496,
       "wk52_high": 133.12,
@@ -204,8 +204,8 @@
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.1,
-      "rvol": 0.1,
+      "vol_expansion": 0.2,
+      "rvol": 0.2,
       "pct_below_52w_high": 83.3,
       "_avg20_vol": 11331.05,
       "section": "no_catalyst",
@@ -214,7 +214,7 @@
       "info": [
         [
           "RVOL",
-          "0.1x"
+          "0.2x"
         ],
         [
           "Float",
@@ -235,7 +235,7 @@
           "+19"
         ],
         [
-          "Volume 0.1x expansion",
+          "Volume 0.2x expansion",
           "+0"
         ]
       ],
@@ -264,7 +264,7 @@
       "ticker": "EDHL",
       "name": "Everbright Digital Holding Limited Ordinary Shares",
       "changesPercentage": 24.74747,
-      "price": 4.94,
+      "price": 4.18,
       "premarket_change": 24.74747,
       "market_cap_m": 8.231399,
       "wk52_high": 108.48,
@@ -275,7 +275,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 27.27,
-      "dollar_volume_m": 0.1,
+      "dollar_volume_m": 0.2,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
@@ -338,7 +338,7 @@
       "ticker": "RDAC",
       "name": "Rising Dragon Acquisition Corp.",
       "changesPercentage": 16.36364,
-      "price": 5.76,
+      "price": 6.0,
       "premarket_change": 16.36364,
       "market_cap_m": 43.1964,
       "wk52_high": 23.99,
@@ -412,7 +412,7 @@
       "ticker": "NAAS",
       "name": "NaaS Technology Inc.",
       "changesPercentage": 14.42623,
-      "price": 3.49,
+      "price": 2.04,
       "premarket_change": 14.42623,
       "market_cap_m": 4.127724,
       "wk52_high": 4.55,
@@ -423,15 +423,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 6.54,
-      "dollar_volume_m": 0.2,
+      "dollar_volume_m": 0.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 2.2,
-      "rvol": 2.2,
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
       "pct_below_52w_high": 20.8,
       "_avg20_vol": 23735.9,
       "section": "no_catalyst",
@@ -440,7 +440,7 @@
       "info": [
         [
           "RVOL",
-          "2.2x"
+          "0.0x"
         ],
         [
           "Float",
@@ -451,18 +451,14 @@
           "21% below high"
         ]
       ],
-      "catalyst_score": 21,
+      "catalyst_score": 15,
       "neglect_score": 42,
       "technical_score": 19,
-      "total": 82,
+      "total": 76,
       "cbreak": [
         [
           "Gap 14.4% (market voting)",
           "+15"
-        ],
-        [
-          "Volume 2.2x expansion",
-          "+6"
         ]
       ],
       "nbreak": [
@@ -483,6 +479,68 @@
         [
           "Above 200d, 50d, 20d, 10d",
           "+12"
+        ]
+      ]
+    },
+    {
+      "ticker": "TDIC",
+      "name": "Dreamland Limited Class A Ordinary Shares",
+      "changesPercentage": 13.37047,
+      "price": 4.07,
+      "premarket_change": 13.37047,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 37.07,
+      "dollar_volume_m": 0.5,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "high",
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
+      "pct_below_52w_high": 99.6,
+      "market_cap_m": 0.996002,
+      "_avg20_vol": 2837423.05,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "0.0x"
+        ],
+        [
+          "52wk",
+          "100% below high"
+        ]
+      ],
+      "catalyst_score": 14,
+      "neglect_score": 42,
+      "technical_score": 7,
+      "total": 63,
+      "cbreak": [
+        [
+          "Gap 13.4% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 37.1%",
+          "+5"
         ]
       ]
     }
