@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-07-09T13:50:58.895923+00:00",
+  "generated_utc": "2026-07-09T16:21:44.575453+00:00",
   "session_date": "2026-07-09",
   "mode": "refresh",
   "run_label": "scheduled",
-  "count": 11,
-  "active_count": 6,
-  "no_catalyst_count": 5,
+  "count": 20,
+  "active_count": 9,
+  "no_catalyst_count": 9,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -20,25 +20,111 @@
   },
   "rows": [
     {
+      "ticker": "VRAX",
+      "name": "Virax Biolabs Group Limited",
+      "changesPercentage": 188.05031,
+      "price": 9.15,
+      "premarket_change": 188.05031,
+      "headline": "Why Did Virax Biolabs Stock Triple In One Session?",
+      "news_url": "https://www.benzinga.com/news/health-care/26/07/60360749/why-did-virax-biolabs-stock-triple-in-one-session",
+      "news_site": "benzinga.com",
+      "news_time": "2026-07-09 10:31:31",
+      "catalyst_label": "major_contract",
+      "catalyst_tier": "S",
+      "catalyst_desc": "Major new contract / government order",
+      "catalyst_base_points": 90,
+      "market_cap_m": 1.705753,
+      "wk52_high": 28.5,
+      "wk52_low": 2.5,
+      "float_m": 19.566104,
+      "adr_pct": 17.67,
+      "dollar_volume_m": 617.8,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "med",
+      "vol_expansion": 316.2,
+      "rvol": 316.2,
+      "pct_below_52w_high": 62.5,
+      "_avg20_vol": 187839.35,
+      "section": "ep",
+      "cooling": false,
+      "low_float": true,
+      "info": [
+        [
+          "RVOL",
+          "316.2x"
+        ],
+        [
+          "Float",
+          "20M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "62% below high"
+        ]
+      ],
+      "catalyst_score": 122,
+      "neglect_score": 24,
+      "technical_score": 25,
+      "total": 171,
+      "cbreak": [
+        [
+          "Major new contract / government order (Tier S)",
+          "+90"
+        ],
+        [
+          "Gap 188.1% (market voting)",
+          "+22"
+        ],
+        [
+          "Volume 316.2x expansion",
+          "+10"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $618M",
+          "+8"
+        ],
+        [
+          "ADR 17.7%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
       "ticker": "SDOT",
       "name": "Sadot Group Inc.",
       "changesPercentage": 43.89316,
-      "price": 29.2247,
+      "price": 27.0,
       "premarket_change": 43.89316,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 100.39,
-      "dollar_volume_m": 39.5,
+      "dollar_volume_m": 110.4,
       "gap_pct": null,
       "above_10": false,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.3,
-      "rvol": 0.3,
+      "vol_expansion": 0.9,
+      "rvol": 0.9,
       "pct_below_52w_high": 91.8,
       "market_cap_m": 29.817834,
       "_avg20_vol": 4483161.05,
@@ -47,25 +133,25 @@
       "info": [
         [
           "RVOL",
-          "0.3x"
+          "0.9x"
         ],
         [
           "52wk",
           "92% below high"
         ]
       ],
-      "catalyst_score": 23,
+      "catalyst_score": 24,
       "neglect_score": 42,
-      "technical_score": 15,
-      "total": 80,
+      "technical_score": 19,
+      "total": 85,
       "cbreak": [
         [
           "Gap 43.9% (market voting)",
           "+22"
         ],
         [
-          "Volume 0.3x expansion",
-          "+1"
+          "Volume 0.9x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
@@ -76,8 +162,8 @@
       ],
       "tbreak": [
         [
-          "$ vol $40M",
-          "+4"
+          "$ vol $110M",
+          "+8"
         ],
         [
           "ADR 100.4%",
@@ -93,7 +179,7 @@
       "ticker": "FBRX",
       "name": "Forte Biosciences, Inc.",
       "changesPercentage": 39.77162,
-      "price": 28.76,
+      "price": 33.21,
       "premarket_change": 39.77162,
       "headline": "FB102 Achieves Statistically Significant Improvement in Vitiligo at Week 24 After Completion of 12-Week Treatment Period",
       "news_url": "https://www.businesswire.com/news/home/20260709892301/en/FB102-Achieves-Statistically-Significant-Improvement-in-Vitiligo-at-Week-24-After-Completion-of-12-Week-Treatment-Period/",
@@ -108,15 +194,15 @@
       "wk52_low": 9.1,
       "float_m": 12.070019,
       "adr_pct": 10.19,
-      "dollar_volume_m": 21.2,
+      "dollar_volume_m": 84.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 1.7,
-      "rvol": 1.7,
+      "vol_expansion": 5.8,
+      "rvol": 5.8,
       "pct_below_52w_high": 18.4,
       "_avg20_vol": 439667.2,
       "section": "ep",
@@ -125,7 +211,7 @@
       "info": [
         [
           "RVOL",
-          "1.7x"
+          "5.8x"
         ],
         [
           "Float",
@@ -136,10 +222,10 @@
           "18% below high"
         ]
       ],
-      "catalyst_score": 124,
+      "catalyst_score": 130,
       "neglect_score": 24,
       "technical_score": 21,
-      "total": 169,
+      "total": 175,
       "cbreak": [
         [
           "FDA approval / positive pivotal trial (Tier S)",
@@ -150,8 +236,8 @@
           "+22"
         ],
         [
-          "Volume 1.7x expansion",
-          "+4"
+          "Volume 5.8x expansion",
+          "+10"
         ]
       ],
       "nbreak": [
@@ -162,7 +248,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $21M",
+          "$ vol $84M",
           "+4"
         ],
         [
@@ -176,10 +262,96 @@
       ]
     },
     {
+      "ticker": "LASR",
+      "name": "nLIGHT, Inc.",
+      "changesPercentage": 27.38736,
+      "price": 74.9802,
+      "premarket_change": 27.38736,
+      "headline": "nLIGHT Awarded $627 Million Joint Laser Weapon System (JLWS) Contract",
+      "news_url": "https://www.businesswire.com/news/home/20260709375006/en/nLIGHT-Awarded-627-Million-Joint-Laser-Weapon-System-JLWS-Contract/",
+      "news_site": "businesswire.com",
+      "news_time": "2026-07-09 10:30:00",
+      "catalyst_label": "major_contract",
+      "catalyst_tier": "S",
+      "catalyst_desc": "Major new contract / government order",
+      "catalyst_base_points": 90,
+      "market_cap_m": 4229.535608,
+      "wk52_high": 86.95,
+      "wk52_low": 17.84,
+      "float_m": 52.719345,
+      "adr_pct": 8.73,
+      "dollar_volume_m": 243.6,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "high",
+      "vol_expansion": 2.0,
+      "rvol": 2.0,
+      "pct_below_52w_high": -11.5,
+      "_avg20_vol": 1285022.1,
+      "section": "ep",
+      "cooling": false,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "2.0x"
+        ],
+        [
+          "Float",
+          "53M"
+        ],
+        [
+          "52wk",
+          "at highs"
+        ]
+      ],
+      "catalyst_score": 115,
+      "neglect_score": 42,
+      "technical_score": 25,
+      "total": 182,
+      "cbreak": [
+        [
+          "Major new contract / government order (Tier S)",
+          "+90"
+        ],
+        [
+          "Gap 27.4% (market voting)",
+          "+20"
+        ],
+        [
+          "Volume 2.0x expansion",
+          "+5"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $244M",
+          "+8"
+        ],
+        [
+          "ADR 8.7%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
       "ticker": "SKYQ",
       "name": "Sky Quarry Inc.",
       "changesPercentage": 27.33333,
-      "price": 4.13,
+      "price": 3.26,
       "premarket_change": 27.33333,
       "headline": "Sky Quarry Appoints Refining Industry Veteran Ray Hansen as President of Foreland Refining Corporation",
       "news_url": "https://www.accessnewswire.com/newsroom/en/oil-gas-and-energy/sky-quarry-appoints-refining-industry-veteran-ray-hansen-as-president-of-forelan-1188299",
@@ -194,15 +366,15 @@
       "wk52_low": 1.1,
       "float_m": 4.07075,
       "adr_pct": 28.65,
-      "dollar_volume_m": 12.5,
+      "dollar_volume_m": 16.8,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.1,
-      "rvol": 0.1,
+      "vol_expansion": 0.2,
+      "rvol": 0.2,
       "pct_below_52w_high": 70.1,
       "_avg20_vol": 22842378.6,
       "section": "ep",
@@ -211,7 +383,7 @@
       "info": [
         [
           "RVOL",
-          "0.1x"
+          "0.2x"
         ],
         [
           "Float",
@@ -236,7 +408,7 @@
           "+20"
         ],
         [
-          "Volume 0.1x expansion",
+          "Volume 0.2x expansion",
           "+0"
         ]
       ],
@@ -248,7 +420,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $12M",
+          "$ vol $17M",
           "+2"
         ],
         [
@@ -265,7 +437,7 @@
       "ticker": "PENG",
       "name": "Penguin Solutions, Inc.",
       "changesPercentage": 25.13156,
-      "price": 85.0,
+      "price": 105.72,
       "premarket_change": 25.13156,
       "headline": "Penguin Solutions: It Isn't Too Late To Buy After Q3 Earnings",
       "news_url": "https://seekingalpha.com/article/4920713-penguin-solutions-it-isnt-too-late-to-buy-after-q3-earnings",
@@ -280,15 +452,15 @@
       "wk52_low": 16.04,
       "float_m": 49.104304,
       "adr_pct": 12.72,
-      "dollar_volume_m": 133.7,
+      "dollar_volume_m": 536.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.5,
-      "rvol": 0.5,
+      "vol_expansion": 1.5,
+      "rvol": 1.5,
       "pct_below_52w_high": -4.1,
       "_avg20_vol": 3364802.9,
       "section": "ep",
@@ -297,7 +469,7 @@
       "info": [
         [
           "RVOL",
-          "0.5x"
+          "1.5x"
         ],
         [
           "Float",
@@ -308,10 +480,10 @@
           "at highs"
         ]
       ],
-      "catalyst_score": 120,
+      "catalyst_score": 123,
       "neglect_score": 42,
       "technical_score": 25,
-      "total": 187,
+      "total": 190,
       "cbreak": [
         [
           "Earnings/sales acceleration, blowout + raised guidance (Tier S)",
@@ -322,8 +494,8 @@
           "+19"
         ],
         [
-          "Volume 0.5x expansion",
-          "+1"
+          "Volume 1.5x expansion",
+          "+4"
         ]
       ],
       "nbreak": [
@@ -334,7 +506,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $134M",
+          "$ vol $536M",
           "+8"
         ],
         [
@@ -348,10 +520,123 @@
       ]
     },
     {
+      "ticker": "ONTX",
+      "name": "Onconova Therapeutics, Inc.",
+      "changesPercentage": 24.86867,
+      "price": 24.84,
+      "premarket_change": 24.86867,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": 0.2,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": 521.681309,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 19,
+      "neglect_score": 0,
+      "technical_score": 2,
+      "total": 21,
+      "cbreak": [
+        [
+          "Gap 24.9% (market voting)",
+          "+19"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ]
+      ]
+    },
+    {
+      "ticker": "PTLE",
+      "name": "PTL Limited",
+      "changesPercentage": 22.4359,
+      "price": 9.55,
+      "premarket_change": 22.4359,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 16.51,
+      "dollar_volume_m": 0.6,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "med",
+      "vol_expansion": 1.2,
+      "rvol": 1.2,
+      "pct_below_52w_high": 56.7,
+      "market_cap_m": 4.022957,
+      "_avg20_vol": 55653.65,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "1.2x"
+        ],
+        [
+          "52wk",
+          "57% below high"
+        ]
+      ],
+      "catalyst_score": 21,
+      "neglect_score": 24,
+      "technical_score": 19,
+      "total": 64,
+      "cbreak": [
+        [
+          "Gap 22.4% (market voting)",
+          "+18"
+        ],
+        [
+          "Volume 1.2x expansion",
+          "+3"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $1M",
+          "+2"
+        ],
+        [
+          "ADR 16.5%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
       "ticker": "AP",
       "name": "Ampco-Pittsburgh Corp.",
       "changesPercentage": 19.94421,
-      "price": 8.6,
+      "price": 8.34,
       "premarket_change": 19.94421,
       "headline": "Ampco-Pittsburgh Corporation Announces Significant Increase in Customer Order Activity",
       "news_url": "https://www.businesswire.com/news/home/20260708864685/en/Ampco-Pittsburgh-Corporation-Announces-Significant-Increase-in-Customer-Order-Activity/",
@@ -366,15 +651,15 @@
       "wk52_low": 1.75,
       "float_m": 14.061031,
       "adr_pct": 8.07,
-      "dollar_volume_m": 1.6,
+      "dollar_volume_m": 2.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": false,
       "above_50": false,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 0.7,
-      "rvol": 0.7,
+      "vol_expansion": 1.3,
+      "rvol": 1.3,
       "pct_below_52w_high": 29.1,
       "_avg20_vol": 271515.95,
       "section": "ep",
@@ -383,7 +668,7 @@
       "info": [
         [
           "RVOL",
-          "0.7x"
+          "1.3x"
         ],
         [
           "Float",
@@ -394,10 +679,10 @@
           "29% below high"
         ]
       ],
-      "catalyst_score": 93,
+      "catalyst_score": 94,
       "neglect_score": 0,
       "technical_score": 13,
-      "total": 106,
+      "total": 107,
       "cbreak": [
         [
           "New orders / demand surge (Tier A)",
@@ -408,14 +693,14 @@
           "+17"
         ],
         [
-          "Volume 0.7x expansion",
-          "+2"
+          "Volume 1.3x expansion",
+          "+3"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $2M",
+          "$ vol $3M",
           "+2"
         ],
         [
@@ -432,7 +717,7 @@
       "ticker": "BVC",
       "name": "BitVentures Limited",
       "changesPercentage": 18.62515,
-      "price": 10.72,
+      "price": 10.71,
       "premarket_change": 18.62515,
       "market_cap_m": 1695.96,
       "wk52_high": 15.003,
@@ -450,8 +735,8 @@
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 0.1,
+      "rvol": 0.1,
       "pct_below_52w_high": 55.9,
       "_avg20_vol": 43654.45,
       "section": "no_catalyst",
@@ -460,7 +745,7 @@
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "0.1x"
         ],
         [
           "Float",
@@ -479,6 +764,10 @@
         [
           "Gap 18.6% (market voting)",
           "+16"
+        ],
+        [
+          "Volume 0.1x expansion",
+          "+0"
         ]
       ],
       "nbreak": [
@@ -503,10 +792,139 @@
       ]
     },
     {
+      "ticker": "SPCB",
+      "name": "SuperCom Ltd.",
+      "changesPercentage": 17.24138,
+      "price": 12.0,
+      "premarket_change": 17.24138,
+      "headline": "SuperCom Secures New Contract with Large Georgia-Based Electronic Monitoring Service Provider - Fully Displacing the Incumbent",
+      "news_url": "https://www.prnewswire.com/news-releases/supercom-secures-new-contract-with-large-georgia-based-electronic-monitoring-service-provider--fully-displacing-the-incumbent-302821947.html",
+      "news_site": "prnewswire.com",
+      "news_time": "2026-07-09 09:09:00",
+      "catalyst_label": "major_contract",
+      "catalyst_tier": "S",
+      "catalyst_desc": "Major new contract / government order",
+      "catalyst_base_points": 90,
+      "market_cap_m": 53.3796,
+      "wk52_high": 13.57,
+      "wk52_low": 7.07,
+      "float_m": 5.456294,
+      "adr_pct": 8.15,
+      "dollar_volume_m": 1.4,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "high",
+      "vol_expansion": 1.3,
+      "rvol": 1.3,
+      "pct_below_52w_high": -5.8,
+      "_avg20_vol": 78477.15,
+      "section": "ep",
+      "cooling": true,
+      "low_float": true,
+      "info": [
+        [
+          "RVOL",
+          "1.3x"
+        ],
+        [
+          "Float",
+          "5M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "at highs"
+        ]
+      ],
+      "catalyst_score": 109,
+      "neglect_score": 42,
+      "technical_score": 19,
+      "total": 170,
+      "cbreak": [
+        [
+          "Major new contract / government order (Tier S)",
+          "+90"
+        ],
+        [
+          "Gap 17.2% (market voting)",
+          "+16"
+        ],
+        [
+          "Volume 1.3x expansion",
+          "+3"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $1M",
+          "+2"
+        ],
+        [
+          "ADR 8.2%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
+      "ticker": "FXHO",
+      "name": "UTime Limited",
+      "changesPercentage": 17.07989,
+      "price": 17.0,
+      "premarket_change": 17.07989,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": 2.3,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": 3.355579,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 16,
+      "neglect_score": 0,
+      "technical_score": 2,
+      "total": 18,
+      "cbreak": [
+        [
+          "Gap 17.1% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": [
+        [
+          "$ vol $2M",
+          "+2"
+        ]
+      ]
+    },
+    {
       "ticker": "SPTX",
       "name": "Seaport Therapeutics, Inc. Common Stock",
       "changesPercentage": 16.62095,
-      "price": 22.0,
+      "price": 19.73,
       "premarket_change": 16.62095,
       "market_cap_m": 1138.059493,
       "wk52_high": 23.0,
@@ -517,15 +935,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 9.74,
-      "dollar_volume_m": 0.2,
+      "dollar_volume_m": 0.5,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 0.1,
+      "rvol": 0.1,
       "pct_below_52w_high": 2.3,
       "_avg20_vol": 258816.3,
       "section": "no_catalyst",
@@ -534,7 +952,7 @@
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "0.1x"
         ],
         [
           "Float",
@@ -553,6 +971,10 @@
         [
           "Gap 16.6% (market voting)",
           "+16"
+        ],
+        [
+          "Volume 0.1x expansion",
+          "+0"
         ]
       ],
       "nbreak": [
@@ -580,7 +1002,7 @@
       "ticker": "AEHR",
       "name": "Aehr Test Systems",
       "changesPercentage": 14.44985,
-      "price": 77.535,
+      "price": 77.12,
       "premarket_change": 14.44985,
       "headline": "Aehr Receives Follow-On Production Order from Lead Silicon Photonics Customer for Fully Automated FOX-XP Wafer-Level Burn-In System",
       "news_url": "https://www.accessnewswire.com/newsroom/en/industrial-and-manufacturing/aehr-receives-follow-on-production-order-from-lead-silicon-photonics-c-1188757",
@@ -595,15 +1017,15 @@
       "wk52_low": 12.93,
       "float_m": 29.686914,
       "adr_pct": 11.13,
-      "dollar_volume_m": 70.2,
+      "dollar_volume_m": 126.3,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
       "above_50": false,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.5,
-      "rvol": 0.5,
+      "vol_expansion": 0.9,
+      "rvol": 0.9,
       "pct_below_52w_high": 33.3,
       "_avg20_vol": 1724600.6,
       "section": "ep",
@@ -612,7 +1034,7 @@
       "info": [
         [
           "RVOL",
-          "0.5x"
+          "0.9x"
         ],
         [
           "Float",
@@ -623,10 +1045,10 @@
           "33% below high"
         ]
       ],
-      "catalyst_score": 90,
+      "catalyst_score": 91,
       "neglect_score": 24,
-      "technical_score": 14,
-      "total": 128,
+      "technical_score": 18,
+      "total": 133,
       "cbreak": [
         [
           "New orders / demand surge (Tier A)",
@@ -637,8 +1059,8 @@
           "+15"
         ],
         [
-          "Volume 0.5x expansion",
-          "+1"
+          "Volume 0.9x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
@@ -649,8 +1071,8 @@
       ],
       "tbreak": [
         [
-          "$ vol $70M",
-          "+4"
+          "$ vol $126M",
+          "+8"
         ],
         [
           "ADR 11.1%",
@@ -663,52 +1085,138 @@
       ]
     },
     {
-      "ticker": "TRAX",
-      "name": "First Tracks Biotherapeutics Inc",
-      "changesPercentage": 13.38469,
-      "price": 23.55,
-      "premarket_change": 13.38469,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": 10.19,
-      "dollar_volume_m": 2.3,
+      "ticker": "AVX",
+      "name": "AgriFORCE Growing Systems Ltd.",
+      "changesPercentage": 14.4073,
+      "price": 5.9549,
+      "premarket_change": 14.4073,
+      "headline": "AVAX One Regains Compliance with Nasdaq Minimum Bid Price Requirement",
+      "news_url": "https://www.globenewswire.com/news-release/2026/07/09/3324793/0/en/avax-one-regains-compliance-with-nasdaq-minimum-bid-price-requirement.html",
+      "news_site": "globenewswire.com",
+      "news_time": "2026-07-09 08:30:00",
+      "catalyst_label": "vague_pr",
+      "catalyst_tier": "C",
+      "catalyst_desc": "Vague PR / promotional",
+      "catalyst_base_points": 20,
+      "market_cap_m": 44.4713,
+      "wk52_high": 6.38,
+      "wk52_low": 0.3522,
+      "float_m": 5.693541,
+      "adr_pct": 11.77,
+      "dollar_volume_m": 0.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
+      "neglect": "high",
+      "vol_expansion": 0.4,
+      "rvol": 0.4,
+      "pct_below_52w_high": 93.1,
+      "_avg20_vol": 38161.05,
+      "section": "ep",
+      "cooling": true,
+      "low_float": true,
+      "info": [
+        [
+          "RVOL",
+          "0.4x"
+        ],
+        [
+          "Float",
+          "6M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "93% below high"
+        ]
+      ],
+      "catalyst_score": 36,
+      "neglect_score": 42,
+      "technical_score": 14,
+      "total": 92,
+      "cbreak": [
+        [
+          "Vague PR / promotional (Tier C)",
+          "+20"
+        ],
+        [
+          "Gap 14.4% (market voting)",
+          "+15"
+        ],
+        [
+          "Volume 0.4x expansion",
+          "+1"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 11.8%",
+          "+5"
+        ],
+        [
+          "Above 50d, 20d, 10d",
+          "+7"
+        ]
+      ]
+    },
+    {
+      "ticker": "CYCN",
+      "name": "Cyclerion Therapeutics, Inc.",
+      "changesPercentage": 14.2446,
+      "price": 3.97,
+      "premarket_change": 14.2446,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 6.1,
+      "dollar_volume_m": 0.2,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.1,
-      "rvol": 0.1,
-      "pct_below_52w_high": 6.3,
-      "market_cap_m": 823.425299,
-      "_avg20_vol": 660803.4,
+      "vol_expansion": 1.8,
+      "rvol": 1.8,
+      "pct_below_52w_high": 37.6,
+      "market_cap_m": 17.191331,
+      "_avg20_vol": 23777.55,
       "section": "no_catalyst",
       "cooling": false,
       "info": [
         [
           "RVOL",
-          "0.1x"
+          "1.8x"
         ],
         [
           "52wk",
-          "6% below high"
+          "38% below high"
         ]
       ],
-      "catalyst_score": 14,
+      "catalyst_score": 19,
       "neglect_score": 24,
-      "technical_score": 14,
-      "total": 52,
+      "technical_score": 19,
+      "total": 62,
       "cbreak": [
         [
-          "Gap 13.4% (market voting)",
-          "+14"
+          "Gap 14.2% (market voting)",
+          "+15"
         ],
         [
-          "Volume 0.1x expansion",
-          "+0"
+          "Volume 1.8x expansion",
+          "+4"
         ]
       ],
       "nbreak": [
@@ -719,8 +1227,164 @@
       ],
       "tbreak": [
         [
-          "$ vol $2M",
+          "$ vol $0M",
           "+2"
+        ],
+        [
+          "ADR 6.1%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
+      "ticker": "MARA",
+      "name": "Marathon Digital Holdings, Inc.",
+      "changesPercentage": 14.18469,
+      "price": 13.705,
+      "premarket_change": 14.18469,
+      "headline": "MARA Is Up 19% Today: Is It Outperforming Other Crypto Stocks Like Riot and CleanSpark?",
+      "news_url": "https://247wallst.com/investing/2026/07/09/mara-is-up-19-today-is-it-outperforming-other-crypto-stocks-like-riot-and-cleanspark/",
+      "news_site": "247wallst.com",
+      "news_time": "2026-07-09 11:07:21",
+      "catalyst_label": "major_contract",
+      "catalyst_tier": "S",
+      "catalyst_desc": "Major new contract / government order",
+      "catalyst_base_points": 90,
+      "market_cap_m": 5227.637994,
+      "wk52_high": 23.45,
+      "wk52_low": 6.66,
+      "float_m": 372.563532,
+      "adr_pct": 9.4,
+      "dollar_volume_m": 760.5,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "high",
+      "vol_expansion": 1.1,
+      "rvol": 1.1,
+      "pct_below_52w_high": 29.9,
+      "_avg20_vol": 42070815.2,
+      "section": "ep",
+      "cooling": false,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "1.1x"
+        ],
+        [
+          "Float",
+          "373M"
+        ],
+        [
+          "52wk",
+          "30% below high"
+        ]
+      ],
+      "catalyst_score": 108,
+      "neglect_score": 42,
+      "technical_score": 25,
+      "total": 175,
+      "cbreak": [
+        [
+          "Major new contract / government order (Tier S)",
+          "+90"
+        ],
+        [
+          "Gap 14.2% (market voting)",
+          "+15"
+        ],
+        [
+          "Volume 1.1x expansion",
+          "+3"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $760M",
+          "+8"
+        ],
+        [
+          "ADR 9.4%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
+      "ticker": "TRAX",
+      "name": "First Tracks Biotherapeutics Inc",
+      "changesPercentage": 13.38469,
+      "price": 29.28,
+      "premarket_change": 13.38469,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 10.19,
+      "dollar_volume_m": 59.6,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": false,
+      "neglect": "med",
+      "vol_expansion": 3.1,
+      "rvol": 3.1,
+      "pct_below_52w_high": 6.3,
+      "market_cap_m": 823.425299,
+      "_avg20_vol": 660803.4,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "3.1x"
+        ],
+        [
+          "52wk",
+          "6% below high"
+        ]
+      ],
+      "catalyst_score": 22,
+      "neglect_score": 24,
+      "technical_score": 16,
+      "total": 62,
+      "cbreak": [
+        [
+          "Gap 13.4% (market voting)",
+          "+14"
+        ],
+        [
+          "Volume 3.1x expansion",
+          "+8"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $60M",
+          "+4"
         ],
         [
           "ADR 10.2%",
@@ -736,7 +1400,7 @@
       "ticker": "ALNY",
       "name": "Alnylam Pharmaceuticals, Inc.",
       "changesPercentage": 12.82535,
-      "price": 365.19,
+      "price": 334.13,
       "premarket_change": 12.82535,
       "headline": "AstraZeneca Stock and Partner Ionis Sink After Trial Failure. Alnylam Soars.",
       "news_url": "https://www.barrons.com/articles/astrazeneca-stock-ionis-trial-failure-alnylam-40eab20f",
@@ -751,15 +1415,15 @@
       "wk52_low": 273.11,
       "float_m": 132.941139,
       "adr_pct": 3.31,
-      "dollar_volume_m": 555.9,
+      "dollar_volume_m": 1273.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 1.2,
-      "rvol": 1.2,
+      "vol_expansion": 3.1,
+      "rvol": 3.1,
       "pct_below_52w_high": 25.6,
       "_avg20_vol": 1233394.1,
       "section": "ep",
@@ -768,7 +1432,7 @@
       "info": [
         [
           "RVOL",
-          "1.2x"
+          "3.1x"
         ],
         [
           "Float",
@@ -779,10 +1443,10 @@
           "26% below high"
         ]
       ],
-      "catalyst_score": 39,
+      "catalyst_score": 44,
       "neglect_score": 24,
       "technical_score": 24,
-      "total": 87,
+      "total": 92,
       "cbreak": [
         [
           "Moving on unclear news (Tier C)",
@@ -793,8 +1457,8 @@
           "+14"
         ],
         [
-          "Volume 1.2x expansion",
-          "+3"
+          "Volume 3.1x expansion",
+          "+8"
         ]
       ],
       "nbreak": [
@@ -805,7 +1469,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $556M",
+          "$ vol $1273M",
           "+8"
         ],
         [
@@ -822,7 +1486,7 @@
       "ticker": "FIEE",
       "name": "FiEE, Inc.",
       "changesPercentage": 12.44262,
-      "price": 4.1154,
+      "price": 4.2,
       "premarket_change": 12.44262,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
@@ -836,8 +1500,8 @@
       "above_50": false,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.5,
-      "rvol": 0.5,
+      "vol_expansion": 0.6,
+      "rvol": 0.6,
       "pct_below_52w_high": 44.2,
       "market_cap_m": 15.283739,
       "_avg20_vol": 4341.1,
@@ -846,25 +1510,25 @@
       "info": [
         [
           "RVOL",
-          "0.5x"
+          "0.6x"
         ],
         [
           "52wk",
           "44% below high"
         ]
       ],
-      "catalyst_score": 15,
+      "catalyst_score": 16,
       "neglect_score": 42,
       "technical_score": 10,
-      "total": 67,
+      "total": 68,
       "cbreak": [
         [
           "Gap 12.4% (market voting)",
           "+14"
         ],
         [
-          "Volume 0.5x expansion",
-          "+1"
+          "Volume 0.6x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
