@@ -1,10 +1,10 @@
 {
-  "generated_utc": "2026-07-09T16:21:44.575453+00:00",
+  "generated_utc": "2026-07-09T16:29:03.138208+00:00",
   "session_date": "2026-07-09",
   "mode": "refresh",
   "run_label": "scheduled",
-  "count": 20,
-  "active_count": 9,
+  "count": 21,
+  "active_count": 10,
   "no_catalyst_count": 9,
   "ai_used": true,
   "fresh_window_ok": true,
@@ -23,7 +23,7 @@
       "ticker": "VRAX",
       "name": "Virax Biolabs Group Limited",
       "changesPercentage": 188.05031,
-      "price": 9.15,
+      "price": 10.6,
       "premarket_change": 188.05031,
       "headline": "Why Did Virax Biolabs Stock Triple In One Session?",
       "news_url": "https://www.benzinga.com/news/health-care/26/07/60360749/why-did-virax-biolabs-stock-triple-in-one-session",
@@ -38,15 +38,15 @@
       "wk52_low": 2.5,
       "float_m": 19.566104,
       "adr_pct": 17.67,
-      "dollar_volume_m": 617.8,
+      "dollar_volume_m": 632.6,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 316.2,
-      "rvol": 316.2,
+      "vol_expansion": 317.7,
+      "rvol": 317.7,
       "pct_below_52w_high": 62.5,
       "_avg20_vol": 187839.35,
       "section": "ep",
@@ -55,7 +55,7 @@
       "info": [
         [
           "RVOL",
-          "316.2x"
+          "317.7x"
         ],
         [
           "Float",
@@ -80,7 +80,7 @@
           "+22"
         ],
         [
-          "Volume 316.2x expansion",
+          "Volume 317.7x expansion",
           "+10"
         ]
       ],
@@ -92,7 +92,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $618M",
+          "$ vol $633M",
           "+8"
         ],
         [
@@ -109,14 +109,14 @@
       "ticker": "SDOT",
       "name": "Sadot Group Inc.",
       "changesPercentage": 43.89316,
-      "price": 27.0,
+      "price": 33.28,
       "premarket_change": 43.89316,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 100.39,
-      "dollar_volume_m": 110.4,
+      "dollar_volume_m": 137.2,
       "gap_pct": null,
       "above_10": false,
       "above_20": true,
@@ -162,7 +162,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $110M",
+          "$ vol $137M",
           "+8"
         ],
         [
@@ -179,7 +179,7 @@
       "ticker": "FBRX",
       "name": "Forte Biosciences, Inc.",
       "changesPercentage": 39.77162,
-      "price": 33.21,
+      "price": 32.0,
       "premarket_change": 39.77162,
       "headline": "FB102 Achieves Statistically Significant Improvement in Vitiligo at Week 24 After Completion of 12-Week Treatment Period",
       "news_url": "https://www.businesswire.com/news/home/20260709892301/en/FB102-Achieves-Statistically-Significant-Improvement-in-Vitiligo-at-Week-24-After-Completion-of-12-Week-Treatment-Period/",
@@ -194,15 +194,15 @@
       "wk52_low": 9.1,
       "float_m": 12.070019,
       "adr_pct": 10.19,
-      "dollar_volume_m": 84.3,
+      "dollar_volume_m": 84.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 5.8,
-      "rvol": 5.8,
+      "vol_expansion": 6.0,
+      "rvol": 6.0,
       "pct_below_52w_high": 18.4,
       "_avg20_vol": 439667.2,
       "section": "ep",
@@ -211,7 +211,7 @@
       "info": [
         [
           "RVOL",
-          "5.8x"
+          "6.0x"
         ],
         [
           "Float",
@@ -236,7 +236,7 @@
           "+22"
         ],
         [
-          "Volume 5.8x expansion",
+          "Volume 6.0x expansion",
           "+10"
         ]
       ],
@@ -265,7 +265,7 @@
       "ticker": "LASR",
       "name": "nLIGHT, Inc.",
       "changesPercentage": 27.38736,
-      "price": 74.9802,
+      "price": 75.03,
       "premarket_change": 27.38736,
       "headline": "nLIGHT Awarded $627 Million Joint Laser Weapon System (JLWS) Contract",
       "news_url": "https://www.businesswire.com/news/home/20260709375006/en/nLIGHT-Awarded-627-Million-Joint-Laser-Weapon-System-JLWS-Contract/",
@@ -280,7 +280,7 @@
       "wk52_low": 17.84,
       "float_m": 52.719345,
       "adr_pct": 8.73,
-      "dollar_volume_m": 243.6,
+      "dollar_volume_m": 194.6,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -334,7 +334,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $244M",
+          "$ vol $195M",
           "+8"
         ],
         [
@@ -351,7 +351,7 @@
       "ticker": "SKYQ",
       "name": "Sky Quarry Inc.",
       "changesPercentage": 27.33333,
-      "price": 3.26,
+      "price": 3.23,
       "premarket_change": 27.33333,
       "headline": "Sky Quarry Appoints Refining Industry Veteran Ray Hansen as President of Foreland Refining Corporation",
       "news_url": "https://www.accessnewswire.com/newsroom/en/oil-gas-and-energy/sky-quarry-appoints-refining-industry-veteran-ray-hansen-as-president-of-forelan-1188299",
@@ -366,7 +366,7 @@
       "wk52_low": 1.1,
       "float_m": 4.07075,
       "adr_pct": 28.65,
-      "dollar_volume_m": 16.8,
+      "dollar_volume_m": 16.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -437,7 +437,7 @@
       "ticker": "PENG",
       "name": "Penguin Solutions, Inc.",
       "changesPercentage": 25.13156,
-      "price": 105.72,
+      "price": 88.5,
       "premarket_change": 25.13156,
       "headline": "Penguin Solutions: It Isn't Too Late To Buy After Q3 Earnings",
       "news_url": "https://seekingalpha.com/article/4920713-penguin-solutions-it-isnt-too-late-to-buy-after-q3-earnings",
@@ -452,7 +452,7 @@
       "wk52_low": 16.04,
       "float_m": 49.104304,
       "adr_pct": 12.72,
-      "dollar_volume_m": 536.1,
+      "dollar_volume_m": 453.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -506,7 +506,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $536M",
+          "$ vol $453M",
           "+8"
         ],
         [
@@ -523,7 +523,7 @@
       "ticker": "ONTX",
       "name": "Onconova Therapeutics, Inc.",
       "changesPercentage": 24.86867,
-      "price": 24.84,
+      "price": 24.86,
       "premarket_change": 24.86867,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
@@ -566,7 +566,7 @@
       "ticker": "PTLE",
       "name": "PTL Limited",
       "changesPercentage": 22.4359,
-      "price": 9.55,
+      "price": 9.76,
       "premarket_change": 22.4359,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
@@ -636,7 +636,7 @@
       "ticker": "AP",
       "name": "Ampco-Pittsburgh Corp.",
       "changesPercentage": 19.94421,
-      "price": 8.34,
+      "price": 8.32,
       "premarket_change": 19.94421,
       "headline": "Ampco-Pittsburgh Corporation Announces Significant Increase in Customer Order Activity",
       "news_url": "https://www.businesswire.com/news/home/20260708864685/en/Ampco-Pittsburgh-Corporation-Announces-Significant-Increase-in-Customer-Order-Activity/",
@@ -795,7 +795,7 @@
       "ticker": "SPCB",
       "name": "SuperCom Ltd.",
       "changesPercentage": 17.24138,
-      "price": 12.0,
+      "price": 12.38,
       "premarket_change": 17.24138,
       "headline": "SuperCom Secures New Contract with Large Georgia-Based Electronic Monitoring Service Provider - Fully Displacing the Incumbent",
       "news_url": "https://www.prnewswire.com/news-releases/supercom-secures-new-contract-with-large-georgia-based-electronic-monitoring-service-provider--fully-displacing-the-incumbent-302821947.html",
@@ -810,15 +810,15 @@
       "wk52_low": 7.07,
       "float_m": 5.456294,
       "adr_pct": 8.15,
-      "dollar_volume_m": 1.4,
+      "dollar_volume_m": 1.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 1.3,
-      "rvol": 1.3,
+      "vol_expansion": 1.4,
+      "rvol": 1.4,
       "pct_below_52w_high": -5.8,
       "_avg20_vol": 78477.15,
       "section": "ep",
@@ -827,7 +827,7 @@
       "info": [
         [
           "RVOL",
-          "1.3x"
+          "1.4x"
         ],
         [
           "Float",
@@ -838,10 +838,10 @@
           "at highs"
         ]
       ],
-      "catalyst_score": 109,
+      "catalyst_score": 110,
       "neglect_score": 42,
       "technical_score": 19,
-      "total": 170,
+      "total": 171,
       "cbreak": [
         [
           "Major new contract / government order (Tier S)",
@@ -852,8 +852,8 @@
           "+16"
         ],
         [
-          "Volume 1.3x expansion",
-          "+3"
+          "Volume 1.4x expansion",
+          "+4"
         ]
       ],
       "nbreak": [
@@ -1002,7 +1002,7 @@
       "ticker": "AEHR",
       "name": "Aehr Test Systems",
       "changesPercentage": 14.44985,
-      "price": 77.12,
+      "price": 77.0,
       "premarket_change": 14.44985,
       "headline": "Aehr Receives Follow-On Production Order from Lead Silicon Photonics Customer for Fully Automated FOX-XP Wafer-Level Burn-In System",
       "news_url": "https://www.accessnewswire.com/newsroom/en/industrial-and-manufacturing/aehr-receives-follow-on-production-order-from-lead-silicon-photonics-c-1188757",
@@ -1017,15 +1017,15 @@
       "wk52_low": 12.93,
       "float_m": 29.686914,
       "adr_pct": 11.13,
-      "dollar_volume_m": 126.3,
+      "dollar_volume_m": 127.1,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
       "above_50": false,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.9,
-      "rvol": 0.9,
+      "vol_expansion": 1.0,
+      "rvol": 1.0,
       "pct_below_52w_high": 33.3,
       "_avg20_vol": 1724600.6,
       "section": "ep",
@@ -1034,7 +1034,7 @@
       "info": [
         [
           "RVOL",
-          "0.9x"
+          "1.0x"
         ],
         [
           "Float",
@@ -1059,7 +1059,7 @@
           "+15"
         ],
         [
-          "Volume 0.9x expansion",
+          "Volume 1.0x expansion",
           "+2"
         ]
       ],
@@ -1071,7 +1071,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $126M",
+          "$ vol $127M",
           "+8"
         ],
         [
@@ -1088,7 +1088,7 @@
       "ticker": "AVX",
       "name": "AgriFORCE Growing Systems Ltd.",
       "changesPercentage": 14.4073,
-      "price": 5.9549,
+      "price": 6.01,
       "premarket_change": 14.4073,
       "headline": "AVAX One Regains Compliance with Nasdaq Minimum Bid Price Requirement",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/09/3324793/0/en/avax-one-regains-compliance-with-nasdaq-minimum-bid-price-requirement.html",
@@ -1188,8 +1188,8 @@
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 1.8,
-      "rvol": 1.8,
+      "vol_expansion": 1.9,
+      "rvol": 1.9,
       "pct_below_52w_high": 37.6,
       "market_cap_m": 17.191331,
       "_avg20_vol": 23777.55,
@@ -1198,25 +1198,25 @@
       "info": [
         [
           "RVOL",
-          "1.8x"
+          "1.9x"
         ],
         [
           "52wk",
           "38% below high"
         ]
       ],
-      "catalyst_score": 19,
+      "catalyst_score": 20,
       "neglect_score": 24,
       "technical_score": 19,
-      "total": 62,
+      "total": 63,
       "cbreak": [
         [
           "Gap 14.2% (market voting)",
           "+15"
         ],
         [
-          "Volume 1.8x expansion",
-          "+4"
+          "Volume 1.9x expansion",
+          "+5"
         ]
       ],
       "nbreak": [
@@ -1244,7 +1244,7 @@
       "ticker": "MARA",
       "name": "Marathon Digital Holdings, Inc.",
       "changesPercentage": 14.18469,
-      "price": 13.705,
+      "price": 16.0,
       "premarket_change": 14.18469,
       "headline": "MARA Is Up 19% Today: Is It Outperforming Other Crypto Stocks Like Riot and CleanSpark?",
       "news_url": "https://247wallst.com/investing/2026/07/09/mara-is-up-19-today-is-it-outperforming-other-crypto-stocks-like-riot-and-cleanspark/",
@@ -1259,15 +1259,15 @@
       "wk52_low": 6.66,
       "float_m": 372.563532,
       "adr_pct": 9.4,
-      "dollar_volume_m": 760.5,
+      "dollar_volume_m": 784.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 1.1,
-      "rvol": 1.1,
+      "vol_expansion": 1.2,
+      "rvol": 1.2,
       "pct_below_52w_high": 29.9,
       "_avg20_vol": 42070815.2,
       "section": "ep",
@@ -1276,7 +1276,7 @@
       "info": [
         [
           "RVOL",
-          "1.1x"
+          "1.2x"
         ],
         [
           "Float",
@@ -1301,7 +1301,7 @@
           "+15"
         ],
         [
-          "Volume 1.1x expansion",
+          "Volume 1.2x expansion",
           "+3"
         ]
       ],
@@ -1313,7 +1313,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $760M",
+          "$ vol $785M",
           "+8"
         ],
         [
@@ -1327,25 +1327,106 @@
       ]
     },
     {
+      "ticker": "FRVO",
+      "name": "Fervo Energy Co.",
+      "changesPercentage": 13.63004,
+      "price": 26.76,
+      "premarket_change": 13.63004,
+      "headline": "Fervo Energy Learning Curve Continues on 3rd Generation Well Design, Boosting Drilling Rates by 143% Since Its First Cape Station Well",
+      "news_url": "https://www.globenewswire.com/news-release/2026/07/08/3324500/0/en/Fervo-Energy-Learning-Curve-Continues-on-3rd-Generation-Well-Design-Boosting-Drilling-Rates-by-143-Since-Its-First-Cape-Station-Well.html",
+      "news_site": "globenewswire.com",
+      "news_time": "2026-07-08 18:06:00",
+      "catalyst_label": "new_product",
+      "catalyst_tier": "B",
+      "catalyst_desc": "New product launch / major product news",
+      "catalyst_base_points": 62,
+      "market_cap_m": 5459.624438,
+      "wk52_high": 42.65,
+      "wk52_low": 23.1,
+      "float_m": 204.02184,
+      "adr_pct": 9.6,
+      "dollar_volume_m": 47.6,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": 0.5,
+      "rvol": 0.5,
+      "pct_below_52w_high": 29.7,
+      "_avg20_vol": 3148942.2,
+      "section": "ep",
+      "cooling": false,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "0.5x"
+        ],
+        [
+          "Float",
+          "204M"
+        ],
+        [
+          "52wk",
+          "30% below high"
+        ]
+      ],
+      "catalyst_score": 77,
+      "neglect_score": 0,
+      "technical_score": 10,
+      "total": 87,
+      "cbreak": [
+        [
+          "New product launch / major product news (Tier B)",
+          "+62"
+        ],
+        [
+          "Gap 13.6% (market voting)",
+          "+14"
+        ],
+        [
+          "Volume 0.5x expansion",
+          "+1"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": [
+        [
+          "$ vol $48M",
+          "+4"
+        ],
+        [
+          "ADR 9.6%",
+          "+5"
+        ],
+        [
+          "Above 10d",
+          "+1"
+        ]
+      ]
+    },
+    {
       "ticker": "TRAX",
       "name": "First Tracks Biotherapeutics Inc",
       "changesPercentage": 13.38469,
-      "price": 29.28,
+      "price": 33.15,
       "premarket_change": 13.38469,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 10.19,
-      "dollar_volume_m": 59.6,
+      "dollar_volume_m": 70.6,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 3.1,
-      "rvol": 3.1,
+      "vol_expansion": 3.2,
+      "rvol": 3.2,
       "pct_below_52w_high": 6.3,
       "market_cap_m": 823.425299,
       "_avg20_vol": 660803.4,
@@ -1354,7 +1435,7 @@
       "info": [
         [
           "RVOL",
-          "3.1x"
+          "3.2x"
         ],
         [
           "52wk",
@@ -1371,7 +1452,7 @@
           "+14"
         ],
         [
-          "Volume 3.1x expansion",
+          "Volume 3.2x expansion",
           "+8"
         ]
       ],
@@ -1383,7 +1464,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $60M",
+          "$ vol $71M",
           "+4"
         ],
         [
@@ -1400,7 +1481,7 @@
       "ticker": "ALNY",
       "name": "Alnylam Pharmaceuticals, Inc.",
       "changesPercentage": 12.82535,
-      "price": 334.13,
+      "price": 330.61,
       "premarket_change": 12.82535,
       "headline": "AstraZeneca Stock and Partner Ionis Sink After Trial Failure. Alnylam Soars.",
       "news_url": "https://www.barrons.com/articles/astrazeneca-stock-ionis-trial-failure-alnylam-40eab20f",
@@ -1415,7 +1496,7 @@
       "wk52_low": 273.11,
       "float_m": 132.941139,
       "adr_pct": 3.31,
-      "dollar_volume_m": 1273.3,
+      "dollar_volume_m": 1267.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -1469,7 +1550,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $1273M",
+          "$ vol $1267M",
           "+8"
         ],
         [
