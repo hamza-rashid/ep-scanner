@@ -1,9 +1,9 @@
 {
-  "generated_utc": "2026-07-10T10:55:45.193342+00:00",
+  "generated_utc": "2026-07-10T13:13:10.834849+00:00",
   "session_date": "2026-07-10",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
-  "count": 6,
+  "count": 7,
   "active_count": 0,
   "no_catalyst_count": 3,
   "ai_used": true,
@@ -20,10 +20,92 @@
   },
   "rows": [
     {
+      "ticker": "FBRX",
+      "name": "Forte Biosciences, Inc.",
+      "changesPercentage": 78.32847,
+      "price": 36.7,
+      "premarket_change": 78.32847,
+      "headline": "Forte Biosciences: FB102 Is Becoming A Platform Story, Not A Single-Indication Bet",
+      "news_url": "https://seekingalpha.com/article/4921114-forte-biosciences-fb102-is-becoming-a-platform-story-not-a-single-indication-bet",
+      "news_site": "seekingalpha.com",
+      "news_time": "2026-07-10 08:25:00",
+      "catalyst_label": "fda_approval",
+      "catalyst_tier": "S",
+      "catalyst_desc": "FDA approval / positive pivotal trial",
+      "catalyst_base_points": 98,
+      "market_cap_m": 509.60519,
+      "wk52_high": 37.575,
+      "wk52_low": 9.1,
+      "float_m": 12.070019,
+      "adr_pct": 11.97,
+      "dollar_volume_m": 0.7,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "med",
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
+      "pct_below_52w_high": -0.9,
+      "_avg20_vol": 439667.2,
+      "section": "ep",
+      "cooling": true,
+      "low_float": true,
+      "info": [
+        [
+          "RVOL",
+          "0.0x"
+        ],
+        [
+          "Float",
+          "12M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "at highs"
+        ]
+      ],
+      "catalyst_score": 120,
+      "neglect_score": 24,
+      "technical_score": 19,
+      "total": 163,
+      "cbreak": [
+        [
+          "FDA approval / positive pivotal trial (Tier S)",
+          "+98"
+        ],
+        [
+          "Gap 78.3% (market voting)",
+          "+22"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $1M",
+          "+2"
+        ],
+        [
+          "ADR 12.0%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
       "ticker": "FXHO",
       "name": "UTime Limited",
       "changesPercentage": 28.78788,
-      "price": 18.7,
+      "price": 18.5,
       "premarket_change": 28.78788,
       "market_cap_m": 3.691137,
       "wk52_high": 7700.0,
@@ -34,7 +116,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": null,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 0.1,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
@@ -75,7 +157,7 @@
       "ticker": "LASR",
       "name": "nLIGHT, Inc.",
       "changesPercentage": 27.31766,
-      "price": 74.71,
+      "price": 74.7,
       "premarket_change": 27.31766,
       "headline": "nLight (LASR) Moves 27.3% Higher: Will This Strength Last?",
       "news_url": "https://www.zacks.com/stock/news/2951325/nlight-lasr-moves-27-3-higher-will-this-strength-last?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|daily_price_change_5%-2951325",
@@ -90,7 +172,7 @@
       "wk52_low": 17.84,
       "float_m": 52.719345,
       "adr_pct": 8.73,
-      "dollar_volume_m": 0.4,
+      "dollar_volume_m": 1.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -140,7 +222,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $1M",
           "+2"
         ],
         [
@@ -157,7 +239,7 @@
       "ticker": "PTLE",
       "name": "PTL Limited",
       "changesPercentage": 19.10256,
-      "price": 9.29,
+      "price": 9.5,
       "premarket_change": 19.10256,
       "market_cap_m": 3.913431,
       "wk52_high": 36.0,
@@ -231,7 +313,7 @@
       "ticker": "ONTX",
       "name": "Onconova Therapeutics, Inc.",
       "changesPercentage": 17.63745,
-      "price": 23.4015,
+      "price": 25.12,
       "premarket_change": 17.63745,
       "market_cap_m": 491.470417,
       "wk52_high": 43.14,
@@ -242,7 +324,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": null,
-      "dollar_volume_m": 0.2,
+      "dollar_volume_m": 0.0,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
@@ -283,7 +365,7 @@
       "ticker": "BBIO",
       "name": "BridgeBio Pharma, Inc.",
       "changesPercentage": 15.11554,
-      "price": 90.17,
+      "price": 90.69,
       "premarket_change": 15.11554,
       "headline": "BridgeBio Pharma (BBIO) Moves 15.1% Higher: Will This Strength Last?",
       "news_url": "https://www.zacks.com/stock/news/2951363/bridgebio-pharma-bbio-moves-15-1-higher-will-this-strength-last?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|daily_price_change_5%-2951363",
@@ -298,7 +380,7 @@
       "wk52_low": 42.09,
       "float_m": 169.191301,
       "adr_pct": 3.81,
-      "dollar_volume_m": 0.1,
+      "dollar_volume_m": 1.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -343,7 +425,7 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $1M",
           "+2"
         ],
         [
@@ -360,7 +442,7 @@
       "ticker": "LRMR",
       "name": "Larimar Therapeutics, Inc.",
       "changesPercentage": 14.40443,
-      "price": 4.13,
+      "price": 4.2,
       "premarket_change": 14.40443,
       "headline": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Larimar Therapeutics, Inc. - LRMR",
       "news_url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-larimar-therapeutics-inc---lrmr-302822376.html",
@@ -375,7 +457,7 @@
       "wk52_low": 2.715,
       "float_m": 51.159945,
       "adr_pct": 8.09,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 0.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
