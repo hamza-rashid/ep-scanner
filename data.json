@@ -1,10 +1,10 @@
 {
-  "generated_utc": "2026-07-13T16:08:17.619071+00:00",
+  "generated_utc": "2026-07-13T16:36:12.041381+00:00",
   "session_date": "2026-07-13",
   "mode": "refresh",
   "run_label": "scheduled",
-  "count": 27,
-  "active_count": 11,
+  "count": 28,
+  "active_count": 12,
   "no_catalyst_count": 15,
   "ai_used": true,
   "fresh_window_ok": true,
@@ -23,7 +23,7 @@
       "ticker": "VEEE",
       "name": "Twin Vee Powercats Co.",
       "changesPercentage": 150.82988,
-      "price": 22.6,
+      "price": 26.08,
       "premarket_change": 150.82988,
       "headline": "Twin Vee PowerCats Co. Announces Strategic Merger and Concurrent Privatization of its Recreational Marine Business",
       "news_url": "https://www.accessnewswire.com/newsroom/en/sports-leisure-and-entertainment/twin-vee-powercats-co.-announces-strategic-merger-and-concurrent-p-1190146",
@@ -38,15 +38,15 @@
       "wk52_low": 4.16,
       "float_m": 0.045455,
       "adr_pct": 12.46,
-      "dollar_volume_m": 1098.3,
+      "dollar_volume_m": 1332.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 228.0,
-      "rvol": 228.0,
+      "vol_expansion": 239.6,
+      "rvol": 239.6,
       "pct_below_52w_high": 87.5,
       "_avg20_vol": 213168.05,
       "section": "ep",
@@ -55,7 +55,7 @@
       "info": [
         [
           "RVOL",
-          "228.0x"
+          "239.6x"
         ],
         [
           "Float",
@@ -80,7 +80,7 @@
           "+22"
         ],
         [
-          "Volume 228.0x expansion",
+          "Volume 239.6x expansion",
           "+10"
         ]
       ],
@@ -92,7 +92,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $1098M",
+          "$ vol $1332M",
           "+8"
         ],
         [
@@ -120,7 +120,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 17.41,
-      "dollar_volume_m": 8.4,
+      "dollar_volume_m": 8.5,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -187,7 +187,7 @@
       "ticker": "QTTB",
       "name": "Q32 Bio Inc.",
       "changesPercentage": 91.97145,
-      "price": 21.525,
+      "price": 21.96,
       "premarket_change": 91.97145,
       "headline": "Q32 Bio's Bempikibart Shows Durable Hair Regrowth in Phase 2 Alopecia Study",
       "news_url": "https://www.marketbeat.com/instant-alerts/q32-bios-bempikibart-shows-durable-hair-regrowth-in-phase-2-alopecia-study-2026-07-13/",
@@ -202,15 +202,15 @@
       "wk52_low": 1.569,
       "float_m": 6.403251,
       "adr_pct": 12.59,
-      "dollar_volume_m": 466.1,
+      "dollar_volume_m": 495.5,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 41.4,
-      "rvol": 41.4,
+      "vol_expansion": 43.2,
+      "rvol": 43.2,
       "pct_below_52w_high": -2.3,
       "_avg20_vol": 522199.75,
       "section": "ep",
@@ -219,7 +219,7 @@
       "info": [
         [
           "RVOL",
-          "41.4x"
+          "43.2x"
         ],
         [
           "Float",
@@ -244,7 +244,7 @@
           "+22"
         ],
         [
-          "Volume 41.4x expansion",
+          "Volume 43.2x expansion",
           "+10"
         ]
       ],
@@ -256,7 +256,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $466M",
+          "$ vol $496M",
           "+8"
         ],
         [
@@ -273,7 +273,7 @@
       "ticker": "AGEN",
       "name": "Agenus Inc.",
       "changesPercentage": 90.59701,
-      "price": 6.35,
+      "price": 6.78,
       "premarket_change": 90.59701,
       "headline": "Agenus Stock Soars Over 100% as BATTMAN Takes a Back Seat to ROBBIN",
       "news_url": "https://www.benzinga.com/trading-ideas/movers/26/07/60416638/agenus-stock-soars-over-100-as-battman-takes-a-back-seat-to-robbin",
@@ -288,15 +288,15 @@
       "wk52_low": 2.71,
       "float_m": 37.777027,
       "adr_pct": 11.02,
-      "dollar_volume_m": 983.2,
+      "dollar_volume_m": 1074.6,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 165.0,
-      "rvol": 165.0,
+      "vol_expansion": 169.7,
+      "rvol": 169.7,
       "pct_below_52w_high": 9.6,
       "_avg20_vol": 933783.9,
       "section": "ep",
@@ -305,7 +305,7 @@
       "info": [
         [
           "RVOL",
-          "165.0x"
+          "169.7x"
         ],
         [
           "Float",
@@ -330,7 +330,7 @@
           "+22"
         ],
         [
-          "Volume 165.0x expansion",
+          "Volume 169.7x expansion",
           "+10"
         ]
       ],
@@ -342,7 +342,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $983M",
+          "$ vol $1075M",
           "+8"
         ],
         [
@@ -359,7 +359,7 @@
       "ticker": "BRAI",
       "name": "Braiin Ltd",
       "changesPercentage": 64.0961,
-      "price": 8.84,
+      "price": 8.57,
       "premarket_change": 64.0961,
       "headline": "Braiin Launches Agentic AI Workforce ARIA to Capture the US$32.0 Billion Global Real Estate Software Market by 2033",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/13/3326186/0/en/braiin-launches-agentic-ai-workforce-aria-to-capture-the-us-32-0-billion-global-real-estate-software-market-by-2033.html",
@@ -374,15 +374,15 @@
       "wk52_low": 4.18667,
       "float_m": 53.102753,
       "adr_pct": 18.31,
-      "dollar_volume_m": 79.6,
+      "dollar_volume_m": 64.6,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 41.9,
-      "rvol": 41.9,
+      "vol_expansion": 43.5,
+      "rvol": 43.5,
       "pct_below_52w_high": 26.3,
       "_avg20_vol": 173417.05,
       "section": "ep",
@@ -391,7 +391,7 @@
       "info": [
         [
           "RVOL",
-          "41.9x"
+          "43.5x"
         ],
         [
           "Float",
@@ -416,7 +416,7 @@
           "+22"
         ],
         [
-          "Volume 41.9x expansion",
+          "Volume 43.5x expansion",
           "+10"
         ]
       ],
@@ -428,7 +428,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $80M",
+          "$ vol $65M",
           "+4"
         ],
         [
@@ -445,7 +445,7 @@
       "ticker": "PLBL",
       "name": "Polibeli Group Ltd",
       "changesPercentage": 26.47975,
-      "price": 7.51,
+      "price": 7.65,
       "premarket_change": 26.47975,
       "market_cap_m": 2975.066232,
       "wk52_high": 13.48,
@@ -456,15 +456,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 19.7,
-      "dollar_volume_m": 1.6,
+      "dollar_volume_m": 1.9,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.6,
-      "rvol": 0.6,
+      "vol_expansion": 0.7,
+      "rvol": 0.7,
       "pct_below_52w_high": 31.1,
       "_avg20_vol": 373758.0,
       "section": "no_catalyst",
@@ -473,7 +473,7 @@
       "info": [
         [
           "RVOL",
-          "0.6x"
+          "0.7x"
         ],
         [
           "Float",
@@ -494,7 +494,7 @@
           "+20"
         ],
         [
-          "Volume 0.6x expansion",
+          "Volume 0.7x expansion",
           "+2"
         ]
       ],
@@ -523,7 +523,7 @@
       "ticker": "FGI",
       "name": "FGI Industries Ltd.",
       "changesPercentage": 24.44444,
-      "price": 4.94,
+      "price": 4.98,
       "premarket_change": 24.44444,
       "market_cap_m": 9.733606,
       "wk52_high": 12.62,
@@ -541,8 +541,8 @@
       "above_50": false,
       "above_200": false,
       "neglect": "low",
-      "vol_expansion": 0.2,
-      "rvol": 0.2,
+      "vol_expansion": 0.3,
+      "rvol": 0.3,
       "pct_below_52w_high": 52.7,
       "_avg20_vol": 28823.25,
       "section": "no_catalyst",
@@ -551,7 +551,7 @@
       "info": [
         [
           "RVOL",
-          "0.2x"
+          "0.3x"
         ],
         [
           "Float",
@@ -562,18 +562,18 @@
           "53% below high"
         ]
       ],
-      "catalyst_score": 19,
+      "catalyst_score": 20,
       "neglect_score": 0,
       "technical_score": 10,
-      "total": 29,
+      "total": 30,
       "cbreak": [
         [
           "Gap 24.4% (market voting)",
           "+19"
         ],
         [
-          "Volume 0.2x expansion",
-          "+0"
+          "Volume 0.3x expansion",
+          "+1"
         ]
       ],
       "nbreak": [],
@@ -596,7 +596,7 @@
       "ticker": "RXT",
       "name": "Rackspace Technology, Inc.",
       "changesPercentage": 22.05263,
-      "price": 4.65,
+      "price": 4.61,
       "premarket_change": 22.05263,
       "headline": "Rackspace Technology Cuts 2026 Outlook as $250M Stock Sale Fuels AI Push",
       "news_url": "https://www.marketbeat.com/instant-alerts/rackspace-technology-cuts-2026-outlook-as-250m-stock-sale-fuels-ai-push-2026-07-10/",
@@ -611,15 +611,15 @@
       "wk52_low": 0.393,
       "float_m": 75.464826,
       "adr_pct": 19.1,
-      "dollar_volume_m": 61.5,
+      "dollar_volume_m": 64.1,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.5,
-      "rvol": 0.5,
+      "vol_expansion": 0.6,
+      "rvol": 0.6,
       "pct_below_52w_high": 30.1,
       "_avg20_vol": 24369257.1,
       "section": "ep",
@@ -628,7 +628,7 @@
       "info": [
         [
           "RVOL",
-          "0.5x"
+          "0.6x"
         ],
         [
           "Float",
@@ -639,10 +639,10 @@
           "30% below high"
         ]
       ],
-      "catalyst_score": 4,
+      "catalyst_score": 5,
       "neglect_score": 42,
       "technical_score": 18,
-      "total": 64,
+      "total": 65,
       "cbreak": [
         [
           "Share offering / dilution (bearish) (Tier C)",
@@ -653,8 +653,8 @@
           "+18"
         ],
         [
-          "Volume 0.5x expansion",
-          "+1"
+          "Volume 0.6x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
@@ -665,7 +665,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $62M",
+          "$ vol $64M",
           "+4"
         ],
         [
@@ -756,22 +756,22 @@
       "ticker": "MI",
       "name": "NFT Limited",
       "changesPercentage": 19.51087,
-      "price": 10.995,
+      "price": 11.08,
       "premarket_change": 19.51087,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 6.33,
-      "dollar_volume_m": 1.8,
+      "dollar_volume_m": 1.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "low",
-      "vol_expansion": 41.1,
-      "rvol": 41.1,
+      "vol_expansion": 42.1,
+      "rvol": 42.1,
       "pct_below_52w_high": 97.4,
       "market_cap_m": 0.69617,
       "_avg20_vol": 3706.65,
@@ -780,7 +780,7 @@
       "info": [
         [
           "RVOL",
-          "41.1x"
+          "42.1x"
         ],
         [
           "52wk",
@@ -797,7 +797,7 @@
           "+17"
         ],
         [
-          "Volume 41.1x expansion",
+          "Volume 42.1x expansion",
           "+10"
         ]
       ],
@@ -821,7 +821,7 @@
       "ticker": "PED",
       "name": "PEDEVCO Corp.",
       "changesPercentage": 18.37719,
-      "price": 13.495,
+      "price": 13.55,
       "premarket_change": 18.37719,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
@@ -891,22 +891,22 @@
       "ticker": "GALT",
       "name": "Galectin Therapeutics Inc.",
       "changesPercentage": 17.48768,
-      "price": 4.77,
+      "price": 5.19,
       "premarket_change": 17.48768,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 12.78,
-      "dollar_volume_m": 3.4,
+      "dollar_volume_m": 4.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 0.6,
-      "rvol": 0.6,
+      "vol_expansion": 0.7,
+      "rvol": 0.7,
       "pct_below_52w_high": 20.3,
       "market_cap_m": 312.820266,
       "_avg20_vol": 1149887.9,
@@ -915,7 +915,7 @@
       "info": [
         [
           "RVOL",
-          "0.6x"
+          "0.7x"
         ],
         [
           "52wk",
@@ -932,14 +932,14 @@
           "+16"
         ],
         [
-          "Volume 0.6x expansion",
+          "Volume 0.7x expansion",
           "+2"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $3M",
+          "$ vol $4M",
           "+2"
         ],
         [
@@ -956,7 +956,7 @@
       "ticker": "LSTA",
       "name": "Lisata Therapeutics, Inc.",
       "changesPercentage": 17.43119,
-      "price": 3.84,
+      "price": 3.85,
       "premarket_change": 17.43119,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
@@ -970,8 +970,8 @@
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 3.3,
-      "rvol": 3.3,
+      "vol_expansion": 3.8,
+      "rvol": 3.8,
       "pct_below_52w_high": 23.6,
       "market_cap_m": 34.649815,
       "_avg20_vol": 28678.15,
@@ -980,25 +980,25 @@
       "info": [
         [
           "RVOL",
-          "3.3x"
+          "3.8x"
         ],
         [
           "52wk",
           "24% below high"
         ]
       ],
-      "catalyst_score": 24,
+      "catalyst_score": 26,
       "neglect_score": 24,
       "technical_score": 18,
-      "total": 66,
+      "total": 68,
       "cbreak": [
         [
           "Gap 17.4% (market voting)",
           "+16"
         ],
         [
-          "Volume 3.3x expansion",
-          "+8"
+          "Volume 3.8x expansion",
+          "+10"
         ]
       ],
       "nbreak": [
@@ -1026,7 +1026,7 @@
       "ticker": "AIIO",
       "name": "Robo.ai Inc.",
       "changesPercentage": 16.04198,
-      "price": 3.87,
+      "price": 3.86,
       "premarket_change": 16.04198,
       "headline": "Former INTERPOL President H.E. Ahmed Naser Al-Raisi Joins Robo.ai as Chairman of Neurovia AI to Build Trusted, Sovereign AI Infrastructure in the UAE and GCC Region",
       "news_url": "https://www.prnewswire.com/news-releases/former-interpol-president-he-ahmed-naser-al-raisi-joins-roboai-as-chairman-of-neurovia-ai-to-build-trusted-sovereign-ai-infrastructure-in-the-uae-and-gcc-region-302823562.html",
@@ -1041,7 +1041,7 @@
       "wk52_low": 0.54,
       "float_m": 12.485686,
       "adr_pct": 18.24,
-      "dollar_volume_m": 4.3,
+      "dollar_volume_m": 4.4,
       "gap_pct": null,
       "above_10": false,
       "above_20": true,
@@ -1112,7 +1112,7 @@
       "ticker": "RETO",
       "name": "ReTo Eco-Solutions, Inc.",
       "changesPercentage": 15.67895,
-      "price": 3.25,
+      "price": 3.1,
       "premarket_change": 15.67895,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
@@ -1182,14 +1182,14 @@
       "ticker": "NVVE",
       "name": "Nuvve Holding Corp.",
       "changesPercentage": 15.14265,
-      "price": 15.74,
+      "price": 16.23,
       "premarket_change": 15.14265,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 30.71,
-      "dollar_volume_m": 12.9,
+      "dollar_volume_m": 13.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -1230,7 +1230,7 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $13M",
+          "$ vol $14M",
           "+2"
         ],
         [
@@ -1325,7 +1325,7 @@
       "ticker": "VIVO",
       "name": "VivoPower PLC",
       "changesPercentage": 13.44902,
-      "price": 4.47,
+      "price": 4.43,
       "premarket_change": 13.44902,
       "headline": "US Research house initiates Solvonis coverage citing differentiated addiction strategy",
       "news_url": "https://www.proactiveinvestors.com/companies/news/1095324/us-research-house-initiates-solvonis-coverage-citing-differentiated-addiction-strategy-1095324.html",
@@ -1340,7 +1340,7 @@
       "wk52_low": 1.2,
       "float_m": 9.168439,
       "adr_pct": 12.96,
-      "dollar_volume_m": 4.2,
+      "dollar_volume_m": 4.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": false,
@@ -1394,7 +1394,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $4M",
+          "$ vol $5M",
           "+2"
         ],
         [
@@ -1411,7 +1411,7 @@
       "ticker": "UBXG",
       "name": "U-BX Technology Ltd.",
       "changesPercentage": 13.39092,
-      "price": 5.8,
+      "price": 6.12,
       "premarket_change": 13.39092,
       "market_cap_m": 4.312665,
       "wk52_high": 112.5,
@@ -1422,7 +1422,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 43.76,
-      "dollar_volume_m": 2.1,
+      "dollar_volume_m": 2.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": false,
@@ -1489,7 +1489,7 @@
       "ticker": "VOD",
       "name": "Vodafone Group Public Limited Company",
       "changesPercentage": 12.53823,
-      "price": 15.56,
+      "price": 15.53,
       "premarket_change": 12.53823,
       "headline": "FTSE 100 dodges Iran shock as oil giants ignite a fresh rally",
       "news_url": "https://invezz.com/news/2026/07/13/ftse-100-dodges-iran-shock-as-oil-giants-ignite-a-fresh-rally/",
@@ -1504,15 +1504,15 @@
       "wk52_low": 10.66,
       "float_m": 2302.520513,
       "adr_pct": 1.58,
-      "dollar_volume_m": 68.9,
+      "dollar_volume_m": 76.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 1.3,
-      "rvol": 1.3,
+      "vol_expansion": 1.4,
+      "rvol": 1.4,
       "pct_below_52w_high": 6.1,
       "_avg20_vol": 3477171.9,
       "section": "ep",
@@ -1521,7 +1521,7 @@
       "info": [
         [
           "RVOL",
-          "1.3x"
+          "1.4x"
         ],
         [
           "Float",
@@ -1532,10 +1532,10 @@
           "6% below high"
         ]
       ],
-      "catalyst_score": 39,
+      "catalyst_score": 40,
       "neglect_score": 0,
       "technical_score": 18,
-      "total": 57,
+      "total": 58,
       "cbreak": [
         [
           "Moving on unclear news (Tier C)",
@@ -1546,14 +1546,14 @@
           "+14"
         ],
         [
-          "Volume 1.3x expansion",
-          "+3"
+          "Volume 1.4x expansion",
+          "+4"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $69M",
+          "$ vol $76M",
           "+4"
         ],
         [
@@ -1570,7 +1570,7 @@
       "ticker": "SGP",
       "name": "SpyGlass Pharma, Inc. Common Stock",
       "changesPercentage": 12.20727,
-      "price": 26.16,
+      "price": 20.12,
       "premarket_change": 12.20727,
       "market_cap_m": 752.919087,
       "wk52_high": 32.44,
@@ -1581,7 +1581,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 7.99,
-      "dollar_volume_m": 2.1,
+      "dollar_volume_m": 1.8,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -1645,10 +1645,87 @@
       ]
     },
     {
+      "ticker": "GLOO",
+      "name": "Gloo Holdings, Inc.",
+      "changesPercentage": 12.20339,
+      "price": 3.31,
+      "premarket_change": 12.20339,
+      "headline": "Gloo Announces Closing of Public Offering of Class A Common Stock",
+      "news_url": "https://www.gurufocus.com/news/8955400/gloo-announces-closing-of-public-offering-of-class-a-common-stock",
+      "news_site": "gurufocus.com",
+      "news_time": "2026-07-13 09:00:00",
+      "catalyst_label": "dilution_offering",
+      "catalyst_tier": "C",
+      "catalyst_desc": "Share offering / dilution (bearish)",
+      "catalyst_base_points": -15,
+      "market_cap_m": 68.82486,
+      "wk52_high": 9.98,
+      "wk52_low": 2.94,
+      "float_m": 5.550588,
+      "adr_pct": 8.12,
+      "dollar_volume_m": 4.0,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": 3.9,
+      "rvol": 3.9,
+      "pct_below_52w_high": 64.7,
+      "_avg20_vol": 306896.85,
+      "section": "ep",
+      "cooling": false,
+      "low_float": true,
+      "info": [
+        [
+          "RVOL",
+          "3.9x"
+        ],
+        [
+          "Float",
+          "6M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "65% below high"
+        ]
+      ],
+      "catalyst_score": 9,
+      "neglect_score": 0,
+      "technical_score": 7,
+      "total": 16,
+      "cbreak": [
+        [
+          "Share offering / dilution (bearish) (Tier C)",
+          "-15"
+        ],
+        [
+          "Gap 12.2% (market voting)",
+          "+14"
+        ],
+        [
+          "Volume 3.9x expansion",
+          "+10"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": [
+        [
+          "$ vol $4M",
+          "+2"
+        ],
+        [
+          "ADR 8.1%",
+          "+5"
+        ]
+      ]
+    },
+    {
       "ticker": "VRRM",
       "name": "Verra Mobility Corporation",
       "changesPercentage": 11.97816,
-      "price": 4.6101,
+      "price": 5.0,
       "premarket_change": 11.97816,
       "headline": "VRRM UPCOMING DEADLINE: Faruqi & Faruqi, LLP Reminds Verra (VRRM) Investors of Securities Class Action Lawsuit Deadline on August 4, 2026",
       "news_url": "https://www.newsfilecorp.com/release/304769/VRRM-UPCOMING-DEADLINE-Faruqi-Faruqi-LLP-Reminds-Verra-VRRM-Investors-of-Securities-Class-Action-Lawsuit-Deadline-on-August-4-2026",
@@ -1673,8 +1750,8 @@
       ],
       "catalyst_score": 14,
       "neglect_score": 0,
-      "technical_score": 0,
-      "total": 14,
+      "technical_score": 4,
+      "total": 18,
       "cbreak": [
         [
           "Gap 12.0% (market voting)",
@@ -1682,28 +1759,34 @@
         ]
       ],
       "nbreak": [],
-      "tbreak": []
+      "tbreak": [
+        [
+          "$ vol $32M",
+          "+4"
+        ]
+      ],
+      "dollar_volume_m": 32.3
     },
     {
       "ticker": "STAK",
       "name": "STAK Inc. Ordinary Shares",
       "changesPercentage": 11.5727,
-      "price": 3.76,
+      "price": 3.74,
       "premarket_change": 11.5727,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 21.05,
-      "dollar_volume_m": 0.3,
+      "dollar_volume_m": 0.5,
       "gap_pct": null,
       "above_10": true,
       "above_20": false,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.2,
-      "rvol": 0.2,
+      "vol_expansion": 0.4,
+      "rvol": 0.4,
       "pct_below_52w_high": 45.7,
       "market_cap_m": 37.638912,
       "_avg20_vol": 394041.4,
@@ -1712,25 +1795,25 @@
       "info": [
         [
           "RVOL",
-          "0.2x"
+          "0.4x"
         ],
         [
           "52wk",
           "46% below high"
         ]
       ],
-      "catalyst_score": 14,
+      "catalyst_score": 15,
       "neglect_score": 24,
       "technical_score": 17,
-      "total": 55,
+      "total": 56,
       "cbreak": [
         [
           "Gap 11.6% (market voting)",
           "+14"
         ],
         [
-          "Volume 0.2x expansion",
-          "+0"
+          "Volume 0.4x expansion",
+          "+1"
         ]
       ],
       "nbreak": [
@@ -1758,7 +1841,7 @@
       "ticker": "VRAX",
       "name": "Virax Biolabs Group Limited",
       "changesPercentage": 11.02941,
-      "price": 4.53,
+      "price": 4.24,
       "premarket_change": 11.02941,
       "headline": "Virax Biolabs Group Limited Announces Closing of Exercise of Preferred Investment Options for $3.3 Million Gross Proceeds",
       "news_url": "https://www.prnewswire.com/news-releases/virax-biolabs-group-limited-announces-closing-of-exercise-of-preferred-investment-options-for-3-3-million-gross-proceeds-302823045.html",
@@ -1773,7 +1856,7 @@
       "wk52_low": 2.5,
       "float_m": 19.566104,
       "adr_pct": 22.54,
-      "dollar_volume_m": 3.7,
+      "dollar_volume_m": 3.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -1827,7 +1910,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $4M",
+          "$ vol $3M",
           "+2"
         ],
         [
@@ -1844,7 +1927,7 @@
       "ticker": "TCBK",
       "name": "TriCo Bancshares",
       "changesPercentage": 10.92468,
-      "price": 59.4199,
+      "price": 59.27,
       "premarket_change": 10.92468,
       "headline": "Shareholder Alert: Ademi LLP investigates whether TriCo Bancshares is obtaining a Fair Price for Public Shareholders",
       "news_url": "https://www.prnewswire.com/news-releases/shareholder-alert-ademi-llp-investigates-whether-trico-bancshares-is-obtaining-a-fair-price-for-public-shareholders-302823916.html",
@@ -1859,15 +1942,15 @@
       "wk52_low": 39.69,
       "float_m": 30.267514,
       "adr_pct": 2.37,
-      "dollar_volume_m": 93.0,
+      "dollar_volume_m": 102.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 7.7,
-      "rvol": 7.7,
+      "vol_expansion": 8.5,
+      "rvol": 8.5,
       "pct_below_52w_high": -0.6,
       "_avg20_vol": 202390.15,
       "section": "ep",
@@ -1876,7 +1959,7 @@
       "info": [
         [
           "RVOL",
-          "7.7x"
+          "8.5x"
         ],
         [
           "Float",
@@ -1889,8 +1972,8 @@
       ],
       "catalyst_score": 119,
       "neglect_score": 42,
-      "technical_score": 19,
-      "total": 180,
+      "technical_score": 23,
+      "total": 184,
       "cbreak": [
         [
           "Acquisition / buyout (target) (Tier S)",
@@ -1901,7 +1984,7 @@
           "+13"
         ],
         [
-          "Volume 7.7x expansion",
+          "Volume 8.5x expansion",
           "+10"
         ]
       ],
@@ -1913,8 +1996,8 @@
       ],
       "tbreak": [
         [
-          "$ vol $93M",
-          "+4"
+          "$ vol $102M",
+          "+8"
         ],
         [
           "ADR 2.4%",
@@ -1930,7 +2013,7 @@
       "ticker": "CCC",
       "name": "CCC Intelligent Solutions Holdings Inc.",
       "changesPercentage": 5.23649,
-      "price": 6.11,
+      "price": 6.18,
       "premarket_change": 5.23649,
       "headline": "Computacenter's record backlog fuels analyst optimism over AI opportunity",
       "news_url": "https://www.proactiveinvestors.co.uk/companies/news/1095332",
@@ -1945,15 +2028,15 @@
       "wk52_low": 4.08,
       "float_m": 550.932756,
       "adr_pct": 5.52,
-      "dollar_volume_m": 43.9,
+      "dollar_volume_m": 52.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "low",
-      "vol_expansion": 0.7,
-      "rvol": 0.7,
+      "vol_expansion": 0.8,
+      "rvol": 0.8,
       "pct_below_52w_high": 36.6,
       "_avg20_vol": 10295284.1,
       "section": "ep",
@@ -1962,7 +2045,7 @@
       "info": [
         [
           "RVOL",
-          "0.7x"
+          "0.8x"
         ],
         [
           "Float",
@@ -1987,14 +2070,14 @@
           "+1"
         ],
         [
-          "Volume 0.7x expansion",
+          "Volume 0.8x expansion",
           "+2"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $44M",
+          "$ vol $52M",
           "+4"
         ],
         [
@@ -2011,7 +2094,7 @@
       "ticker": "BVC",
       "name": "BitVentures Limited",
       "changesPercentage": 4.89583,
-      "price": 12.18,
+      "price": 12.84,
       "premarket_change": 4.89583,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
@@ -2025,8 +2108,8 @@
       "above_50": false,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 2.1,
-      "rvol": 2.1,
+      "vol_expansion": 2.2,
+      "rvol": 2.2,
       "pct_below_52w_high": 66.5,
       "market_cap_m": 1691.76,
       "_avg20_vol": 10094.55,
@@ -2035,25 +2118,25 @@
       "info": [
         [
           "RVOL",
-          "2.1x"
+          "2.2x"
         ],
         [
           "52wk",
           "66% below high"
         ]
       ],
-      "catalyst_score": -1,
+      "catalyst_score": 0,
       "neglect_score": 42,
       "technical_score": 8,
-      "total": 49,
+      "total": 50,
       "cbreak": [
         [
           "Gap 4.9% (market voting)",
           "-6"
         ],
         [
-          "Volume 2.1x expansion",
-          "+5"
+          "Volume 2.2x expansion",
+          "+6"
         ]
       ],
       "nbreak": [
