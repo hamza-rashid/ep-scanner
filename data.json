@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-07-13T11:12:25.621280+00:00",
+  "generated_utc": "2026-07-13T13:30:46.202506+00:00",
   "session_date": "2026-07-13",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
-  "count": 10,
-  "active_count": 1,
-  "no_catalyst_count": 7,
+  "count": 13,
+  "active_count": 3,
+  "no_catalyst_count": 8,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -20,60 +20,68 @@
   },
   "rows": [
     {
-      "ticker": "GMM",
-      "name": "Global Mofy Metaverse Limited",
-      "changesPercentage": 147.02703,
-      "price": 4.57,
-      "premarket_change": 147.02703,
-      "market_cap_m": 2.702013,
-      "wk52_high": 164.5,
-      "wk52_low": 1.8,
-      "float_m": 0.525153,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": 17.41,
-      "dollar_volume_m": 2.0,
+      "ticker": "VEEE",
+      "name": "Twin Vee Powercats Co.",
+      "changesPercentage": 150.82988,
+      "price": 11.985,
+      "premarket_change": 150.82988,
+      "headline": "Twin Vee PowerCats Co. Announces Strategic Merger and Concurrent Privatization of its Recreational Marine Business",
+      "news_url": "https://www.accessnewswire.com/newsroom/en/sports-leisure-and-entertainment/twin-vee-powercats-co.-announces-strategic-merger-and-concurrent-p-1190146",
+      "news_site": "accessnewswire.com",
+      "news_time": "2026-07-13 08:30:00",
+      "catalyst_label": "acquisition_target",
+      "catalyst_tier": "S",
+      "catalyst_desc": "Acquisition / buyout (target)",
+      "catalyst_base_points": 96,
+      "market_cap_m": 0.635101,
+      "wk52_high": 128.02,
+      "wk52_low": 4.16,
+      "float_m": 0.045455,
+      "adr_pct": 12.46,
+      "dollar_volume_m": 195.6,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
-      "above_50": false,
+      "above_50": true,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 0.2,
-      "rvol": 0.2,
-      "pct_below_52w_high": 97.7,
-      "_avg20_vol": 3027729.25,
-      "section": "no_catalyst",
+      "vol_expansion": 70.0,
+      "rvol": 70.0,
+      "pct_below_52w_high": 87.5,
+      "_avg20_vol": 213168.05,
+      "section": "ep",
       "cooling": false,
       "low_float": true,
       "info": [
         [
           "RVOL",
-          "0.2x"
+          "70.0x"
         ],
         [
           "Float",
-          "1M \u00b7 LOW"
+          "0M \u00b7 LOW"
         ],
         [
           "52wk",
-          "98% below high"
+          "88% below high"
         ]
       ],
-      "catalyst_score": 22,
+      "catalyst_score": 128,
       "neglect_score": 24,
-      "technical_score": 10,
-      "total": 56,
+      "technical_score": 20,
+      "total": 172,
       "cbreak": [
         [
-          "Gap 147.0% (market voting)",
+          "Acquisition / buyout (target) (Tier S)",
+          "+96"
+        ],
+        [
+          "Gap 150.8% (market voting)",
           "+22"
         ],
         [
-          "Volume 0.2x expansion",
-          "+0"
+          "Volume 70.0x expansion",
+          "+10"
         ]
       ],
       "nbreak": [
@@ -84,7 +92,85 @@
       ],
       "tbreak": [
         [
-          "$ vol $2M",
+          "$ vol $196M",
+          "+8"
+        ],
+        [
+          "ADR 12.5%",
+          "+5"
+        ],
+        [
+          "Above 50d, 20d, 10d",
+          "+7"
+        ]
+      ]
+    },
+    {
+      "ticker": "GMM",
+      "name": "Global Mofy Metaverse Limited",
+      "changesPercentage": 147.02703,
+      "price": 3.37,
+      "premarket_change": 147.02703,
+      "market_cap_m": 2.702013,
+      "wk52_high": 164.5,
+      "wk52_low": 1.8,
+      "float_m": 0.525153,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 17.41,
+      "dollar_volume_m": 3.8,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "med",
+      "vol_expansion": 0.4,
+      "rvol": 0.4,
+      "pct_below_52w_high": 97.7,
+      "_avg20_vol": 3027729.25,
+      "section": "no_catalyst",
+      "cooling": false,
+      "low_float": true,
+      "info": [
+        [
+          "RVOL",
+          "0.4x"
+        ],
+        [
+          "Float",
+          "1M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "98% below high"
+        ]
+      ],
+      "catalyst_score": 23,
+      "neglect_score": 24,
+      "technical_score": 10,
+      "total": 57,
+      "cbreak": [
+        [
+          "Gap 147.0% (market voting)",
+          "+22"
+        ],
+        [
+          "Volume 0.4x expansion",
+          "+1"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $4M",
           "+2"
         ],
         [
@@ -101,7 +187,7 @@
       "ticker": "PLBL",
       "name": "Polibeli Group Ltd",
       "changesPercentage": 26.47975,
-      "price": 8.12,
+      "price": 8.02,
       "premarket_change": 26.47975,
       "market_cap_m": 2975.066232,
       "wk52_high": 13.48,
@@ -112,15 +198,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 19.7,
-      "dollar_volume_m": 12.1,
+      "dollar_volume_m": 0.1,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 4.0,
-      "rvol": 4.0,
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
       "pct_below_52w_high": 31.1,
       "_avg20_vol": 373758.0,
       "section": "no_catalyst",
@@ -129,7 +215,7 @@
       "info": [
         [
           "RVOL",
-          "4.0x"
+          "0.0x"
         ],
         [
           "Float",
@@ -140,18 +226,14 @@
           "31% below high"
         ]
       ],
-      "catalyst_score": 30,
+      "catalyst_score": 20,
       "neglect_score": 42,
       "technical_score": 11,
-      "total": 83,
+      "total": 73,
       "cbreak": [
         [
           "Gap 26.5% (market voting)",
           "+20"
-        ],
-        [
-          "Volume 4.0x expansion",
-          "+10"
         ]
       ],
       "nbreak": [
@@ -162,7 +244,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $12M",
+          "$ vol $0M",
           "+2"
         ],
         [
@@ -179,7 +261,7 @@
       "ticker": "FGI",
       "name": "FGI Industries Ltd.",
       "changesPercentage": 24.44444,
-      "price": 5.04,
+      "price": 5.36,
       "premarket_change": 24.44444,
       "market_cap_m": 9.733606,
       "wk52_high": 12.62,
@@ -190,15 +272,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 10.58,
-      "dollar_volume_m": 0.3,
+      "dollar_volume_m": 0.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "low",
-      "vol_expansion": 1.9,
-      "rvol": 1.9,
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
       "pct_below_52w_high": 52.7,
       "_avg20_vol": 28823.25,
       "section": "no_catalyst",
@@ -207,7 +289,7 @@
       "info": [
         [
           "RVOL",
-          "1.9x"
+          "0.0x"
         ],
         [
           "Float",
@@ -218,18 +300,14 @@
           "53% below high"
         ]
       ],
-      "catalyst_score": 24,
+      "catalyst_score": 19,
       "neglect_score": 0,
       "technical_score": 10,
-      "total": 34,
+      "total": 29,
       "cbreak": [
         [
           "Gap 24.4% (market voting)",
           "+19"
-        ],
-        [
-          "Volume 1.9x expansion",
-          "+5"
         ]
       ],
       "nbreak": [],
@@ -252,7 +330,7 @@
       "ticker": "RXT",
       "name": "Rackspace Technology, Inc.",
       "changesPercentage": 22.05263,
-      "price": 5.3337,
+      "price": 5.3,
       "premarket_change": 22.05263,
       "headline": "Rackspace Technology Cuts 2026 Outlook as $250M Stock Sale Fuels AI Push",
       "news_url": "https://www.marketbeat.com/instant-alerts/rackspace-technology-cuts-2026-outlook-as-250m-stock-sale-fuels-ai-push-2026-07-10/",
@@ -267,7 +345,7 @@
       "wk52_low": 0.393,
       "float_m": 75.464826,
       "adr_pct": 19.1,
-      "dollar_volume_m": 0.8,
+      "dollar_volume_m": 2.0,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
@@ -279,7 +357,7 @@
       "pct_below_52w_high": 30.1,
       "_avg20_vol": 24369257.1,
       "section": "ep",
-      "cooling": true,
+      "cooling": false,
       "low_float": false,
       "info": [
         [
@@ -317,7 +395,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $1M",
+          "$ vol $2M",
           "+2"
         ],
         [
@@ -334,7 +412,7 @@
       "ticker": "KXIN",
       "name": "Kaixin Auto Holdings",
       "changesPercentage": 20.88605,
-      "price": 5.1981,
+      "price": 5.24,
       "premarket_change": 20.88605,
       "market_cap_m": 0.144918,
       "wk52_high": 832.5,
@@ -408,7 +486,7 @@
       "ticker": "BKHA",
       "name": "Black Hawk Acquisition Corporation",
       "changesPercentage": 15.05017,
-      "price": 13.76,
+      "price": 13.65,
       "premarket_change": 15.05017,
       "market_cap_m": 57.15322,
       "wk52_high": 14.17,
@@ -426,8 +504,8 @@
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 1.0,
+      "rvol": 1.0,
       "pct_below_52w_high": -14.4,
       "_avg20_vol": 1379.45,
       "section": "no_catalyst",
@@ -436,7 +514,7 @@
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "1.0x"
         ],
         [
           "Float",
@@ -447,14 +525,18 @@
           "at highs"
         ]
       ],
-      "catalyst_score": 15,
+      "catalyst_score": 17,
       "neglect_score": 42,
       "technical_score": 15,
-      "total": 72,
+      "total": 74,
       "cbreak": [
         [
           "Gap 15.1% (market voting)",
           "+15"
+        ],
+        [
+          "Volume 1.0x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
@@ -482,7 +564,7 @@
       "ticker": "VIVO",
       "name": "VivoPower PLC",
       "changesPercentage": 13.44902,
-      "price": 5.23,
+      "price": 4.92,
       "premarket_change": 13.44902,
       "headline": "US Research house initiates Solvonis coverage citing differentiated addiction strategy",
       "news_url": "https://www.proactiveinvestors.com/companies/news/1095324/us-research-house-initiates-solvonis-coverage-citing-differentiated-addiction-strategy-1095324.html",
@@ -497,24 +579,24 @@
       "wk52_low": 1.2,
       "float_m": 9.168439,
       "adr_pct": 12.96,
-      "dollar_volume_m": 10.7,
+      "dollar_volume_m": 0.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": false,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 1.5,
-      "rvol": 1.5,
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
       "pct_below_52w_high": 24.1,
       "_avg20_vol": 1440218.2,
       "section": "ep",
-      "cooling": false,
+      "cooling": true,
       "low_float": true,
       "info": [
         [
           "RVOL",
-          "1.5x"
+          "0.0x"
         ],
         [
           "Float",
@@ -525,10 +607,10 @@
           "24% below high"
         ]
       ],
-      "catalyst_score": 38,
+      "catalyst_score": 34,
       "neglect_score": 42,
       "technical_score": 12,
-      "total": 92,
+      "total": 88,
       "cbreak": [
         [
           "Vague PR / promotional (Tier C)",
@@ -537,10 +619,6 @@
         [
           "Gap 13.4% (market voting)",
           "+14"
-        ],
-        [
-          "Volume 1.5x expansion",
-          "+4"
         ]
       ],
       "nbreak": [
@@ -551,7 +629,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $11M",
+          "$ vol $0M",
           "+2"
         ],
         [
@@ -568,7 +646,7 @@
       "ticker": "UBXG",
       "name": "U-BX Technology Ltd.",
       "changesPercentage": 13.39092,
-      "price": 5.25,
+      "price": 5.29,
       "premarket_change": 13.39092,
       "market_cap_m": 4.312665,
       "wk52_high": 112.5,
@@ -642,7 +720,7 @@
       "ticker": "VOD",
       "name": "Vodafone Group Public Limited Company",
       "changesPercentage": 12.53823,
-      "price": 14.72,
+      "price": 15.35,
       "premarket_change": 12.53823,
       "headline": "FTSE 100 dodges Iran shock as oil giants ignite a fresh rally",
       "news_url": "https://invezz.com/news/2026/07/13/ftse-100-dodges-iran-shock-as-oil-giants-ignite-a-fresh-rally/",
@@ -657,24 +735,24 @@
       "wk52_low": 10.66,
       "float_m": 2302.520513,
       "adr_pct": 1.58,
-      "dollar_volume_m": 1.4,
+      "dollar_volume_m": 3.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 0.1,
+      "rvol": 0.1,
       "pct_below_52w_high": 6.1,
       "_avg20_vol": 3477171.9,
       "section": "ep",
-      "cooling": true,
+      "cooling": false,
       "low_float": false,
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "0.1x"
         ],
         [
           "Float",
@@ -697,12 +775,16 @@
         [
           "Gap 12.5% (market voting)",
           "+14"
+        ],
+        [
+          "Volume 0.1x expansion",
+          "+0"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $1M",
+          "$ vol $4M",
           "+2"
         ],
         [
@@ -719,7 +801,7 @@
       "ticker": "SGP",
       "name": "SpyGlass Pharma, Inc. Common Stock",
       "changesPercentage": 12.20727,
-      "price": 22.52,
+      "price": 22.78,
       "premarket_change": 12.20727,
       "market_cap_m": 752.919087,
       "wk52_high": 32.44,
@@ -730,15 +812,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 7.99,
-      "dollar_volume_m": 4.1,
+      "dollar_volume_m": 0.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 1.0,
-      "rvol": 1.0,
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
       "pct_below_52w_high": 18.8,
       "_avg20_vol": 174238.8,
       "section": "no_catalyst",
@@ -747,7 +829,7 @@
       "info": [
         [
           "RVOL",
-          "1.0x"
+          "0.0x"
         ],
         [
           "Float",
@@ -758,18 +840,14 @@
           "19% below high"
         ]
       ],
-      "catalyst_score": 16,
+      "catalyst_score": 14,
       "neglect_score": 42,
       "technical_score": 14,
-      "total": 72,
+      "total": 70,
       "cbreak": [
         [
           "Gap 12.2% (market voting)",
           "+14"
-        ],
-        [
-          "Volume 1.0x expansion",
-          "+2"
         ]
       ],
       "nbreak": [
@@ -780,7 +858,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $4M",
+          "$ vol $0M",
           "+2"
         ],
         [
@@ -790,6 +868,149 @@
         [
           "Above 50d, 20d, 10d",
           "+7"
+        ]
+      ]
+    },
+    {
+      "ticker": "CCC",
+      "name": "CCC Intelligent Solutions Holdings Inc.",
+      "changesPercentage": 5.23649,
+      "price": 6.26,
+      "premarket_change": 5.23649,
+      "headline": "Computacenter's record backlog fuels analyst optimism over AI opportunity",
+      "news_url": "https://www.proactiveinvestors.co.uk/companies/news/1095332",
+      "news_site": "proactiveinvestors.co.uk",
+      "news_time": "2026-07-13 06:59:31",
+      "catalyst_label": "guidance_raised",
+      "catalyst_tier": "A",
+      "catalyst_desc": "Company raised earnings guidance",
+      "catalyst_base_points": 78,
+      "market_cap_m": 3671.313053,
+      "wk52_high": 10.5,
+      "wk52_low": 4.08,
+      "float_m": 550.932756,
+      "adr_pct": 5.52,
+      "dollar_volume_m": 1.2,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
+      "pct_below_52w_high": 36.6,
+      "_avg20_vol": 10295284.1,
+      "section": "ep",
+      "cooling": true,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "0.0x"
+        ],
+        [
+          "Float",
+          "551M"
+        ],
+        [
+          "52wk",
+          "37% below high"
+        ]
+      ],
+      "catalyst_score": 79,
+      "neglect_score": 0,
+      "technical_score": 14,
+      "total": 93,
+      "cbreak": [
+        [
+          "Company raised earnings guidance (Tier A)",
+          "+78"
+        ],
+        [
+          "Gap 5.2% (market voting)",
+          "+1"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": [
+        [
+          "$ vol $1M",
+          "+2"
+        ],
+        [
+          "ADR 5.5%",
+          "+5"
+        ],
+        [
+          "Above 50d, 20d, 10d",
+          "+7"
+        ]
+      ]
+    },
+    {
+      "ticker": "BVC",
+      "name": "BitVentures Limited",
+      "changesPercentage": 4.89583,
+      "price": 10.07,
+      "premarket_change": 4.89583,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 17.98,
+      "dollar_volume_m": 0.0,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "high",
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
+      "pct_below_52w_high": 66.5,
+      "market_cap_m": 1691.76,
+      "_avg20_vol": 10094.55,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "0.0x"
+        ],
+        [
+          "52wk",
+          "66% below high"
+        ]
+      ],
+      "catalyst_score": -6,
+      "neglect_score": 42,
+      "technical_score": 8,
+      "total": 44,
+      "cbreak": [
+        [
+          "Gap 4.9% (market voting)",
+          "-6"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 18.0%",
+          "+5"
+        ],
+        [
+          "Above 10d",
+          "+1"
         ]
       ]
     }
