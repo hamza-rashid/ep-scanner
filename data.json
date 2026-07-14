@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-14T11:39:23.478193+00:00",
+  "generated_utc": "2026-07-14T12:52:14.552226+00:00",
   "session_date": "2026-07-14",
   "mode": "refresh",
   "run_label": "scheduled",
@@ -23,7 +23,7 @@
       "ticker": "QTTB",
       "name": "Q32 Bio Inc.",
       "changesPercentage": 90.72257,
-      "price": 20.06,
+      "price": 20.22,
       "premarket_change": 90.72257,
       "headline": "Why Q32 Bio Stock Skyrocketed Today",
       "news_url": "https://www.fool.com/investing/2026/07/13/why-q32-bio-stock-skyrocketed-today/",
@@ -38,7 +38,7 @@
       "wk52_low": 1.569,
       "float_m": 6.403251,
       "adr_pct": 12.67,
-      "dollar_volume_m": 1.1,
+      "dollar_volume_m": 1.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -109,7 +109,7 @@
       "ticker": "UBXG",
       "name": "U-BX Technology Ltd.",
       "changesPercentage": 20.0,
-      "price": 6.0,
+      "price": 6.84,
       "premarket_change": 20.0,
       "market_cap_m": 5.175198,
       "wk52_high": 112.5,
@@ -120,15 +120,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 43.7,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 3.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": false,
       "above_50": false,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 0.2,
+      "rvol": 0.2,
       "pct_below_52w_high": 93.4,
       "_avg20_vol": 2888395.15,
       "section": "no_catalyst",
@@ -137,7 +137,7 @@
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "0.2x"
         ],
         [
           "Float",
@@ -156,6 +156,10 @@
         [
           "Gap 20.0% (market voting)",
           "+17"
+        ],
+        [
+          "Volume 0.2x expansion",
+          "+0"
         ]
       ],
       "nbreak": [
@@ -166,7 +170,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $3M",
           "+2"
         ],
         [
@@ -183,7 +187,7 @@
       "ticker": "AIIO",
       "name": "Robo.ai Inc.",
       "changesPercentage": 19.94003,
-      "price": 4.12,
+      "price": 4.07,
       "premarket_change": 19.94003,
       "headline": "Robo.ai Announces Core Executive Appointments, Forming a Local UAE Leadership Team at Neurovia AI",
       "news_url": "https://www.gurufocus.com/news/8956982/roboai-announces-core-executive-appointments-forming-a-local-uae-leadership-team-at-neurovia-ai",
@@ -276,15 +280,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 18.31,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 0.5,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 3.7,
+      "rvol": 3.7,
       "pct_below_52w_high": 55.5,
       "_avg20_vol": 10689.3,
       "section": "no_catalyst",
@@ -293,7 +297,7 @@
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "3.7x"
         ],
         [
           "Float",
@@ -304,14 +308,18 @@
           "56% below high"
         ]
       ],
-      "catalyst_score": 16,
+      "catalyst_score": 25,
       "neglect_score": 42,
       "technical_score": 19,
-      "total": 77,
+      "total": 86,
       "cbreak": [
         [
           "Gap 16.3% (market voting)",
           "+16"
+        ],
+        [
+          "Volume 3.7x expansion",
+          "+9"
         ]
       ],
       "nbreak": [
