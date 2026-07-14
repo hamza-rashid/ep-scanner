@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-14T09:59:33.703773+00:00",
+  "generated_utc": "2026-07-14T11:39:23.478193+00:00",
   "session_date": "2026-07-14",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
   "count": 4,
   "active_count": 0,
@@ -23,7 +23,7 @@
       "ticker": "QTTB",
       "name": "Q32 Bio Inc.",
       "changesPercentage": 90.72257,
-      "price": 21.38,
+      "price": 20.06,
       "premarket_change": 90.72257,
       "headline": "Why Q32 Bio Stock Skyrocketed Today",
       "news_url": "https://www.fool.com/investing/2026/07/13/why-q32-bio-stock-skyrocketed-today/",
@@ -38,15 +38,15 @@
       "wk52_low": 1.569,
       "float_m": 6.403251,
       "adr_pct": 12.67,
-      "dollar_volume_m": 0.5,
+      "dollar_volume_m": 1.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 0.1,
+      "rvol": 0.1,
       "pct_below_52w_high": 6.3,
       "_avg20_vol": 522199.85,
       "section": "ep",
@@ -55,7 +55,7 @@
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "0.1x"
         ],
         [
           "Float",
@@ -78,6 +78,10 @@
         [
           "Gap 90.7% (market voting)",
           "+22"
+        ],
+        [
+          "Volume 0.1x expansion",
+          "+0"
         ]
       ],
       "nbreak": [
@@ -88,7 +92,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $1M",
           "+2"
         ],
         [
@@ -105,7 +109,7 @@
       "ticker": "UBXG",
       "name": "U-BX Technology Ltd.",
       "changesPercentage": 20.0,
-      "price": 6.3,
+      "price": 6.0,
       "premarket_change": 20.0,
       "market_cap_m": 5.175198,
       "wk52_high": 112.5,
@@ -179,7 +183,7 @@
       "ticker": "AIIO",
       "name": "Robo.ai Inc.",
       "changesPercentage": 19.94003,
-      "price": 4.0,
+      "price": 4.12,
       "premarket_change": 19.94003,
       "headline": "Robo.ai Announces Core Executive Appointments, Forming a Local UAE Leadership Team at Neurovia AI",
       "news_url": "https://www.gurufocus.com/news/8956982/roboai-announces-core-executive-appointments-forming-a-local-uae-leadership-team-at-neurovia-ai",
@@ -194,7 +198,7 @@
       "wk52_low": 0.54,
       "float_m": 12.485686,
       "adr_pct": 18.71,
-      "dollar_volume_m": 0.2,
+      "dollar_volume_m": 0.3,
       "gap_pct": null,
       "above_10": false,
       "above_20": true,
@@ -261,7 +265,7 @@
       "ticker": "BVC",
       "name": "BitVentures Limited",
       "changesPercentage": 16.28599,
-      "price": 11.71,
+      "price": 13.47,
       "premarket_change": 16.28599,
       "market_cap_m": 1967.28,
       "wk52_high": 15.003,
@@ -272,15 +276,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 18.31,
-      "dollar_volume_m": 0.5,
+      "dollar_volume_m": 0.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 3.8,
-      "rvol": 3.8,
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
       "pct_below_52w_high": 55.5,
       "_avg20_vol": 10689.3,
       "section": "no_catalyst",
@@ -289,7 +293,7 @@
       "info": [
         [
           "RVOL",
-          "3.8x"
+          "0.0x"
         ],
         [
           "Float",
@@ -300,18 +304,14 @@
           "56% below high"
         ]
       ],
-      "catalyst_score": 26,
+      "catalyst_score": 16,
       "neglect_score": 42,
       "technical_score": 19,
-      "total": 87,
+      "total": 77,
       "cbreak": [
         [
           "Gap 16.3% (market voting)",
           "+16"
-        ],
-        [
-          "Volume 3.8x expansion",
-          "+10"
         ]
       ],
       "nbreak": [
