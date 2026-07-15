@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-15T10:03:50.003932+00:00",
+  "generated_utc": "2026-07-15T11:45:40.418001+00:00",
   "session_date": "2026-07-15",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
   "count": 6,
   "active_count": 0,
@@ -23,7 +23,7 @@
       "ticker": "CRMT",
       "name": "America's Car-Mart, Inc.",
       "changesPercentage": 41.72185,
-      "price": 4.28,
+      "price": 4.22,
       "premarket_change": 41.72185,
       "headline": "CRMT Investor News: If You Have Suffered Losses in America's Car-Mart, Inc. (NASDAQ: CRMT), You Are Encouraged to Contact The Rosen Law Firm About Your Rights",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/14/3327417/673/en/CRMT-Investor-News-If-You-Have-Suffered-Losses-in-America-s-Car-Mart-Inc-NASDAQ-CRMT-You-Are-Encouraged-to-Contact-The-Rosen-Law-Firm-About-Your-Rights.html",
@@ -48,8 +48,8 @@
       ],
       "catalyst_score": 22,
       "neglect_score": 0,
-      "technical_score": 0,
-      "total": 22,
+      "technical_score": 2,
+      "total": 24,
       "cbreak": [
         [
           "Gap 41.7% (market voting)",
@@ -57,13 +57,19 @@
         ]
       ],
       "nbreak": [],
-      "tbreak": []
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ]
+      ],
+      "dollar_volume_m": 0.1
     },
     {
       "ticker": "FXHO",
       "name": "UTime Limited",
       "changesPercentage": 33.71795,
-      "price": 20.86,
+      "price": 19.5,
       "premarket_change": 33.71795,
       "market_cap_m": 4.117493,
       "wk52_high": 7700.0,
@@ -137,7 +143,7 @@
       "ticker": "PHOE",
       "name": "Phoenix Asia Holdings Limited Ordinary Shares",
       "changesPercentage": 25.36232,
-      "price": 25.95,
+      "price": 24.8,
       "premarket_change": 25.36232,
       "market_cap_m": 560.52,
       "wk52_high": 133.12,
@@ -148,7 +154,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 18.29,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 0.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -215,7 +221,7 @@
       "ticker": "CHRN",
       "name": "ChronoScale Corporation",
       "changesPercentage": 16.68357,
-      "price": 23.01,
+      "price": 26.71,
       "premarket_change": 16.68357,
       "market_cap_m": 81.993374,
       "wk52_high": 28.2,
@@ -226,15 +232,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 14.67,
-      "dollar_volume_m": 7.9,
+      "dollar_volume_m": 0.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.9,
-      "rvol": 0.9,
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
       "pct_below_52w_high": 7.9,
       "_avg20_vol": 379937.45,
       "section": "no_catalyst",
@@ -243,7 +249,7 @@
       "info": [
         [
           "RVOL",
-          "0.9x"
+          "0.0x"
         ],
         [
           "Float",
@@ -254,18 +260,14 @@
           "8% below high"
         ]
       ],
-      "catalyst_score": 18,
+      "catalyst_score": 16,
       "neglect_score": 42,
       "technical_score": 14,
-      "total": 74,
+      "total": 72,
       "cbreak": [
         [
           "Gap 16.7% (market voting)",
           "+16"
-        ],
-        [
-          "Volume 0.9x expansion",
-          "+2"
         ]
       ],
       "nbreak": [
@@ -276,7 +278,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $8M",
+          "$ vol $0M",
           "+2"
         ],
         [
@@ -293,7 +295,7 @@
       "ticker": "YHGJ",
       "name": "Yunhong Green CTI Ltd.",
       "changesPercentage": 13.879,
-      "price": 3.2,
+      "price": 3.3,
       "premarket_change": 13.879,
       "market_cap_m": 8.349568,
       "wk52_high": 10.29,
@@ -371,7 +373,7 @@
       "ticker": "SEZL",
       "name": "Sezzle Inc.",
       "changesPercentage": 13.81591,
-      "price": 182.39,
+      "price": 184.99,
       "premarket_change": 13.81591,
       "headline": "Sezzle to Announce Second Quarter 2026 Results and Participate in Upcoming Investor Conferences",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/14/3327238/0/en/Sezzle-to-Announce-Second-Quarter-2026-Results-and-Participate-in-Upcoming-Investor-Conferences.html",
@@ -386,7 +388,7 @@
       "wk52_low": 49.5,
       "float_m": 17.015608,
       "adr_pct": 7.4,
-      "dollar_volume_m": 0.3,
+      "dollar_volume_m": 0.6,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -436,7 +438,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $1M",
           "+2"
         ],
         [
