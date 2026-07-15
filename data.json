@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-07-15T14:59:22.570619+00:00",
+  "generated_utc": "2026-07-15T15:27:26.599550+00:00",
   "session_date": "2026-07-15",
   "mode": "refresh",
   "run_label": "scheduled",
-  "count": 23,
-  "active_count": 8,
-  "no_catalyst_count": 12,
+  "count": 25,
+  "active_count": 9,
+  "no_catalyst_count": 13,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -23,22 +23,22 @@
       "ticker": "NVVE",
       "name": "Nuvve Holding Corp.",
       "changesPercentage": 63.29114,
-      "price": 25.8,
+      "price": 32.1,
       "premarket_change": 63.29114,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 38.52,
-      "dollar_volume_m": 84.8,
+      "dollar_volume_m": 119.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "low",
-      "vol_expansion": 1.1,
-      "rvol": 1.1,
+      "vol_expansion": 1.2,
+      "rvol": 1.2,
       "pct_below_52w_high": 96.1,
       "market_cap_m": 0.38638,
       "_avg20_vol": 2993811.05,
@@ -47,7 +47,7 @@
       "info": [
         [
           "RVOL",
-          "1.1x"
+          "1.2x"
         ],
         [
           "52wk",
@@ -56,23 +56,23 @@
       ],
       "catalyst_score": 25,
       "neglect_score": 0,
-      "technical_score": 16,
-      "total": 41,
+      "technical_score": 20,
+      "total": 45,
       "cbreak": [
         [
           "Gap 63.3% (market voting)",
           "+22"
         ],
         [
-          "Volume 1.1x expansion",
+          "Volume 1.2x expansion",
           "+3"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $85M",
-          "+4"
+          "$ vol $120M",
+          "+8"
         ],
         [
           "ADR 38.5%",
@@ -88,7 +88,7 @@
       "ticker": "CRMT",
       "name": "America's Car-Mart, Inc.",
       "changesPercentage": 41.72185,
-      "price": 5.12,
+      "price": 4.38,
       "premarket_change": 41.72185,
       "headline": "CRMT Investor News: If You Have Suffered Losses in America's Car-Mart, Inc. (NASDAQ: CRMT), You Are Encouraged to Contact The Rosen Law Firm About Your Rights",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/14/3327417/673/en/CRMT-Investor-News-If-You-Have-Suffered-Losses-in-America-s-Car-Mart-Inc-NASDAQ-CRMT-You-Are-Encouraged-to-Contact-The-Rosen-Law-Firm-About-Your-Rights.html",
@@ -128,13 +128,13 @@
           "+2"
         ]
       ],
-      "dollar_volume_m": 1.6
+      "dollar_volume_m": 1.8
     },
     {
       "ticker": "ELVA",
       "name": "Electrovaya Inc.",
       "changesPercentage": 37.3891,
-      "price": 10.8862,
+      "price": 11.54,
       "premarket_change": 37.3891,
       "headline": "Electrovaya Announces Commercial Relationship with Amazon",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/15/3327745/0/en/electrovaya-announces-commercial-relationship-with-amazon.html",
@@ -149,15 +149,15 @@
       "wk52_low": 3.55,
       "float_m": 33.363351,
       "adr_pct": 7.65,
-      "dollar_volume_m": 207.0,
+      "dollar_volume_m": 236.8,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 54.5,
-      "rvol": 54.5,
+      "vol_expansion": 58.8,
+      "rvol": 58.8,
       "pct_below_52w_high": 11.2,
       "_avg20_vol": 348963.8,
       "section": "ep",
@@ -166,7 +166,7 @@
       "info": [
         [
           "RVOL",
-          "54.5x"
+          "58.8x"
         ],
         [
           "Float",
@@ -191,7 +191,7 @@
           "+22"
         ],
         [
-          "Volume 54.5x expansion",
+          "Volume 58.8x expansion",
           "+10"
         ]
       ],
@@ -203,7 +203,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $207M",
+          "$ vol $237M",
           "+8"
         ],
         [
@@ -220,7 +220,7 @@
       "ticker": "FXHO",
       "name": "UTime Limited",
       "changesPercentage": 33.71795,
-      "price": 20.08,
+      "price": 19.87,
       "premarket_change": 33.71795,
       "market_cap_m": 4.117493,
       "wk52_high": 7700.0,
@@ -231,7 +231,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 31.51,
-      "dollar_volume_m": 0.5,
+      "dollar_volume_m": 0.6,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -277,7 +277,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $1M",
           "+2"
         ],
         [
@@ -294,7 +294,7 @@
       "ticker": "AEHR",
       "name": "Aehr Test Systems",
       "changesPercentage": 28.19053,
-      "price": 92.41,
+      "price": 118.8,
       "premarket_change": 28.19053,
       "headline": "How Aehr Test Systems Is Winning Wall Street Today",
       "news_url": "https://www.schaeffersresearch.com/content/news/2026/07/15/how-aehr-test-systems-is-winning-wall-street-today",
@@ -309,15 +309,15 @@
       "wk52_low": 14.01,
       "float_m": 29.686914,
       "adr_pct": 10.71,
-      "dollar_volume_m": 899.2,
+      "dollar_volume_m": 967.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 4.0,
-      "rvol": 4.0,
+      "vol_expansion": 4.3,
+      "rvol": 4.3,
       "pct_below_52w_high": -1.9,
       "_avg20_vol": 1879122.85,
       "section": "ep",
@@ -326,7 +326,7 @@
       "info": [
         [
           "RVOL",
-          "4.0x"
+          "4.3x"
         ],
         [
           "Float",
@@ -351,14 +351,14 @@
           "+20"
         ],
         [
-          "Volume 4.0x expansion",
+          "Volume 4.3x expansion",
           "+10"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $899M",
+          "$ vol $967M",
           "+8"
         ],
         [
@@ -372,52 +372,68 @@
       ]
     },
     {
-      "ticker": "JLHL",
-      "name": "Julong Holding Limited",
-      "changesPercentage": 26.20253,
-      "price": 9.97,
-      "premarket_change": 26.20253,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": 71.71,
-      "dollar_volume_m": 45.7,
+      "ticker": "CNXU",
+      "name": "Conexeu Sciences Inc.",
+      "changesPercentage": 26.31579,
+      "price": 12.0,
+      "premarket_change": 26.31579,
+      "headline": "The GLP-1 Boom Created a $2 Billion Opening in Aesthetics. One Preclinical Biotech Is Building the Product to Fill It.",
+      "news_url": "https://www.prnewswire.com/news-releases/the-glp-1-boom-created-a-2-billion-opening-in-aesthetics-one-preclinical-biotech-is-building-the-product-to-fill-it-302824788.html",
+      "news_site": "prnewswire.com",
+      "news_time": "2026-07-15 11:01:00",
+      "catalyst_label": "vague_pr",
+      "catalyst_tier": "C",
+      "catalyst_desc": "Vague PR / promotional",
+      "catalyst_base_points": 20,
+      "market_cap_m": 251.05236,
+      "wk52_high": 18.79,
+      "wk52_low": 8.14,
+      "float_m": 15.545245,
+      "adr_pct": 16.35,
+      "dollar_volume_m": 2.2,
       "gap_pct": null,
       "above_10": true,
-      "above_20": false,
+      "above_20": true,
       "above_50": false,
-      "above_200": true,
+      "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.7,
-      "rvol": 0.7,
-      "pct_below_52w_high": 72.7,
-      "market_cap_m": 203.057727,
-      "_avg20_vol": 5702263.55,
-      "section": "no_catalyst",
+      "vol_expansion": 2.0,
+      "rvol": 2.0,
+      "pct_below_52w_high": 27.6,
+      "_avg20_vol": 93520.15,
+      "section": "ep",
       "cooling": false,
+      "low_float": true,
       "info": [
         [
           "RVOL",
-          "0.7x"
+          "2.0x"
+        ],
+        [
+          "Float",
+          "16M \u00b7 LOW"
         ],
         [
           "52wk",
-          "73% below high"
+          "28% below high"
         ]
       ],
-      "catalyst_score": 21,
+      "catalyst_score": 45,
       "neglect_score": 42,
-      "technical_score": 15,
-      "total": 78,
+      "technical_score": 10,
+      "total": 97,
       "cbreak": [
         [
-          "Gap 26.2% (market voting)",
-          "+19"
+          "Vague PR / promotional (Tier C)",
+          "+20"
         ],
         [
-          "Volume 0.7x expansion",
-          "+2"
+          "Gap 26.3% (market voting)",
+          "+20"
+        ],
+        [
+          "Volume 2.0x expansion",
+          "+5"
         ]
       ],
       "nbreak": [
@@ -428,7 +444,77 @@
       ],
       "tbreak": [
         [
-          "$ vol $46M",
+          "$ vol $2M",
+          "+2"
+        ],
+        [
+          "ADR 16.4%",
+          "+5"
+        ],
+        [
+          "Above 20d, 10d",
+          "+3"
+        ]
+      ]
+    },
+    {
+      "ticker": "JLHL",
+      "name": "Julong Holding Limited",
+      "changesPercentage": 26.20253,
+      "price": 12.8,
+      "premarket_change": 26.20253,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 71.71,
+      "dollar_volume_m": 85.9,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": false,
+      "above_50": false,
+      "above_200": true,
+      "neglect": "high",
+      "vol_expansion": 1.2,
+      "rvol": 1.2,
+      "pct_below_52w_high": 72.7,
+      "market_cap_m": 203.057727,
+      "_avg20_vol": 5702263.55,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "1.2x"
+        ],
+        [
+          "52wk",
+          "73% below high"
+        ]
+      ],
+      "catalyst_score": 22,
+      "neglect_score": 42,
+      "technical_score": 15,
+      "total": 79,
+      "cbreak": [
+        [
+          "Gap 26.2% (market voting)",
+          "+19"
+        ],
+        [
+          "Volume 1.2x expansion",
+          "+3"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $86M",
           "+4"
         ],
         [
@@ -445,7 +531,7 @@
       "ticker": "PHOE",
       "name": "Phoenix Asia Holdings Limited Ordinary Shares",
       "changesPercentage": 25.36232,
-      "price": 29.01,
+      "price": 28.77,
       "premarket_change": 25.36232,
       "market_cap_m": 560.52,
       "wk52_high": 133.12,
@@ -456,15 +542,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 18.29,
-      "dollar_volume_m": 1.2,
+      "dollar_volume_m": 1.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 1.9,
-      "rvol": 1.9,
+      "vol_expansion": 2.0,
+      "rvol": 2.0,
       "pct_below_52w_high": 79.0,
       "_avg20_vol": 22467.0,
       "section": "no_catalyst",
@@ -473,7 +559,7 @@
       "info": [
         [
           "RVOL",
-          "1.9x"
+          "2.0x"
         ],
         [
           "Float",
@@ -494,7 +580,7 @@
           "+19"
         ],
         [
-          "Volume 1.9x expansion",
+          "Volume 2.0x expansion",
           "+5"
         ]
       ],
@@ -523,14 +609,14 @@
       "ticker": "CLRO",
       "name": "ClearOne, Inc.",
       "changesPercentage": 23.9426,
-      "price": 8.205,
+      "price": 8.99,
       "premarket_change": 23.9426,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 39.53,
-      "dollar_volume_m": 8.5,
+      "dollar_volume_m": 9.6,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -576,7 +662,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $8M",
+          "$ vol $10M",
           "+2"
         ],
         [
@@ -593,7 +679,7 @@
       "ticker": "ERNA",
       "name": "Ernexa Therapeutics Inc.",
       "changesPercentage": 18.9769,
-      "price": 7.24,
+      "price": 6.69,
       "premarket_change": 18.9769,
       "headline": "Ernexa Therapeutics Receives Independent Validation of ERNA-101 with Complete Tumor Clearance and Durable Survival in Ovarian Cancer Models Ahead of Planned Clinical Entry",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/15/3327620/0/en/Ernexa-Therapeutics-Receives-Independent-Validation-of-ERNA-101-with-Complete-Tumor-Clearance-and-Durable-Survival-in-Ovarian-Cancer-Models-Ahead-of-Planned-Clinical-Entry.html",
@@ -608,15 +694,15 @@
       "wk52_low": 3.18,
       "float_m": 0.099796,
       "adr_pct": 13.26,
-      "dollar_volume_m": 171.0,
+      "dollar_volume_m": 162.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 475.4,
-      "rvol": 475.4,
+      "vol_expansion": 488.1,
+      "rvol": 488.1,
       "pct_below_52w_high": 86.9,
       "_avg20_vol": 49683.0,
       "section": "ep",
@@ -625,7 +711,7 @@
       "info": [
         [
           "RVOL",
-          "475.4x"
+          "488.1x"
         ],
         [
           "Float",
@@ -650,7 +736,7 @@
           "+17"
         ],
         [
-          "Volume 475.4x expansion",
+          "Volume 488.1x expansion",
           "+10"
         ]
       ],
@@ -662,7 +748,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $171M",
+          "$ vol $162M",
           "+8"
         ],
         [
@@ -679,7 +765,7 @@
       "ticker": "LCID",
       "name": "Lucid Group, Inc.",
       "changesPercentage": 17.96536,
-      "price": 5.445,
+      "price": 5.93,
       "premarket_change": 17.96536,
       "headline": "LCID Deadline Alert: Levi & Korsinsky Reminds Lucid Group, Inc. (LCID) Investors of Securities Class Action Deadline on July 28, 2026",
       "news_url": "https://www.prnewswire.com/news-releases/lcid-deadline-alert-levi--korsinsky-reminds-lucid-group-inc-lcid-investors-of-securities-class-action-deadline-on-july-28-2026-302825935.html",
@@ -694,15 +780,15 @@
       "wk52_low": 2.37,
       "float_m": 132.939876,
       "adr_pct": 15.53,
-      "dollar_volume_m": 124.9,
+      "dollar_volume_m": 158.6,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
       "above_50": false,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 1.1,
-      "rvol": 1.1,
+      "vol_expansion": 1.3,
+      "rvol": 1.3,
       "pct_below_52w_high": 82.6,
       "_avg20_vol": 20731387.35,
       "section": "ep",
@@ -711,7 +797,7 @@
       "info": [
         [
           "RVOL",
-          "1.1x"
+          "1.3x"
         ],
         [
           "Float",
@@ -736,7 +822,7 @@
           "+16"
         ],
         [
-          "Volume 1.1x expansion",
+          "Volume 1.3x expansion",
           "+3"
         ]
       ],
@@ -748,7 +834,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $125M",
+          "$ vol $159M",
           "+8"
         ],
         [
@@ -761,7 +847,7 @@
       "ticker": "PYPL",
       "name": "PayPal Holdings, Inc.",
       "changesPercentage": 17.17901,
-      "price": 55.515,
+      "price": 55.5,
       "premarket_change": 17.17901,
       "headline": "PayPal shares jump on reported $53 bn Stripe takeover bid",
       "news_url": "https://techxplore.com/news/2026-07-paypal-bn-stripe-takeover.html",
@@ -776,15 +862,15 @@
       "wk52_low": 38.46,
       "float_m": 880.014903,
       "adr_pct": 3.23,
-      "dollar_volume_m": 2776.0,
+      "dollar_volume_m": 2974.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 3.1,
-      "rvol": 3.1,
+      "vol_expansion": 3.3,
+      "rvol": 3.3,
       "pct_below_52w_high": 28.9,
       "_avg20_vol": 16203577.15,
       "section": "ep",
@@ -793,7 +879,7 @@
       "info": [
         [
           "RVOL",
-          "3.1x"
+          "3.3x"
         ],
         [
           "Float",
@@ -818,14 +904,14 @@
           "+16"
         ],
         [
-          "Volume 3.1x expansion",
+          "Volume 3.3x expansion",
           "+8"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $2776M",
+          "$ vol $2974M",
           "+8"
         ],
         [
@@ -839,25 +925,95 @@
       ]
     },
     {
+      "ticker": "BUUU",
+      "name": "BUUU Group Ltd",
+      "changesPercentage": 16.75393,
+      "price": 22.3,
+      "premarket_change": 16.75393,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 13.22,
+      "dollar_volume_m": 0.4,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "high",
+      "vol_expansion": 0.4,
+      "rvol": 0.4,
+      "pct_below_52w_high": -4.6,
+      "market_cap_m": 260.7985,
+      "_avg20_vol": 47437.25,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "0.4x"
+        ],
+        [
+          "52wk",
+          "at highs"
+        ]
+      ],
+      "catalyst_score": 17,
+      "neglect_score": 42,
+      "technical_score": 19,
+      "total": 78,
+      "cbreak": [
+        [
+          "Gap 16.8% (market voting)",
+          "+16"
+        ],
+        [
+          "Volume 0.4x expansion",
+          "+1"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 13.2%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
       "ticker": "SMX",
       "name": "SMX (Security Matters) Public Limited Company",
       "changesPercentage": 16.73429,
-      "price": 20.4285,
+      "price": 21.01,
       "premarket_change": 16.73429,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 14.89,
-      "dollar_volume_m": 2.3,
+      "dollar_volume_m": 2.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 1.7,
-      "rvol": 1.7,
+      "vol_expansion": 1.9,
+      "rvol": 1.9,
       "pct_below_52w_high": 100.0,
       "market_cap_m": 1.244289,
       "_avg20_vol": 51963.2,
@@ -866,25 +1022,25 @@
       "info": [
         [
           "RVOL",
-          "1.7x"
+          "1.9x"
         ],
         [
           "52wk",
           "100% below high"
         ]
       ],
-      "catalyst_score": 20,
+      "catalyst_score": 21,
       "neglect_score": 42,
       "technical_score": 14,
-      "total": 76,
+      "total": 77,
       "cbreak": [
         [
           "Gap 16.7% (market voting)",
           "+16"
         ],
         [
-          "Volume 1.7x expansion",
-          "+4"
+          "Volume 1.9x expansion",
+          "+5"
         ]
       ],
       "nbreak": [
@@ -912,7 +1068,7 @@
       "ticker": "CHRN",
       "name": "ChronoScale Corporation",
       "changesPercentage": 16.68357,
-      "price": 24.74,
+      "price": 30.32,
       "premarket_change": 16.68357,
       "market_cap_m": 81.993374,
       "wk52_high": 28.2,
@@ -923,15 +1079,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 14.67,
-      "dollar_volume_m": 3.4,
+      "dollar_volume_m": 6.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.4,
-      "rvol": 0.4,
+      "vol_expansion": 0.5,
+      "rvol": 0.5,
       "pct_below_52w_high": 7.9,
       "_avg20_vol": 379937.45,
       "section": "no_catalyst",
@@ -940,7 +1096,7 @@
       "info": [
         [
           "RVOL",
-          "0.4x"
+          "0.5x"
         ],
         [
           "Float",
@@ -961,7 +1117,7 @@
           "+16"
         ],
         [
-          "Volume 0.4x expansion",
+          "Volume 0.5x expansion",
           "+1"
         ]
       ],
@@ -973,7 +1129,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $3M",
+          "$ vol $6M",
           "+2"
         ],
         [
@@ -990,14 +1146,14 @@
       "ticker": "HQ",
       "name": "Horizon Quantum Holdings Ltd. Class A Ordinary Shares",
       "changesPercentage": 15.38462,
-      "price": 24.45,
+      "price": 26.39,
       "premarket_change": 15.38462,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 21.35,
-      "dollar_volume_m": 4.0,
+      "dollar_volume_m": 4.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": false,
@@ -1043,7 +1199,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $4M",
+          "$ vol $5M",
           "+2"
         ],
         [
@@ -1060,22 +1216,22 @@
       "ticker": "VSA",
       "name": "VisionSys AI Inc.",
       "changesPercentage": 15.31987,
-      "price": 3.425,
+      "price": 3.53,
       "premarket_change": 15.31987,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 8.2,
-      "dollar_volume_m": 15.0,
+      "dollar_volume_m": 12.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "low",
-      "vol_expansion": 150.7,
-      "rvol": 150.7,
+      "vol_expansion": 152.2,
+      "rvol": 152.2,
       "pct_below_52w_high": 99.8,
       "market_cap_m": 2.613,
       "_avg20_vol": 22576.5,
@@ -1084,7 +1240,7 @@
       "info": [
         [
           "RVOL",
-          "150.7x"
+          "152.2x"
         ],
         [
           "52wk",
@@ -1101,14 +1257,14 @@
           "+15"
         ],
         [
-          "Volume 150.7x expansion",
+          "Volume 152.2x expansion",
           "+10"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $15M",
+          "$ vol $12M",
           "+2"
         ],
         [
@@ -1125,7 +1281,7 @@
       "ticker": "FBYD",
       "name": "Falcon's Beyond Global, Inc. Class A Common Stock",
       "changesPercentage": 14.92537,
-      "price": 12.32,
+      "price": 13.37,
       "premarket_change": 14.92537,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
@@ -1139,8 +1295,8 @@
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.5,
-      "rvol": 0.5,
+      "vol_expansion": 0.6,
+      "rvol": 0.6,
       "pct_below_52w_high": 24.6,
       "market_cap_m": 482.748,
       "_avg20_vol": 212155.35,
@@ -1149,25 +1305,25 @@
       "info": [
         [
           "RVOL",
-          "0.5x"
+          "0.6x"
         ],
         [
           "52wk",
           "25% below high"
         ]
       ],
-      "catalyst_score": 16,
+      "catalyst_score": 17,
       "neglect_score": 24,
       "technical_score": 16,
-      "total": 56,
+      "total": 57,
       "cbreak": [
         [
           "Gap 14.9% (market voting)",
           "+15"
         ],
         [
-          "Volume 0.5x expansion",
-          "+1"
+          "Volume 0.6x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
@@ -1195,7 +1351,7 @@
       "ticker": "YHGJ",
       "name": "Yunhong Green CTI Ltd.",
       "changesPercentage": 13.879,
-      "price": 3.13,
+      "price": 3.17,
       "premarket_change": 13.879,
       "market_cap_m": 8.349568,
       "wk52_high": 10.29,
@@ -1213,8 +1369,8 @@
       "above_50": true,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 0.4,
-      "rvol": 0.4,
+      "vol_expansion": 0.5,
+      "rvol": 0.5,
       "pct_below_52w_high": 61.4,
       "_avg20_vol": 4897.95,
       "section": "no_catalyst",
@@ -1223,7 +1379,7 @@
       "info": [
         [
           "RVOL",
-          "0.4x"
+          "0.5x"
         ],
         [
           "Float",
@@ -1244,7 +1400,7 @@
           "+15"
         ],
         [
-          "Volume 0.4x expansion",
+          "Volume 0.5x expansion",
           "+1"
         ]
       ],
@@ -1273,7 +1429,7 @@
       "ticker": "SEZL",
       "name": "Sezzle Inc.",
       "changesPercentage": 13.81591,
-      "price": 189.0,
+      "price": 191.91,
       "premarket_change": 13.81591,
       "headline": "Sezzle to Announce Second Quarter 2026 Results and Participate in Upcoming Investor Conferences",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/14/3327238/0/en/Sezzle-to-Announce-Second-Quarter-2026-Results-and-Participate-in-Upcoming-Investor-Conferences.html",
@@ -1288,15 +1444,15 @@
       "wk52_low": 49.5,
       "float_m": 17.015608,
       "adr_pct": 7.4,
-      "dollar_volume_m": 60.3,
+      "dollar_volume_m": 73.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.4,
-      "rvol": 0.4,
+      "vol_expansion": 0.5,
+      "rvol": 0.5,
       "pct_below_52w_high": 0.0,
       "_avg20_vol": 713609.25,
       "section": "ep",
@@ -1305,7 +1461,7 @@
       "info": [
         [
           "RVOL",
-          "0.4x"
+          "0.5x"
         ],
         [
           "Float",
@@ -1330,7 +1486,7 @@
           "+15"
         ],
         [
-          "Volume 0.4x expansion",
+          "Volume 0.5x expansion",
           "+1"
         ]
       ],
@@ -1342,7 +1498,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $60M",
+          "$ vol $74M",
           "+4"
         ],
         [
@@ -1359,7 +1515,7 @@
       "ticker": "MANE",
       "name": "Veradermics, Incorporated",
       "changesPercentage": 13.75147,
-      "price": 125.385,
+      "price": 127.49,
       "premarket_change": 13.75147,
       "headline": "Veradermics Hair Loss Pill Shows Strong Phase II Signal in Women",
       "news_url": "https://www.marketbeat.com/instant-alerts/veradermics-hair-loss-pill-shows-strong-phase-ii-signal-in-women-2026-07-15/",
@@ -1374,15 +1530,15 @@
       "wk52_low": 32.0,
       "float_m": 35.082327,
       "adr_pct": 7.93,
-      "dollar_volume_m": 62.4,
+      "dollar_volume_m": 68.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 0.6,
-      "rvol": 0.6,
+      "vol_expansion": 0.7,
+      "rvol": 0.7,
       "pct_below_52w_high": 2.8,
       "_avg20_vol": 764779.85,
       "section": "ep",
@@ -1391,7 +1547,7 @@
       "info": [
         [
           "RVOL",
-          "0.6x"
+          "0.7x"
         ],
         [
           "Float",
@@ -1416,7 +1572,7 @@
           "+15"
         ],
         [
-          "Volume 0.6x expansion",
+          "Volume 0.7x expansion",
           "+2"
         ]
       ],
@@ -1428,7 +1584,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $62M",
+          "$ vol $69M",
           "+4"
         ],
         [
@@ -1445,7 +1601,7 @@
       "ticker": "SECZ",
       "name": "Securitize Corp.",
       "changesPercentage": 12.9506,
-      "price": 8.46,
+      "price": 8.6,
       "premarket_change": 12.9506,
       "headline": "Securitize and Cantor Collaborate to Enable Onchain IPOs and Follow-On Offerings for Public Companies",
       "news_url": "https://www.prnewswire.com/news-releases/securitize-and-cantor-collaborate-to-enable-onchain-ipos-and-follow-on-offerings-for-public-companies-302825881.html",
@@ -1460,7 +1616,7 @@
       "wk52_low": 6.66,
       "float_m": 23.275563,
       "adr_pct": null,
-      "dollar_volume_m": 5.6,
+      "dollar_volume_m": 6.3,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
@@ -1505,7 +1661,7 @@
       "ticker": "FRGT",
       "name": "Freight Technologies, Inc.",
       "changesPercentage": 12.75626,
-      "price": 4.93,
+      "price": 5.18,
       "premarket_change": 12.75626,
       "headline": "Fr8Tech Advances AI-Native Transformation, Reduces Workforce and Raises Additional Capital",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/15/3327846/0/en/Fr8Tech-Advances-AI-Native-Transformation-Reduces-Workforce-and-Raises-Additional-Capital.html",
@@ -1520,15 +1676,15 @@
       "wk52_low": 2.515,
       "float_m": 0.091291,
       "adr_pct": 15.68,
-      "dollar_volume_m": 0.3,
+      "dollar_volume_m": 0.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.3,
-      "rvol": 0.3,
+      "vol_expansion": 0.5,
+      "rvol": 0.5,
       "pct_below_52w_high": 90.9,
       "_avg20_vol": 164653.6,
       "section": "ep",
@@ -1537,7 +1693,7 @@
       "info": [
         [
           "RVOL",
-          "0.3x"
+          "0.5x"
         ],
         [
           "Float",
@@ -1562,7 +1718,7 @@
           "+14"
         ],
         [
-          "Volume 0.3x expansion",
+          "Volume 0.5x expansion",
           "+1"
         ]
       ],
@@ -1591,22 +1747,22 @@
       "ticker": "KOPN",
       "name": "Kopin Corp.",
       "changesPercentage": 12.49734,
-      "price": 4.2299,
+      "price": 4.25,
       "premarket_change": 12.49734,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 8.5,
-      "dollar_volume_m": 14.8,
+      "dollar_volume_m": 16.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 0.6,
-      "rvol": 0.6,
+      "vol_expansion": 0.7,
+      "rvol": 0.7,
       "pct_below_52w_high": 33.8,
       "market_cap_m": 786.602745,
       "_avg20_vol": 5843878.25,
@@ -1615,7 +1771,7 @@
       "info": [
         [
           "RVOL",
-          "0.6x"
+          "0.7x"
         ],
         [
           "52wk",
@@ -1632,14 +1788,14 @@
           "+14"
         ],
         [
-          "Volume 0.6x expansion",
+          "Volume 0.7x expansion",
           "+2"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $15M",
+          "$ vol $17M",
           "+2"
         ],
         [
@@ -1656,7 +1812,7 @@
       "ticker": "FISN",
       "name": "Deep Fission, Inc.",
       "changesPercentage": 12.39343,
-      "price": 11.9699,
+      "price": 12.34,
       "premarket_change": 12.39343,
       "headline": "Deep Fission: Deployment Not A Criticality Experiment",
       "news_url": "https://seekingalpha.com/article/4922086-deep-fission-deployment-not-a-criticality-experiment",
@@ -1671,7 +1827,7 @@
       "wk52_low": 7.66,
       "float_m": 28.384952,
       "adr_pct": null,
-      "dollar_volume_m": 0.6,
+      "dollar_volume_m": 1.4,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
