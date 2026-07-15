@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-15T11:45:40.418001+00:00",
+  "generated_utc": "2026-07-15T12:59:53.797393+00:00",
   "session_date": "2026-07-15",
   "mode": "refresh",
   "run_label": "scheduled",
@@ -23,7 +23,7 @@
       "ticker": "CRMT",
       "name": "America's Car-Mart, Inc.",
       "changesPercentage": 41.72185,
-      "price": 4.22,
+      "price": 4.3,
       "premarket_change": 41.72185,
       "headline": "CRMT Investor News: If You Have Suffered Losses in America's Car-Mart, Inc. (NASDAQ: CRMT), You Are Encouraged to Contact The Rosen Law Firm About Your Rights",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/14/3327417/673/en/CRMT-Investor-News-If-You-Have-Suffered-Losses-in-America-s-Car-Mart-Inc-NASDAQ-CRMT-You-Are-Encouraged-to-Contact-The-Rosen-Law-Firm-About-Your-Rights.html",
@@ -69,7 +69,7 @@
       "ticker": "FXHO",
       "name": "UTime Limited",
       "changesPercentage": 33.71795,
-      "price": 19.5,
+      "price": 20.08,
       "premarket_change": 33.71795,
       "market_cap_m": 4.117493,
       "wk52_high": 7700.0,
@@ -80,7 +80,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 31.51,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 0.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -143,7 +143,7 @@
       "ticker": "PHOE",
       "name": "Phoenix Asia Holdings Limited Ordinary Shares",
       "changesPercentage": 25.36232,
-      "price": 24.8,
+      "price": 23.19,
       "premarket_change": 25.36232,
       "market_cap_m": 560.52,
       "wk52_high": 133.12,
@@ -161,8 +161,8 @@
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.1,
-      "rvol": 0.1,
+      "vol_expansion": 0.2,
+      "rvol": 0.2,
       "pct_below_52w_high": 79.0,
       "_avg20_vol": 22467.0,
       "section": "no_catalyst",
@@ -171,7 +171,7 @@
       "info": [
         [
           "RVOL",
-          "0.1x"
+          "0.2x"
         ],
         [
           "Float",
@@ -192,7 +192,7 @@
           "+19"
         ],
         [
-          "Volume 0.1x expansion",
+          "Volume 0.2x expansion",
           "+0"
         ]
       ],
@@ -221,7 +221,7 @@
       "ticker": "CHRN",
       "name": "ChronoScale Corporation",
       "changesPercentage": 16.68357,
-      "price": 26.71,
+      "price": 23.79,
       "premarket_change": 16.68357,
       "market_cap_m": 81.993374,
       "wk52_high": 28.2,
@@ -373,7 +373,7 @@
       "ticker": "SEZL",
       "name": "Sezzle Inc.",
       "changesPercentage": 13.81591,
-      "price": 184.99,
+      "price": 185.99,
       "premarket_change": 13.81591,
       "headline": "Sezzle to Announce Second Quarter 2026 Results and Participate in Upcoming Investor Conferences",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/14/3327238/0/en/Sezzle-to-Announce-Second-Quarter-2026-Results-and-Participate-in-Upcoming-Investor-Conferences.html",
@@ -388,7 +388,7 @@
       "wk52_low": 49.5,
       "float_m": 17.015608,
       "adr_pct": 7.4,
-      "dollar_volume_m": 0.6,
+      "dollar_volume_m": 1.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
