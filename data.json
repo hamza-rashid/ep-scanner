@@ -1,10 +1,10 @@
 {
-  "generated_utc": "2026-07-16T10:10:00.463116+00:00",
+  "generated_utc": "2026-07-16T11:54:09.124341+00:00",
   "session_date": "2026-07-16",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
   "count": 16,
-  "active_count": 2,
+  "active_count": 3,
   "no_catalyst_count": 11,
   "ai_used": true,
   "fresh_window_ok": true,
@@ -23,7 +23,7 @@
       "ticker": "ELVA",
       "name": "Electrovaya Inc.",
       "changesPercentage": 49.04943,
-      "price": 11.76,
+      "price": 11.53,
       "premarket_change": 49.04943,
       "headline": "Electrovaya Inc. (ELVA) Stock Jumps 49.1%: Will It Continue to Soar?",
       "news_url": "https://www.zacks.com/stock/news/2954429/electrovaya-inc-elva-stock-jumps-49-1-will-it-continue-to-soar?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|daily_price_change_5%-2954429",
@@ -38,15 +38,15 @@
       "wk52_low": 3.55,
       "float_m": 33.363351,
       "adr_pct": 7.65,
-      "dollar_volume_m": 0.3,
+      "dollar_volume_m": 0.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.1,
-      "rvol": 0.1,
+      "vol_expansion": 0.2,
+      "rvol": 0.2,
       "pct_below_52w_high": 6.2,
       "_avg20_vol": 348963.8,
       "section": "ep",
@@ -55,7 +55,7 @@
       "info": [
         [
           "RVOL",
-          "0.1x"
+          "0.2x"
         ],
         [
           "Float",
@@ -80,7 +80,7 @@
           "+22"
         ],
         [
-          "Volume 0.1x expansion",
+          "Volume 0.2x expansion",
           "+0"
         ]
       ],
@@ -92,7 +92,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $1M",
           "+2"
         ],
         [
@@ -109,7 +109,7 @@
       "ticker": "NVVE",
       "name": "Nuvve Holding Corp.",
       "changesPercentage": 36.4557,
-      "price": 21.56,
+      "price": 13.38,
       "premarket_change": 36.4557,
       "market_cap_m": 0.317794,
       "wk52_high": 702.72,
@@ -120,7 +120,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 38.66,
-      "dollar_volume_m": 0.5,
+      "dollar_volume_m": 1.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -161,7 +161,7 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $1M",
           "+2"
         ],
         [
@@ -178,7 +178,7 @@
       "ticker": "JLHL",
       "name": "Julong Holding Limited",
       "changesPercentage": 36.07595,
-      "price": 10.75,
+      "price": 9.88,
       "premarket_change": 36.07595,
       "market_cap_m": 219.163712,
       "wk52_high": 57.95,
@@ -189,7 +189,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 72.87,
-      "dollar_volume_m": 0.6,
+      "dollar_volume_m": 0.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": false,
@@ -252,7 +252,7 @@
       "ticker": "LCID",
       "name": "Lucid Group, Inc.",
       "changesPercentage": 28.78788,
-      "price": 5.95,
+      "price": 5.91,
       "premarket_change": 28.78788,
       "headline": "Lucid Group (LCID) Moves 28.8% Higher: Will This Strength Last?",
       "news_url": "https://www.zacks.com/stock/news/2954452/lucid-group-lcid-moves-28-8-higher-will-this-strength-last?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|daily_price_change_5%-2954452",
@@ -267,7 +267,7 @@
       "wk52_low": 2.37,
       "float_m": 132.939876,
       "adr_pct": 16.09,
-      "dollar_volume_m": 0.7,
+      "dollar_volume_m": 1.6,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -279,7 +279,7 @@
       "pct_below_52w_high": 81.0,
       "_avg20_vol": 20731387.4,
       "section": "ep",
-      "cooling": true,
+      "cooling": false,
       "low_float": false,
       "info": [
         [
@@ -317,7 +317,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $1M",
+          "$ vol $2M",
           "+2"
         ],
         [
@@ -334,7 +334,7 @@
       "ticker": "CHRN",
       "name": "ChronoScale Corporation",
       "changesPercentage": 28.7701,
-      "price": 29.63,
+      "price": 29.39,
       "premarket_change": 28.7701,
       "market_cap_m": 105.582949,
       "wk52_high": 30.0,
@@ -408,7 +408,7 @@
       "ticker": "UBXG",
       "name": "U-BX Technology Ltd.",
       "changesPercentage": 22.55965,
-      "price": 5.65,
+      "price": 5.7,
       "premarket_change": 22.55965,
       "market_cap_m": 4.641249,
       "wk52_high": 112.5,
@@ -482,7 +482,7 @@
       "ticker": "APLM",
       "name": "Apollomics, Inc.",
       "changesPercentage": 22.2293,
-      "price": 19.19,
+      "price": 18.87,
       "premarket_change": 22.2293,
       "market_cap_m": 21.173248,
       "wk52_high": 42.12,
@@ -556,7 +556,7 @@
       "ticker": "AEHR",
       "name": "Aehr Test Systems",
       "changesPercentage": 21.91362,
-      "price": 87.79,
+      "price": 84.5,
       "premarket_change": 21.91362,
       "headline": "Why Aehr Test Systems Stock Surged Today",
       "news_url": "https://www.fool.com/investing/2026/07/15/why-aehr-test-systems-stock-is-up-today/",
@@ -571,7 +571,7 @@
       "wk52_low": 14.01,
       "float_m": 29.686914,
       "adr_pct": 11.14,
-      "dollar_volume_m": 2.8,
+      "dollar_volume_m": 5.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": false,
@@ -616,7 +616,7 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $3M",
+          "$ vol $6M",
           "+2"
         ],
         [
@@ -633,7 +633,7 @@
       "ticker": "IOVA",
       "name": "Iovance Biotherapeutics, Inc.",
       "changesPercentage": 20.61068,
-      "price": 4.74,
+      "price": 4.64,
       "premarket_change": 20.61068,
       "market_cap_m": 1694.707567,
       "wk52_high": 5.63,
@@ -644,7 +644,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 8.76,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 0.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -690,7 +690,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $1M",
           "+2"
         ],
         [
@@ -707,7 +707,7 @@
       "ticker": "FRGT",
       "name": "Freight Technologies, Inc.",
       "changesPercentage": 17.99544,
-      "price": 5.18,
+      "price": 5.2,
       "premarket_change": 17.99544,
       "headline": "J.B. Hunt: Surging Freight Market Justifies The Rally",
       "news_url": "https://seekingalpha.com/article/4922474-jb-hunt-surging-freight-market-justifies-the-rally",
@@ -789,7 +789,7 @@
       "ticker": "PYPL",
       "name": "PayPal Holdings, Inc.",
       "changesPercentage": 17.20498,
-      "price": 55.52,
+      "price": 55.07,
       "premarket_change": 17.20498,
       "headline": "Stripe and Advent Reportedly Bid $60.50 a Share for PayPal. Here's the Real Prize: Venmo.",
       "news_url": "https://www.fool.com/investing/2026/07/15/stripe-and-advent-reportedly-bid-6050-a-share-for-paypal-heres-the-real-prize-venmo/",
@@ -804,7 +804,7 @@
       "wk52_low": 38.46,
       "float_m": 880.014903,
       "adr_pct": 3.26,
-      "dollar_volume_m": 6.3,
+      "dollar_volume_m": 14.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -849,7 +849,7 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $6M",
+          "$ vol $14M",
           "+2"
         ],
         [
@@ -866,7 +866,7 @@
       "ticker": "FBYD",
       "name": "Falcon's Beyond Global, Inc. Class A Common Stock",
       "changesPercentage": 16.88433,
-      "price": 12.53,
+      "price": 13.47,
       "premarket_change": 16.88433,
       "market_cap_m": 491.176,
       "wk52_high": 29.02,
@@ -877,15 +877,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 14.56,
-      "dollar_volume_m": 3.4,
+      "dollar_volume_m": 0.0,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
       "above_50": false,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 1.2,
-      "rvol": 1.2,
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
       "pct_below_52w_high": 35.6,
       "_avg20_vol": 212155.35,
       "section": "no_catalyst",
@@ -894,7 +894,7 @@
       "info": [
         [
           "RVOL",
-          "1.2x"
+          "0.0x"
         ],
         [
           "Float",
@@ -905,18 +905,14 @@
           "36% below high"
         ]
       ],
-      "catalyst_score": 19,
+      "catalyst_score": 16,
       "neglect_score": 24,
       "technical_score": 12,
-      "total": 55,
+      "total": 52,
       "cbreak": [
         [
           "Gap 16.9% (market voting)",
           "+16"
-        ],
-        [
-          "Volume 1.2x expansion",
-          "+3"
         ]
       ],
       "nbreak": [
@@ -927,7 +923,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $3M",
+          "$ vol $0M",
           "+2"
         ],
         [
@@ -944,7 +940,7 @@
       "ticker": "YYAI",
       "name": "AiRWA Inc.",
       "changesPercentage": 16.33907,
-      "price": 9.47,
+      "price": 9.76,
       "premarket_change": 16.33907,
       "market_cap_m": 4.494017,
       "wk52_high": 10576.0,
@@ -955,15 +951,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 8.69,
-      "dollar_volume_m": 0.1,
+      "dollar_volume_m": 0.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 1.0,
-      "rvol": 1.0,
+      "vol_expansion": 0.1,
+      "rvol": 0.1,
       "pct_below_52w_high": 99.9,
       "_avg20_vol": 12119.7,
       "section": "no_catalyst",
@@ -972,7 +968,7 @@
       "info": [
         [
           "RVOL",
-          "1.0x"
+          "0.1x"
         ],
         [
           "Float",
@@ -983,18 +979,18 @@
           "100% below high"
         ]
       ],
-      "catalyst_score": 18,
+      "catalyst_score": 16,
       "neglect_score": 42,
       "technical_score": 10,
-      "total": 70,
+      "total": 68,
       "cbreak": [
         [
           "Gap 16.3% (market voting)",
           "+16"
         ],
         [
-          "Volume 1.0x expansion",
-          "+2"
+          "Volume 0.1x expansion",
+          "+0"
         ]
       ],
       "nbreak": [
@@ -1022,7 +1018,7 @@
       "ticker": "CLRO",
       "name": "ClearOne, Inc.",
       "changesPercentage": 16.16314,
-      "price": 7.69,
+      "price": 7.56,
       "premarket_change": 16.16314,
       "market_cap_m": 13.391205,
       "wk52_high": 16.5,
@@ -1033,7 +1029,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 40.23,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 0.1,
       "gap_pct": null,
       "above_10": false,
       "above_20": true,
@@ -1096,7 +1092,7 @@
       "ticker": "ANL",
       "name": "Adlai Nortye Ltd.",
       "changesPercentage": 15.54348,
-      "price": 10.63,
+      "price": 10.86,
       "premarket_change": 15.54348,
       "market_cap_m": 564.2404,
       "wk52_high": 17.25,
@@ -1170,7 +1166,7 @@
       "ticker": "OPTH",
       "name": "Optimi Health Corp.",
       "changesPercentage": 15.32846,
-      "price": 4.74,
+      "price": 4.95,
       "premarket_change": 15.32846,
       "market_cap_m": 15.264113,
       "wk52_high": 6.4,
@@ -1181,15 +1177,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 11.95,
-      "dollar_volume_m": 0.7,
+      "dollar_volume_m": 0.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 1.0,
-      "rvol": 1.0,
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
       "pct_below_52w_high": 42.5,
       "_avg20_vol": 137021.7,
       "section": "no_catalyst",
@@ -1198,7 +1194,7 @@
       "info": [
         [
           "RVOL",
-          "1.0x"
+          "0.0x"
         ],
         [
           "Float",
@@ -1209,18 +1205,14 @@
           "42% below high"
         ]
       ],
-      "catalyst_score": 17,
+      "catalyst_score": 15,
       "neglect_score": 42,
       "technical_score": 10,
-      "total": 69,
+      "total": 67,
       "cbreak": [
         [
           "Gap 15.3% (market voting)",
           "+15"
-        ],
-        [
-          "Volume 1.0x expansion",
-          "+2"
         ]
       ],
       "nbreak": [
@@ -1231,7 +1223,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $1M",
+          "$ vol $0M",
           "+2"
         ],
         [
