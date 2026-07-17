@@ -1,10 +1,10 @@
 {
-  "generated_utc": "2026-07-17T09:58:13.455540+00:00",
+  "generated_utc": "2026-07-17T11:26:45.679574+00:00",
   "session_date": "2026-07-17",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
-  "count": 8,
-  "active_count": 0,
+  "count": 10,
+  "active_count": 2,
   "no_catalyst_count": 5,
   "ai_used": true,
   "fresh_window_ok": true,
@@ -23,7 +23,7 @@
       "ticker": "STAK",
       "name": "STAK Inc. Ordinary Shares",
       "changesPercentage": 68.07512,
-      "price": 3.58,
+      "price": 3.66,
       "premarket_change": 68.07512,
       "market_cap_m": 35.837049,
       "wk52_high": 9.5,
@@ -34,15 +34,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 27.93,
-      "dollar_volume_m": 0.4,
+      "dollar_volume_m": 0.7,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.3,
-      "rvol": 0.3,
+      "vol_expansion": 0.6,
+      "rvol": 0.6,
       "pct_below_52w_high": 56.8,
       "_avg20_vol": 344156.2,
       "section": "no_catalyst",
@@ -51,7 +51,7 @@
       "info": [
         [
           "RVOL",
-          "0.3x"
+          "0.6x"
         ],
         [
           "Float",
@@ -62,18 +62,18 @@
           "57% below high"
         ]
       ],
-      "catalyst_score": 23,
+      "catalyst_score": 24,
       "neglect_score": 24,
       "technical_score": 16,
-      "total": 63,
+      "total": 64,
       "cbreak": [
         [
           "Gap 68.1% (market voting)",
           "+22"
         ],
         [
-          "Volume 0.3x expansion",
-          "+1"
+          "Volume 0.6x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
@@ -84,7 +84,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $1M",
           "+2"
         ],
         [
@@ -101,7 +101,7 @@
       "ticker": "ATPC",
       "name": "Agape ATP Corporation",
       "changesPercentage": 66.66667,
-      "price": 4.2,
+      "price": 3.6,
       "premarket_change": 66.66667,
       "market_cap_m": 4.202629,
       "wk52_high": 74.0,
@@ -112,7 +112,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 13.93,
-      "dollar_volume_m": 0.5,
+      "dollar_volume_m": 0.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -158,7 +158,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $1M",
           "+2"
         ],
         [
@@ -172,10 +172,87 @@
       ]
     },
     {
+      "ticker": "CDNA",
+      "name": "CareDx, Inc",
+      "changesPercentage": 35.59664,
+      "price": 40.34,
+      "premarket_change": 35.59664,
+      "headline": "CareDx (CDNA) Moves 35.6% Higher: Will This Strength Last?",
+      "news_url": "https://www.zacks.com/stock/news/2955298/caredx-cdna-moves-35-6-higher-will-this-strength-last?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|daily_price_change_5%-2955298",
+      "news_site": "zacks.com",
+      "news_time": "2026-07-17 06:20:19",
+      "catalyst_label": "unclassified_move",
+      "catalyst_tier": "C",
+      "catalyst_desc": "Moving on unclear news",
+      "catalyst_base_points": 22,
+      "market_cap_m": 2083.943464,
+      "wk52_high": 40.38,
+      "wk52_low": 10.96,
+      "float_m": 49.253699,
+      "adr_pct": 5.32,
+      "dollar_volume_m": 0.4,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "low",
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
+      "pct_below_52w_high": 1.7,
+      "_avg20_vol": 983866.8,
+      "section": "ep",
+      "cooling": true,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "0.0x"
+        ],
+        [
+          "Float",
+          "49M"
+        ],
+        [
+          "52wk",
+          "at highs"
+        ]
+      ],
+      "catalyst_score": 44,
+      "neglect_score": 0,
+      "technical_score": 19,
+      "total": 63,
+      "cbreak": [
+        [
+          "Moving on unclear news (Tier C)",
+          "+22"
+        ],
+        [
+          "Gap 35.6% (market voting)",
+          "+22"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 5.3%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
       "ticker": "ATAI",
       "name": "Atai Beckley Inc.",
       "changesPercentage": 33.39552,
-      "price": 7.15,
+      "price": 7.1,
       "premarket_change": 33.39552,
       "headline": "Are ATAI, FHB, PATK Obtaining Fair Deals for their Shareholders?",
       "news_url": "https://www.prnewswire.com/news-releases/are-atai-fhb-patk-obtaining-fair-deals-for-their-shareholders-302828029.html",
@@ -190,7 +267,7 @@
       "wk52_low": 2.67,
       "float_m": 200.052911,
       "adr_pct": 8.61,
-      "dollar_volume_m": 1.1,
+      "dollar_volume_m": 1.8,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -202,7 +279,7 @@
       "pct_below_52w_high": 0.4,
       "_avg20_vol": 11161013.55,
       "section": "ep",
-      "cooling": true,
+      "cooling": false,
       "low_float": false,
       "info": [
         [
@@ -235,7 +312,7 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $1M",
+          "$ vol $2M",
           "+2"
         ],
         [
@@ -249,10 +326,96 @@
       ]
     },
     {
+      "ticker": "DSGR",
+      "name": "Distribution Solutions Group, Inc.",
+      "changesPercentage": 25.29112,
+      "price": 34.43,
+      "premarket_change": 25.29112,
+      "headline": "Shareholder Investigation Launched by Kaskela Law Firm into Fairness of Distribution Solutions Group, Inc. (NASDAQ: DSGR) Buyout Price; DSGR Investors Encouraged to Contact the Firm",
+      "news_url": "https://www.businesswire.com/news/home/20260717822549/en/Shareholder-Investigation-Launched-by-Kaskela-Law-Firm-into-Fairness-of-Distribution-Solutions-Group-Inc.-NASDAQ-DSGR-Buyout-Price-DSGR-Investors-Encouraged-to-Contact-the-Firm/",
+      "news_site": "businesswire.com",
+      "news_time": "2026-07-17 06:00:00",
+      "catalyst_label": "acquisition_target",
+      "catalyst_tier": "S",
+      "catalyst_desc": "Acquisition / buyout (target)",
+      "catalyst_base_points": 96,
+      "market_cap_m": 1590.499531,
+      "wk52_high": 34.83,
+      "wk52_low": 19.02,
+      "float_m": 8.650975,
+      "adr_pct": 2.42,
+      "dollar_volume_m": 82.1,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "high",
+      "vol_expansion": 38.0,
+      "rvol": 38.0,
+      "pct_below_52w_high": -1.2,
+      "_avg20_vol": 62072.8,
+      "section": "ep",
+      "cooling": false,
+      "low_float": true,
+      "info": [
+        [
+          "RVOL",
+          "38.0x"
+        ],
+        [
+          "Float",
+          "9M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "at highs"
+        ]
+      ],
+      "catalyst_score": 125,
+      "neglect_score": 42,
+      "technical_score": 19,
+      "total": 186,
+      "cbreak": [
+        [
+          "Acquisition / buyout (target) (Tier S)",
+          "+96"
+        ],
+        [
+          "Gap 25.3% (market voting)",
+          "+19"
+        ],
+        [
+          "Volume 38.0x expansion",
+          "+10"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $82M",
+          "+4"
+        ],
+        [
+          "ADR 2.4%",
+          "+3"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
       "ticker": "KXIN",
       "name": "Kaixin Auto Holdings",
       "changesPercentage": 22.66949,
-      "price": 5.79,
+      "price": 5.77,
       "premarket_change": 22.66949,
       "market_cap_m": 0.161419,
       "wk52_high": 832.5,
@@ -326,7 +489,7 @@
       "ticker": "EDHL",
       "name": "Everbright Digital Holding Limited Ordinary Shares",
       "changesPercentage": 20.96317,
-      "price": 4.27,
+      "price": 4.4,
       "premarket_change": 20.96317,
       "market_cap_m": 7.114994,
       "wk52_high": 25.6,
@@ -400,7 +563,7 @@
       "ticker": "SLAI",
       "name": "SOLAI Limited",
       "changesPercentage": 18.09524,
-      "price": 3.72,
+      "price": 4.0,
       "premarket_change": 18.09524,
       "headline": "NYSE to Commence Delisting Proceedings Against SOLAI Limited (SLAI)",
       "news_url": "https://www.businesswire.com/news/home/20260716509928/en/NYSE-to-Commence-Delisting-Proceedings-Against-SOLAI-Limited-SLAI/",
@@ -425,8 +588,8 @@
       ],
       "catalyst_score": 16,
       "neglect_score": 0,
-      "technical_score": 0,
-      "total": 16,
+      "technical_score": 2,
+      "total": 18,
       "cbreak": [
         [
           "Gap 18.1% (market voting)",
@@ -434,13 +597,19 @@
         ]
       ],
       "nbreak": [],
-      "tbreak": []
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ]
+      ],
+      "dollar_volume_m": 0.5
     },
     {
       "ticker": "VSA",
       "name": "VisionSys AI Inc.",
       "changesPercentage": 17.90123,
-      "price": 3.82,
+      "price": 3.5,
       "premarket_change": 17.90123,
       "market_cap_m": 2.961829,
       "wk52_high": 2120.5,
@@ -505,7 +674,7 @@
       "ticker": "RHI",
       "name": "Robert Half Inc.",
       "changesPercentage": 12.6158,
-      "price": 41.33,
+      "price": 42.0,
       "premarket_change": 12.6158,
       "headline": "Robert Half Announces Schedule for Second-Quarter Earnings Results and Conference Call",
       "news_url": "https://www.prnewswire.com/news-releases/robert-half-announces-schedule-for-second-quarter-earnings-results-and-conference-call-302827957.html",
@@ -530,8 +699,8 @@
       ],
       "catalyst_score": 14,
       "neglect_score": 0,
-      "technical_score": 0,
-      "total": 14,
+      "technical_score": 2,
+      "total": 16,
       "cbreak": [
         [
           "Gap 12.6% (market voting)",
@@ -539,7 +708,13 @@
         ]
       ],
       "nbreak": [],
-      "tbreak": []
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ]
+      ],
+      "dollar_volume_m": 0.1
     }
   ]
 }
