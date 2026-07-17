@@ -1,9 +1,9 @@
 {
-  "generated_utc": "2026-07-17T11:26:45.679574+00:00",
+  "generated_utc": "2026-07-17T12:43:41.429277+00:00",
   "session_date": "2026-07-17",
   "mode": "refresh",
   "run_label": "scheduled",
-  "count": 10,
+  "count": 11,
   "active_count": 2,
   "no_catalyst_count": 5,
   "ai_used": true,
@@ -23,7 +23,7 @@
       "ticker": "STAK",
       "name": "STAK Inc. Ordinary Shares",
       "changesPercentage": 68.07512,
-      "price": 3.66,
+      "price": 4.03,
       "premarket_change": 68.07512,
       "market_cap_m": 35.837049,
       "wk52_high": 9.5,
@@ -34,15 +34,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 27.93,
-      "dollar_volume_m": 0.7,
+      "dollar_volume_m": 64.8,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.6,
-      "rvol": 0.6,
+      "vol_expansion": 46.7,
+      "rvol": 46.7,
       "pct_below_52w_high": 56.8,
       "_avg20_vol": 344156.2,
       "section": "no_catalyst",
@@ -51,7 +51,7 @@
       "info": [
         [
           "RVOL",
-          "0.6x"
+          "46.7x"
         ],
         [
           "Float",
@@ -62,18 +62,18 @@
           "57% below high"
         ]
       ],
-      "catalyst_score": 24,
+      "catalyst_score": 32,
       "neglect_score": 24,
-      "technical_score": 16,
-      "total": 64,
+      "technical_score": 18,
+      "total": 74,
       "cbreak": [
         [
           "Gap 68.1% (market voting)",
           "+22"
         ],
         [
-          "Volume 0.6x expansion",
-          "+2"
+          "Volume 46.7x expansion",
+          "+10"
         ]
       ],
       "nbreak": [
@@ -84,8 +84,8 @@
       ],
       "tbreak": [
         [
-          "$ vol $1M",
-          "+2"
+          "$ vol $65M",
+          "+4"
         ],
         [
           "ADR 27.9%",
@@ -101,7 +101,7 @@
       "ticker": "ATPC",
       "name": "Agape ATP Corporation",
       "changesPercentage": 66.66667,
-      "price": 3.6,
+      "price": 3.95,
       "premarket_change": 66.66667,
       "market_cap_m": 4.202629,
       "wk52_high": 74.0,
@@ -112,15 +112,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 13.93,
-      "dollar_volume_m": 0.7,
+      "dollar_volume_m": 3.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 0.2,
+      "rvol": 0.2,
       "pct_below_52w_high": 94.9,
       "_avg20_vol": 3957807.15,
       "section": "no_catalyst",
@@ -129,7 +129,7 @@
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "0.2x"
         ],
         [
           "Float",
@@ -148,6 +148,10 @@
         [
           "Gap 66.7% (market voting)",
           "+22"
+        ],
+        [
+          "Volume 0.2x expansion",
+          "+0"
         ]
       ],
       "nbreak": [
@@ -158,7 +162,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $1M",
+          "$ vol $3M",
           "+2"
         ],
         [
@@ -175,7 +179,7 @@
       "ticker": "CDNA",
       "name": "CareDx, Inc",
       "changesPercentage": 35.59664,
-      "price": 40.34,
+      "price": 40.0,
       "premarket_change": 35.59664,
       "headline": "CareDx (CDNA) Moves 35.6% Higher: Will This Strength Last?",
       "news_url": "https://www.zacks.com/stock/news/2955298/caredx-cdna-moves-35-6-higher-will-this-strength-last?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|daily_price_change_5%-2955298",
@@ -190,7 +194,7 @@
       "wk52_low": 10.96,
       "float_m": 49.253699,
       "adr_pct": 5.32,
-      "dollar_volume_m": 0.4,
+      "dollar_volume_m": 0.5,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -267,7 +271,7 @@
       "wk52_low": 2.67,
       "float_m": 200.052911,
       "adr_pct": 8.61,
-      "dollar_volume_m": 1.8,
+      "dollar_volume_m": 2.6,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -312,7 +316,7 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $2M",
+          "$ vol $3M",
           "+2"
         ],
         [
@@ -326,10 +330,92 @@
       ]
     },
     {
+      "ticker": "MAN",
+      "name": "ManpowerGroup Inc.",
+      "changesPercentage": 32.36802,
+      "price": 51.65,
+      "premarket_change": 32.36802,
+      "headline": "ManpowerGroup Analysts Boost Their Forecasts After Strong Q2 Results",
+      "news_url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60520262/manpowergroup-analysts-boost-their-forecasts-after-strong-q2-results",
+      "news_site": "benzinga.com",
+      "news_time": "2026-07-17 08:10:04",
+      "catalyst_label": "earnings_beat_growth",
+      "catalyst_tier": "A",
+      "catalyst_desc": "Earnings beat with strong sales/EPS growth",
+      "catalyst_base_points": 84,
+      "market_cap_m": 2402.102045,
+      "wk52_high": 53.0,
+      "wk52_low": 25.15,
+      "float_m": 45.688027,
+      "adr_pct": 5.87,
+      "dollar_volume_m": 0.4,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "med",
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
+      "pct_below_52w_high": -1.5,
+      "_avg20_vol": 1419504.1,
+      "section": "ep",
+      "cooling": true,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "0.0x"
+        ],
+        [
+          "Float",
+          "46M"
+        ],
+        [
+          "52wk",
+          "at highs"
+        ]
+      ],
+      "catalyst_score": 106,
+      "neglect_score": 24,
+      "technical_score": 19,
+      "total": 149,
+      "cbreak": [
+        [
+          "Earnings beat with strong sales/EPS growth (Tier A)",
+          "+84"
+        ],
+        [
+          "Gap 32.4% (market voting)",
+          "+22"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 5.9%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
       "ticker": "DSGR",
       "name": "Distribution Solutions Group, Inc.",
       "changesPercentage": 25.29112,
-      "price": 34.43,
+      "price": 34.74,
       "premarket_change": 25.29112,
       "headline": "Shareholder Investigation Launched by Kaskela Law Firm into Fairness of Distribution Solutions Group, Inc. (NASDAQ: DSGR) Buyout Price; DSGR Investors Encouraged to Contact the Firm",
       "news_url": "https://www.businesswire.com/news/home/20260717822549/en/Shareholder-Investigation-Launched-by-Kaskela-Law-Firm-into-Fairness-of-Distribution-Solutions-Group-Inc.-NASDAQ-DSGR-Buyout-Price-DSGR-Investors-Encouraged-to-Contact-the-Firm/",
@@ -344,7 +430,7 @@
       "wk52_low": 19.02,
       "float_m": 8.650975,
       "adr_pct": 2.42,
-      "dollar_volume_m": 82.1,
+      "dollar_volume_m": 81.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -489,7 +575,7 @@
       "ticker": "EDHL",
       "name": "Everbright Digital Holding Limited Ordinary Shares",
       "changesPercentage": 20.96317,
-      "price": 4.4,
+      "price": 4.44,
       "premarket_change": 20.96317,
       "market_cap_m": 7.114994,
       "wk52_high": 25.6,
@@ -609,7 +695,7 @@
       "ticker": "VSA",
       "name": "VisionSys AI Inc.",
       "changesPercentage": 17.90123,
-      "price": 3.5,
+      "price": 3.42,
       "premarket_change": 17.90123,
       "market_cap_m": 2.961829,
       "wk52_high": 2120.5,
@@ -620,15 +706,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 9.84,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 0.1,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
       "above_50": false,
       "above_200": false,
       "neglect": "low",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 0.1,
+      "rvol": 0.1,
       "pct_below_52w_high": 99.8,
       "_avg20_vol": 266565.3,
       "section": "no_catalyst",
@@ -637,7 +723,7 @@
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "0.1x"
         ],
         [
           "Float",
@@ -656,6 +742,10 @@
         [
           "Gap 17.9% (market voting)",
           "+16"
+        ],
+        [
+          "Volume 0.1x expansion",
+          "+0"
         ]
       ],
       "nbreak": [],
