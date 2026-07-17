@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-07-17T14:19:36.197781+00:00",
+  "generated_utc": "2026-07-17T15:15:15.760829+00:00",
   "session_date": "2026-07-17",
   "mode": "refresh",
   "run_label": "scheduled",
-  "count": 19,
-  "active_count": 7,
-  "no_catalyst_count": 9,
+  "count": 22,
+  "active_count": 8,
+  "no_catalyst_count": 11,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -23,7 +23,7 @@
       "ticker": "STAK",
       "name": "STAK Inc. Ordinary Shares",
       "changesPercentage": 68.07512,
-      "price": 2.38,
+      "price": 2.05,
       "premarket_change": 68.07512,
       "market_cap_m": 35.837049,
       "wk52_high": 9.5,
@@ -34,15 +34,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 27.93,
-      "dollar_volume_m": 57.0,
+      "dollar_volume_m": 54.0,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 69.5,
-      "rvol": 69.5,
+      "vol_expansion": 76.5,
+      "rvol": 76.5,
       "pct_below_52w_high": 56.8,
       "_avg20_vol": 344156.2,
       "section": "no_catalyst",
@@ -51,7 +51,7 @@
       "info": [
         [
           "RVOL",
-          "69.5x"
+          "76.5x"
         ],
         [
           "Float",
@@ -72,7 +72,7 @@
           "+22"
         ],
         [
-          "Volume 69.5x expansion",
+          "Volume 76.5x expansion",
           "+10"
         ]
       ],
@@ -84,7 +84,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $57M",
+          "$ vol $54M",
           "+4"
         ],
         [
@@ -101,7 +101,7 @@
       "ticker": "ATPC",
       "name": "Agape ATP Corporation",
       "changesPercentage": 66.66667,
-      "price": 3.85,
+      "price": 3.34,
       "premarket_change": 66.66667,
       "market_cap_m": 4.202629,
       "wk52_high": 74.0,
@@ -112,15 +112,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 13.93,
-      "dollar_volume_m": 4.9,
+      "dollar_volume_m": 4.8,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.3,
-      "rvol": 0.3,
+      "vol_expansion": 0.4,
+      "rvol": 0.4,
       "pct_below_52w_high": 94.9,
       "_avg20_vol": 3957807.15,
       "section": "no_catalyst",
@@ -129,7 +129,7 @@
       "info": [
         [
           "RVOL",
-          "0.3x"
+          "0.4x"
         ],
         [
           "Float",
@@ -150,7 +150,7 @@
           "+22"
         ],
         [
-          "Volume 0.3x expansion",
+          "Volume 0.4x expansion",
           "+1"
         ]
       ],
@@ -179,7 +179,7 @@
       "ticker": "CDNA",
       "name": "CareDx, Inc",
       "changesPercentage": 35.59664,
-      "price": 40.19,
+      "price": 50.76,
       "premarket_change": 35.59664,
       "headline": "CareDx (CDNA) Moves 35.6% Higher: Will This Strength Last?",
       "news_url": "https://www.zacks.com/stock/news/2955298/caredx-cdna-moves-35-6-higher-will-this-strength-last?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|daily_price_change_5%-2955298",
@@ -194,15 +194,15 @@
       "wk52_low": 10.96,
       "float_m": 49.253699,
       "adr_pct": 5.32,
-      "dollar_volume_m": 18.5,
+      "dollar_volume_m": 29.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 0.5,
-      "rvol": 0.5,
+      "vol_expansion": 0.6,
+      "rvol": 0.6,
       "pct_below_52w_high": 1.7,
       "_avg20_vol": 983866.8,
       "section": "ep",
@@ -211,7 +211,7 @@
       "info": [
         [
           "RVOL",
-          "0.5x"
+          "0.6x"
         ],
         [
           "Float",
@@ -222,10 +222,10 @@
           "at highs"
         ]
       ],
-      "catalyst_score": 45,
+      "catalyst_score": 46,
       "neglect_score": 0,
-      "technical_score": 19,
-      "total": 64,
+      "technical_score": 21,
+      "total": 67,
       "cbreak": [
         [
           "Moving on unclear news (Tier C)",
@@ -236,15 +236,15 @@
           "+22"
         ],
         [
-          "Volume 0.5x expansion",
-          "+1"
+          "Volume 0.6x expansion",
+          "+2"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $18M",
-          "+2"
+          "$ vol $30M",
+          "+4"
         ],
         [
           "ADR 5.3%",
@@ -260,7 +260,7 @@
       "ticker": "ATAI",
       "name": "Atai Beckley Inc.",
       "changesPercentage": 33.39552,
-      "price": 7.16,
+      "price": 7.25,
       "premarket_change": 33.39552,
       "headline": "Are ATAI, FHB, PATK Obtaining Fair Deals for their Shareholders?",
       "news_url": "https://www.prnewswire.com/news-releases/are-atai-fhb-patk-obtaining-fair-deals-for-their-shareholders-302828029.html",
@@ -275,15 +275,15 @@
       "wk52_low": 2.67,
       "float_m": 200.052911,
       "adr_pct": 8.61,
-      "dollar_volume_m": 83.7,
+      "dollar_volume_m": 129.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 1.0,
-      "rvol": 1.0,
+      "vol_expansion": 1.6,
+      "rvol": 1.6,
       "pct_below_52w_high": 0.4,
       "_avg20_vol": 11161013.55,
       "section": "ep",
@@ -292,7 +292,7 @@
       "info": [
         [
           "RVOL",
-          "1.0x"
+          "1.6x"
         ],
         [
           "Float",
@@ -303,10 +303,10 @@
           "at highs"
         ]
       ],
-      "catalyst_score": 116,
+      "catalyst_score": 118,
       "neglect_score": 0,
-      "technical_score": 21,
-      "total": 137,
+      "technical_score": 25,
+      "total": 143,
       "cbreak": [
         [
           "Biotech tie-up with large pharma (Tier S)",
@@ -317,15 +317,15 @@
           "+22"
         ],
         [
-          "Volume 1.0x expansion",
-          "+2"
+          "Volume 1.6x expansion",
+          "+4"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $84M",
-          "+4"
+          "$ vol $130M",
+          "+8"
         ],
         [
           "ADR 8.6%",
@@ -341,7 +341,7 @@
       "ticker": "MAN",
       "name": "ManpowerGroup Inc.",
       "changesPercentage": 32.36802,
-      "price": 55.28,
+      "price": 53.51,
       "premarket_change": 32.36802,
       "headline": "ManpowerGroup Analysts Boost Their Forecasts After Strong Q2 Results",
       "news_url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60520262/manpowergroup-analysts-boost-their-forecasts-after-strong-q2-results",
@@ -356,15 +356,15 @@
       "wk52_low": 25.15,
       "float_m": 45.688027,
       "adr_pct": 5.87,
-      "dollar_volume_m": 34.7,
+      "dollar_volume_m": 54.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.4,
-      "rvol": 0.4,
+      "vol_expansion": 0.7,
+      "rvol": 0.7,
       "pct_below_52w_high": -1.5,
       "_avg20_vol": 1419504.1,
       "section": "ep",
@@ -373,7 +373,7 @@
       "info": [
         [
           "RVOL",
-          "0.4x"
+          "0.7x"
         ],
         [
           "Float",
@@ -384,10 +384,10 @@
           "at highs"
         ]
       ],
-      "catalyst_score": 107,
+      "catalyst_score": 108,
       "neglect_score": 24,
       "technical_score": 21,
-      "total": 152,
+      "total": 153,
       "cbreak": [
         [
           "Earnings beat with strong sales/EPS growth (Tier A)",
@@ -398,8 +398,8 @@
           "+22"
         ],
         [
-          "Volume 0.4x expansion",
-          "+1"
+          "Volume 0.7x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
@@ -410,7 +410,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $35M",
+          "$ vol $55M",
           "+4"
         ],
         [
@@ -427,7 +427,7 @@
       "ticker": "DSGR",
       "name": "Distribution Solutions Group, Inc.",
       "changesPercentage": 25.29112,
-      "price": 34.45,
+      "price": 34.44,
       "premarket_change": 25.29112,
       "headline": "Shareholder Investigation Launched by Kaskela Law Firm into Fairness of Distribution Solutions Group, Inc. (NASDAQ: DSGR) Buyout Price; DSGR Investors Encouraged to Contact the Firm",
       "news_url": "https://www.businesswire.com/news/home/20260717822549/en/Shareholder-Investigation-Launched-by-Kaskela-Law-Firm-into-Fairness-of-Distribution-Solutions-Group-Inc.-NASDAQ-DSGR-Buyout-Price-DSGR-Investors-Encouraged-to-Contact-the-Firm/",
@@ -442,15 +442,15 @@
       "wk52_low": 19.02,
       "float_m": 8.650975,
       "adr_pct": 2.42,
-      "dollar_volume_m": 2.0,
+      "dollar_volume_m": 3.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.9,
-      "rvol": 0.9,
+      "vol_expansion": 1.5,
+      "rvol": 1.5,
       "pct_below_52w_high": -1.2,
       "_avg20_vol": 62072.8,
       "section": "ep",
@@ -459,7 +459,7 @@
       "info": [
         [
           "RVOL",
-          "0.9x"
+          "1.5x"
         ],
         [
           "Float",
@@ -470,10 +470,10 @@
           "at highs"
         ]
       ],
-      "catalyst_score": 117,
+      "catalyst_score": 119,
       "neglect_score": 42,
       "technical_score": 17,
-      "total": 176,
+      "total": 178,
       "cbreak": [
         [
           "Acquisition / buyout (target) (Tier S)",
@@ -484,8 +484,8 @@
           "+19"
         ],
         [
-          "Volume 0.9x expansion",
-          "+2"
+          "Volume 1.5x expansion",
+          "+4"
         ]
       ],
       "nbreak": [
@@ -496,7 +496,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $2M",
+          "$ vol $3M",
           "+2"
         ],
         [
@@ -513,7 +513,7 @@
       "ticker": "KXIN",
       "name": "Kaixin Auto Holdings",
       "changesPercentage": 22.66949,
-      "price": 5.79,
+      "price": 5.68,
       "premarket_change": 22.66949,
       "market_cap_m": 0.161419,
       "wk52_high": 832.5,
@@ -524,15 +524,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 10.83,
-      "dollar_volume_m": 0.1,
+      "dollar_volume_m": 0.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.4,
-      "rvol": 0.4,
+      "vol_expansion": 2.2,
+      "rvol": 2.2,
       "pct_below_52w_high": 99.3,
       "_avg20_vol": 35423.25,
       "section": "no_catalyst",
@@ -541,7 +541,7 @@
       "info": [
         [
           "RVOL",
-          "0.4x"
+          "2.2x"
         ],
         [
           "Float",
@@ -552,18 +552,18 @@
           "99% below high"
         ]
       ],
-      "catalyst_score": 19,
+      "catalyst_score": 24,
       "neglect_score": 42,
       "technical_score": 14,
-      "total": 75,
+      "total": 80,
       "cbreak": [
         [
           "Gap 22.7% (market voting)",
           "+18"
         ],
         [
-          "Volume 0.4x expansion",
-          "+1"
+          "Volume 2.2x expansion",
+          "+6"
         ]
       ],
       "nbreak": [
@@ -609,8 +609,8 @@
       "above_50": true,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 0.1,
+      "rvol": 0.1,
       "pct_below_52w_high": 78.2,
       "_avg20_vol": 311017.95,
       "section": "no_catalyst",
@@ -619,7 +619,7 @@
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "0.1x"
         ],
         [
           "Float",
@@ -638,6 +638,10 @@
         [
           "Gap 21.0% (market voting)",
           "+17"
+        ],
+        [
+          "Volume 0.1x expansion",
+          "+0"
         ]
       ],
       "nbreak": [
@@ -711,7 +715,7 @@
       "ticker": "VSA",
       "name": "VisionSys AI Inc.",
       "changesPercentage": 17.90123,
-      "price": 3.46,
+      "price": 3.47,
       "premarket_change": 17.90123,
       "market_cap_m": 2.961829,
       "wk52_high": 2120.5,
@@ -780,22 +784,22 @@
       "ticker": "PHOE",
       "name": "Phoenix Asia Holdings Limited Ordinary Shares",
       "changesPercentage": 17.57576,
-      "price": 29.1,
+      "price": 31.0,
       "premarket_change": 17.57576,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 21.31,
-      "dollar_volume_m": 2.2,
+      "dollar_volume_m": 2.6,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 1.7,
-      "rvol": 1.7,
+      "vol_expansion": 1.9,
+      "rvol": 1.9,
       "pct_below_52w_high": 77.0,
       "market_cap_m": 628.56,
       "_avg20_vol": 43915.25,
@@ -804,25 +808,25 @@
       "info": [
         [
           "RVOL",
-          "1.7x"
+          "1.9x"
         ],
         [
           "52wk",
           "77% below high"
         ]
       ],
-      "catalyst_score": 20,
+      "catalyst_score": 21,
       "neglect_score": 24,
       "technical_score": 19,
-      "total": 63,
+      "total": 64,
       "cbreak": [
         [
           "Gap 17.6% (market voting)",
           "+16"
         ],
         [
-          "Volume 1.7x expansion",
-          "+4"
+          "Volume 1.9x expansion",
+          "+5"
         ]
       ],
       "nbreak": [
@@ -833,7 +837,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $2M",
+          "$ vol $3M",
           "+2"
         ],
         [
@@ -850,7 +854,7 @@
       "ticker": "KLRS",
       "name": "Kalaris Therapeutics Inc",
       "changesPercentage": 16.26898,
-      "price": 5.395,
+      "price": 6.7,
       "premarket_change": 16.26898,
       "headline": "Kalaris Therapeutics Reports Positive TH103 Phase 1a SAD Results from Expanded Neovascular AMD Cohorts",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/17/3329021/0/en/Kalaris-Therapeutics-Reports-Positive-TH103-Phase-1a-SAD-Results-from-Expanded-Neovascular-AMD-Cohorts.html",
@@ -865,15 +869,15 @@
       "wk52_low": 2.14,
       "float_m": 4.020179,
       "adr_pct": 8.43,
-      "dollar_volume_m": 3.6,
+      "dollar_volume_m": 9.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 9.4,
-      "rvol": 9.4,
+      "vol_expansion": 19.7,
+      "rvol": 19.7,
       "pct_below_52w_high": 50.8,
       "_avg20_vol": 70704.1,
       "section": "ep",
@@ -882,7 +886,7 @@
       "info": [
         [
           "RVOL",
-          "9.4x"
+          "19.7x"
         ],
         [
           "Float",
@@ -907,7 +911,7 @@
           "+16"
         ],
         [
-          "Volume 9.4x expansion",
+          "Volume 19.7x expansion",
           "+10"
         ]
       ],
@@ -919,7 +923,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $4M",
+          "$ vol $9M",
           "+2"
         ],
         [
@@ -936,14 +940,14 @@
       "ticker": "QH",
       "name": "Quhuo Limited",
       "changesPercentage": 13.6289,
-      "price": 6.92,
+      "price": 7.22,
       "premarket_change": 13.6289,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 16.58,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 0.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -1002,7 +1006,7 @@
       "ticker": "RHI",
       "name": "Robert Half Inc.",
       "changesPercentage": 12.6158,
-      "price": 41.8,
+      "price": 41.14,
       "premarket_change": 12.6158,
       "headline": "Robert Half Announces Schedule for Second-Quarter Earnings Results and Conference Call",
       "news_url": "https://www.prnewswire.com/news-releases/robert-half-announces-schedule-for-second-quarter-earnings-results-and-conference-call-302827957.html",
@@ -1038,17 +1042,153 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $13M",
+          "$ vol $20M",
           "+2"
         ]
       ],
-      "dollar_volume_m": 13.1
+      "dollar_volume_m": 19.5
+    },
+    {
+      "ticker": "GDEV",
+      "name": "GDEV Inc.",
+      "changesPercentage": 10.51282,
+      "price": 12.93,
+      "premarket_change": 10.51282,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 6.28,
+      "dollar_volume_m": 0.0,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "high",
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
+      "pct_below_52w_high": 63.1,
+      "market_cap_m": 234.685823,
+      "_avg20_vol": 3321.1,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "0.0x"
+        ],
+        [
+          "52wk",
+          "63% below high"
+        ]
+      ],
+      "catalyst_score": 13,
+      "neglect_score": 42,
+      "technical_score": 10,
+      "total": 65,
+      "cbreak": [
+        [
+          "Gap 10.5% (market voting)",
+          "+13"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 6.3%",
+          "+5"
+        ],
+        [
+          "Above 20d, 10d",
+          "+3"
+        ]
+      ]
+    },
+    {
+      "ticker": "ZNTL",
+      "name": "Zentalis Pharmaceuticals, Inc.",
+      "changesPercentage": 9.73742,
+      "price": 5.015,
+      "premarket_change": 9.73742,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 9.54,
+      "dollar_volume_m": 10.0,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "med",
+      "vol_expansion": 1.1,
+      "rvol": 1.1,
+      "pct_below_52w_high": 3.0,
+      "market_cap_m": 356.999535,
+      "_avg20_vol": 1390384.4,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "1.1x"
+        ],
+        [
+          "52wk",
+          "3% below high"
+        ]
+      ],
+      "catalyst_score": 16,
+      "neglect_score": 24,
+      "technical_score": 19,
+      "total": 59,
+      "cbreak": [
+        [
+          "Gap 9.7% (market voting)",
+          "+13"
+        ],
+        [
+          "Volume 1.1x expansion",
+          "+3"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $10M",
+          "+2"
+        ],
+        [
+          "ADR 9.5%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
     },
     {
       "ticker": "ANPA",
       "name": "Rich Sparkle Holdings Limited",
       "changesPercentage": 9.52381,
-      "price": 4.6,
+      "price": 4.64,
       "premarket_change": 9.52381,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
@@ -1129,15 +1269,15 @@
       "wk52_low": 14.39,
       "float_m": 9.361122,
       "adr_pct": 5.43,
-      "dollar_volume_m": 1.9,
+      "dollar_volume_m": 2.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 1.4,
-      "rvol": 1.4,
+      "vol_expansion": 1.7,
+      "rvol": 1.7,
       "pct_below_52w_high": 36.9,
       "_avg20_vol": 68482.55,
       "section": "ep",
@@ -1146,7 +1286,7 @@
       "info": [
         [
           "RVOL",
-          "1.4x"
+          "1.7x"
         ],
         [
           "Float",
@@ -1171,7 +1311,7 @@
           "+13"
         ],
         [
-          "Volume 1.4x expansion",
+          "Volume 1.7x expansion",
           "+4"
         ]
       ],
@@ -1197,10 +1337,96 @@
       ]
     },
     {
+      "ticker": "MANE",
+      "name": "Veradermics, Incorporated",
+      "changesPercentage": 8.67429,
+      "price": 115.01,
+      "premarket_change": 8.67429,
+      "headline": "Veradermics: VDPHL01 Looks Promising Enough On Paper",
+      "news_url": "https://seekingalpha.com/article/4922958-veradermics-vdphl01-looks-promising-enough-on-paper",
+      "news_site": "seekingalpha.com",
+      "news_time": "2026-07-17 08:40:35",
+      "catalyst_label": "fda_approval",
+      "catalyst_tier": "S",
+      "catalyst_desc": "FDA approval / positive pivotal trial",
+      "catalyst_base_points": 98,
+      "market_cap_m": 4804.966792,
+      "wk52_high": 131.24,
+      "wk52_low": 32.0,
+      "float_m": 35.082327,
+      "adr_pct": 8.82,
+      "dollar_volume_m": 33.4,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": true,
+      "above_200": false,
+      "neglect": "med",
+      "vol_expansion": 0.3,
+      "rvol": 0.3,
+      "pct_below_52w_high": 11.3,
+      "_avg20_vol": 863502.5,
+      "section": "ep",
+      "cooling": false,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "0.3x"
+        ],
+        [
+          "Float",
+          "35M"
+        ],
+        [
+          "52wk",
+          "11% below high"
+        ]
+      ],
+      "catalyst_score": 111,
+      "neglect_score": 24,
+      "technical_score": 13,
+      "total": 148,
+      "cbreak": [
+        [
+          "FDA approval / positive pivotal trial (Tier S)",
+          "+98"
+        ],
+        [
+          "Gap 8.7% (market voting)",
+          "+12"
+        ],
+        [
+          "Volume 0.3x expansion",
+          "+1"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $33M",
+          "+4"
+        ],
+        [
+          "ADR 8.8%",
+          "+5"
+        ],
+        [
+          "Above 50d",
+          "+4"
+        ]
+      ]
+    },
+    {
       "ticker": "ROC",
       "name": "Rank One Computing Corp.",
       "changesPercentage": 8.46901,
-      "price": 5.2499,
+      "price": 5.24,
       "premarket_change": 8.46901,
       "headline": "ROC Secures #1 Global Ranking in Latent Fingerprint Search Speed, Delivers Major Rank-1 Accuracy Wins Across Key FBI and DoD Datasets in NIST ELFT",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/16/3328802/0/en/ROC-Secures-1-Global-Ranking-in-Latent-Fingerprint-Search-Speed-Delivers-Major-Rank-1-Accuracy-Wins-Across-Key-FBI-and-DoD-Datasets-in-NIST-ELFT.html",
@@ -1286,7 +1512,7 @@
       "ticker": "ANTA",
       "name": "Antalpha Platform Holding Company",
       "changesPercentage": 8.29268,
-      "price": 4.44,
+      "price": 4.5,
       "premarket_change": 8.29268,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
@@ -1347,7 +1573,7 @@
       "ticker": "TRV",
       "name": "The Travelers Companies, Inc.",
       "changesPercentage": 7.97762,
-      "price": 364.67001,
+      "price": 365.53,
       "premarket_change": 7.97762,
       "headline": "Travelers (TRV) Q2 Earnings Top Estimates",
       "news_url": "https://www.zacks.com/stock/news/2955384/travelers-trv-q2-earnings-top-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2955384",
@@ -1362,15 +1588,15 @@
       "wk52_low": 252.26,
       "float_m": 211.404974,
       "adr_pct": 2.44,
-      "dollar_volume_m": 377.3,
+      "dollar_volume_m": 619.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 0.5,
-      "rvol": 0.5,
+      "vol_expansion": 0.8,
+      "rvol": 0.8,
       "pct_below_52w_high": -0.9,
       "_avg20_vol": 2141569.25,
       "section": "ep",
@@ -1379,7 +1605,7 @@
       "info": [
         [
           "RVOL",
-          "0.5x"
+          "0.8x"
         ],
         [
           "Float",
@@ -1390,10 +1616,10 @@
           "at highs"
         ]
       ],
-      "catalyst_score": 97,
+      "catalyst_score": 98,
       "neglect_score": 0,
       "technical_score": 23,
-      "total": 120,
+      "total": 121,
       "cbreak": [
         [
           "Earnings beat with strong sales/EPS growth (Tier A)",
@@ -1404,14 +1630,14 @@
           "+12"
         ],
         [
-          "Volume 0.5x expansion",
-          "+1"
+          "Volume 0.8x expansion",
+          "+2"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $377M",
+          "$ vol $620M",
           "+8"
         ],
         [
