@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-20T15:19:45.615288+00:00",
+  "generated_utc": "2026-07-20T15:52:07.919227+00:00",
   "session_date": "2026-07-20",
   "mode": "refresh",
   "run_label": "scheduled",
@@ -23,7 +23,7 @@
       "ticker": "PRPL",
       "name": "Purple Innovation, Inc.",
       "changesPercentage": 2235.53691,
-      "price": 7.04,
+      "price": 8.3,
       "premarket_change": 2235.53691,
       "market_cap_m": 788.172305,
       "wk52_high": 31.5,
@@ -34,15 +34,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 9.57,
-      "dollar_volume_m": 0.1,
+      "dollar_volume_m": 0.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 0.1,
+      "rvol": 0.1,
       "pct_below_52w_high": 69.8,
       "_avg20_vol": 295633.35,
       "section": "no_catalyst",
@@ -51,7 +51,7 @@
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "0.1x"
         ],
         [
           "Float",
@@ -70,6 +70,10 @@
         [
           "Gap 2235.5% (market voting)",
           "+22"
+        ],
+        [
+          "Volume 0.1x expansion",
+          "+0"
         ]
       ],
       "nbreak": [
@@ -97,7 +101,7 @@
       "ticker": "CDT",
       "name": "CDT Equity Inc.",
       "changesPercentage": 782.8169,
-      "price": 3.41,
+      "price": 3.35,
       "premarket_change": 782.8169,
       "headline": "CDT Highlights Sarborg's Patent Filing Extending Quantum-Enabled PRISM Platform to Sugarcane",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/20/3329716/0/en/cdt-highlights-sarborg-s-patent-filing-extending-quantum-enabled-prism-platform-to-sugarcane.html",
@@ -179,7 +183,7 @@
       "ticker": "SDOT",
       "name": "Sadot Group Inc.",
       "changesPercentage": 77.54386,
-      "price": 38.43,
+      "price": 34.93,
       "premarket_change": 77.54386,
       "market_cap_m": 26.737116,
       "wk52_high": 460.0,
@@ -190,15 +194,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 80.18,
-      "dollar_volume_m": 185.0,
+      "dollar_volume_m": 181.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 1.0,
-      "rvol": 1.0,
+      "vol_expansion": 1.1,
+      "rvol": 1.1,
       "pct_below_52w_high": 92.5,
       "_avg20_vol": 4589481.4,
       "section": "no_catalyst",
@@ -207,7 +211,7 @@
       "info": [
         [
           "RVOL",
-          "1.0x"
+          "1.1x"
         ],
         [
           "Float",
@@ -218,18 +222,18 @@
           "92% below high"
         ]
       ],
-      "catalyst_score": 24,
+      "catalyst_score": 25,
       "neglect_score": 42,
       "technical_score": 20,
-      "total": 86,
+      "total": 87,
       "cbreak": [
         [
           "Gap 77.5% (market voting)",
           "+22"
         ],
         [
-          "Volume 1.0x expansion",
-          "+2"
+          "Volume 1.1x expansion",
+          "+3"
         ]
       ],
       "nbreak": [
@@ -240,7 +244,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $185M",
+          "$ vol $181M",
           "+8"
         ],
         [
@@ -257,22 +261,22 @@
       "ticker": "ADVB",
       "name": "Advanced Biomed Inc. Common Stock",
       "changesPercentage": 62.02783,
-      "price": 8.15,
+      "price": 8.16,
       "premarket_change": 62.02783,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 11.8,
-      "dollar_volume_m": 215.5,
+      "dollar_volume_m": 247.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 170.0,
-      "rvol": 170.0,
+      "vol_expansion": 198.9,
+      "rvol": 198.9,
       "pct_below_52w_high": 39.4,
       "market_cap_m": 9.014068,
       "_avg20_vol": 152198.7,
@@ -281,7 +285,7 @@
       "info": [
         [
           "RVOL",
-          "170.0x"
+          "198.9x"
         ],
         [
           "52wk",
@@ -298,7 +302,7 @@
           "+22"
         ],
         [
-          "Volume 170.0x expansion",
+          "Volume 198.9x expansion",
           "+10"
         ]
       ],
@@ -310,7 +314,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $216M",
+          "$ vol $247M",
           "+8"
         ],
         [
@@ -327,7 +331,7 @@
       "ticker": "BIYA",
       "name": "Baiya International Group Inc.",
       "changesPercentage": 36.18421,
-      "price": 6.25,
+      "price": 5.35,
       "premarket_change": 36.18421,
       "market_cap_m": 11.174734,
       "wk52_high": 247.0,
@@ -338,15 +342,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 32.75,
-      "dollar_volume_m": 338.6,
+      "dollar_volume_m": 316.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 1.9,
-      "rvol": 1.9,
+      "vol_expansion": 2.1,
+      "rvol": 2.1,
       "pct_below_52w_high": 97.3,
       "_avg20_vol": 28250353.4,
       "section": "no_catalyst",
@@ -355,7 +359,7 @@
       "info": [
         [
           "RVOL",
-          "1.9x"
+          "2.1x"
         ],
         [
           "Float",
@@ -376,7 +380,7 @@
           "+22"
         ],
         [
-          "Volume 1.9x expansion",
+          "Volume 2.1x expansion",
           "+5"
         ]
       ],
@@ -388,7 +392,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $339M",
+          "$ vol $316M",
           "+8"
         ],
         [
@@ -405,7 +409,7 @@
       "ticker": "PHOE",
       "name": "Phoenix Asia Holdings Limited Ordinary Shares",
       "changesPercentage": 26.54545,
-      "price": 34.48,
+      "price": 40.0,
       "premarket_change": 26.54545,
       "market_cap_m": 676.512,
       "wk52_high": 133.12,
@@ -416,15 +420,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 21.59,
-      "dollar_volume_m": 0.6,
+      "dollar_volume_m": 1.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.4,
-      "rvol": 0.4,
+      "vol_expansion": 0.6,
+      "rvol": 0.6,
       "pct_below_52w_high": 75.0,
       "_avg20_vol": 43916.0,
       "section": "no_catalyst",
@@ -433,7 +437,7 @@
       "info": [
         [
           "RVOL",
-          "0.4x"
+          "0.6x"
         ],
         [
           "Float",
@@ -444,18 +448,18 @@
           "75% below high"
         ]
       ],
-      "catalyst_score": 21,
+      "catalyst_score": 22,
       "neglect_score": 24,
       "technical_score": 19,
-      "total": 64,
+      "total": 65,
       "cbreak": [
         [
           "Gap 26.5% (market voting)",
           "+20"
         ],
         [
-          "Volume 0.4x expansion",
-          "+1"
+          "Volume 0.6x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
@@ -483,7 +487,7 @@
       "ticker": "NIKI",
       "name": "Niki BioSolutions, Inc.",
       "changesPercentage": 23.83714,
-      "price": 8.6686,
+      "price": 8.4,
       "premarket_change": 23.83714,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
@@ -526,22 +530,22 @@
       "ticker": "GMM",
       "name": "Global Mofy Metaverse Limited",
       "changesPercentage": 20.17578,
-      "price": 3.0765,
+      "price": 3.89,
       "premarket_change": 20.17578,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 16.01,
-      "dollar_volume_m": 15.1,
+      "dollar_volume_m": 16.5,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 0.5,
-      "rvol": 0.5,
+      "vol_expansion": 0.6,
+      "rvol": 0.6,
       "pct_below_52w_high": 97.3,
       "market_cap_m": 1.821346,
       "_avg20_vol": 7580727.25,
@@ -550,25 +554,25 @@
       "info": [
         [
           "RVOL",
-          "0.5x"
+          "0.6x"
         ],
         [
           "52wk",
           "97% below high"
         ]
       ],
-      "catalyst_score": 18,
+      "catalyst_score": 19,
       "neglect_score": 24,
       "technical_score": 10,
-      "total": 52,
+      "total": 53,
       "cbreak": [
         [
           "Gap 20.2% (market voting)",
           "+17"
         ],
         [
-          "Volume 0.5x expansion",
-          "+1"
+          "Volume 0.6x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
@@ -579,7 +583,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $15M",
+          "$ vol $16M",
           "+2"
         ],
         [
@@ -596,7 +600,7 @@
       "ticker": "ARMP",
       "name": "Armata Pharmaceuticals, Inc.",
       "changesPercentage": 19.94681,
-      "price": 5.2,
+      "price": 5.04,
       "premarket_change": 19.94681,
       "headline": "Armata Pharmaceuticals Achieves Key Progress Across Clinical, Regulatory and Manufacturing Activities Supporting Planned Phase 3 Initiation of AP-SA02",
       "news_url": "https://www.prnewswire.com/news-releases/armata-pharmaceuticals-achieves-key-progress-across-clinical-regulatory-and-manufacturing-activities-supporting-planned-phase-3-initiation-of-ap-sa02-302829265.html",
@@ -636,13 +640,13 @@
           "+2"
         ]
       ],
-      "dollar_volume_m": 1.0
+      "dollar_volume_m": 1.2
     },
     {
       "ticker": "XNCR",
       "name": "Xencor, Inc.",
       "changesPercentage": 16.85619,
-      "price": 18.92,
+      "price": 18.89,
       "premarket_change": 16.85619,
       "headline": "Xencor (XNCR) Soars 16.9%: Is Further Upside Left in the Stock?",
       "news_url": "https://www.zacks.com/stock/news/2956079/xencor-xncr-soars-16-9-is-further-upside-left-in-the-stock?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|daily_price_change_5%-2956079",
@@ -657,15 +661,15 @@
       "wk52_low": 6.92,
       "float_m": 54.417707,
       "adr_pct": 6.76,
-      "dollar_volume_m": 20.3,
+      "dollar_volume_m": 21.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 1.1,
-      "rvol": 1.1,
+      "vol_expansion": 1.2,
+      "rvol": 1.2,
       "pct_below_52w_high": 2.0,
       "_avg20_vol": 993187.85,
       "section": "ep",
@@ -674,7 +678,7 @@
       "info": [
         [
           "RVOL",
-          "1.1x"
+          "1.2x"
         ],
         [
           "Float",
@@ -699,7 +703,7 @@
           "+16"
         ],
         [
-          "Volume 1.1x expansion",
+          "Volume 1.2x expansion",
           "+3"
         ]
       ],
@@ -711,7 +715,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $20M",
+          "$ vol $22M",
           "+4"
         ],
         [
@@ -728,7 +732,7 @@
       "ticker": "IREN",
       "name": "IREN Limited",
       "changesPercentage": 15.64545,
-      "price": 38.77,
+      "price": 39.5,
       "premarket_change": 15.64545,
       "headline": "IREN Stock Gets Much-Needed Data Center Revenue Boost",
       "news_url": "https://www.schaeffersresearch.com/content/news/2026/07/20/iren-stock-gets-much-needed-data-center-revenue-boost",
@@ -743,15 +747,15 @@
       "wk52_low": 14.72,
       "float_m": 308.885962,
       "adr_pct": 9.06,
-      "dollar_volume_m": 1433.8,
+      "dollar_volume_m": 1645.1,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
       "above_50": false,
       "above_200": false,
       "neglect": "low",
-      "vol_expansion": 0.9,
-      "rvol": 0.9,
+      "vol_expansion": 1.0,
+      "rvol": 1.0,
       "pct_below_52w_high": 49.2,
       "_avg20_vol": 39692363.8,
       "section": "ep",
@@ -760,7 +764,7 @@
       "info": [
         [
           "RVOL",
-          "0.9x"
+          "1.0x"
         ],
         [
           "Float",
@@ -785,14 +789,14 @@
           "+15"
         ],
         [
-          "Volume 0.9x expansion",
+          "Volume 1.0x expansion",
           "+2"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $1434M",
+          "$ vol $1645M",
           "+8"
         ],
         [
@@ -805,7 +809,7 @@
       "ticker": "ITG",
       "name": "ITG Inc.",
       "changesPercentage": 14.7448,
-      "price": 11.31,
+      "price": 11.91,
       "premarket_change": 14.7448,
       "market_cap_m": 1503.085947,
       "wk52_high": 19.26,
@@ -816,7 +820,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": null,
-      "dollar_volume_m": 0.9,
+      "dollar_volume_m": 1.9,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
@@ -848,7 +852,7 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $1M",
+          "$ vol $2M",
           "+2"
         ]
       ]
@@ -857,7 +861,7 @@
       "ticker": "QH",
       "name": "Quhuo Limited",
       "changesPercentage": 14.12151,
-      "price": 7.19,
+      "price": 6.56,
       "premarket_change": 14.12151,
       "market_cap_m": 631.264406,
       "wk52_high": 169.11,
@@ -931,7 +935,7 @@
       "ticker": "DRTS",
       "name": "Alpha Tau Medical Ltd",
       "changesPercentage": 14.05724,
-      "price": 17.06,
+      "price": 13.71,
       "premarket_change": 14.05724,
       "headline": "Alpha Tau Medical (NASDAQ:DRTS) Trading 7.1% Higher   \u2013 Here\u2019s Why",
       "news_url": "https://www.defenseworld.net/2026/07/19/alpha-tau-medical-nasdaqdrts-trading-7-1-higher-heres-why.html",
@@ -946,7 +950,7 @@
       "wk52_low": 2.87,
       "float_m": 61.944646,
       "adr_pct": 7.79,
-      "dollar_volume_m": 3.9,
+      "dollar_volume_m": 3.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -995,7 +999,7 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $4M",
+          "$ vol $3M",
           "+2"
         ],
         [
@@ -1012,7 +1016,7 @@
       "ticker": "LCID",
       "name": "Lucid Group, Inc.",
       "changesPercentage": 13.93189,
-      "price": 7.11,
+      "price": 9.07,
       "premarket_change": 13.93189,
       "headline": "LCID CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds Lucid Group (LCID) Investors of Securities Class Action Lawsuit Deadline on July 28, 2026",
       "news_url": "https://www.newsfilecorp.com/release/305567/LCID-CLASS-ACTION-NOTICE-Faruqi-Faruqi-LLP-Reminds-Lucid-Group-LCID-Investors-of-Securities-Class-Action-Lawsuit-Deadline-on-July-28-2026",
@@ -1037,8 +1041,8 @@
       ],
       "catalyst_score": 15,
       "neglect_score": 0,
-      "technical_score": 4,
-      "total": 19,
+      "technical_score": 8,
+      "total": 23,
       "cbreak": [
         [
           "Gap 13.9% (market voting)",
@@ -1048,17 +1052,17 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $80M",
-          "+4"
+          "$ vol $110M",
+          "+8"
         ]
       ],
-      "dollar_volume_m": 80.4
+      "dollar_volume_m": 110.0
     },
     {
       "ticker": "SG",
       "name": "Sweetgreen, Inc.",
       "changesPercentage": 13.82637,
-      "price": 6.53,
+      "price": 6.48,
       "premarket_change": 13.82637,
       "headline": "Why Sweetgreen Stock Surged Today",
       "news_url": "https://www.fool.com/investing/2026/07/17/why-sweetgreen-stock-surged-today/",
@@ -1073,15 +1077,15 @@
       "wk52_low": 4.49,
       "float_m": 103.118641,
       "adr_pct": 8.57,
-      "dollar_volume_m": 19.3,
+      "dollar_volume_m": 21.7,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
       "above_50": false,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 0.6,
-      "rvol": 0.6,
+      "vol_expansion": 0.7,
+      "rvol": 0.7,
       "pct_below_52w_high": 56.8,
       "_avg20_vol": 4817366.2,
       "section": "ep",
@@ -1090,7 +1094,7 @@
       "info": [
         [
           "RVOL",
-          "0.6x"
+          "0.7x"
         ],
         [
           "Float",
@@ -1103,8 +1107,8 @@
       ],
       "catalyst_score": 39,
       "neglect_score": 0,
-      "technical_score": 12,
-      "total": 51,
+      "technical_score": 14,
+      "total": 53,
       "cbreak": [
         [
           "Moving on unclear news (Tier C)",
@@ -1115,15 +1119,15 @@
           "+15"
         ],
         [
-          "Volume 0.6x expansion",
+          "Volume 0.7x expansion",
           "+2"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $19M",
-          "+2"
+          "$ vol $22M",
+          "+4"
         ],
         [
           "ADR 8.6%",
@@ -1139,7 +1143,7 @@
       "ticker": "ETON",
       "name": "Eton Pharmaceuticals, Inc.",
       "changesPercentage": 13.79403,
-      "price": 41.2,
+      "price": 41.54,
       "premarket_change": 13.79403,
       "market_cap_m": 1159.244591,
       "wk52_high": 42.65,
@@ -1150,15 +1154,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 5.38,
-      "dollar_volume_m": 6.9,
+      "dollar_volume_m": 9.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.4,
-      "rvol": 0.4,
+      "vol_expansion": 0.5,
+      "rvol": 0.5,
       "pct_below_52w_high": -3.0,
       "_avg20_vol": 463641.3,
       "section": "no_catalyst",
@@ -1167,7 +1171,7 @@
       "info": [
         [
           "RVOL",
-          "0.4x"
+          "0.5x"
         ],
         [
           "Float",
@@ -1188,7 +1192,7 @@
           "+15"
         ],
         [
-          "Volume 0.4x expansion",
+          "Volume 0.5x expansion",
           "+1"
         ]
       ],
@@ -1200,7 +1204,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $7M",
+          "$ vol $9M",
           "+2"
         ],
         [
@@ -1228,7 +1232,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 9.91,
-      "dollar_volume_m": 5.2,
+      "dollar_volume_m": 5.8,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -1273,7 +1277,7 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $5M",
+          "$ vol $6M",
           "+2"
         ],
         [
@@ -1290,7 +1294,7 @@
       "ticker": "RDAC",
       "name": "Rising Dragon Acquisition Corp.",
       "changesPercentage": 13.51351,
-      "price": 6.3,
+      "price": 6.76,
       "premarket_change": 13.51351,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
@@ -1356,14 +1360,14 @@
       "ticker": "DSC",
       "name": "DSC Holdings Ltd.",
       "changesPercentage": 12.88981,
-      "price": 5.43,
+      "price": 5.8,
       "premarket_change": 12.88981,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": null,
-      "dollar_volume_m": 0.2,
+      "dollar_volume_m": 0.3,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
@@ -1399,7 +1403,7 @@
       "ticker": "VHC",
       "name": "VirnetX Holding Corp",
       "changesPercentage": 12.75338,
-      "price": 13.35,
+      "price": 14.02,
       "premarket_change": 12.75338,
       "headline": "VirnetX Receives Facility Security Clearance for Utah Facility",
       "news_url": "https://www.businesswire.com/news/home/20260720591328/en/VirnetX-Receives-Facility-Security-Clearance-for-Utah-Facility/",
@@ -1414,15 +1418,15 @@
       "wk52_low": 9.82,
       "float_m": 3.524362,
       "adr_pct": 9.57,
-      "dollar_volume_m": 0.1,
+      "dollar_volume_m": 0.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.3,
-      "rvol": 0.3,
+      "vol_expansion": 0.4,
+      "rvol": 0.4,
       "pct_below_52w_high": 43.4,
       "_avg20_vol": 28640.35,
       "section": "ep",
@@ -1431,7 +1435,7 @@
       "info": [
         [
           "RVOL",
-          "0.3x"
+          "0.4x"
         ],
         [
           "Float",
@@ -1456,7 +1460,7 @@
           "+14"
         ],
         [
-          "Volume 0.3x expansion",
+          "Volume 0.4x expansion",
           "+1"
         ]
       ],
@@ -1485,7 +1489,7 @@
       "ticker": "NNBR",
       "name": "NN, Inc.",
       "changesPercentage": 11.79245,
-      "price": 3.555,
+      "price": 4.32,
       "premarket_change": 11.79245,
       "headline": "NN, Inc. Expands Contract Manufacturing of Weapons Components, Secures New Awards with Leading Firearms Provider",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/20/3329609/0/en/nn-inc-expands-contract-manufacturing-of-weapons-components-secures-new-awards-with-leading-firearms-provider.html",
@@ -1500,7 +1504,7 @@
       "wk52_low": 1.1,
       "float_m": 46.488259,
       "adr_pct": 11.49,
-      "dollar_volume_m": 6.7,
+      "dollar_volume_m": 8.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -1554,7 +1558,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $7M",
+          "$ vol $9M",
           "+2"
         ],
         [
@@ -1571,7 +1575,7 @@
       "ticker": "HUT",
       "name": "Hut 8 Corp.",
       "changesPercentage": 11.17551,
-      "price": 101.18,
+      "price": 102.48,
       "premarket_change": 11.17551,
       "headline": "Hut 8 Jumps 10% on $9.8B AI Data Center Lease; MARA, Riot Platforms Rally in Sympathy",
       "news_url": "https://247wallst.com/investing/2026/07/20/hut-8-jumps-10-on-9-8b-ai-data-center-lease-mara-riot-platforms-rally-in-sympathy/",
@@ -1586,15 +1590,15 @@
       "wk52_low": 18.68,
       "float_m": 86.843839,
       "adr_pct": 10.35,
-      "dollar_volume_m": 509.9,
+      "dollar_volume_m": 431.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.9,
-      "rvol": 0.9,
+      "vol_expansion": 1.0,
+      "rvol": 1.0,
       "pct_below_52w_high": 3.5,
       "_avg20_vol": 4287134.75,
       "section": "ep",
@@ -1603,7 +1607,7 @@
       "info": [
         [
           "RVOL",
-          "0.9x"
+          "1.0x"
         ],
         [
           "Float",
@@ -1628,7 +1632,7 @@
           "+13"
         ],
         [
-          "Volume 0.9x expansion",
+          "Volume 1.0x expansion",
           "+2"
         ]
       ],
@@ -1640,7 +1644,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $510M",
+          "$ vol $432M",
           "+8"
         ],
         [
@@ -1657,7 +1661,7 @@
       "ticker": "ACHR",
       "name": "Archer Aviation Inc.",
       "changesPercentage": 11.14865,
-      "price": 4.9295,
+      "price": 5.21,
       "premarket_change": 11.14865,
       "headline": "QUICK SPARK: Archer and Anduril Launch Hybrid Defense VTOL Platform",
       "news_url": "https://www.benzinga.com/trading-ideas/movers/26/07/60550283/quick-spark-archer-and-anduril-launch-hybrid-defense-vtol-platform",
@@ -1672,15 +1676,15 @@
       "wk52_low": 4.3,
       "float_m": 635.86936,
       "adr_pct": 6.63,
-      "dollar_volume_m": 144.7,
+      "dollar_volume_m": 208.8,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "low",
-      "vol_expansion": 0.9,
-      "rvol": 0.9,
+      "vol_expansion": 1.2,
+      "rvol": 1.2,
       "pct_below_52w_high": 63.7,
       "_avg20_vol": 32130248.45,
       "section": "ep",
@@ -1689,7 +1693,7 @@
       "info": [
         [
           "RVOL",
-          "0.9x"
+          "1.2x"
         ],
         [
           "Float",
@@ -1700,10 +1704,10 @@
           "64% below high"
         ]
       ],
-      "catalyst_score": 77,
+      "catalyst_score": 78,
       "neglect_score": 0,
       "technical_score": 16,
-      "total": 93,
+      "total": 94,
       "cbreak": [
         [
           "New product launch / major product news (Tier B)",
@@ -1714,14 +1718,14 @@
           "+13"
         ],
         [
-          "Volume 0.9x expansion",
-          "+2"
+          "Volume 1.2x expansion",
+          "+3"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $145M",
+          "$ vol $209M",
           "+8"
         ],
         [
@@ -1738,7 +1742,7 @@
       "ticker": "EUDA",
       "name": "EUDA Health Holdings Limited",
       "changesPercentage": 11.06195,
-      "price": 12.55,
+      "price": 14.39,
       "premarket_change": 11.06195,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
@@ -1803,22 +1807,22 @@
       "ticker": "GMTL",
       "name": "Guardian Metal Resources PLC Sponsored ADR",
       "changesPercentage": 11.03239,
-      "price": 10.97,
+      "price": 11.94,
       "premarket_change": 11.03239,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 9.86,
-      "dollar_volume_m": 1.7,
+      "dollar_volume_m": 2.5,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
       "above_50": false,
       "above_200": false,
       "neglect": "low",
-      "vol_expansion": 0.7,
-      "rvol": 0.7,
+      "vol_expansion": 0.9,
+      "rvol": 0.9,
       "pct_below_52w_high": 46.5,
       "market_cap_m": 428.382748,
       "_avg20_vol": 231556.15,
@@ -1827,7 +1831,7 @@
       "info": [
         [
           "RVOL",
-          "0.7x"
+          "0.9x"
         ],
         [
           "52wk",
@@ -1844,7 +1848,7 @@
           "+13"
         ],
         [
-          "Volume 0.7x expansion",
+          "Volume 0.9x expansion",
           "+2"
         ]
       ],
@@ -1864,22 +1868,22 @@
       "ticker": "CHRN",
       "name": "ChronoScale Corporation",
       "changesPercentage": 11.02913,
-      "price": 29.345,
+      "price": 29.36,
       "premarket_change": 11.02913,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 16.4,
-      "dollar_volume_m": 4.0,
+      "dollar_volume_m": 4.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.3,
-      "rvol": 0.3,
+      "vol_expansion": 0.4,
+      "rvol": 0.4,
       "pct_below_52w_high": 0.4,
       "market_cap_m": 104.08633,
       "_avg20_vol": 436847.55,
@@ -1888,7 +1892,7 @@
       "info": [
         [
           "RVOL",
-          "0.3x"
+          "0.4x"
         ],
         [
           "52wk",
@@ -1905,7 +1909,7 @@
           "+13"
         ],
         [
-          "Volume 0.3x expansion",
+          "Volume 0.4x expansion",
           "+1"
         ]
       ],
@@ -1917,7 +1921,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $4M",
+          "$ vol $5M",
           "+2"
         ],
         [
@@ -1934,7 +1938,7 @@
       "ticker": "SMX",
       "name": "SMX (Security Matters) Public Limited Company",
       "changesPercentage": 10.95642,
-      "price": 17.855,
+      "price": 22.42,
       "premarket_change": 10.95642,
       "headline": "SMX Strengthens Balance Sheet and Advances Global Commercialization Strategy in First Half 2026",
       "news_url": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/smx-strengthens-balance-sheet-and-advances-global-commercializat-1193143",
@@ -1949,15 +1953,15 @@
       "wk52_low": 2.3341,
       "float_m": 0.054628,
       "adr_pct": 14.3,
-      "dollar_volume_m": 0.3,
+      "dollar_volume_m": 0.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.2,
-      "rvol": 0.2,
+      "vol_expansion": 0.3,
+      "rvol": 0.3,
       "pct_below_52w_high": 100.0,
       "_avg20_vol": 55017.25,
       "section": "ep",
@@ -1966,7 +1970,7 @@
       "info": [
         [
           "RVOL",
-          "0.2x"
+          "0.3x"
         ],
         [
           "Float",
@@ -1977,10 +1981,10 @@
           "100% below high"
         ]
       ],
-      "catalyst_score": 33,
+      "catalyst_score": 34,
       "neglect_score": 42,
       "technical_score": 14,
-      "total": 89,
+      "total": 90,
       "cbreak": [
         [
           "Vague PR / promotional (Tier C)",
@@ -1991,8 +1995,8 @@
           "+13"
         ],
         [
-          "Volume 0.2x expansion",
-          "+0"
+          "Volume 0.3x expansion",
+          "+1"
         ]
       ],
       "nbreak": [
@@ -2020,7 +2024,7 @@
       "ticker": "NUVB",
       "name": "Nuvation Bio Inc.",
       "changesPercentage": 10.43104,
-      "price": 6.41,
+      "price": 6.43,
       "premarket_change": 10.43104,
       "headline": "Nuvation Bio Announces Positive Updated Phase 2 Data and Expansion of Safusidenib Clinical Program with Two New Studies to Explore Broad Spectrum of IDH1-Mutant Glioma",
       "news_url": "https://www.prnewswire.com/news-releases/nuvation-bio-announces-positive-updated-phase-2-data-and-expansion-of-safusidenib-clinical-program-with-two-new-studies-to-explore-broad-spectrum-of-idh1-mutant-glioma-302828874.html",
@@ -2035,15 +2039,15 @@
       "wk52_low": 2.18,
       "float_m": 253.636604,
       "adr_pct": 7.36,
-      "dollar_volume_m": 33.8,
+      "dollar_volume_m": 39.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.6,
-      "rvol": 0.6,
+      "vol_expansion": 0.7,
+      "rvol": 0.7,
       "pct_below_52w_high": 32.8,
       "_avg20_vol": 9256279.1,
       "section": "ep",
@@ -2052,7 +2056,7 @@
       "info": [
         [
           "RVOL",
-          "0.6x"
+          "0.7x"
         ],
         [
           "Float",
@@ -2077,7 +2081,7 @@
           "+13"
         ],
         [
-          "Volume 0.6x expansion",
+          "Volume 0.7x expansion",
           "+2"
         ]
       ],
@@ -2089,7 +2093,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $34M",
+          "$ vol $39M",
           "+4"
         ],
         [
@@ -2106,7 +2110,7 @@
       "ticker": "CLSK",
       "name": "CleanSpark, Inc.",
       "changesPercentage": 9.9386,
-      "price": 14.285,
+      "price": 15.8,
       "premarket_change": 9.9386,
       "headline": "CleanSpark (CLSK) Rises As Market Takes a Dip: Key Facts",
       "news_url": "https://www.zacks.com/stock/news/2955884/cleanspark-clsk-rises-as-market-takes-a-dip-key-facts?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_6-2955884",
@@ -2121,15 +2125,15 @@
       "wk52_low": 8.0,
       "float_m": 246.380821,
       "adr_pct": 9.95,
-      "dollar_volume_m": 170.0,
+      "dollar_volume_m": 218.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.5,
-      "rvol": 0.5,
+      "vol_expansion": 0.6,
+      "rvol": 0.6,
       "pct_below_52w_high": 38.3,
       "_avg20_vol": 22903125.65,
       "section": "ep",
@@ -2138,7 +2142,7 @@
       "info": [
         [
           "RVOL",
-          "0.5x"
+          "0.6x"
         ],
         [
           "Float",
@@ -2149,10 +2153,10 @@
           "38% below high"
         ]
       ],
-      "catalyst_score": 36,
+      "catalyst_score": 37,
       "neglect_score": 24,
       "technical_score": 21,
-      "total": 81,
+      "total": 82,
       "cbreak": [
         [
           "Moving on unclear news (Tier C)",
@@ -2163,8 +2167,8 @@
           "+13"
         ],
         [
-          "Volume 0.5x expansion",
-          "+1"
+          "Volume 0.6x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
@@ -2175,7 +2179,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $170M",
+          "$ vol $218M",
           "+8"
         ],
         [
@@ -2192,7 +2196,7 @@
       "ticker": "MARA",
       "name": "Marathon Digital Holdings, Inc.",
       "changesPercentage": 9.91675,
-      "price": 11.72,
+      "price": 14.18,
       "premarket_change": 9.91675,
       "headline": "Hut 8 Jumps 10% on $9.8B AI Data Center Lease; MARA, Riot Platforms Rally in Sympathy",
       "news_url": "https://247wallst.com/investing/2026/07/20/hut-8-jumps-10-on-9-8b-ai-data-center-lease-mara-riot-platforms-rally-in-sympathy/",
@@ -2207,15 +2211,15 @@
       "wk52_low": 6.66,
       "float_m": 372.563532,
       "adr_pct": 9.71,
-      "dollar_volume_m": 228.7,
+      "dollar_volume_m": 298.6,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.3,
-      "rvol": 0.3,
+      "vol_expansion": 0.5,
+      "rvol": 0.5,
       "pct_below_52w_high": 37.9,
       "_avg20_vol": 46479046.6,
       "section": "ep",
@@ -2224,7 +2228,7 @@
       "info": [
         [
           "RVOL",
-          "0.3x"
+          "0.5x"
         ],
         [
           "Float",
@@ -2249,7 +2253,7 @@
           "+13"
         ],
         [
-          "Volume 0.3x expansion",
+          "Volume 0.5x expansion",
           "+1"
         ]
       ],
@@ -2261,7 +2265,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $229M",
+          "$ vol $299M",
           "+8"
         ],
         [
