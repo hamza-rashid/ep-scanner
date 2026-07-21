@@ -1,10 +1,10 @@
 {
-  "generated_utc": "2026-07-21T10:26:32.049272+00:00",
+  "generated_utc": "2026-07-21T12:09:17.328789+00:00",
   "session_date": "2026-07-21",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
-  "count": 9,
-  "active_count": 0,
+  "count": 10,
+  "active_count": 2,
   "no_catalyst_count": 8,
   "ai_used": true,
   "fresh_window_ok": true,
@@ -23,7 +23,7 @@
       "ticker": "ZYBT",
       "name": "Zhengye Biotechnology Holding Limited",
       "changesPercentage": 1047.56447,
-      "price": 8.01,
+      "price": 4.07,
       "premarket_change": 1047.56447,
       "market_cap_m": 379.604922,
       "wk52_high": 13.08,
@@ -34,15 +34,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 37.9,
-      "dollar_volume_m": 69.1,
+      "dollar_volume_m": 78.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 243.7,
-      "rvol": 243.7,
+      "vol_expansion": 323.8,
+      "rvol": 323.8,
       "pct_below_52w_high": 62.2,
       "_avg20_vol": 59328.15,
       "section": "no_catalyst",
@@ -51,7 +51,7 @@
       "info": [
         [
           "RVOL",
-          "243.7x"
+          "323.8x"
         ],
         [
           "Float",
@@ -72,7 +72,7 @@
           "+22"
         ],
         [
-          "Volume 243.7x expansion",
+          "Volume 323.8x expansion",
           "+10"
         ]
       ],
@@ -84,7 +84,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $69M",
+          "$ vol $78M",
           "+4"
         ],
         [
@@ -101,7 +101,7 @@
       "ticker": "ADVB",
       "name": "Advanced Biomed Inc. Common Stock",
       "changesPercentage": 76.93836,
-      "price": 8.9,
+      "price": 8.19,
       "premarket_change": 76.93836,
       "market_cap_m": 9.630877,
       "wk52_high": 15.2,
@@ -112,15 +112,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 12.17,
-      "dollar_volume_m": 4.1,
+      "dollar_volume_m": 5.6,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 3.2,
-      "rvol": 3.2,
+      "vol_expansion": 4.5,
+      "rvol": 4.5,
       "pct_below_52w_high": 38.8,
       "_avg20_vol": 152199.2,
       "section": "no_catalyst",
@@ -129,7 +129,7 @@
       "info": [
         [
           "RVOL",
-          "3.2x"
+          "4.5x"
         ],
         [
           "Float",
@@ -140,18 +140,18 @@
           "39% below high"
         ]
       ],
-      "catalyst_score": 30,
+      "catalyst_score": 32,
       "neglect_score": 42,
       "technical_score": 19,
-      "total": 91,
+      "total": 93,
       "cbreak": [
         [
           "Gap 76.9% (market voting)",
           "+22"
         ],
         [
-          "Volume 3.2x expansion",
-          "+8"
+          "Volume 4.5x expansion",
+          "+10"
         ]
       ],
       "nbreak": [
@@ -162,7 +162,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $4M",
+          "$ vol $6M",
           "+2"
         ],
         [
@@ -179,7 +179,7 @@
       "ticker": "GMM",
       "name": "Global Mofy Metaverse Limited",
       "changesPercentage": 37.10937,
-      "price": 3.51,
+      "price": 3.42,
       "premarket_change": 37.10937,
       "market_cap_m": 2.075287,
       "wk52_high": 161.75,
@@ -190,7 +190,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 18.34,
-      "dollar_volume_m": 0.3,
+      "dollar_volume_m": 0.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -236,7 +236,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $1M",
           "+2"
         ],
         [
@@ -253,7 +253,7 @@
       "ticker": "EUDA",
       "name": "EUDA Health Holdings Limited",
       "changesPercentage": 20.53098,
-      "price": 13.62,
+      "price": 15.64,
       "premarket_change": 20.53098,
       "market_cap_m": 25.435922,
       "wk52_high": 86.0,
@@ -264,15 +264,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 7.21,
-      "dollar_volume_m": 0.1,
+      "dollar_volume_m": 0.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "low",
-      "vol_expansion": 0.8,
-      "rvol": 0.8,
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
       "pct_below_52w_high": 77.2,
       "_avg20_vol": 3588.0,
       "section": "no_catalyst",
@@ -281,7 +281,7 @@
       "info": [
         [
           "RVOL",
-          "0.8x"
+          "0.0x"
         ],
         [
           "Float",
@@ -292,18 +292,14 @@
           "77% below high"
         ]
       ],
-      "catalyst_score": 19,
+      "catalyst_score": 17,
       "neglect_score": 0,
       "technical_score": 14,
-      "total": 33,
+      "total": 31,
       "cbreak": [
         [
           "Gap 20.5% (market voting)",
           "+17"
-        ],
-        [
-          "Volume 0.8x expansion",
-          "+2"
         ]
       ],
       "nbreak": [],
@@ -326,7 +322,7 @@
       "ticker": "ACHR",
       "name": "Archer Aviation Inc.",
       "changesPercentage": 19.59459,
-      "price": 5.31,
+      "price": 5.38,
       "premarket_change": 19.59459,
       "headline": "Amova Asset Management Americas Inc. Has $39.56 Million Holdings in Archer Aviation Inc. $ACHR",
       "news_url": "https://www.defenseworld.net/2026/07/21/amova-asset-management-americas-inc-has-39-56-million-holdings-in-archer-aviation-inc-achr.html",
@@ -341,7 +337,7 @@
       "wk52_low": 4.3,
       "float_m": 635.86936,
       "adr_pct": 7.11,
-      "dollar_volume_m": 1.1,
+      "dollar_volume_m": 3.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -353,7 +349,7 @@
       "pct_below_52w_high": 60.4,
       "_avg20_vol": 32130248.45,
       "section": "ep",
-      "cooling": true,
+      "cooling": false,
       "low_float": false,
       "info": [
         [
@@ -391,7 +387,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $1M",
+          "$ vol $4M",
           "+2"
         ],
         [
@@ -405,10 +401,87 @@
       ]
     },
     {
+      "ticker": "CIFR",
+      "name": "Cipher Mining Inc.",
+      "changesPercentage": 16.97039,
+      "price": 20.54,
+      "premarket_change": 16.97039,
+      "headline": "Chicago Partners Investment Group LLC Takes $323,000 Position in Cipher Mining Inc. $CIFR",
+      "news_url": "https://www.defenseworld.net/2026/07/21/chicago-partners-investment-group-llc-takes-323000-position-in-cipher-mining-inc-cifr.html",
+      "news_site": "defenseworld.net",
+      "news_time": "2026-07-21 04:09:16",
+      "catalyst_label": "unclassified_move",
+      "catalyst_tier": "C",
+      "catalyst_desc": "Moving on unclear news",
+      "catalyst_base_points": 22,
+      "market_cap_m": 8401.86646,
+      "wk52_high": 30.14,
+      "wk52_low": 4.55,
+      "float_m": 335.641228,
+      "adr_pct": 10.56,
+      "dollar_volume_m": 4.5,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": false,
+      "above_50": false,
+      "above_200": true,
+      "neglect": "low",
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
+      "pct_below_52w_high": 27.0,
+      "_avg20_vol": 24153114.15,
+      "section": "ep",
+      "cooling": false,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "0.0x"
+        ],
+        [
+          "Float",
+          "336M"
+        ],
+        [
+          "52wk",
+          "27% below high"
+        ]
+      ],
+      "catalyst_score": 38,
+      "neglect_score": 0,
+      "technical_score": 13,
+      "total": 51,
+      "cbreak": [
+        [
+          "Moving on unclear news (Tier C)",
+          "+22"
+        ],
+        [
+          "Gap 17.0% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": [
+        [
+          "$ vol $4M",
+          "+2"
+        ],
+        [
+          "ADR 10.6%",
+          "+5"
+        ],
+        [
+          "Above 200d, 10d",
+          "+6"
+        ]
+      ]
+    },
+    {
       "ticker": "PHOE",
       "name": "Phoenix Asia Holdings Limited Ordinary Shares",
       "changesPercentage": 16.53895,
-      "price": 36.5,
+      "price": 38.2,
       "premarket_change": 16.53895,
       "market_cap_m": 788.4,
       "wk52_high": 133.12,
@@ -419,7 +492,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 23.93,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 0.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -477,7 +550,7 @@
       "ticker": "DSC",
       "name": "DSC Holdings Ltd.",
       "changesPercentage": 16.42412,
-      "price": 5.6,
+      "price": 6.25,
       "premarket_change": 16.42412,
       "market_cap_m": 16.8,
       "wk52_high": 16.35,
@@ -529,7 +602,7 @@
       "ticker": "NAKA",
       "name": "Nakamoto Inc.",
       "changesPercentage": 14.03941,
-      "price": 4.63,
+      "price": 4.7,
       "premarket_change": 14.03941,
       "market_cap_m": 80.571908,
       "wk52_high": 659.2,
@@ -603,7 +676,7 @@
       "ticker": "GMTL",
       "name": "Guardian Metal Resources PLC Sponsored ADR",
       "changesPercentage": 12.55061,
-      "price": 11.12,
+      "price": 11.9,
       "premarket_change": 12.55061,
       "market_cap_m": 433.252948,
       "wk52_high": 22.21,
