@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-07-21T15:45:31.540274+00:00",
-  "session_date": "2026-07-21",
-  "mode": "refresh",
+  "generated_utc": "2026-07-22T10:25:58.010314+00:00",
+  "session_date": "2026-07-22",
+  "mode": "full",
   "run_label": "scheduled",
-  "count": 17,
-  "active_count": 7,
-  "no_catalyst_count": 9,
+  "count": 10,
+  "active_count": 3,
+  "no_catalyst_count": 6,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -20,60 +20,68 @@
   },
   "rows": [
     {
-      "ticker": "ZYBT",
-      "name": "Zhengye Biotechnology Holding Limited",
-      "changesPercentage": 1047.56447,
-      "price": 3.05,
-      "premarket_change": 1047.56447,
-      "market_cap_m": 379.604922,
-      "wk52_high": 13.08,
-      "wk52_low": 0.616,
-      "float_m": 4.427634,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": 37.9,
-      "dollar_volume_m": 96.0,
+      "ticker": "CPHI",
+      "name": "China Pharma Holdings, Inc.",
+      "changesPercentage": 790.10989,
+      "price": 8.1,
+      "premarket_change": 790.10989,
+      "headline": "China Pharma Holdings, Inc. Comments on Unusual Market Activity",
+      "news_url": "https://www.prnewswire.com/news-releases/china-pharma-holdings-inc-comments-on-unusual-market-activity-302831292.html",
+      "news_site": "prnewswire.com",
+      "news_time": "2026-07-21 16:00:00",
+      "catalyst_label": "unclassified_move",
+      "catalyst_tier": "C",
+      "catalyst_desc": "Moving on unclear news",
+      "catalyst_base_points": 22,
+      "market_cap_m": 25.743801,
+      "wk52_high": 19.19,
+      "wk52_low": 0.38,
+      "float_m": 2.340604,
+      "adr_pct": 142.54,
+      "dollar_volume_m": 14.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 530.8,
-      "rvol": 530.8,
-      "pct_below_52w_high": 62.2,
-      "_avg20_vol": 59328.15,
-      "section": "no_catalyst",
+      "vol_expansion": 0.3,
+      "rvol": 0.3,
+      "pct_below_52w_high": 22.3,
+      "_avg20_vol": 6555570.45,
+      "section": "ep",
       "cooling": false,
       "low_float": true,
       "info": [
         [
           "RVOL",
-          "530.8x"
+          "0.3x"
         ],
         [
           "Float",
-          "4M \u00b7 LOW"
+          "2M \u00b7 LOW"
         ],
         [
           "52wk",
-          "62% below high"
+          "22% below high"
         ]
       ],
-      "catalyst_score": 32,
+      "catalyst_score": 45,
       "neglect_score": 42,
-      "technical_score": 21,
-      "total": 95,
+      "technical_score": 19,
+      "total": 106,
       "cbreak": [
         [
-          "Gap 1047.6% (market voting)",
+          "Moving on unclear news (Tier C)",
           "+22"
         ],
         [
-          "Volume 530.8x expansion",
-          "+10"
+          "Gap 790.1% (market voting)",
+          "+22"
+        ],
+        [
+          "Volume 0.3x expansion",
+          "+1"
         ]
       ],
       "nbreak": [
@@ -84,11 +92,11 @@
       ],
       "tbreak": [
         [
-          "$ vol $96M",
-          "+4"
+          "$ vol $14M",
+          "+2"
         ],
         [
-          "ADR 37.9%",
+          "ADR 142.5%",
           "+5"
         ],
         [
@@ -98,128 +106,42 @@
       ]
     },
     {
-      "ticker": "VIVK",
-      "name": "Vivakor, Inc.",
-      "changesPercentage": 252.60116,
-      "price": 7.46,
-      "premarket_change": 252.60116,
-      "headline": "VIVAKOR EXPANDS PHYSICAL CRUDE OIL MARKETING PLATFORM TO OVER $700 MILLION WITH FOUR NEW RECURRING COMMERCIAL TRANSACTIONS",
-      "news_url": "https://www.globenewswire.com/news-release/2026/07/21/3330571/0/en/vivakor-expands-physical-crude-oil-marketing-platform-to-over-700-million-with-four-new-recurring-commercial-transactions.html",
-      "news_site": "globenewswire.com",
-      "news_time": "2026-07-21 09:15:00",
-      "catalyst_label": "new_orders",
-      "catalyst_tier": "A",
-      "catalyst_desc": "New orders / demand surge",
-      "catalyst_base_points": 74,
-      "market_cap_m": 2.166559,
-      "wk52_high": 5029.0137,
-      "wk52_low": 1.51,
-      "float_m": 0.161826,
-      "adr_pct": 26.94,
-      "dollar_volume_m": 727.2,
-      "gap_pct": null,
-      "above_10": true,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "med",
-      "vol_expansion": 12.8,
-      "rvol": 12.8,
-      "pct_below_52w_high": 99.9,
-      "_avg20_vol": 7639406.6,
-      "section": "ep",
-      "cooling": false,
-      "low_float": true,
-      "info": [
-        [
-          "RVOL",
-          "12.8x"
-        ],
-        [
-          "Float",
-          "0M \u00b7 LOW"
-        ],
-        [
-          "52wk",
-          "100% below high"
-        ]
-      ],
-      "catalyst_score": 106,
-      "neglect_score": 24,
-      "technical_score": 14,
-      "total": 144,
-      "cbreak": [
-        [
-          "New orders / demand surge (Tier A)",
-          "+74"
-        ],
-        [
-          "Gap 252.6% (market voting)",
-          "+22"
-        ],
-        [
-          "Volume 12.8x expansion",
-          "+10"
-        ]
-      ],
-      "nbreak": [
-        [
-          "Med neglect (quiet base)",
-          "+24"
-        ]
-      ],
-      "tbreak": [
-        [
-          "$ vol $727M",
-          "+8"
-        ],
-        [
-          "ADR 26.9%",
-          "+5"
-        ],
-        [
-          "Above 10d",
-          "+1"
-        ]
-      ]
-    },
-    {
       "ticker": "UTZ",
       "name": "Utz Brands, Inc.",
-      "changesPercentage": 88.79195,
-      "price": 14.13,
-      "premarket_change": 88.79195,
-      "headline": "QUICK SPARK: Jim Cramer Called Utz A 'Nice Price,' Wall Street Is Paying 91% More",
-      "news_url": "https://www.benzinga.com/trading-ideas/movers/26/07/60576215/quick-spark-jim-cramer-called-utz-a-nice-price-wall-street-is-paying-91-more",
-      "news_site": "benzinga.com",
-      "news_time": "2026-07-21 09:14:03",
+      "changesPercentage": 88.72483,
+      "price": 14.06,
+      "premarket_change": 88.72483,
+      "headline": "UTZ Investigation Alert: BFA Law Announces an Investigation into the Utz Brands $14.25 Announced Acquisition \u2013 Current Shareholders Urged to Act",
+      "news_url": "https://www.businesswire.com/news/home/20260722509749/en/UTZ-Investigation-Alert-BFA-Law-Announces-an-Investigation-into-the-Utz-Brands-14.25-Announced-Acquisition-%E2%80%93-Current-Shareholders-Urged-to-Act/",
+      "news_site": "businesswire.com",
+      "news_time": "2026-07-22 06:07:00",
       "catalyst_label": "acquisition_target",
       "catalyst_tier": "S",
       "catalyst_desc": "Acquisition / buyout (target)",
       "catalyst_base_points": 96,
-      "market_cap_m": 1246.159117,
+      "market_cap_m": 1244.831078,
       "wk52_high": 14.67,
       "wk52_low": 6.78,
       "float_m": 77.599192,
       "adr_pct": 4.17,
-      "dollar_volume_m": 647.5,
+      "dollar_volume_m": 0.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 23.1,
-      "rvol": 23.1,
-      "pct_below_52w_high": 2.8,
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
+      "pct_below_52w_high": 2.7,
       "_avg20_vol": 1987896.4,
       "section": "ep",
-      "cooling": false,
+      "cooling": true,
       "low_float": false,
       "info": [
         [
           "RVOL",
-          "23.1x"
+          "0.0x"
         ],
         [
           "Float",
@@ -230,22 +152,18 @@
           "3% below high"
         ]
       ],
-      "catalyst_score": 128,
+      "catalyst_score": 118,
       "neglect_score": 24,
-      "technical_score": 25,
-      "total": 177,
+      "technical_score": 19,
+      "total": 161,
       "cbreak": [
         [
           "Acquisition / buyout (target) (Tier S)",
           "+96"
         ],
         [
-          "Gap 88.8% (market voting)",
+          "Gap 88.7% (market voting)",
           "+22"
-        ],
-        [
-          "Volume 23.1x expansion",
-          "+10"
         ]
       ],
       "nbreak": [
@@ -256,8 +174,8 @@
       ],
       "tbreak": [
         [
-          "$ vol $648M",
-          "+8"
+          "$ vol $0M",
+          "+2"
         ],
         [
           "ADR 4.2%",
@@ -270,153 +188,71 @@
       ]
     },
     {
-      "ticker": "ADVB",
-      "name": "Advanced Biomed Inc. Common Stock",
-      "changesPercentage": 76.93836,
-      "price": 7.89,
-      "premarket_change": 76.93836,
-      "market_cap_m": 9.630877,
-      "wk52_high": 15.2,
-      "wk52_low": 3.61,
-      "float_m": 0.154152,
+      "ticker": "NIPG",
+      "name": "NIP Group Inc.",
+      "changesPercentage": 58.89831,
+      "price": 7.5,
+      "premarket_change": 58.89831,
+      "market_cap_m": 7.07694,
+      "wk52_high": 70.2,
+      "wk52_low": 4.2,
+      "float_m": 0.846474,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
-      "adr_pct": 12.17,
-      "dollar_volume_m": 11.2,
-      "gap_pct": null,
-      "above_10": true,
-      "above_20": true,
-      "above_50": true,
-      "above_200": true,
-      "neglect": "high",
-      "vol_expansion": 9.3,
-      "rvol": 9.3,
-      "pct_below_52w_high": 38.8,
-      "_avg20_vol": 152199.2,
-      "section": "no_catalyst",
-      "cooling": false,
-      "low_float": true,
-      "info": [
-        [
-          "RVOL",
-          "9.3x"
-        ],
-        [
-          "Float",
-          "0M \u00b7 LOW"
-        ],
-        [
-          "52wk",
-          "39% below high"
-        ]
-      ],
-      "catalyst_score": 32,
-      "neglect_score": 42,
-      "technical_score": 19,
-      "total": 93,
-      "cbreak": [
-        [
-          "Gap 76.9% (market voting)",
-          "+22"
-        ],
-        [
-          "Volume 9.3x expansion",
-          "+10"
-        ]
-      ],
-      "nbreak": [
-        [
-          "High neglect (quiet base)",
-          "+42"
-        ]
-      ],
-      "tbreak": [
-        [
-          "$ vol $11M",
-          "+2"
-        ],
-        [
-          "ADR 12.2%",
-          "+5"
-        ],
-        [
-          "Above 200d, 50d, 20d, 10d",
-          "+12"
-        ]
-      ]
-    },
-    {
-      "ticker": "GMM",
-      "name": "Global Mofy Metaverse Limited",
-      "changesPercentage": 37.10937,
-      "price": 4.05,
-      "premarket_change": 37.10937,
-      "market_cap_m": 2.075287,
-      "wk52_high": 161.75,
-      "wk52_low": 1.8,
-      "float_m": 0.487673,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": 18.34,
-      "dollar_volume_m": 2.3,
+      "adr_pct": 17.99,
+      "dollar_volume_m": 0.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
-      "neglect": "high",
-      "vol_expansion": 0.1,
-      "rvol": 0.1,
-      "pct_below_52w_high": 97.6,
-      "_avg20_vol": 7580727.85,
+      "neglect": "med",
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
+      "pct_below_52w_high": 88.9,
+      "_avg20_vol": 12874.3,
       "section": "no_catalyst",
       "cooling": false,
       "low_float": true,
       "info": [
         [
           "RVOL",
-          "0.1x"
+          "0.0x"
         ],
         [
           "Float",
-          "0M \u00b7 LOW"
+          "1M \u00b7 LOW"
         ],
         [
           "52wk",
-          "98% below high"
+          "89% below high"
         ]
       ],
       "catalyst_score": 22,
-      "neglect_score": 42,
+      "neglect_score": 24,
       "technical_score": 10,
-      "total": 74,
+      "total": 56,
       "cbreak": [
         [
-          "Gap 37.1% (market voting)",
+          "Gap 58.9% (market voting)",
           "+22"
-        ],
-        [
-          "Volume 0.1x expansion",
-          "+0"
         ]
       ],
       "nbreak": [
         [
-          "High neglect (quiet base)",
-          "+42"
+          "Med neglect (quiet base)",
+          "+24"
         ]
       ],
       "tbreak": [
         [
-          "$ vol $2M",
+          "$ vol $0M",
           "+2"
         ],
         [
-          "ADR 18.3%",
+          "ADR 18.0%",
           "+5"
         ],
         [
@@ -426,74 +262,66 @@
       ]
     },
     {
-      "ticker": "WGRX",
-      "name": "Wellgistics Health, Inc.",
-      "changesPercentage": 21.02952,
-      "price": 3.52,
-      "premarket_change": 21.02952,
-      "headline": "WELLGISTICS HEALTH, INC. OFFICIALLY CHANGES CORPORATE NAME TO DATAMEDS AI, INC.",
-      "news_url": "https://www.prnewswire.com/news-releases/wellgistics-health-inc-officially-changes-corporate-name-to-datameds-ai-inc-302830904.html",
-      "news_site": "prnewswire.com",
-      "news_time": "2026-07-21 09:31:00",
-      "catalyst_label": "vague_pr",
-      "catalyst_tier": "C",
-      "catalyst_desc": "Vague PR / promotional",
-      "catalyst_base_points": 20,
-      "market_cap_m": 8.243783,
-      "wk52_high": 97.5,
-      "wk52_low": 2.485,
-      "float_m": 0.445795,
-      "adr_pct": 9.37,
-      "dollar_volume_m": 1.3,
+      "ticker": "MLEC",
+      "name": "Moolec Science S.A.",
+      "changesPercentage": 28.0303,
+      "price": 8.45,
+      "premarket_change": 28.0303,
+      "market_cap_m": 6.135697,
+      "wk52_high": 55.35,
+      "wk52_low": 3.075,
+      "float_m": 0.517027,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 9.4,
+      "dollar_volume_m": 1.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "high",
-      "vol_expansion": 17.6,
-      "rvol": 17.6,
-      "pct_below_52w_high": 96.2,
-      "_avg20_vol": 21272.0,
-      "section": "ep",
-      "cooling": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "med",
+      "vol_expansion": 19.6,
+      "rvol": 19.6,
+      "pct_below_52w_high": 85.0,
+      "_avg20_vol": 7484.2,
+      "section": "no_catalyst",
+      "cooling": false,
       "low_float": true,
       "info": [
         [
           "RVOL",
-          "17.6x"
+          "19.6x"
         ],
         [
           "Float",
-          "0M \u00b7 LOW"
+          "1M \u00b7 LOW"
         ],
         [
           "52wk",
-          "96% below high"
+          "85% below high"
         ]
       ],
-      "catalyst_score": 47,
-      "neglect_score": 42,
-      "technical_score": 10,
-      "total": 99,
+      "catalyst_score": 30,
+      "neglect_score": 24,
+      "technical_score": 19,
+      "total": 73,
       "cbreak": [
         [
-          "Vague PR / promotional (Tier C)",
+          "Gap 28.0% (market voting)",
           "+20"
         ],
         [
-          "Gap 21.0% (market voting)",
-          "+17"
-        ],
-        [
-          "Volume 17.6x expansion",
+          "Volume 19.6x expansion",
           "+10"
         ]
       ],
       "nbreak": [
         [
-          "High neglect (quiet base)",
-          "+42"
+          "Med neglect (quiet base)",
+          "+24"
         ]
       ],
       "tbreak": [
@@ -506,53 +334,221 @@
           "+5"
         ],
         [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
+      "ticker": "PDC",
+      "name": "Perpetuals.com Ltd",
+      "changesPercentage": 25.86751,
+      "price": 3.99,
+      "premarket_change": 25.86751,
+      "market_cap_m": 12.031366,
+      "wk52_high": 10.5,
+      "wk52_low": 1.9,
+      "float_m": 3.195752,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 22.74,
+      "dollar_volume_m": 0.0,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "med",
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
+      "pct_below_52w_high": 42.8,
+      "_avg20_vol": 108917.0,
+      "section": "no_catalyst",
+      "cooling": false,
+      "low_float": true,
+      "info": [
+        [
+          "RVOL",
+          "0.0x"
+        ],
+        [
+          "Float",
+          "3M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "43% below high"
+        ]
+      ],
+      "catalyst_score": 19,
+      "neglect_score": 24,
+      "technical_score": 10,
+      "total": 53,
+      "cbreak": [
+        [
+          "Gap 25.9% (market voting)",
+          "+19"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 22.7%",
+          "+5"
+        ],
+        [
           "Above 20d, 10d",
           "+3"
         ]
       ]
     },
     {
-      "ticker": "XBP",
-      "name": "XBP Global Holdings, Inc.",
-      "changesPercentage": 20.83333,
-      "price": 3.19,
-      "premarket_change": 20.83333,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": 9.17,
-      "dollar_volume_m": 0.1,
+      "ticker": "FWRD",
+      "name": "Forward Air Corporation",
+      "changesPercentage": 22.80303,
+      "price": 16.21,
+      "premarket_change": 22.80303,
+      "headline": "Forward Air (FWRD) Surges 22.8%: Is This an Indication of Further Gains?",
+      "news_url": "https://www.zacks.com/stock/news/2957748/forward-air-fwrd-surges-22-8-is-this-an-indication-of-further-gains?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|daily_price_change_5%-2957748",
+      "news_site": "zacks.com",
+      "news_time": "2026-07-22 05:16:06",
+      "catalyst_label": "unclassified_move",
+      "catalyst_tier": "C",
+      "catalyst_desc": "Moving on unclear news",
+      "catalyst_base_points": 22,
+      "market_cap_m": 512.641996,
+      "wk52_high": 32.47,
+      "wk52_low": 7.86,
+      "float_m": 24.527938,
+      "adr_pct": 7.89,
+      "dollar_volume_m": 42.5,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
-      "neglect": "med",
+      "neglect": "high",
+      "vol_expansion": 3.4,
+      "rvol": 3.4,
+      "pct_below_52w_high": 50.0,
+      "_avg20_vol": 773403.8,
+      "section": "ep",
+      "cooling": false,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "3.4x"
+        ],
+        [
+          "Float",
+          "25M"
+        ],
+        [
+          "52wk",
+          "50% below high"
+        ]
+      ],
+      "catalyst_score": 48,
+      "neglect_score": 42,
+      "technical_score": 16,
+      "total": 106,
+      "cbreak": [
+        [
+          "Moving on unclear news (Tier C)",
+          "+22"
+        ],
+        [
+          "Gap 22.8% (market voting)",
+          "+18"
+        ],
+        [
+          "Volume 3.4x expansion",
+          "+8"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $42M",
+          "+4"
+        ],
+        [
+          "ADR 7.9%",
+          "+5"
+        ],
+        [
+          "Above 50d, 20d, 10d",
+          "+7"
+        ]
+      ]
+    },
+    {
+      "ticker": "MTC",
+      "name": "MMTec, Inc.",
+      "changesPercentage": 20.22901,
+      "price": 3.15,
+      "premarket_change": 20.22901,
+      "market_cap_m": 79.338622,
+      "wk52_high": 9.095,
+      "wk52_low": 0.251,
+      "float_m": 25.141563,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 11.53,
+      "dollar_volume_m": 0.2,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "high",
       "vol_expansion": 2.2,
       "rvol": 2.2,
-      "pct_below_52w_high": 80.4,
-      "market_cap_m": 30.549596,
-      "_avg20_vol": 14531.0,
+      "pct_below_52w_high": 61.4,
+      "_avg20_vol": 26449.3,
       "section": "no_catalyst",
       "cooling": false,
+      "low_float": false,
       "info": [
         [
           "RVOL",
           "2.2x"
         ],
         [
+          "Float",
+          "25M"
+        ],
+        [
           "52wk",
-          "80% below high"
+          "61% below high"
         ]
       ],
       "catalyst_score": 23,
-      "neglect_score": 24,
-      "technical_score": 14,
-      "total": 61,
+      "neglect_score": 42,
+      "technical_score": 10,
+      "total": 75,
       "cbreak": [
         [
-          "Gap 20.8% (market voting)",
+          "Gap 20.2% (market voting)",
           "+17"
         ],
         [
@@ -562,8 +558,8 @@
       ],
       "nbreak": [
         [
-          "Med neglect (quiet base)",
-          "+24"
+          "High neglect (quiet base)",
+          "+42"
         ]
       ],
       "tbreak": [
@@ -572,166 +568,7 @@
           "+2"
         ],
         [
-          "ADR 9.2%",
-          "+5"
-        ],
-        [
-          "Above 50d, 20d, 10d",
-          "+7"
-        ]
-      ]
-    },
-    {
-      "ticker": "EUDA",
-      "name": "EUDA Health Holdings Limited",
-      "changesPercentage": 20.53098,
-      "price": 15.0,
-      "premarket_change": 20.53098,
-      "market_cap_m": 25.435922,
-      "wk52_high": 86.0,
-      "wk52_low": 5.26,
-      "float_m": 0.941213,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": 7.21,
-      "dollar_volume_m": 0.1,
-      "gap_pct": null,
-      "above_10": true,
-      "above_20": true,
-      "above_50": true,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": 1.5,
-      "rvol": 1.5,
-      "pct_below_52w_high": 77.2,
-      "_avg20_vol": 3588.0,
-      "section": "no_catalyst",
-      "cooling": false,
-      "low_float": true,
-      "info": [
-        [
-          "RVOL",
-          "1.5x"
-        ],
-        [
-          "Float",
-          "1M \u00b7 LOW"
-        ],
-        [
-          "52wk",
-          "77% below high"
-        ]
-      ],
-      "catalyst_score": 21,
-      "neglect_score": 0,
-      "technical_score": 14,
-      "total": 35,
-      "cbreak": [
-        [
-          "Gap 20.5% (market voting)",
-          "+17"
-        ],
-        [
-          "Volume 1.5x expansion",
-          "+4"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": [
-        [
-          "$ vol $0M",
-          "+2"
-        ],
-        [
-          "ADR 7.2%",
-          "+5"
-        ],
-        [
-          "Above 50d, 20d, 10d",
-          "+7"
-        ]
-      ]
-    },
-    {
-      "ticker": "ACHR",
-      "name": "Archer Aviation Inc.",
-      "changesPercentage": 19.59459,
-      "price": 5.39,
-      "premarket_change": 19.59459,
-      "headline": "Amova Asset Management Americas Inc. Has $39.56 Million Holdings in Archer Aviation Inc. $ACHR",
-      "news_url": "https://www.defenseworld.net/2026/07/21/amova-asset-management-americas-inc-has-39-56-million-holdings-in-archer-aviation-inc-achr.html",
-      "news_site": "defenseworld.net",
-      "news_time": "2026-07-21 03:16:06",
-      "catalyst_label": "new_product",
-      "catalyst_tier": "B",
-      "catalyst_desc": "New product launch / major product news",
-      "catalyst_base_points": 62,
-      "market_cap_m": 4033.46538,
-      "wk52_high": 14.62,
-      "wk52_low": 4.3,
-      "float_m": 635.86936,
-      "adr_pct": 7.11,
-      "dollar_volume_m": 135.3,
-      "gap_pct": null,
-      "above_10": true,
-      "above_20": true,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "med",
-      "vol_expansion": 0.8,
-      "rvol": 0.8,
-      "pct_below_52w_high": 60.4,
-      "_avg20_vol": 32130248.45,
-      "section": "ep",
-      "cooling": false,
-      "low_float": false,
-      "info": [
-        [
-          "RVOL",
-          "0.8x"
-        ],
-        [
-          "Float",
-          "636M"
-        ],
-        [
-          "52wk",
-          "60% below high"
-        ]
-      ],
-      "catalyst_score": 81,
-      "neglect_score": 24,
-      "technical_score": 16,
-      "total": 121,
-      "cbreak": [
-        [
-          "New product launch / major product news (Tier B)",
-          "+62"
-        ],
-        [
-          "Gap 19.6% (market voting)",
-          "+17"
-        ],
-        [
-          "Volume 0.8x expansion",
-          "+2"
-        ]
-      ],
-      "nbreak": [
-        [
-          "Med neglect (quiet base)",
-          "+24"
-        ]
-      ],
-      "tbreak": [
-        [
-          "$ vol $135M",
-          "+8"
-        ],
-        [
-          "ADR 7.1%",
+          "ADR 11.5%",
           "+5"
         ],
         [
@@ -741,612 +578,231 @@
       ]
     },
     {
-      "ticker": "PKE",
-      "name": "Park Aerospace Corp.",
-      "changesPercentage": 18.27924,
-      "price": 37.88,
-      "premarket_change": 18.27924,
-      "headline": "Park Aerospace Corp. (PKE) Q1 2027 Earnings Call Transcript",
-      "news_url": "https://seekingalpha.com/article/4923585-park-aerospace-corp-pke-q1-2027-earnings-call-transcript",
-      "news_site": "seekingalpha.com",
-      "news_time": "2026-07-20 21:31:41",
-      "catalyst_label": "earnings_inline",
-      "catalyst_tier": "B",
-      "catalyst_desc": "In-line earnings, strong reaction",
-      "catalyst_base_points": 44,
-      "market_cap_m": 806.511693,
-      "wk52_high": 39.86,
-      "wk52_low": 17.25,
-      "float_m": 19.189441,
-      "adr_pct": 6.02,
-      "dollar_volume_m": 12.6,
-      "gap_pct": null,
-      "above_10": true,
-      "above_20": true,
-      "above_50": true,
-      "above_200": true,
-      "neglect": "high",
-      "vol_expansion": 1.0,
-      "rvol": 1.0,
-      "pct_below_52w_high": -0.8,
-      "_avg20_vol": 321990.6,
-      "section": "ep",
-      "cooling": false,
-      "low_float": true,
-      "info": [
-        [
-          "RVOL",
-          "1.0x"
-        ],
-        [
-          "Float",
-          "19M \u00b7 LOW"
-        ],
-        [
-          "52wk",
-          "at highs"
-        ]
-      ],
-      "catalyst_score": 62,
-      "neglect_score": 42,
-      "technical_score": 19,
-      "total": 123,
-      "cbreak": [
-        [
-          "In-line earnings, strong reaction (Tier B)",
-          "+44"
-        ],
-        [
-          "Gap 18.3% (market voting)",
-          "+16"
-        ],
-        [
-          "Volume 1.0x expansion",
-          "+2"
-        ]
-      ],
-      "nbreak": [
-        [
-          "High neglect (quiet base)",
-          "+42"
-        ]
-      ],
-      "tbreak": [
-        [
-          "$ vol $13M",
-          "+2"
-        ],
-        [
-          "ADR 6.0%",
-          "+5"
-        ],
-        [
-          "Above 200d, 50d, 20d, 10d",
-          "+12"
-        ]
-      ]
-    },
-    {
-      "ticker": "HELP",
-      "name": "Cybin Inc. Common Stock",
-      "changesPercentage": 17.01828,
-      "price": 8.3232,
-      "premarket_change": 17.01828,
-      "headline": "Helus Pharma Completes Enrollment in Phase 3 APPROACH Study of HLP003 in Adjunctive Treatment of Major Depressive Disorder Ahead of Schedule",
-      "news_url": "https://www.globenewswire.com/news-release/2026/07/21/3330358/0/en/Helus-Pharma-Completes-Enrollment-in-Phase-3-APPROACH-Study-of-HLP003-in-Adjunctive-Treatment-of-Major-Depressive-Disorder-Ahead-of-Schedule.html",
-      "news_site": "globenewswire.com",
-      "news_time": "2026-07-21 07:50:00",
-      "catalyst_label": "unclassified_move",
-      "catalyst_tier": "C",
-      "catalyst_desc": "Moving on unclear news",
-      "catalyst_base_points": 22,
-      "market_cap_m": 416.457971,
-      "wk52_high": 9.12,
-      "wk52_low": 3.76,
-      "float_m": 39.301569,
-      "adr_pct": 8.76,
-      "dollar_volume_m": 23.4,
-      "gap_pct": null,
-      "above_10": true,
-      "above_20": true,
-      "above_50": true,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": 1.5,
-      "rvol": 1.5,
-      "pct_below_52w_high": 4.4,
-      "_avg20_vol": 1876682.3,
-      "section": "ep",
-      "cooling": false,
-      "low_float": false,
-      "info": [
-        [
-          "RVOL",
-          "1.5x"
-        ],
-        [
-          "Float",
-          "39M"
-        ],
-        [
-          "52wk",
-          "4% below high"
-        ]
-      ],
-      "catalyst_score": 42,
-      "neglect_score": 0,
-      "technical_score": 16,
-      "total": 58,
-      "cbreak": [
-        [
-          "Moving on unclear news (Tier C)",
-          "+22"
-        ],
-        [
-          "Gap 17.0% (market voting)",
-          "+16"
-        ],
-        [
-          "Volume 1.5x expansion",
-          "+4"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": [
-        [
-          "$ vol $23M",
-          "+4"
-        ],
-        [
-          "ADR 8.8%",
-          "+5"
-        ],
-        [
-          "Above 50d, 20d, 10d",
-          "+7"
-        ]
-      ]
-    },
-    {
-      "ticker": "CIFR",
-      "name": "Cipher Mining Inc.",
-      "changesPercentage": 16.97039,
-      "price": 23.59,
-      "premarket_change": 16.97039,
-      "headline": "Chicago Partners Investment Group LLC Takes $323,000 Position in Cipher Mining Inc. $CIFR",
-      "news_url": "https://www.defenseworld.net/2026/07/21/chicago-partners-investment-group-llc-takes-323000-position-in-cipher-mining-inc-cifr.html",
-      "news_site": "defenseworld.net",
-      "news_time": "2026-07-21 04:09:16",
-      "catalyst_label": "unclassified_move",
-      "catalyst_tier": "C",
-      "catalyst_desc": "Moving on unclear news",
-      "catalyst_base_points": 22,
-      "market_cap_m": 8401.86646,
-      "wk52_high": 30.14,
-      "wk52_low": 4.55,
-      "float_m": 335.641228,
-      "adr_pct": 10.56,
-      "dollar_volume_m": 500.5,
-      "gap_pct": null,
-      "above_10": true,
-      "above_20": false,
-      "above_50": false,
-      "above_200": true,
-      "neglect": "low",
-      "vol_expansion": 0.9,
-      "rvol": 0.9,
-      "pct_below_52w_high": 27.0,
-      "_avg20_vol": 24153114.15,
-      "section": "ep",
-      "cooling": false,
-      "low_float": false,
-      "info": [
-        [
-          "RVOL",
-          "0.9x"
-        ],
-        [
-          "Float",
-          "336M"
-        ],
-        [
-          "52wk",
-          "27% below high"
-        ]
-      ],
-      "catalyst_score": 40,
-      "neglect_score": 0,
-      "technical_score": 19,
-      "total": 59,
-      "cbreak": [
-        [
-          "Moving on unclear news (Tier C)",
-          "+22"
-        ],
-        [
-          "Gap 17.0% (market voting)",
-          "+16"
-        ],
-        [
-          "Volume 0.9x expansion",
-          "+2"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": [
-        [
-          "$ vol $500M",
-          "+8"
-        ],
-        [
-          "ADR 10.6%",
-          "+5"
-        ],
-        [
-          "Above 200d, 10d",
-          "+6"
-        ]
-      ]
-    },
-    {
-      "ticker": "PHOE",
-      "name": "Phoenix Asia Holdings Limited Ordinary Shares",
-      "changesPercentage": 16.53895,
-      "price": 32.19,
-      "premarket_change": 16.53895,
-      "market_cap_m": 788.4,
-      "wk52_high": 133.12,
-      "wk52_low": 6.657,
-      "float_m": 5.500008,
+      "ticker": "FEMY",
+      "name": "Femasys Inc.",
+      "changesPercentage": 19.57187,
+      "price": 3.91,
+      "premarket_change": 19.57187,
+      "market_cap_m": 11.806378,
+      "wk52_high": 22.2,
+      "wk52_low": 2.895,
+      "float_m": 2.495041,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
-      "adr_pct": 23.93,
-      "dollar_volume_m": 1.3,
+      "adr_pct": 11.02,
+      "dollar_volume_m": 0.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
-      "above_50": true,
-      "above_200": true,
-      "neglect": "low",
-      "vol_expansion": 0.8,
-      "rvol": 0.8,
-      "pct_below_52w_high": 70.0,
-      "_avg20_vol": 48993.7,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "med",
+      "vol_expansion": 6.7,
+      "rvol": 6.7,
+      "pct_below_52w_high": 80.6,
+      "_avg20_vol": 33973.75,
       "section": "no_catalyst",
       "cooling": false,
       "low_float": true,
       "info": [
         [
           "RVOL",
-          "0.8x"
+          "6.7x"
         ],
         [
           "Float",
-          "6M \u00b7 LOW"
+          "2M \u00b7 LOW"
         ],
         [
           "52wk",
-          "70% below high"
+          "81% below high"
         ]
       ],
-      "catalyst_score": 18,
-      "neglect_score": 0,
-      "technical_score": 19,
-      "total": 37,
+      "catalyst_score": 27,
+      "neglect_score": 24,
+      "technical_score": 10,
+      "total": 61,
       "cbreak": [
         [
-          "Gap 16.5% (market voting)",
-          "+16"
+          "Gap 19.6% (market voting)",
+          "+17"
         ],
         [
-          "Volume 0.8x expansion",
-          "+2"
+          "Volume 6.7x expansion",
+          "+10"
         ]
       ],
-      "nbreak": [],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
       "tbreak": [
         [
           "$ vol $1M",
           "+2"
         ],
         [
-          "ADR 23.9%",
+          "ADR 11.0%",
           "+5"
         ],
         [
-          "Above 200d, 50d, 20d, 10d",
-          "+12"
+          "Above 20d, 10d",
+          "+3"
         ]
       ]
     },
     {
-      "ticker": "DSC",
-      "name": "DSC Holdings Ltd.",
-      "changesPercentage": 16.42412,
-      "price": 6.03,
-      "premarket_change": 16.42412,
-      "market_cap_m": 16.8,
-      "wk52_high": 16.35,
-      "wk52_low": 4.52,
-      "float_m": 51.0,
+      "ticker": "RGC",
+      "name": "Regencell Bioscience Holdings Limited",
+      "changesPercentage": 18.82353,
+      "price": 6.06,
+      "premarket_change": 18.82353,
+      "market_cap_m": 2996.602528,
+      "wk52_high": 69.0,
+      "wk52_low": 4.51,
+      "float_m": 17.247771,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": 0.1,
+      "adr_pct": 20.58,
+      "dollar_volume_m": 0.0,
       "gap_pct": null,
-      "above_10": false,
+      "above_10": true,
       "above_20": false,
       "above_50": false,
       "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
+      "neglect": "med",
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
+      "pct_below_52w_high": 88.4,
+      "_avg20_vol": 590081.85,
       "section": "no_catalyst",
       "cooling": false,
-      "low_float": false,
+      "low_float": true,
       "info": [
         [
+          "RVOL",
+          "0.0x"
+        ],
+        [
           "Float",
-          "51M"
+          "17M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "88% below high"
         ]
       ],
-      "catalyst_score": 16,
-      "neglect_score": 0,
-      "technical_score": 2,
-      "total": 18,
+      "catalyst_score": 17,
+      "neglect_score": 24,
+      "technical_score": 8,
+      "total": 49,
       "cbreak": [
         [
-          "Gap 16.4% (market voting)",
-          "+16"
+          "Gap 18.8% (market voting)",
+          "+17"
         ]
       ],
-      "nbreak": [],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
       "tbreak": [
         [
           "$ vol $0M",
           "+2"
-        ]
-      ]
-    },
-    {
-      "ticker": "FWRD",
-      "name": "Forward Air Corporation",
-      "changesPercentage": 15.75757,
-      "price": 15.75,
-      "premarket_change": 15.75757,
-      "headline": "Forward Air Corporation Provides Customer Update",
-      "news_url": "https://www.businesswire.com/news/home/20260721078325/en/Forward-Air-Corporation-Provides-Customer-Update/",
-      "news_site": "businesswire.com",
-      "news_time": "2026-07-21 07:30:00",
-      "catalyst_label": "unclassified_move",
-      "catalyst_tier": "C",
-      "catalyst_desc": "Moving on unclear news",
-      "catalyst_base_points": 22,
-      "market_cap_m": 482.914452,
-      "wk52_high": 32.47,
-      "wk52_low": 7.86,
-      "float_m": 24.527938,
-      "adr_pct": 7.83,
-      "dollar_volume_m": 25.8,
-      "gap_pct": null,
-      "above_10": true,
-      "above_20": true,
-      "above_50": true,
-      "above_200": false,
-      "neglect": "high",
-      "vol_expansion": 2.1,
-      "rvol": 2.1,
-      "pct_below_52w_high": 52.5,
-      "_avg20_vol": 773403.8,
-      "section": "ep",
-      "cooling": false,
-      "low_float": false,
-      "info": [
-        [
-          "RVOL",
-          "2.1x"
         ],
         [
-          "Float",
-          "25M"
-        ],
-        [
-          "52wk",
-          "52% below high"
-        ]
-      ],
-      "catalyst_score": 42,
-      "neglect_score": 42,
-      "technical_score": 16,
-      "total": 100,
-      "cbreak": [
-        [
-          "Moving on unclear news (Tier C)",
-          "+22"
-        ],
-        [
-          "Gap 15.8% (market voting)",
-          "+15"
-        ],
-        [
-          "Volume 2.1x expansion",
-          "+5"
-        ]
-      ],
-      "nbreak": [
-        [
-          "High neglect (quiet base)",
-          "+42"
-        ]
-      ],
-      "tbreak": [
-        [
-          "$ vol $26M",
-          "+4"
-        ],
-        [
-          "ADR 7.8%",
-          "+5"
-        ],
-        [
-          "Above 50d, 20d, 10d",
-          "+7"
-        ]
-      ]
-    },
-    {
-      "ticker": "NAKA",
-      "name": "Nakamoto Inc.",
-      "changesPercentage": 14.03941,
-      "price": 6.04,
-      "premarket_change": 14.03941,
-      "market_cap_m": 80.571908,
-      "wk52_high": 659.2,
-      "wk52_low": 3.33,
-      "float_m": 10.754523,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": 10.66,
-      "dollar_volume_m": 1.0,
-      "gap_pct": null,
-      "above_10": true,
-      "above_20": true,
-      "above_50": true,
-      "above_200": false,
-      "neglect": "high",
-      "vol_expansion": 0.6,
-      "rvol": 0.6,
-      "pct_below_52w_high": 99.2,
-      "_avg20_vol": 260116.2,
-      "section": "no_catalyst",
-      "cooling": false,
-      "low_float": true,
-      "info": [
-        [
-          "RVOL",
-          "0.6x"
-        ],
-        [
-          "Float",
-          "11M \u00b7 LOW"
-        ],
-        [
-          "52wk",
-          "99% below high"
-        ]
-      ],
-      "catalyst_score": 17,
-      "neglect_score": 42,
-      "technical_score": 14,
-      "total": 73,
-      "cbreak": [
-        [
-          "Gap 14.0% (market voting)",
-          "+15"
-        ],
-        [
-          "Volume 0.6x expansion",
-          "+2"
-        ]
-      ],
-      "nbreak": [
-        [
-          "High neglect (quiet base)",
-          "+42"
-        ]
-      ],
-      "tbreak": [
-        [
-          "$ vol $1M",
-          "+2"
-        ],
-        [
-          "ADR 10.7%",
-          "+5"
-        ],
-        [
-          "Above 50d, 20d, 10d",
-          "+7"
-        ]
-      ]
-    },
-    {
-      "ticker": "GMTL",
-      "name": "Guardian Metal Resources PLC Sponsored ADR",
-      "changesPercentage": 12.55061,
-      "price": 11.95,
-      "premarket_change": 12.55061,
-      "market_cap_m": 433.252948,
-      "wk52_high": 22.21,
-      "wk52_low": 8.6,
-      "float_m": 16.300947,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": 10.25,
-      "dollar_volume_m": 1.1,
-      "gap_pct": null,
-      "above_10": true,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": 0.4,
-      "rvol": 0.4,
-      "pct_below_52w_high": 42.3,
-      "_avg20_vol": 231556.15,
-      "section": "no_catalyst",
-      "cooling": false,
-      "low_float": true,
-      "info": [
-        [
-          "RVOL",
-          "0.4x"
-        ],
-        [
-          "Float",
-          "16M \u00b7 LOW"
-        ],
-        [
-          "52wk",
-          "42% below high"
-        ]
-      ],
-      "catalyst_score": 15,
-      "neglect_score": 0,
-      "technical_score": 8,
-      "total": 23,
-      "cbreak": [
-        [
-          "Gap 12.6% (market voting)",
-          "+14"
-        ],
-        [
-          "Volume 0.4x expansion",
-          "+1"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": [
-        [
-          "$ vol $1M",
-          "+2"
-        ],
-        [
-          "ADR 10.2%",
+          "ADR 20.6%",
           "+5"
         ],
         [
           "Above 10d",
           "+1"
+        ]
+      ]
+    },
+    {
+      "ticker": "NBIS",
+      "name": "Nebius Group N.V.",
+      "changesPercentage": 18.78217,
+      "price": 216.92,
+      "premarket_change": 18.78217,
+      "headline": "Why Nebius Stock Soared Today",
+      "news_url": "https://www.fool.com/investing/2026/07/21/why-nebius-stock-soared-today/",
+      "news_site": "fool.com",
+      "news_time": "2026-07-21 19:03:01",
+      "catalyst_label": "major_contract",
+      "catalyst_tier": "S",
+      "catalyst_desc": "Major new contract / government order",
+      "catalyst_base_points": 90,
+      "market_cap_m": 52060.8,
+      "wk52_high": 299.86,
+      "wk52_low": 49.0,
+      "float_m": 202.056466,
+      "adr_pct": 10.96,
+      "dollar_volume_m": 66.8,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": false,
+      "above_50": false,
+      "above_200": true,
+      "neglect": "low",
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
+      "pct_below_52w_high": 25.4,
+      "_avg20_vol": 17624443.2,
+      "section": "ep",
+      "cooling": false,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "0.0x"
+        ],
+        [
+          "Float",
+          "202M"
+        ],
+        [
+          "52wk",
+          "25% below high"
+        ]
+      ],
+      "catalyst_score": 107,
+      "neglect_score": 0,
+      "technical_score": 15,
+      "total": 122,
+      "cbreak": [
+        [
+          "Major new contract / government order (Tier S)",
+          "+90"
+        ],
+        [
+          "Gap 18.8% (market voting)",
+          "+17"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": [
+        [
+          "$ vol $67M",
+          "+4"
+        ],
+        [
+          "ADR 11.0%",
+          "+5"
+        ],
+        [
+          "Above 200d, 10d",
+          "+6"
         ]
       ]
     }
