@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-22T10:25:58.010314+00:00",
+  "generated_utc": "2026-07-22T12:12:09.645524+00:00",
   "session_date": "2026-07-22",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
   "count": 10,
   "active_count": 3,
@@ -23,7 +23,7 @@
       "ticker": "CPHI",
       "name": "China Pharma Holdings, Inc.",
       "changesPercentage": 790.10989,
-      "price": 8.1,
+      "price": 7.26,
       "premarket_change": 790.10989,
       "headline": "China Pharma Holdings, Inc. Comments on Unusual Market Activity",
       "news_url": "https://www.prnewswire.com/news-releases/china-pharma-holdings-inc-comments-on-unusual-market-activity-302831292.html",
@@ -38,15 +38,15 @@
       "wk52_low": 0.38,
       "float_m": 2.340604,
       "adr_pct": 142.54,
-      "dollar_volume_m": 14.1,
+      "dollar_volume_m": 31.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.3,
-      "rvol": 0.3,
+      "vol_expansion": 0.7,
+      "rvol": 0.7,
       "pct_below_52w_high": 22.3,
       "_avg20_vol": 6555570.45,
       "section": "ep",
@@ -55,7 +55,7 @@
       "info": [
         [
           "RVOL",
-          "0.3x"
+          "0.7x"
         ],
         [
           "Float",
@@ -66,10 +66,10 @@
           "22% below high"
         ]
       ],
-      "catalyst_score": 45,
+      "catalyst_score": 46,
       "neglect_score": 42,
-      "technical_score": 19,
-      "total": 106,
+      "technical_score": 21,
+      "total": 109,
       "cbreak": [
         [
           "Moving on unclear news (Tier C)",
@@ -80,8 +80,8 @@
           "+22"
         ],
         [
-          "Volume 0.3x expansion",
-          "+1"
+          "Volume 0.7x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
@@ -92,8 +92,8 @@
       ],
       "tbreak": [
         [
-          "$ vol $14M",
-          "+2"
+          "$ vol $31M",
+          "+4"
         ],
         [
           "ADR 142.5%",
@@ -109,7 +109,7 @@
       "ticker": "UTZ",
       "name": "Utz Brands, Inc.",
       "changesPercentage": 88.72483,
-      "price": 14.06,
+      "price": 14.11,
       "premarket_change": 88.72483,
       "headline": "UTZ Investigation Alert: BFA Law Announces an Investigation into the Utz Brands $14.25 Announced Acquisition \u2013 Current Shareholders Urged to Act",
       "news_url": "https://www.businesswire.com/news/home/20260722509749/en/UTZ-Investigation-Alert-BFA-Law-Announces-an-Investigation-into-the-Utz-Brands-14.25-Announced-Acquisition-%E2%80%93-Current-Shareholders-Urged-to-Act/",
@@ -124,7 +124,7 @@
       "wk52_low": 6.78,
       "float_m": 77.599192,
       "adr_pct": 4.17,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 0.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -191,7 +191,7 @@
       "ticker": "NIPG",
       "name": "NIP Group Inc.",
       "changesPercentage": 58.89831,
-      "price": 7.5,
+      "price": 7.35,
       "premarket_change": 58.89831,
       "market_cap_m": 7.07694,
       "wk52_high": 70.2,
@@ -343,7 +343,7 @@
       "ticker": "PDC",
       "name": "Perpetuals.com Ltd",
       "changesPercentage": 25.86751,
-      "price": 3.99,
+      "price": 4.17,
       "premarket_change": 25.86751,
       "market_cap_m": 12.031366,
       "wk52_high": 10.5,
@@ -417,7 +417,7 @@
       "ticker": "FWRD",
       "name": "Forward Air Corporation",
       "changesPercentage": 22.80303,
-      "price": 16.21,
+      "price": 16.11,
       "premarket_change": 22.80303,
       "headline": "Forward Air (FWRD) Surges 22.8%: Is This an Indication of Further Gains?",
       "news_url": "https://www.zacks.com/stock/news/2957748/forward-air-fwrd-surges-22-8-is-this-an-indication-of-further-gains?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|daily_price_change_5%-2957748",
@@ -503,7 +503,7 @@
       "ticker": "MTC",
       "name": "MMTec, Inc.",
       "changesPercentage": 20.22901,
-      "price": 3.15,
+      "price": 3.5,
       "premarket_change": 20.22901,
       "market_cap_m": 79.338622,
       "wk52_high": 9.095,
@@ -581,7 +581,7 @@
       "ticker": "FEMY",
       "name": "Femasys Inc.",
       "changesPercentage": 19.57187,
-      "price": 3.91,
+      "price": 4.03,
       "premarket_change": 19.57187,
       "market_cap_m": 11.806378,
       "wk52_high": 22.2,
@@ -659,7 +659,7 @@
       "ticker": "RGC",
       "name": "Regencell Bioscience Holdings Limited",
       "changesPercentage": 18.82353,
-      "price": 6.06,
+      "price": 6.2,
       "premarket_change": 18.82353,
       "market_cap_m": 2996.602528,
       "wk52_high": 69.0,
@@ -733,7 +733,7 @@
       "ticker": "NBIS",
       "name": "Nebius Group N.V.",
       "changesPercentage": 18.78217,
-      "price": 216.92,
+      "price": 210.0,
       "premarket_change": 18.78217,
       "headline": "Why Nebius Stock Soared Today",
       "news_url": "https://www.fool.com/investing/2026/07/21/why-nebius-stock-soared-today/",
@@ -748,7 +748,7 @@
       "wk52_low": 49.0,
       "float_m": 202.056466,
       "adr_pct": 10.96,
-      "dollar_volume_m": 66.8,
+      "dollar_volume_m": 106.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": false,
@@ -778,8 +778,8 @@
       ],
       "catalyst_score": 107,
       "neglect_score": 0,
-      "technical_score": 15,
-      "total": 122,
+      "technical_score": 19,
+      "total": 126,
       "cbreak": [
         [
           "Major new contract / government order (Tier S)",
@@ -793,8 +793,8 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $67M",
-          "+4"
+          "$ vol $106M",
+          "+8"
         ],
         [
           "ADR 11.0%",
