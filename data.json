@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-07-23T10:23:42.755558+00:00",
+  "generated_utc": "2026-07-23T12:09:47.958266+00:00",
   "session_date": "2026-07-23",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
   "count": 12,
   "active_count": 1,
@@ -23,7 +23,7 @@
       "ticker": "ZCMD",
       "name": "Zhongchao Inc.",
       "changesPercentage": 191.83673,
-      "price": 4.29,
+      "price": 2.84,
       "premarket_change": 191.83673,
       "market_cap_m": 0.148987,
       "wk52_high": 967.2,
@@ -34,15 +34,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 55.68,
-      "dollar_volume_m": 2.7,
+      "dollar_volume_m": 10.5,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.1,
-      "rvol": 0.1,
+      "vol_expansion": 0.6,
+      "rvol": 0.6,
       "pct_below_52w_high": 99.7,
       "_avg20_vol": 6708563.65,
       "section": "no_catalyst",
@@ -51,7 +51,7 @@
       "info": [
         [
           "RVOL",
-          "0.1x"
+          "0.6x"
         ],
         [
           "Float",
@@ -62,18 +62,18 @@
           "100% below high"
         ]
       ],
-      "catalyst_score": 22,
+      "catalyst_score": 24,
       "neglect_score": 42,
       "technical_score": 10,
-      "total": 74,
+      "total": 76,
       "cbreak": [
         [
           "Gap 191.8% (market voting)",
           "+22"
         ],
         [
-          "Volume 0.1x expansion",
-          "+0"
+          "Volume 0.6x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
@@ -84,7 +84,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $3M",
+          "$ vol $10M",
           "+2"
         ],
         [
@@ -101,7 +101,7 @@
       "ticker": "PN",
       "name": "PN Smart Energy Limited",
       "changesPercentage": 131.76179,
-      "price": 9.34,
+      "price": 8.0,
       "premarket_change": 131.76179,
       "market_cap_m": 12.214964,
       "wk52_high": 87.4,
@@ -112,15 +112,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 13.34,
-      "dollar_volume_m": 1.0,
+      "dollar_volume_m": 1.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 5.6,
-      "rvol": 5.6,
+      "vol_expansion": 6.9,
+      "rvol": 6.9,
       "pct_below_52w_high": 90.5,
       "_avg20_vol": 22396.6,
       "section": "no_catalyst",
@@ -129,7 +129,7 @@
       "info": [
         [
           "RVOL",
-          "5.6x"
+          "6.9x"
         ],
         [
           "Float",
@@ -150,7 +150,7 @@
           "+22"
         ],
         [
-          "Volume 5.6x expansion",
+          "Volume 6.9x expansion",
           "+10"
         ]
       ],
@@ -179,7 +179,7 @@
       "ticker": "ADVB",
       "name": "Advanced Biomed Inc. Common Stock",
       "changesPercentage": 73.0226,
-      "price": 12.25,
+      "price": 13.76,
       "premarket_change": 73.0226,
       "market_cap_m": 13.255982,
       "wk52_high": 18.73,
@@ -190,15 +190,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 20.27,
-      "dollar_volume_m": 0.2,
+      "dollar_volume_m": 19.6,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 0.5,
+      "rvol": 0.5,
       "pct_below_52w_high": 10.4,
       "_avg20_vol": 2885367.35,
       "section": "no_catalyst",
@@ -207,7 +207,7 @@
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "0.5x"
         ],
         [
           "Float",
@@ -218,14 +218,18 @@
           "10% below high"
         ]
       ],
-      "catalyst_score": 22,
+      "catalyst_score": 23,
       "neglect_score": 24,
       "technical_score": 19,
-      "total": 65,
+      "total": 66,
       "cbreak": [
         [
           "Gap 73.0% (market voting)",
           "+22"
+        ],
+        [
+          "Volume 0.5x expansion",
+          "+1"
         ]
       ],
       "nbreak": [
@@ -236,7 +240,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $20M",
           "+2"
         ],
         [
@@ -253,7 +257,7 @@
       "ticker": "INLF",
       "name": "INLIF Limited",
       "changesPercentage": 68.60987,
-      "price": 3.76,
+      "price": 3.4,
       "premarket_change": 68.60987,
       "market_cap_m": 0.016029,
       "wk52_high": 4598.4,
@@ -264,7 +268,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 33.08,
-      "dollar_volume_m": 0.4,
+      "dollar_volume_m": 0.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": false,
@@ -314,7 +318,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $1M",
           "+2"
         ],
         [
@@ -331,7 +335,7 @@
       "ticker": "SLNG",
       "name": "Stabilis Solutions, Inc.",
       "changesPercentage": 34.57143,
-      "price": 4.71,
+      "price": 4.7,
       "premarket_change": 34.57143,
       "market_cap_m": 87.588578,
       "wk52_high": 6.36,
@@ -409,7 +413,7 @@
       "ticker": "SMCI",
       "name": "Super Micro Computer, Inc.",
       "changesPercentage": 19.84314,
-      "price": 30.56,
+      "price": 30.7,
       "premarket_change": 19.84314,
       "headline": "Stock Market Today, July 22: Super Micro Computer Surges on Record Q4 Orders and Surprise Margin Beat",
       "news_url": "https://www.fool.com/coverage/stock-market-today/2026/07/22/stock-market-today-july-22-super-micro-computer-surges-on-record-q4-orders-and-surprise-margin-beat/",
@@ -424,7 +428,7 @@
       "wk52_low": 19.48,
       "float_m": 563.388864,
       "adr_pct": 6.54,
-      "dollar_volume_m": 15.4,
+      "dollar_volume_m": 37.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -454,8 +458,8 @@
       ],
       "catalyst_score": 91,
       "neglect_score": 0,
-      "technical_score": 10,
-      "total": 101,
+      "technical_score": 12,
+      "total": 103,
       "cbreak": [
         [
           "New orders / demand surge (Tier A)",
@@ -469,8 +473,8 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $15M",
-          "+2"
+          "$ vol $37M",
+          "+4"
         ],
         [
           "ADR 6.5%",
@@ -486,7 +490,7 @@
       "ticker": "NIPG",
       "name": "NIP Group Inc.",
       "changesPercentage": 19.2,
-      "price": 8.94,
+      "price": 10.0,
       "premarket_change": 19.2,
       "market_cap_m": 8.435712,
       "wk52_high": 70.05,
@@ -564,7 +568,7 @@
       "ticker": "OTLY",
       "name": "Oatly Group AB",
       "changesPercentage": 19.11602,
-      "price": 10.78,
+      "price": 11.75,
       "premarket_change": 19.11602,
       "headline": "Why Oatly Stock Jumped Today",
       "news_url": "https://www.fool.com/investing/2026/07/22/why-oatly-stock-otly-is-up-today/",
@@ -579,15 +583,15 @@
       "wk52_low": 8.01,
       "float_m": 29.228005,
       "adr_pct": 6.91,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 0.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 0.1,
+      "rvol": 0.1,
       "pct_below_52w_high": 34.0,
       "_avg20_vol": 76858.1,
       "section": "ep",
@@ -596,7 +600,7 @@
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "0.1x"
         ],
         [
           "Float",
@@ -619,6 +623,10 @@
         [
           "Gap 19.1% (market voting)",
           "+17"
+        ],
+        [
+          "Volume 0.1x expansion",
+          "+0"
         ]
       ],
       "nbreak": [
@@ -646,7 +654,7 @@
       "ticker": "HKIT",
       "name": "Hitek Global Inc.",
       "changesPercentage": 18.97106,
-      "price": 3.7,
+      "price": 3.71,
       "premarket_change": 18.97106,
       "market_cap_m": 0.062478,
       "wk52_high": 15675.0,
@@ -720,7 +728,7 @@
       "ticker": "RYOJ",
       "name": "rYojbaba Co., Ltd. Common Shares",
       "changesPercentage": 17.46032,
-      "price": 4.44,
+      "price": 4.6,
       "premarket_change": 17.46032,
       "market_cap_m": 51.282,
       "wk52_high": 11.43,
@@ -794,7 +802,7 @@
       "ticker": "KRKR",
       "name": "36Kr Holdings Inc.",
       "changesPercentage": 17.18005,
-      "price": 3.07,
+      "price": 3.34,
       "premarket_change": 17.18005,
       "market_cap_m": 5.46965,
       "wk52_high": 21.36,
@@ -868,7 +876,7 @@
       "ticker": "MI",
       "name": "NFT Limited",
       "changesPercentage": 14.88655,
-      "price": 10.38,
+      "price": 10.7,
       "premarket_change": 14.88655,
       "market_cap_m": 0.65723,
       "wk52_high": 19.84,
