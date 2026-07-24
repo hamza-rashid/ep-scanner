@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-07-24T11:58:01.827394+00:00",
+  "generated_utc": "2026-07-24T14:04:06.778697+00:00",
   "session_date": "2026-07-24",
   "mode": "refresh",
   "run_label": "scheduled",
-  "count": 8,
-  "active_count": 1,
-  "no_catalyst_count": 3,
+  "count": 26,
+  "active_count": 14,
+  "no_catalyst_count": 9,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -23,7 +23,7 @@
       "ticker": "NVEC",
       "name": "NVE Corporation",
       "changesPercentage": 54.83387,
-      "price": 134.9,
+      "price": 127.19,
       "premarket_change": 54.83387,
       "headline": "NVE Corporation: I Missed The Breakout, And I'm Still Waiting",
       "news_url": "https://seekingalpha.com/article/4924962-nve-corporation-i-missed-the-breakout-and-im-still-waiting",
@@ -38,24 +38,24 @@
       "wk52_low": 57.21,
       "float_m": 4.775057,
       "adr_pct": 7.3,
-      "dollar_volume_m": 0.2,
+      "dollar_volume_m": 10.8,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 0.3,
+      "rvol": 0.3,
       "pct_below_52w_high": -5.0,
       "_avg20_vol": 256820.15,
       "section": "ep",
-      "cooling": true,
+      "cooling": false,
       "low_float": true,
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "0.3x"
         ],
         [
           "Float",
@@ -66,10 +66,10 @@
           "at highs"
         ]
       ],
-      "catalyst_score": 106,
+      "catalyst_score": 107,
       "neglect_score": 42,
       "technical_score": 19,
-      "total": 167,
+      "total": 168,
       "cbreak": [
         [
           "Earnings beat with strong sales/EPS growth (Tier A)",
@@ -78,6 +78,10 @@
         [
           "Gap 54.8% (market voting)",
           "+22"
+        ],
+        [
+          "Volume 0.3x expansion",
+          "+1"
         ]
       ],
       "nbreak": [
@@ -88,7 +92,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $11M",
           "+2"
         ],
         [
@@ -105,7 +109,7 @@
       "ticker": "PAVS",
       "name": "Paranovus Entertainment Technology Ltd.",
       "changesPercentage": 52.31959,
-      "price": 5.56,
+      "price": 5.13,
       "premarket_change": 52.31959,
       "market_cap_m": 5.063989,
       "wk52_high": 148800.0,
@@ -116,15 +120,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 19.66,
-      "dollar_volume_m": 0.7,
+      "dollar_volume_m": 1.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "low",
-      "vol_expansion": 0.3,
-      "rvol": 0.3,
+      "vol_expansion": 0.6,
+      "rvol": 0.6,
       "pct_below_52w_high": 100.0,
       "_avg20_vol": 466178.4,
       "section": "no_catalyst",
@@ -133,7 +137,7 @@
       "info": [
         [
           "RVOL",
-          "0.3x"
+          "0.6x"
         ],
         [
           "Float",
@@ -144,18 +148,18 @@
           "100% below high"
         ]
       ],
-      "catalyst_score": 23,
+      "catalyst_score": 24,
       "neglect_score": 0,
       "technical_score": 10,
-      "total": 33,
+      "total": 34,
       "cbreak": [
         [
           "Gap 52.3% (market voting)",
           "+22"
         ],
         [
-          "Volume 0.3x expansion",
-          "+1"
+          "Volume 0.6x expansion",
+          "+2"
         ]
       ],
       "nbreak": [],
@@ -175,10 +179,96 @@
       ]
     },
     {
+      "ticker": "SAFT",
+      "name": "Safety Insurance Group, Inc.",
+      "changesPercentage": 41.2668,
+      "price": 103.04,
+      "premarket_change": 41.2668,
+      "headline": "SAFT Stock Alert: Halper Sadeh LLC is Investigating Whether Safety Insurance Group Inc. is Obtaining a Fair Price for its Shareholders",
+      "news_url": "https://www.businesswire.com/news/home/20260724630704/en/SAFT-Stock-Alert-Halper-Sadeh-LLC-is-Investigating-Whether-Safety-Insurance-Group-Inc.-is-Obtaining-a-Fair-Price-for-its-Shareholders/",
+      "news_site": "businesswire.com",
+      "news_time": "2026-07-24 06:33:00",
+      "catalyst_label": "acquisition_target",
+      "catalyst_tier": "S",
+      "catalyst_desc": "Acquisition / buyout (target)",
+      "catalyst_base_points": 96,
+      "market_cap_m": 1512.981053,
+      "wk52_high": 103.42,
+      "wk52_low": 67.04,
+      "float_m": 14.348358,
+      "adr_pct": 4.34,
+      "dollar_volume_m": 50.0,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "high",
+      "vol_expansion": 3.1,
+      "rvol": 3.1,
+      "pct_below_52w_high": -28.1,
+      "_avg20_vol": 123284.9,
+      "section": "ep",
+      "cooling": false,
+      "low_float": true,
+      "info": [
+        [
+          "RVOL",
+          "3.1x"
+        ],
+        [
+          "Float",
+          "14M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "at highs"
+        ]
+      ],
+      "catalyst_score": 126,
+      "neglect_score": 42,
+      "technical_score": 21,
+      "total": 189,
+      "cbreak": [
+        [
+          "Acquisition / buyout (target) (Tier S)",
+          "+96"
+        ],
+        [
+          "Gap 41.3% (market voting)",
+          "+22"
+        ],
+        [
+          "Volume 3.1x expansion",
+          "+8"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $50M",
+          "+4"
+        ],
+        [
+          "ADR 4.3%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
       "ticker": "ADVB",
       "name": "Advanced Biomed Inc. Common Stock",
       "changesPercentage": 36.97959,
-      "price": 21.98,
+      "price": 19.57,
       "premarket_change": 36.97959,
       "market_cap_m": 18.15799,
       "wk52_high": 20.87,
@@ -189,15 +279,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 23.11,
-      "dollar_volume_m": 21.0,
+      "dollar_volume_m": 46.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 0.2,
-      "rvol": 0.2,
+      "vol_expansion": 0.5,
+      "rvol": 0.5,
       "pct_below_52w_high": -10.1,
       "_avg20_vol": 4364229.35,
       "section": "no_catalyst",
@@ -206,7 +296,7 @@
       "info": [
         [
           "RVOL",
-          "0.2x"
+          "0.5x"
         ],
         [
           "Float",
@@ -217,24 +307,24 @@
           "at highs"
         ]
       ],
-      "catalyst_score": 22,
+      "catalyst_score": 23,
       "neglect_score": 0,
       "technical_score": 21,
-      "total": 43,
+      "total": 44,
       "cbreak": [
         [
           "Gap 37.0% (market voting)",
           "+22"
         ],
         [
-          "Volume 0.2x expansion",
-          "+0"
+          "Volume 0.5x expansion",
+          "+1"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $21M",
+          "$ vol $46M",
           "+4"
         ],
         [
@@ -248,10 +338,75 @@
       ]
     },
     {
+      "ticker": "AKAN",
+      "name": "Akanda Corp.",
+      "changesPercentage": 29.98636,
+      "price": 10.4899,
+      "premarket_change": 29.98636,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 9.53,
+      "dollar_volume_m": 12.9,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": 28.8,
+      "rvol": 28.8,
+      "pct_below_52w_high": 86.4,
+      "market_cap_m": 0.334664,
+      "_avg20_vol": 34539.5,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "28.8x"
+        ],
+        [
+          "52wk",
+          "86% below high"
+        ]
+      ],
+      "catalyst_score": 31,
+      "neglect_score": 0,
+      "technical_score": 10,
+      "total": 41,
+      "cbreak": [
+        [
+          "Gap 30.0% (market voting)",
+          "+21"
+        ],
+        [
+          "Volume 28.8x expansion",
+          "+10"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": [
+        [
+          "$ vol $13M",
+          "+2"
+        ],
+        [
+          "ADR 9.5%",
+          "+5"
+        ],
+        [
+          "Above 20d, 10d",
+          "+3"
+        ]
+      ]
+    },
+    {
       "ticker": "THRM",
       "name": "Gentherm Incorporated",
       "changesPercentage": 26.51872,
-      "price": 56.35,
+      "price": 48.01,
       "premarket_change": 26.51872,
       "headline": "Gentherm (NASDAQ:THRM) to Repurchase $400.00 million in   Stock",
       "news_url": "https://www.defenseworld.net/2026/07/24/gentherm-nasdaqthrm-to-repurchase-400-00-million-in-stock.html",
@@ -266,15 +421,15 @@
       "wk52_low": 27.0,
       "float_m": 29.990043,
       "adr_pct": 4.87,
-      "dollar_volume_m": 97.8,
+      "dollar_volume_m": 6.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 4.9,
-      "rvol": 4.9,
+      "vol_expansion": 0.4,
+      "rvol": 0.4,
       "pct_below_52w_high": -23.5,
       "_avg20_vol": 357237.2,
       "section": "ep",
@@ -283,7 +438,7 @@
       "info": [
         [
           "RVOL",
-          "4.9x"
+          "0.4x"
         ],
         [
           "Float",
@@ -294,10 +449,10 @@
           "at highs"
         ]
       ],
-      "catalyst_score": 15,
+      "catalyst_score": 6,
       "neglect_score": 42,
-      "technical_score": 21,
-      "total": 78,
+      "technical_score": 19,
+      "total": 67,
       "cbreak": [
         [
           "Share offering / dilution (bearish) (Tier C)",
@@ -308,8 +463,8 @@
           "+20"
         ],
         [
-          "Volume 4.9x expansion",
-          "+10"
+          "Volume 0.4x expansion",
+          "+1"
         ]
       ],
       "nbreak": [
@@ -320,8 +475,8 @@
       ],
       "tbreak": [
         [
-          "$ vol $98M",
-          "+4"
+          "$ vol $7M",
+          "+2"
         ],
         [
           "ADR 4.9%",
@@ -334,10 +489,252 @@
       ]
     },
     {
+      "ticker": "RAY",
+      "name": "Raytech Holding Limited",
+      "changesPercentage": 22.95082,
+      "price": 3.0,
+      "premarket_change": 22.95082,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 8.29,
+      "dollar_volume_m": 0.0,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "med",
+      "vol_expansion": 0.4,
+      "rvol": 0.4,
+      "pct_below_52w_high": 94.0,
+      "market_cap_m": 8.174706,
+      "_avg20_vol": 6420.85,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "0.4x"
+        ],
+        [
+          "52wk",
+          "94% below high"
+        ]
+      ],
+      "catalyst_score": 19,
+      "neglect_score": 24,
+      "technical_score": 10,
+      "total": 53,
+      "cbreak": [
+        [
+          "Gap 23.0% (market voting)",
+          "+18"
+        ],
+        [
+          "Volume 0.4x expansion",
+          "+1"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 8.3%",
+          "+5"
+        ],
+        [
+          "Above 20d, 10d",
+          "+3"
+        ]
+      ]
+    },
+    {
+      "ticker": "THC",
+      "name": "Tenet Healthcare Corporation",
+      "changesPercentage": 22.61079,
+      "price": 243.82,
+      "premarket_change": 22.61079,
+      "headline": "Compared to Estimates, Tenet (THC) Q2 Earnings: A Look at Key Metrics",
+      "news_url": "https://www.zacks.com/stock/news/2959841/compared-to-estimates-tenet-thc-q2-earnings-a-look-at-key-metrics?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|nfm-2959841",
+      "news_site": "zacks.com",
+      "news_time": "2026-07-23 20:01:03",
+      "catalyst_label": "earnings_accel_blowout",
+      "catalyst_tier": "S",
+      "catalyst_desc": "Earnings/sales acceleration, blowout + raised guidance",
+      "catalyst_base_points": 100,
+      "market_cap_m": 20995.03238,
+      "wk52_high": 247.21,
+      "wk52_low": 146.6,
+      "float_m": 85.189148,
+      "adr_pct": 4.85,
+      "dollar_volume_m": 251.4,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "med",
+      "vol_expansion": 0.8,
+      "rvol": 0.8,
+      "pct_below_52w_high": 0.0,
+      "_avg20_vol": 1235451.8,
+      "section": "ep",
+      "cooling": false,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "0.8x"
+        ],
+        [
+          "Float",
+          "85M"
+        ],
+        [
+          "52wk",
+          "at highs"
+        ]
+      ],
+      "catalyst_score": 120,
+      "neglect_score": 24,
+      "technical_score": 25,
+      "total": 169,
+      "cbreak": [
+        [
+          "Earnings/sales acceleration, blowout + raised guidance (Tier S)",
+          "+100"
+        ],
+        [
+          "Gap 22.6% (market voting)",
+          "+18"
+        ],
+        [
+          "Volume 0.8x expansion",
+          "+2"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $251M",
+          "+8"
+        ],
+        [
+          "ADR 4.8%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
+      "ticker": "NDLS",
+      "name": "Noodles & Company",
+      "changesPercentage": 22.20648,
+      "price": 15.0925,
+      "premarket_change": 22.20648,
+      "headline": "Noodles & Company Announces Second Quarter 2026 Financial Results",
+      "news_url": "https://www.globenewswire.com/news-release/2026/07/24/3332774/26260/en/Noodles-Company-Announces-Second-Quarter-2026-Financial-Results.html",
+      "news_site": "globenewswire.com",
+      "news_time": "2026-07-24 07:00:00",
+      "catalyst_label": "sales_acceleration",
+      "catalyst_tier": "A",
+      "catalyst_desc": "Sales acceleration",
+      "catalyst_base_points": 82,
+      "market_cap_m": 89.028271,
+      "wk52_high": 16.1,
+      "wk52_low": 3.57,
+      "float_m": 3.494144,
+      "adr_pct": 8.87,
+      "dollar_volume_m": 2.8,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "med",
+      "vol_expansion": 3.8,
+      "rvol": 3.8,
+      "pct_below_52w_high": -21.5,
+      "_avg20_vol": 38203.7,
+      "section": "ep",
+      "cooling": false,
+      "low_float": true,
+      "info": [
+        [
+          "RVOL",
+          "3.8x"
+        ],
+        [
+          "Float",
+          "3M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "at highs"
+        ]
+      ],
+      "catalyst_score": 110,
+      "neglect_score": 24,
+      "technical_score": 19,
+      "total": 153,
+      "cbreak": [
+        [
+          "Sales acceleration (Tier A)",
+          "+82"
+        ],
+        [
+          "Gap 22.2% (market voting)",
+          "+18"
+        ],
+        [
+          "Volume 3.8x expansion",
+          "+10"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $3M",
+          "+2"
+        ],
+        [
+          "ADR 8.9%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
       "ticker": "DSC",
       "name": "DSC Holdings Ltd.",
       "changesPercentage": 22.03704,
-      "price": 7.14,
+      "price": 6.55,
       "premarket_change": 22.03704,
       "market_cap_m": 19.77,
       "wk52_high": 16.35,
@@ -389,7 +786,7 @@
       "ticker": "RELL",
       "name": "Richardson Electronics, Ltd.",
       "changesPercentage": 21.15491,
-      "price": 23.0,
+      "price": 18.67,
       "premarket_change": 21.15491,
       "headline": "Richardson Electronics, Ltd. (RELL) Q4 2026 Earnings Call Transcript",
       "news_url": "https://seekingalpha.com/article/4924864-richardson-electronics-ltd-rell-q4-2026-earnings-call-transcript",
@@ -404,24 +801,24 @@
       "wk52_low": 9.37,
       "float_m": 12.067966,
       "adr_pct": 6.8,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 4.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 1.2,
+      "rvol": 1.2,
       "pct_below_52w_high": -5.4,
       "_avg20_vol": 176996.4,
       "section": "ep",
-      "cooling": true,
+      "cooling": false,
       "low_float": true,
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "1.2x"
         ],
         [
           "Float",
@@ -432,10 +829,10 @@
           "at highs"
         ]
       ],
-      "catalyst_score": 101,
+      "catalyst_score": 104,
       "neglect_score": 42,
       "technical_score": 19,
-      "total": 162,
+      "total": 165,
       "cbreak": [
         [
           "Earnings beat with strong sales/EPS growth (Tier A)",
@@ -444,6 +841,10 @@
         [
           "Gap 21.2% (market voting)",
           "+17"
+        ],
+        [
+          "Volume 1.2x expansion",
+          "+3"
         ]
       ],
       "nbreak": [
@@ -454,7 +855,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $4M",
           "+2"
         ],
         [
@@ -468,10 +869,96 @@
       ]
     },
     {
+      "ticker": "RNG",
+      "name": "RingCentral, Inc.",
+      "changesPercentage": 21.12895,
+      "price": 46.88,
+      "premarket_change": 21.12895,
+      "headline": "RingCentral: FCF Growth Amid AI Sales Pivot Is Impossible To Ignore",
+      "news_url": "https://seekingalpha.com/article/4925122-ringcentral-fcf-growth-amid-ai-sales-pivot-is-impossible-to-ignore",
+      "news_site": "seekingalpha.com",
+      "news_time": "2026-07-24 06:30:00",
+      "catalyst_label": "earnings_beat_growth",
+      "catalyst_tier": "A",
+      "catalyst_desc": "Earnings beat with strong sales/EPS growth",
+      "catalyst_base_points": 84,
+      "market_cap_m": 4042.35284,
+      "wk52_high": 49.85,
+      "wk52_low": 23.59,
+      "float_m": 72.710784,
+      "adr_pct": 5.9,
+      "dollar_volume_m": 116.1,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "med",
+      "vol_expansion": 1.3,
+      "rvol": 1.3,
+      "pct_below_52w_high": 1.1,
+      "_avg20_vol": 1797564.05,
+      "section": "ep",
+      "cooling": false,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "1.3x"
+        ],
+        [
+          "Float",
+          "73M"
+        ],
+        [
+          "52wk",
+          "at highs"
+        ]
+      ],
+      "catalyst_score": 104,
+      "neglect_score": 24,
+      "technical_score": 25,
+      "total": 153,
+      "cbreak": [
+        [
+          "Earnings beat with strong sales/EPS growth (Tier A)",
+          "+84"
+        ],
+        [
+          "Gap 21.1% (market voting)",
+          "+17"
+        ],
+        [
+          "Volume 1.3x expansion",
+          "+3"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $116M",
+          "+8"
+        ],
+        [
+          "ADR 5.9%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
       "ticker": "OTLY",
       "name": "Oatly Group AB",
       "changesPercentage": 16.51206,
-      "price": 12.5,
+      "price": 12.74,
       "premarket_change": 16.51206,
       "headline": "Oatly Group Q2 Earnings Call Highlights",
       "news_url": "https://www.defenseworld.net/2026/07/24/oatly-group-q2-earnings-call-highlights.html",
@@ -486,15 +973,15 @@
       "wk52_low": 8.01,
       "float_m": 29.871309,
       "adr_pct": 7.87,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 0.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 0.4,
+      "rvol": 0.4,
       "pct_below_52w_high": 32.6,
       "_avg20_vol": 124579.6,
       "section": "ep",
@@ -503,7 +990,7 @@
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "0.4x"
         ],
         [
           "Float",
@@ -514,10 +1001,10 @@
           "33% below high"
         ]
       ],
-      "catalyst_score": 94,
+      "catalyst_score": 95,
       "neglect_score": 0,
       "technical_score": 19,
-      "total": 113,
+      "total": 114,
       "cbreak": [
         [
           "Company raised earnings guidance (Tier A)",
@@ -526,12 +1013,16 @@
         [
           "Gap 16.5% (market voting)",
           "+16"
+        ],
+        [
+          "Volume 0.4x expansion",
+          "+1"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $1M",
           "+2"
         ],
         [
@@ -548,7 +1039,7 @@
       "ticker": "CLF",
       "name": "Cleveland-Cliffs Inc.",
       "changesPercentage": 15.97884,
-      "price": 11.2,
+      "price": 11.79,
       "premarket_change": 15.97884,
       "headline": "Cleveland-Cliffs (CLF) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates",
       "news_url": "https://www.zacks.com/stock/news/2959859/cleveland-cliffs-clf-q2-earnings-how-key-metrics-compare-to-wall-street-estimates?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|nfm-2959859",
@@ -563,24 +1054,24 @@
       "wk52_low": 7.73,
       "float_m": 564.37967,
       "adr_pct": 4.96,
-      "dollar_volume_m": 1.2,
+      "dollar_volume_m": 138.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 0.6,
+      "rvol": 0.6,
       "pct_below_52w_high": 30.8,
       "_avg20_vol": 19677999.1,
       "section": "ep",
-      "cooling": true,
+      "cooling": false,
       "low_float": false,
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "0.6x"
         ],
         [
           "Float",
@@ -591,10 +1082,10 @@
           "31% below high"
         ]
       ],
-      "catalyst_score": 97,
+      "catalyst_score": 99,
       "neglect_score": 24,
-      "technical_score": 10,
-      "total": 131,
+      "technical_score": 16,
+      "total": 139,
       "cbreak": [
         [
           "Sales acceleration (Tier A)",
@@ -603,6 +1094,10 @@
         [
           "Gap 16.0% (market voting)",
           "+15"
+        ],
+        [
+          "Volume 0.6x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
@@ -613,8 +1108,8 @@
       ],
       "tbreak": [
         [
-          "$ vol $1M",
-          "+2"
+          "$ vol $139M",
+          "+8"
         ],
         [
           "ADR 5.0%",
@@ -623,6 +1118,910 @@
         [
           "Above 20d, 10d",
           "+3"
+        ]
+      ]
+    },
+    {
+      "ticker": "WRLD",
+      "name": "World Acceptance Corporation",
+      "changesPercentage": 14.15949,
+      "price": 205.81,
+      "premarket_change": 14.15949,
+      "headline": "World Acceptance Corporation Reports Fiscal 2027 First Quarter Results",
+      "news_url": "https://www.gurufocus.com/news/8977539/world-acceptance-corporation-reports-fiscal-2027-first-quarter-results",
+      "news_site": "gurufocus.com",
+      "news_time": "2026-07-24 08:00:00",
+      "catalyst_label": "earnings_inline",
+      "catalyst_tier": "B",
+      "catalyst_desc": "In-line earnings, strong reaction",
+      "catalyst_base_points": 44,
+      "market_cap_m": 957.530651,
+      "wk52_high": 227.68,
+      "wk52_low": 110.0,
+      "float_m": 3.730751,
+      "adr_pct": 4.8,
+      "dollar_volume_m": 6.0,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "med",
+      "vol_expansion": 0.2,
+      "rvol": 0.2,
+      "pct_below_52w_high": 7.4,
+      "_avg20_vol": 120867.9,
+      "section": "ep",
+      "cooling": false,
+      "low_float": true,
+      "info": [
+        [
+          "RVOL",
+          "0.2x"
+        ],
+        [
+          "Float",
+          "4M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "7% below high"
+        ]
+      ],
+      "catalyst_score": 59,
+      "neglect_score": 24,
+      "technical_score": 19,
+      "total": 102,
+      "cbreak": [
+        [
+          "In-line earnings, strong reaction (Tier B)",
+          "+44"
+        ],
+        [
+          "Gap 14.2% (market voting)",
+          "+15"
+        ],
+        [
+          "Volume 0.2x expansion",
+          "+0"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $6M",
+          "+2"
+        ],
+        [
+          "ADR 4.8%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
+      "ticker": "BAH",
+      "name": "Booz Allen Hamilton Holding Corporation",
+      "changesPercentage": 13.50387,
+      "price": 74.68,
+      "premarket_change": 13.50387,
+      "headline": "Booz Allen Hamilton (BAH) Q1 Earnings Top Estimates",
+      "news_url": "https://www.zacks.com/stock/news/2959929/booz-allen-hamilton-bah-q1-earnings-top-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2959929",
+      "news_site": "zacks.com",
+      "news_time": "2026-07-24 08:56:06",
+      "catalyst_label": "earnings_beat_growth",
+      "catalyst_tier": "A",
+      "catalyst_desc": "Earnings beat with strong sales/EPS growth",
+      "catalyst_base_points": 84,
+      "market_cap_m": 8921.89026,
+      "wk52_high": 120.05,
+      "wk52_low": 59.5,
+      "float_m": 118.152309,
+      "adr_pct": 4.18,
+      "dollar_volume_m": 72.3,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": false,
+      "neglect": "med",
+      "vol_expansion": 0.4,
+      "rvol": 0.4,
+      "pct_below_52w_high": 35.3,
+      "_avg20_vol": 2462340.1,
+      "section": "ep",
+      "cooling": false,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "0.4x"
+        ],
+        [
+          "Float",
+          "118M"
+        ],
+        [
+          "52wk",
+          "35% below high"
+        ]
+      ],
+      "catalyst_score": 99,
+      "neglect_score": 24,
+      "technical_score": 16,
+      "total": 139,
+      "cbreak": [
+        [
+          "Earnings beat with strong sales/EPS growth (Tier A)",
+          "+84"
+        ],
+        [
+          "Gap 13.5% (market voting)",
+          "+14"
+        ],
+        [
+          "Volume 0.4x expansion",
+          "+1"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $72M",
+          "+4"
+        ],
+        [
+          "ADR 4.2%",
+          "+5"
+        ],
+        [
+          "Above 50d, 20d, 10d",
+          "+7"
+        ]
+      ]
+    },
+    {
+      "ticker": "WKC",
+      "name": "World Kinect Corporation",
+      "changesPercentage": 13.33057,
+      "price": 41.03,
+      "premarket_change": 13.33057,
+      "headline": "World Kinect Corporation (WKC) Q2 2026 Earnings Call Transcript",
+      "news_url": "https://seekingalpha.com/article/4925066-world-kinect-corporation-wkc-q2-2026-earnings-call-transcript",
+      "news_site": "seekingalpha.com",
+      "news_time": "2026-07-24 00:00:54",
+      "catalyst_label": "earnings_beat_growth",
+      "catalyst_tier": "A",
+      "catalyst_desc": "Earnings beat with strong sales/EPS growth",
+      "catalyst_base_points": 84,
+      "market_cap_m": 2107.629767,
+      "wk52_high": 41.16,
+      "wk52_low": 22.21,
+      "float_m": 49.41781,
+      "adr_pct": 2.79,
+      "dollar_volume_m": 35.3,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "low",
+      "vol_expansion": 0.8,
+      "rvol": 0.8,
+      "pct_below_52w_high": -0.7,
+      "_avg20_vol": 1117477.8,
+      "section": "ep",
+      "cooling": false,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "0.8x"
+        ],
+        [
+          "Float",
+          "49M"
+        ],
+        [
+          "52wk",
+          "at highs"
+        ]
+      ],
+      "catalyst_score": 100,
+      "neglect_score": 0,
+      "technical_score": 20,
+      "total": 120,
+      "cbreak": [
+        [
+          "Earnings beat with strong sales/EPS growth (Tier A)",
+          "+84"
+        ],
+        [
+          "Gap 13.3% (market voting)",
+          "+14"
+        ],
+        [
+          "Volume 0.8x expansion",
+          "+2"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": [
+        [
+          "$ vol $35M",
+          "+4"
+        ],
+        [
+          "ADR 2.8%",
+          "+4"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
+      "ticker": "DLR",
+      "name": "Digital Realty Trust, Inc.",
+      "changesPercentage": 12.97814,
+      "price": 202.86,
+      "premarket_change": 12.97814,
+      "headline": "Here Are Friday\u2019s Top Wall Street Analyst Research Calls: Albertsons, Blue Owl Capital, Cleveland-Cliffs, Chime Financial, Digital Realty, Dover, PayPal Holdings, SpaceX, and More",
+      "news_url": "https://247wallst.com/investing/2026/07/24/here-are-fridays-top-wall-street-analyst-research-calls-albertsons-blue-owl-capital-cleveland-cliffs-chime-financial-digital-realty-dover-paypal-holdings-spacex-and-more/",
+      "news_site": "247wallst.com",
+      "news_time": "2026-07-24 08:00:51",
+      "catalyst_label": "earnings_beat_growth",
+      "catalyst_tier": "A",
+      "catalyst_desc": "Earnings beat with strong sales/EPS growth",
+      "catalyst_base_points": 84,
+      "market_cap_m": 72636.59961,
+      "wk52_high": 208.14,
+      "wk52_low": 146.23,
+      "float_m": 357.556196,
+      "adr_pct": 2.95,
+      "dollar_volume_m": 564.5,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "med",
+      "vol_expansion": 0.7,
+      "rvol": 0.7,
+      "pct_below_52w_high": -0.6,
+      "_avg20_vol": 3814648.95,
+      "section": "ep",
+      "cooling": false,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "0.7x"
+        ],
+        [
+          "Float",
+          "358M"
+        ],
+        [
+          "52wk",
+          "at highs"
+        ]
+      ],
+      "catalyst_score": 100,
+      "neglect_score": 24,
+      "technical_score": 24,
+      "total": 148,
+      "cbreak": [
+        [
+          "Earnings beat with strong sales/EPS growth (Tier A)",
+          "+84"
+        ],
+        [
+          "Gap 13.0% (market voting)",
+          "+14"
+        ],
+        [
+          "Volume 0.7x expansion",
+          "+2"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $564M",
+          "+8"
+        ],
+        [
+          "ADR 3.0%",
+          "+4"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
+      "ticker": "NIPG",
+      "name": "NIP Group Inc.",
+      "changesPercentage": 12.96297,
+      "price": 11.895,
+      "premarket_change": 12.96297,
+      "headline": "NIP Group Inc. Regains Compliance with Nasdaq's Minimum Bid Price Requirement",
+      "news_url": "https://www.globenewswire.com/news-release/2026/07/24/3332802/0/en/nip-group-inc-regains-compliance-with-nasdaq-s-minimum-bid-price-requirement.html",
+      "news_site": "globenewswire.com",
+      "news_time": "2026-07-24 08:00:00",
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "market_cap_m": 11.224027,
+      "wk52_high": 68.4,
+      "wk52_low": 4.2,
+      "float_m": 0.846474,
+      "section": "ep",
+      "cooling": true,
+      "low_float": true,
+      "info": [
+        [
+          "Float",
+          "1M \u00b7 LOW"
+        ]
+      ],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 13.0% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "SSNC",
+      "name": "SS&C Technologies Holdings, Inc.",
+      "changesPercentage": 11.09037,
+      "price": 74.4,
+      "premarket_change": 11.09037,
+      "headline": "Assetmark Inc. Sells 35,135 Shares of SS&C Technologies Holdings, Inc. $SSNC",
+      "news_url": "https://www.defenseworld.net/2026/07/24/assetmark-inc-sells-35135-shares-of-ssc-technologies-holdings-inc-ssnc.html",
+      "news_site": "defenseworld.net",
+      "news_time": "2026-07-24 03:51:15",
+      "catalyst_label": "earnings_beat_growth",
+      "catalyst_tier": "A",
+      "catalyst_desc": "Earnings beat with strong sales/EPS growth",
+      "catalyst_base_points": 84,
+      "market_cap_m": 17937.319225,
+      "wk52_high": 91.07,
+      "wk52_low": 61.4,
+      "float_m": 207.211887,
+      "adr_pct": 3.06,
+      "dollar_volume_m": 64.6,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": false,
+      "neglect": "med",
+      "vol_expansion": 0.5,
+      "rvol": 0.5,
+      "pct_below_52w_high": 17.4,
+      "_avg20_vol": 1848333.7,
+      "section": "ep",
+      "cooling": false,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "0.5x"
+        ],
+        [
+          "Float",
+          "207M"
+        ],
+        [
+          "52wk",
+          "17% below high"
+        ]
+      ],
+      "catalyst_score": 98,
+      "neglect_score": 24,
+      "technical_score": 15,
+      "total": 137,
+      "cbreak": [
+        [
+          "Earnings beat with strong sales/EPS growth (Tier A)",
+          "+84"
+        ],
+        [
+          "Gap 11.1% (market voting)",
+          "+13"
+        ],
+        [
+          "Volume 0.5x expansion",
+          "+1"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $65M",
+          "+4"
+        ],
+        [
+          "ADR 3.1%",
+          "+4"
+        ],
+        [
+          "Above 50d, 20d, 10d",
+          "+7"
+        ]
+      ]
+    },
+    {
+      "ticker": "IDACU",
+      "name": "Iron Dome Acquisition I Corp. Units",
+      "changesPercentage": 10.39604,
+      "price": 11.15,
+      "premarket_change": 10.39604,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 0.24,
+      "dollar_volume_m": 0.0,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": true,
+      "above_50": true,
+      "above_200": false,
+      "neglect": "high",
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
+      "pct_below_52w_high": 8.7,
+      "market_cap_m": 223.0,
+      "_avg20_vol": 21668.0,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "0.0x"
+        ],
+        [
+          "52wk",
+          "9% below high"
+        ]
+      ],
+      "catalyst_score": 13,
+      "neglect_score": 42,
+      "technical_score": 8,
+      "total": 63,
+      "cbreak": [
+        [
+          "Gap 10.4% (market voting)",
+          "+13"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 0.2%",
+          "+0"
+        ],
+        [
+          "Above 50d, 20d",
+          "+6"
+        ]
+      ]
+    },
+    {
+      "ticker": "PN",
+      "name": "PN Smart Energy Limited",
+      "changesPercentage": 9.52436,
+      "price": 10.3391,
+      "premarket_change": 9.52436,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 16.91,
+      "dollar_volume_m": 16.4,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "low",
+      "vol_expansion": 1.9,
+      "rvol": 1.9,
+      "pct_below_52w_high": 84.2,
+      "market_cap_m": 13.823573,
+      "_avg20_vol": 661789.2,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "1.9x"
+        ],
+        [
+          "52wk",
+          "84% below high"
+        ]
+      ],
+      "catalyst_score": 18,
+      "neglect_score": 0,
+      "technical_score": 19,
+      "total": 37,
+      "cbreak": [
+        [
+          "Gap 9.5% (market voting)",
+          "+13"
+        ],
+        [
+          "Volume 1.9x expansion",
+          "+5"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": [
+        [
+          "$ vol $16M",
+          "+2"
+        ],
+        [
+          "ADR 16.9%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
+      "ticker": "KG",
+      "name": "Kestrel Group Ltd",
+      "changesPercentage": 9.26454,
+      "price": 9.954,
+      "premarket_change": 9.26454,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 7.76,
+      "dollar_volume_m": 0.0,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "med",
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
+      "pct_below_52w_high": 64.3,
+      "market_cap_m": 77.880395,
+      "_avg20_vol": 30515.0,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "0.0x"
+        ],
+        [
+          "52wk",
+          "64% below high"
+        ]
+      ],
+      "catalyst_score": 13,
+      "neglect_score": 24,
+      "technical_score": 10,
+      "total": 47,
+      "cbreak": [
+        [
+          "Gap 9.3% (market voting)",
+          "+13"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 7.8%",
+          "+5"
+        ],
+        [
+          "Above 20d, 10d",
+          "+3"
+        ]
+      ]
+    },
+    {
+      "ticker": "XBP",
+      "name": "XBP Global Holdings, Inc.",
+      "changesPercentage": 9.21986,
+      "price": 3.08,
+      "premarket_change": 9.21986,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 10.98,
+      "dollar_volume_m": 0.0,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": false,
+      "neglect": "med",
+      "vol_expansion": 0.4,
+      "rvol": 0.4,
+      "pct_below_52w_high": 79.4,
+      "market_cap_m": 29.496162,
+      "_avg20_vol": 20986.5,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "0.4x"
+        ],
+        [
+          "52wk",
+          "79% below high"
+        ]
+      ],
+      "catalyst_score": 14,
+      "neglect_score": 24,
+      "technical_score": 14,
+      "total": 52,
+      "cbreak": [
+        [
+          "Gap 9.2% (market voting)",
+          "+13"
+        ],
+        [
+          "Volume 0.4x expansion",
+          "+1"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 11.0%",
+          "+5"
+        ],
+        [
+          "Above 50d, 20d, 10d",
+          "+7"
+        ]
+      ]
+    },
+    {
+      "ticker": "SLB",
+      "name": "Slb N.V.",
+      "changesPercentage": 8.6404,
+      "price": 51.27,
+      "premarket_change": 8.6404,
+      "headline": "SLB (SLB) Tops Q2 Earnings and Revenue Estimates",
+      "news_url": "https://www.zacks.com/stock/news/2959933/slb-slb-tops-q2-earnings-and-revenue-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2959933",
+      "news_site": "zacks.com",
+      "news_time": "2026-07-24 09:01:09",
+      "catalyst_label": "earnings_beat_growth",
+      "catalyst_tier": "A",
+      "catalyst_desc": "Earnings beat with strong sales/EPS growth",
+      "catalyst_base_points": 84,
+      "market_cap_m": 76666.674975,
+      "wk52_high": 58.82,
+      "wk52_low": 31.64,
+      "float_m": 1490.36318,
+      "adr_pct": 2.51,
+      "dollar_volume_m": 351.5,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": false,
+      "above_200": true,
+      "neglect": "high",
+      "vol_expansion": 0.6,
+      "rvol": 0.6,
+      "pct_below_52w_high": 11.6,
+      "_avg20_vol": 12365788.35,
+      "section": "ep",
+      "cooling": false,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "0.6x"
+        ],
+        [
+          "Float",
+          "1490M"
+        ],
+        [
+          "52wk",
+          "12% below high"
+        ]
+      ],
+      "catalyst_score": 98,
+      "neglect_score": 42,
+      "technical_score": 19,
+      "total": 159,
+      "cbreak": [
+        [
+          "Earnings beat with strong sales/EPS growth (Tier A)",
+          "+84"
+        ],
+        [
+          "Gap 8.6% (market voting)",
+          "+12"
+        ],
+        [
+          "Volume 0.6x expansion",
+          "+2"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $352M",
+          "+8"
+        ],
+        [
+          "ADR 2.5%",
+          "+3"
+        ],
+        [
+          "Above 200d, 20d, 10d",
+          "+8"
+        ]
+      ]
+    },
+    {
+      "ticker": "UVE",
+      "name": "Universal Insurance Holdings, Inc.",
+      "changesPercentage": 8.46603,
+      "price": 40.755,
+      "premarket_change": 8.46603,
+      "headline": "Universal Insurance Holdings (UVE) Q2 Earnings and Revenues Beat Estimates",
+      "news_url": "https://www.zacks.com/stock/news/2959785/universal-insurance-holdings-uve-q2-earnings-and-revenues-beat-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2959785",
+      "news_site": "zacks.com",
+      "news_time": "2026-07-23 19:21:05",
+      "catalyst_label": "earnings_beat_growth",
+      "catalyst_tier": "A",
+      "catalyst_desc": "Earnings beat with strong sales/EPS growth",
+      "catalyst_base_points": 84,
+      "market_cap_m": 1137.517614,
+      "wk52_high": 43.96,
+      "wk52_low": 21.96,
+      "float_m": 25.342179,
+      "adr_pct": 3.37,
+      "dollar_volume_m": 1.4,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "high",
+      "vol_expansion": 0.1,
+      "rvol": 0.1,
+      "pct_below_52w_high": 4.7,
+      "_avg20_vol": 251772.1,
+      "section": "ep",
+      "cooling": true,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "0.1x"
+        ],
+        [
+          "Float",
+          "25M"
+        ],
+        [
+          "52wk",
+          "5% below high"
+        ]
+      ],
+      "catalyst_score": 96,
+      "neglect_score": 42,
+      "technical_score": 18,
+      "total": 156,
+      "cbreak": [
+        [
+          "Earnings beat with strong sales/EPS growth (Tier A)",
+          "+84"
+        ],
+        [
+          "Gap 8.5% (market voting)",
+          "+12"
+        ],
+        [
+          "Volume 0.1x expansion",
+          "+0"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $1M",
+          "+2"
+        ],
+        [
+          "ADR 3.4%",
+          "+4"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
         ]
       ]
     }
