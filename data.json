@@ -1,10 +1,10 @@
 {
-  "generated_utc": "2026-07-27T16:11:46.878276+00:00",
+  "generated_utc": "2026-07-27T16:22:17.524382+00:00",
   "session_date": "2026-07-27",
   "mode": "refresh",
   "run_label": "scheduled",
-  "count": 35,
-  "active_count": 16,
+  "count": 36,
+  "active_count": 15,
   "no_catalyst_count": 15,
   "ai_used": true,
   "fresh_window_ok": true,
@@ -23,7 +23,7 @@
       "ticker": "VYNE",
       "name": "VYNE Therapeutics Inc.",
       "changesPercentage": 2656.11869,
-      "price": 27.25,
+      "price": 25.48,
       "premarket_change": 2656.11869,
       "headline": "Yarrow Bioscience Announces Closing of Merger with VYNE Therapeutics and Initiation of Dosing in Phase 2a/2b Trial of YB-101, a Potential First-in-Class Treatment for Graves' Disease and Thyroid Eye Disease",
       "news_url": "https://www.businesswire.com/news/home/20260727317637/en/Yarrow-Bioscience-Announces-Closing-of-Merger-with-VYNE-Therapeutics-and-Initiation-of-Dosing-in-Phase-2a2b-Trial-of-YB-101-a-Potential-First-in-Class-Treatment-for-Graves%E2%80%99-Disease-and-Thyroid-Eye-Disease/",
@@ -38,7 +38,7 @@
       "wk52_low": 0.47,
       "float_m": 13.623022,
       "adr_pct": 7.54,
-      "dollar_volume_m": 1.5,
+      "dollar_volume_m": 1.4,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
@@ -50,7 +50,7 @@
       "pct_below_52w_high": 98.6,
       "_avg20_vol": 1843891.8,
       "section": "ep",
-      "cooling": false,
+      "cooling": true,
       "low_float": true,
       "info": [
         [
@@ -83,7 +83,7 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $2M",
+          "$ vol $1M",
           "+2"
         ],
         [
@@ -170,7 +170,7 @@
       "ticker": "STAK",
       "name": "STAK Inc. Ordinary Shares",
       "changesPercentage": 602.27273,
-      "price": 3.7,
+      "price": 4.28,
       "premarket_change": 602.27273,
       "market_cap_m": 92.795935,
       "wk52_high": 12.0,
@@ -181,7 +181,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 73.54,
-      "dollar_volume_m": 21.3,
+      "dollar_volume_m": 25.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -231,7 +231,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $21M",
+          "$ vol $25M",
           "+4"
         ],
         [
@@ -248,22 +248,22 @@
       "ticker": "FIEE",
       "name": "FiEE, Inc.",
       "changesPercentage": 201.81818,
-      "price": 8.3,
+      "price": 8.22,
       "premarket_change": 201.81818,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 20.08,
-      "dollar_volume_m": 32.2,
+      "dollar_volume_m": 35.8,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 1020.4,
-      "rvol": 1020.4,
+      "vol_expansion": 1184.6,
+      "rvol": 1184.6,
       "pct_below_52w_high": -0.5,
       "market_cap_m": 30.824474,
       "_avg20_vol": 3677.9,
@@ -272,7 +272,7 @@
       "info": [
         [
           "RVOL",
-          "1020.4x"
+          "1184.6x"
         ],
         [
           "52wk",
@@ -289,7 +289,7 @@
           "+22"
         ],
         [
-          "Volume 1020.4x expansion",
+          "Volume 1184.6x expansion",
           "+10"
         ]
       ],
@@ -301,7 +301,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $32M",
+          "$ vol $36M",
           "+4"
         ],
         [
@@ -318,7 +318,7 @@
       "ticker": "EDBL",
       "name": "Edible Garden AG Incorporated",
       "changesPercentage": 117.51592,
-      "price": 3.19,
+      "price": 3.12,
       "premarket_change": 117.51592,
       "headline": "Edible Garden Wins Significant Walmart Distribution for Fresh Cut Herbs Across the Mid-Atlantic",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/27/3333506/0/en/Edible-Garden-Wins-Significant-Walmart-Distribution-for-Fresh-Cut-Herbs-Across-the-Mid-Atlantic.html",
@@ -333,15 +333,15 @@
       "wk52_low": 2.98,
       "float_m": 0.120566,
       "adr_pct": 23.0,
-      "dollar_volume_m": 101.2,
+      "dollar_volume_m": 99.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 25.1,
-      "rvol": 25.1,
+      "vol_expansion": 25.2,
+      "rvol": 25.2,
       "pct_below_52w_high": 99.3,
       "_avg20_vol": 1262252.45,
       "section": "ep",
@@ -350,7 +350,7 @@
       "info": [
         [
           "RVOL",
-          "25.1x"
+          "25.2x"
         ],
         [
           "Float",
@@ -363,8 +363,8 @@
       ],
       "catalyst_score": 122,
       "neglect_score": 24,
-      "technical_score": 20,
-      "total": 166,
+      "technical_score": 16,
+      "total": 162,
       "cbreak": [
         [
           "Major new contract / government order (Tier S)",
@@ -375,7 +375,7 @@
           "+22"
         ],
         [
-          "Volume 25.1x expansion",
+          "Volume 25.2x expansion",
           "+10"
         ]
       ],
@@ -387,8 +387,8 @@
       ],
       "tbreak": [
         [
-          "$ vol $101M",
-          "+8"
+          "$ vol $99M",
+          "+4"
         ],
         [
           "ADR 23.0%",
@@ -411,15 +411,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 47.62,
-      "dollar_volume_m": 289.0,
+      "dollar_volume_m": 296.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": false,
       "above_50": false,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 1.9,
-      "rvol": 1.9,
+      "vol_expansion": 2.0,
+      "rvol": 2.0,
       "pct_below_52w_high": 98.2,
       "market_cap_m": 9.61324,
       "_avg20_vol": 33357137.55,
@@ -428,7 +428,7 @@
       "info": [
         [
           "RVOL",
-          "1.9x"
+          "2.0x"
         ],
         [
           "52wk",
@@ -445,7 +445,7 @@
           "+22"
         ],
         [
-          "Volume 1.9x expansion",
+          "Volume 2.0x expansion",
           "+5"
         ]
       ],
@@ -457,7 +457,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $289M",
+          "$ vol $297M",
           "+8"
         ],
         [
@@ -474,7 +474,7 @@
       "ticker": "WLDS",
       "name": "Wearable Devices Ltd.",
       "changesPercentage": 58.29596,
-      "price": 3.28,
+      "price": 3.43,
       "premarket_change": 58.29596,
       "market_cap_m": 0.353166,
       "wk52_high": 102.6,
@@ -485,7 +485,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 16.1,
-      "dollar_volume_m": 3.4,
+      "dollar_volume_m": 3.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -535,7 +535,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $3M",
+          "$ vol $4M",
           "+2"
         ],
         [
@@ -552,7 +552,7 @@
       "ticker": "ENTX",
       "name": "Entera Bio Ltd.",
       "changesPercentage": 52.68293,
-      "price": 3.88,
+      "price": 3.85,
       "premarket_change": 52.68293,
       "headline": "Entera Bio Announces Pricing of Oversubscribed $275 Million Private Placement",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/27/3333523/0/en/Entera-Bio-Announces-Pricing-of-Oversubscribed-275-Million-Private-Placement.html",
@@ -567,15 +567,15 @@
       "wk52_low": 0.91,
       "float_m": 40.374608,
       "adr_pct": 9.41,
-      "dollar_volume_m": 263.8,
+      "dollar_volume_m": 267.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 257.5,
-      "rvol": 257.5,
+      "vol_expansion": 262.7,
+      "rvol": 262.7,
       "pct_below_52w_high": -18.5,
       "_avg20_vol": 264033.65,
       "section": "ep",
@@ -584,7 +584,7 @@
       "info": [
         [
           "RVOL",
-          "257.5x"
+          "262.7x"
         ],
         [
           "Float",
@@ -609,7 +609,7 @@
           "+22"
         ],
         [
-          "Volume 257.5x expansion",
+          "Volume 262.7x expansion",
           "+10"
         ]
       ],
@@ -621,7 +621,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $264M",
+          "$ vol $267M",
           "+8"
         ],
         [
@@ -638,7 +638,7 @@
       "ticker": "VEEE",
       "name": "Twin Vee Powercats Co.",
       "changesPercentage": 47.26291,
-      "price": 17.56,
+      "price": 17.29,
       "premarket_change": 47.26291,
       "headline": "Halper Sadeh LLC is Investigating Whether VEEE, NXTC, TCBK, FHB are Obtaining Fair Deals for their Shareholders",
       "news_url": "https://www.prnewswire.com/news-releases/halper-sadeh-llc-is-investigating-whether-veee-nxtc-tcbk-fhb-are-obtaining-fair-deals-for-their-shareholders-302834368.html",
@@ -653,7 +653,7 @@
       "wk52_low": 4.16,
       "float_m": 0.045455,
       "adr_pct": 46.35,
-      "dollar_volume_m": 59.6,
+      "dollar_volume_m": 58.9,
       "gap_pct": null,
       "above_10": false,
       "above_20": true,
@@ -702,7 +702,7 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $60M",
+          "$ vol $59M",
           "+4"
         ],
         [
@@ -734,15 +734,15 @@
       "wk52_low": 67.04,
       "float_m": 14.348358,
       "adr_pct": 2.18,
-      "dollar_volume_m": 100.7,
+      "dollar_volume_m": 108.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 6.2,
-      "rvol": 6.2,
+      "vol_expansion": 6.7,
+      "rvol": 6.7,
       "pct_below_52w_high": -8.4,
       "_avg20_vol": 123284.9,
       "section": "ep",
@@ -751,7 +751,7 @@
       "info": [
         [
           "RVOL",
-          "6.2x"
+          "6.7x"
         ],
         [
           "Float",
@@ -776,7 +776,7 @@
           "+22"
         ],
         [
-          "Volume 6.2x expansion",
+          "Volume 6.7x expansion",
           "+10"
         ]
       ],
@@ -788,7 +788,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $101M",
+          "$ vol $109M",
           "+8"
         ],
         [
@@ -820,15 +820,15 @@
       "wk52_low": 9.1,
       "float_m": 17.843076,
       "adr_pct": 14.34,
-      "dollar_volume_m": 964.6,
+      "dollar_volume_m": 976.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 12.1,
-      "rvol": 12.1,
+      "vol_expansion": 12.2,
+      "rvol": 12.2,
       "pct_below_52w_high": 0.0,
       "_avg20_vol": 1046588.5,
       "section": "ep",
@@ -837,7 +837,7 @@
       "info": [
         [
           "RVOL",
-          "12.1x"
+          "12.2x"
         ],
         [
           "Float",
@@ -862,14 +862,14 @@
           "+22"
         ],
         [
-          "Volume 12.1x expansion",
+          "Volume 12.2x expansion",
           "+10"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $965M",
+          "$ vol $977M",
           "+8"
         ],
         [
@@ -886,7 +886,7 @@
       "ticker": "NCTY",
       "name": "The9 Limited",
       "changesPercentage": 34.89096,
-      "price": 4.51,
+      "price": 4.82,
       "premarket_change": 34.89096,
       "headline": "The9 Posts Record Quarterly Profit; Expects Sequential Growth Through 2026",
       "news_url": "https://www.gurufocus.com/news/8979674/the9-posts-record-quarterly-profit-expects-sequential-growth-through-2026",
@@ -901,15 +901,15 @@
       "wk52_low": 3.14,
       "float_m": 2.810789,
       "adr_pct": 10.3,
-      "dollar_volume_m": 4.2,
+      "dollar_volume_m": 4.6,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "low",
-      "vol_expansion": 12.8,
-      "rvol": 12.8,
+      "vol_expansion": 13.1,
+      "rvol": 13.1,
       "pct_below_52w_high": 61.8,
       "_avg20_vol": 72426.75,
       "section": "ep",
@@ -918,7 +918,7 @@
       "info": [
         [
           "RVOL",
-          "12.8x"
+          "13.1x"
         ],
         [
           "Float",
@@ -943,14 +943,14 @@
           "+22"
         ],
         [
-          "Volume 12.8x expansion",
+          "Volume 13.1x expansion",
           "+10"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $4M",
+          "$ vol $5M",
           "+2"
         ],
         [
@@ -967,7 +967,7 @@
       "ticker": "RAY",
       "name": "Raytech Holding Limited",
       "changesPercentage": 30.7377,
-      "price": 3.03,
+      "price": 3.14,
       "premarket_change": 30.7377,
       "market_cap_m": 8.692437,
       "wk52_high": 58.88,
@@ -985,8 +985,8 @@
       "above_50": true,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 1.5,
-      "rvol": 1.5,
+      "vol_expansion": 1.6,
+      "rvol": 1.6,
       "pct_below_52w_high": 93.6,
       "_avg20_vol": 6420.85,
       "section": "no_catalyst",
@@ -995,7 +995,7 @@
       "info": [
         [
           "RVOL",
-          "1.5x"
+          "1.6x"
         ],
         [
           "Float",
@@ -1016,7 +1016,7 @@
           "+21"
         ],
         [
-          "Volume 1.5x expansion",
+          "Volume 1.6x expansion",
           "+4"
         ]
       ],
@@ -1045,7 +1045,7 @@
       "ticker": "PN",
       "name": "PN Smart Energy Limited",
       "changesPercentage": 29.19799,
-      "price": 9.69,
+      "price": 9.73,
       "premarket_change": 29.19799,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
@@ -1110,7 +1110,7 @@
       "ticker": "RNG",
       "name": "RingCentral, Inc.",
       "changesPercentage": 25.09063,
-      "price": 52.65,
+      "price": 52.62,
       "premarket_change": 25.09063,
       "headline": "Why RingCentral Stock Rocketed Higher This Week",
       "news_url": "https://www.fool.com/investing/2026/07/25/why-ringcentral-stock-rocketed-higher-this-week/",
@@ -1125,7 +1125,7 @@
       "wk52_low": 23.59,
       "float_m": 72.514246,
       "adr_pct": 6.06,
-      "dollar_volume_m": 91.1,
+      "dollar_volume_m": 97.8,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -1179,7 +1179,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $91M",
+          "$ vol $98M",
           "+4"
         ],
         [
@@ -1196,7 +1196,7 @@
       "ticker": "EUDA",
       "name": "EUDA Health Holdings Limited",
       "changesPercentage": 22.78185,
-      "price": 18.405,
+      "price": 18.97,
       "premarket_change": 22.78185,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
@@ -1210,8 +1210,8 @@
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 3.1,
-      "rvol": 3.1,
+      "vol_expansion": 3.4,
+      "rvol": 3.4,
       "pct_below_52w_high": 76.0,
       "market_cap_m": 34.372111,
       "_avg20_vol": 3232.35,
@@ -1220,7 +1220,7 @@
       "info": [
         [
           "RVOL",
-          "3.1x"
+          "3.4x"
         ],
         [
           "52wk",
@@ -1237,7 +1237,7 @@
           "+18"
         ],
         [
-          "Volume 3.1x expansion",
+          "Volume 3.4x expansion",
           "+8"
         ]
       ],
@@ -1344,7 +1344,7 @@
       "ticker": "RACC",
       "name": "Research Alliance Corporation III Class A Ordinary Shares",
       "changesPercentage": 20.23484,
-      "price": 15.78,
+      "price": 13.42,
       "premarket_change": 20.23484,
       "headline": "Oak Hill Bio and Research Alliance Corporation III Announce Business Combination Agreement to Create Publicly Listed Rare Disease Biotechnology Company to Advance Antisense Oligonucleotide Therapy Rugonersen for Angelman Syndrome",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/27/3333485/0/en/oak-hill-bio-and-research-alliance-corporation-iii-announce-business-combination-agreement-to-create-publicly-listed-rare-disease-biotechnology-company-to-advance-antisense-oligonu.html",
@@ -1359,15 +1359,15 @@
       "wk52_low": 10.21,
       "float_m": 7.499998,
       "adr_pct": 6.62,
-      "dollar_volume_m": 3.7,
+      "dollar_volume_m": 3.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 39.7,
-      "rvol": 39.7,
+      "vol_expansion": 40.0,
+      "rvol": 40.0,
       "pct_below_52w_high": -1.8,
       "_avg20_vol": 5940.2,
       "section": "ep",
@@ -1376,7 +1376,7 @@
       "info": [
         [
           "RVOL",
-          "39.7x"
+          "40.0x"
         ],
         [
           "Float",
@@ -1401,7 +1401,7 @@
           "+17"
         ],
         [
-          "Volume 39.7x expansion",
+          "Volume 40.0x expansion",
           "+10"
         ]
       ],
@@ -1413,7 +1413,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $4M",
+          "$ vol $3M",
           "+2"
         ],
         [
@@ -1430,14 +1430,14 @@
       "ticker": "MF",
       "name": "MindForge Inc",
       "changesPercentage": 18.92925,
-      "price": 6.22,
+      "price": 6.12,
       "premarket_change": 18.92925,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 41.94,
-      "dollar_volume_m": 1.6,
+      "dollar_volume_m": 1.5,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -1500,7 +1500,7 @@
       "ticker": "THC",
       "name": "Tenet Healthcare Corporation",
       "changesPercentage": 17.17415,
-      "price": 245.81,
+      "price": 245.31,
       "premarket_change": 17.17415,
       "headline": "Tenet Healthcare's Ambulatory Growth Offsets Emerging Policy Headwinds",
       "news_url": "https://seekingalpha.com/article/4925551-tenet-healthcare-ambulatory-growth-offsets-emerging-policy-headwinds",
@@ -1515,7 +1515,7 @@
       "wk52_low": 151.0,
       "float_m": 85.189148,
       "adr_pct": 3.9,
-      "dollar_volume_m": 169.9,
+      "dollar_volume_m": 180.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -1569,7 +1569,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $170M",
+          "$ vol $180M",
           "+8"
         ],
         [
@@ -1586,7 +1586,7 @@
       "ticker": "HTCO",
       "name": "High-Trend International Group",
       "changesPercentage": 17.1521,
-      "price": 3.62,
+      "price": 3.69,
       "premarket_change": 17.1521,
       "headline": "HTCO Announces Ten-Year Extension of Singapore MSI-AIS Maritime Tax Exemption Through 2035",
       "news_url": "https://www.prnewswire.com/news-releases/htco-announces-ten-year-extension-of-singapore-msi-ais-maritime-tax-exemption-through-2035-302835074.html",
@@ -1672,14 +1672,14 @@
       "ticker": "JLHL",
       "name": "Julong Holding Limited",
       "changesPercentage": 16.95394,
-      "price": 6.53,
+      "price": 6.55,
       "premarket_change": 16.95394,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 58.25,
-      "dollar_volume_m": 1.7,
+      "dollar_volume_m": 1.8,
       "gap_pct": null,
       "above_10": true,
       "above_20": false,
@@ -1738,7 +1738,7 @@
       "ticker": "NXTC",
       "name": "NextCure, Inc.",
       "changesPercentage": 16.74528,
-      "price": 4.95,
+      "price": 5.18,
       "premarket_change": 16.74528,
       "headline": "NextCure, Inc. (NASDAQ:NXTC) Sees Large Increase in Short Interest",
       "news_url": "https://www.defenseworld.net/2026/07/27/nextcure-inc-nasdaqnxtc-sees-large-increase-in-short-interest.html",
@@ -1956,10 +1956,96 @@
       ]
     },
     {
+      "ticker": "EDHL",
+      "name": "Everbright Digital Holding Limited Ordinary Shares",
+      "changesPercentage": 14.02778,
+      "price": 4.105,
+      "premarket_change": 14.02778,
+      "headline": "Everbright Digital, Kosmos Energy And Other Big Stocks Moving Lower In Monday's Pre-Market Session",
+      "news_url": "https://www.benzinga.com/trading-ideas/movers/26/07/60691482/everbright-digital-kosmos-energy-and-other-big-stocks-moving-lower-in-mondays-pre-market-session",
+      "news_site": "benzinga.com",
+      "news_time": "2026-07-27 08:01:20",
+      "catalyst_label": "dilution_offering",
+      "catalyst_tier": "C",
+      "catalyst_desc": "Share offering / dilution (bearish)",
+      "catalyst_base_points": -15,
+      "market_cap_m": 6.840059,
+      "wk52_high": 25.6,
+      "wk52_low": 2.0,
+      "float_m": 0.541273,
+      "adr_pct": 14.94,
+      "dollar_volume_m": 0.2,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": false,
+      "neglect": "high",
+      "vol_expansion": 0.1,
+      "rvol": 0.1,
+      "pct_below_52w_high": 77.9,
+      "_avg20_vol": 347923.8,
+      "section": "ep",
+      "cooling": true,
+      "low_float": true,
+      "info": [
+        [
+          "RVOL",
+          "0.1x"
+        ],
+        [
+          "Float",
+          "1M \u00b7 LOW"
+        ],
+        [
+          "52wk",
+          "78% below high"
+        ]
+      ],
+      "catalyst_score": 0,
+      "neglect_score": 42,
+      "technical_score": 14,
+      "total": 56,
+      "cbreak": [
+        [
+          "Share offering / dilution (bearish) (Tier C)",
+          "-15"
+        ],
+        [
+          "Gap 14.0% (market voting)",
+          "+15"
+        ],
+        [
+          "Volume 0.1x expansion",
+          "+0"
+        ]
+      ],
+      "nbreak": [
+        [
+          "High neglect (quiet base)",
+          "+42"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 14.9%",
+          "+5"
+        ],
+        [
+          "Above 50d, 20d, 10d",
+          "+7"
+        ]
+      ]
+    },
+    {
       "ticker": "CRMT",
       "name": "America's Car-Mart, Inc.",
       "changesPercentage": 13.81579,
-      "price": 3.46,
+      "price": 4.03,
       "premarket_change": 13.81579,
       "headline": "Rosen Law Firm Encourages America's Car-Mart, Inc. Investors to Inquire About Securities Class Action Investigation - CRMT",
       "news_url": "https://www.gurufocus.com/news/8979560/rosen-law-firm-encourages-americas-carmart-inc-investors-to-inquire-about-securities-class-action-investigation-crmt",
@@ -1984,8 +2070,8 @@
       ],
       "catalyst_score": 15,
       "neglect_score": 0,
-      "technical_score": 0,
-      "total": 15,
+      "technical_score": 2,
+      "total": 17,
       "cbreak": [
         [
           "Gap 13.8% (market voting)",
@@ -1993,13 +2079,19 @@
         ]
       ],
       "nbreak": [],
-      "tbreak": []
+      "tbreak": [
+        [
+          "$ vol $1M",
+          "+2"
+        ]
+      ],
+      "dollar_volume_m": 0.6
     },
     {
       "ticker": "BNAI",
       "name": "Brand Engagement Network, Inc.",
       "changesPercentage": 13.57527,
-      "price": 12.32,
+      "price": 11.9,
       "premarket_change": 13.57527,
       "headline": "Brand Engagement Network's Newly Acquired Operations Deliver $5.3 Million in First-Half 2026 Revenue",
       "news_url": "https://www.prnewswire.com/news-releases/brand-engagement-networks-newly-acquired-operations-deliver-5-3-million-in-first-half-2026-revenue-302835267.html",
@@ -2014,7 +2106,7 @@
       "wk52_low": 1.18,
       "float_m": 4.204274,
       "adr_pct": 10.52,
-      "dollar_volume_m": 2.6,
+      "dollar_volume_m": 2.5,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -2063,7 +2155,7 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $3M",
+          "$ vol $2M",
           "+2"
         ],
         [
@@ -2080,7 +2172,7 @@
       "ticker": "BMNR",
       "name": "Bitmine Immersion Technologies, Inc.",
       "changesPercentage": 13.29956,
-      "price": 17.5,
+      "price": 17.43,
       "premarket_change": 13.29956,
       "headline": "Strategy Climbs 3%, BitMine Surges 7%, SharpLink Rises 5% as Crypto Stocks Bounce Back Toward $65K Bitcoin",
       "news_url": "https://247wallst.com/investing/2026/07/27/strategy-climbs-3-bitmine-surges-7-sharplink-rises-5-as-crypto-stocks-bounce-back-toward-65k-bitcoin/",
@@ -2095,15 +2187,15 @@
       "wk52_low": 12.8,
       "float_m": 529.61815,
       "adr_pct": 6.73,
-      "dollar_volume_m": 547.7,
+      "dollar_volume_m": 554.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 0.8,
-      "rvol": 0.8,
+      "vol_expansion": 0.9,
+      "rvol": 0.9,
       "pct_below_52w_high": 71.8,
       "_avg20_vol": 37157158.85,
       "section": "ep",
@@ -2112,7 +2204,7 @@
       "info": [
         [
           "RVOL",
-          "0.8x"
+          "0.9x"
         ],
         [
           "Float",
@@ -2137,7 +2229,7 @@
           "+14"
         ],
         [
-          "Volume 0.8x expansion",
+          "Volume 0.9x expansion",
           "+2"
         ]
       ],
@@ -2149,7 +2241,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $548M",
+          "$ vol $554M",
           "+8"
         ],
         [
@@ -2166,7 +2258,7 @@
       "ticker": "RGTI",
       "name": "Rigetti Computing, Inc.",
       "changesPercentage": 13.28622,
-      "price": 19.2,
+      "price": 15.18,
       "premarket_change": 13.28622,
       "headline": "Rigetti Expands Collaboration with HPE and Pittsburgh Supercomputing Center to Build New Hybrid Quantum-Classical Supercomputer",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/27/3333556/0/en/Rigetti-Expands-Collaboration-with-HPE-and-Pittsburgh-Supercomputing-Center-to-Build-New-Hybrid-Quantum-Classical-Supercomputer.html",
@@ -2181,7 +2273,7 @@
       "wk52_low": 12.53,
       "float_m": 327.662124,
       "adr_pct": 6.44,
-      "dollar_volume_m": 351.4,
+      "dollar_volume_m": 282.5,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -2230,7 +2322,7 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $351M",
+          "$ vol $282M",
           "+8"
         ],
         [
@@ -2247,7 +2339,7 @@
       "ticker": "IMMR",
       "name": "Immersion Corporation",
       "changesPercentage": 13.19019,
-      "price": 7.54,
+      "price": 7.55,
       "premarket_change": 13.19019,
       "headline": "Immersion Corporation Reports Fourth Quarter and Fiscal 2026 Results",
       "news_url": "https://www.businesswire.com/news/home/20260727429189/en/Immersion-Corporation-Reports-Fourth-Quarter-and-Fiscal-2026-Results/",
@@ -2262,7 +2354,7 @@
       "wk52_low": 5.25,
       "float_m": 27.191597,
       "adr_pct": 4.28,
-      "dollar_volume_m": 13.8,
+      "dollar_volume_m": 14.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -2333,7 +2425,7 @@
       "ticker": "ADVB",
       "name": "Advanced Biomed Inc. Common Stock",
       "changesPercentage": 13.11085,
-      "price": 17.36,
+      "price": 17.3,
       "premarket_change": 13.11085,
       "market_cap_m": 20.538657,
       "wk52_high": 24.229,
@@ -2406,7 +2498,7 @@
       "ticker": "WRLD",
       "name": "World Acceptance Corporation",
       "changesPercentage": 13.02739,
-      "price": 204.24,
+      "price": 203.3,
       "premarket_change": 13.02739,
       "headline": "Why World Acceptance Stock Soared Today",
       "news_url": "https://www.fool.com/investing/2026/07/24/why-world-acceptance-stock-soared-today/",
@@ -2421,15 +2513,15 @@
       "wk52_low": 110.0,
       "float_m": 3.730751,
       "adr_pct": 5.11,
-      "dollar_volume_m": 21.4,
+      "dollar_volume_m": 24.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.9,
-      "rvol": 0.9,
+      "vol_expansion": 1.0,
+      "rvol": 1.0,
       "pct_below_52w_high": 1.8,
       "_avg20_vol": 120869.2,
       "section": "ep",
@@ -2438,7 +2530,7 @@
       "info": [
         [
           "RVOL",
-          "0.9x"
+          "1.0x"
         ],
         [
           "Float",
@@ -2463,7 +2555,7 @@
           "+14"
         ],
         [
-          "Volume 0.9x expansion",
+          "Volume 1.0x expansion",
           "+2"
         ]
       ],
@@ -2475,7 +2567,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $21M",
+          "$ vol $24M",
           "+4"
         ],
         [
@@ -2492,7 +2584,7 @@
       "ticker": "IONQ",
       "name": "IonQ, Inc.",
       "changesPercentage": 12.94153,
-      "price": 35.14,
+      "price": 34.99,
       "premarket_change": 12.94153,
       "headline": "Forget IonQ, Rigetti Computing, and D-Wave Quantum. This Trillion-Dollar Artificial Intelligence (AI) Stock Is the Best Quantum Computing Opportunity, and It's Currently Trading at a 7-Year Valuation Low.",
       "news_url": "https://www.fool.com/investing/2026/07/26/forget-ionq-rigetti-computing-and-d-wave-quantum-t/",
@@ -2528,17 +2620,17 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $553M",
+          "$ vol $564M",
           "+8"
         ]
       ],
-      "dollar_volume_m": 553.1
+      "dollar_volume_m": 563.9
     },
     {
       "ticker": "XBP",
       "name": "XBP Global Holdings, Inc.",
       "changesPercentage": 12.76596,
-      "price": 3.74,
+      "price": 3.59,
       "premarket_change": 12.76596,
       "market_cap_m": 37.422558,
       "wk52_high": 25.6,
@@ -2556,8 +2648,8 @@
       "above_50": true,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 1.4,
-      "rvol": 1.4,
+      "vol_expansion": 1.5,
+      "rvol": 1.5,
       "pct_below_52w_high": 78.2,
       "_avg20_vol": 20986.5,
       "section": "no_catalyst",
@@ -2566,7 +2658,7 @@
       "info": [
         [
           "RVOL",
-          "1.4x"
+          "1.5x"
         ],
         [
           "Float",
@@ -2587,7 +2679,7 @@
           "+14"
         ],
         [
-          "Volume 1.4x expansion",
+          "Volume 1.5x expansion",
           "+4"
         ]
       ],
@@ -2616,7 +2708,7 @@
       "ticker": "INFQ",
       "name": "Infleqtion Inc",
       "changesPercentage": 12.15162,
-      "price": 9.64,
+      "price": 9.53,
       "premarket_change": 12.15162,
       "headline": "This Quantum Stock Is a Key Nvidia Partner and Looks Like a Buy Near a 52-Week Low",
       "news_url": "https://www.fool.com/investing/2026/07/26/this-quantum-stock-is-a-key-nvidia-partner-and-loo/",
@@ -2631,15 +2723,15 @@
       "wk52_low": 8.52,
       "float_m": 52.058005,
       "adr_pct": 8.06,
-      "dollar_volume_m": 71.9,
+      "dollar_volume_m": 73.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": false,
       "above_50": false,
       "above_200": false,
       "neglect": "low",
-      "vol_expansion": 0.6,
-      "rvol": 0.6,
+      "vol_expansion": 0.7,
+      "rvol": 0.7,
       "pct_below_52w_high": 48.2,
       "_avg20_vol": 11710878.85,
       "section": "ep",
@@ -2648,7 +2740,7 @@
       "info": [
         [
           "RVOL",
-          "0.6x"
+          "0.7x"
         ],
         [
           "Float",
@@ -2673,14 +2765,14 @@
           "+14"
         ],
         [
-          "Volume 0.6x expansion",
+          "Volume 0.7x expansion",
           "+2"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $72M",
+          "$ vol $74M",
           "+4"
         ],
         [
