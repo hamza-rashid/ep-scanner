@@ -1,10 +1,10 @@
 {
-  "generated_utc": "2026-07-30T10:26:19.316718+00:00",
+  "generated_utc": "2026-07-30T12:12:27.793570+00:00",
   "session_date": "2026-07-30",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
   "count": 21,
-  "active_count": 5,
+  "active_count": 4,
   "no_catalyst_count": 9,
   "ai_used": true,
   "fresh_window_ok": true,
@@ -23,7 +23,7 @@
       "ticker": "NCRA",
       "name": "Nocera, Inc.",
       "changesPercentage": 118.18182,
-      "price": 3.12,
+      "price": 2.4,
       "premarket_change": 118.18182,
       "headline": "Nocera (Nasdaq: NCRA) Regains Nasdaq Bid Price Compliance; Three Binding Transactions in Sixty Days Advance Nocera Holdings",
       "news_url": "https://www.globenewswire.com/news-release/2026/07/29/3335539/0/en/Nocera-Nasdaq-NCRA-Regains-Nasdaq-Bid-Price-Compliance-Three-Binding-Transactions-in-Sixty-Days-Advance-Nocera-Holdings.html",
@@ -38,15 +38,15 @@
       "wk52_low": 1.3,
       "float_m": 0.176006,
       "adr_pct": 19.12,
-      "dollar_volume_m": 1.0,
+      "dollar_volume_m": 2.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 0.3,
-      "rvol": 0.3,
+      "vol_expansion": 0.8,
+      "rvol": 0.8,
       "pct_below_52w_high": 95.6,
       "_avg20_vol": 1103549.6,
       "section": "ep",
@@ -55,7 +55,7 @@
       "info": [
         [
           "RVOL",
-          "0.3x"
+          "0.8x"
         ],
         [
           "Float",
@@ -66,10 +66,10 @@
           "96% below high"
         ]
       ],
-      "catalyst_score": 43,
+      "catalyst_score": 44,
       "neglect_score": 24,
       "technical_score": 10,
-      "total": 77,
+      "total": 78,
       "cbreak": [
         [
           "Vague PR / promotional (Tier C)",
@@ -80,8 +80,8 @@
           "+22"
         ],
         [
-          "Volume 0.3x expansion",
-          "+1"
+          "Volume 0.8x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
@@ -92,7 +92,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $1M",
+          "$ vol $2M",
           "+2"
         ],
         [
@@ -109,7 +109,7 @@
       "ticker": "DFNS",
       "name": "T3 Defense Inc.",
       "changesPercentage": 109.25,
-      "price": 50.22,
+      "price": 94.88,
       "premarket_change": 109.25,
       "market_cap_m": 11.718636,
       "wk52_high": 1948.75,
@@ -120,15 +120,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 46.36,
-      "dollar_volume_m": 66.2,
+      "dollar_volume_m": 166.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.1,
-      "rvol": 0.1,
+      "vol_expansion": 0.3,
+      "rvol": 0.3,
       "pct_below_52w_high": 94.7,
       "_avg20_vol": 6959112.25,
       "section": "no_catalyst",
@@ -137,7 +137,7 @@
       "info": [
         [
           "RVOL",
-          "0.1x"
+          "0.3x"
         ],
         [
           "Float",
@@ -148,18 +148,18 @@
           "95% below high"
         ]
       ],
-      "catalyst_score": 22,
+      "catalyst_score": 23,
       "neglect_score": 42,
-      "technical_score": 16,
-      "total": 80,
+      "technical_score": 20,
+      "total": 85,
       "cbreak": [
         [
           "Gap 109.2% (market voting)",
           "+22"
         ],
         [
-          "Volume 0.1x expansion",
-          "+0"
+          "Volume 0.3x expansion",
+          "+1"
         ]
       ],
       "nbreak": [
@@ -170,8 +170,8 @@
       ],
       "tbreak": [
         [
-          "$ vol $66M",
-          "+4"
+          "$ vol $166M",
+          "+8"
         ],
         [
           "ADR 46.4%",
@@ -187,7 +187,7 @@
       "ticker": "AMIX",
       "name": "Autonomix Medical, Inc.",
       "changesPercentage": 66.18182,
-      "price": 4.57,
+      "price": 4.5,
       "premarket_change": 66.18182,
       "market_cap_m": 2.48289,
       "wk52_high": 32.55,
@@ -198,7 +198,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 15.41,
-      "dollar_volume_m": 0.5,
+      "dollar_volume_m": 0.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": false,
@@ -243,7 +243,7 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $1M",
           "+2"
         ],
         [
@@ -260,7 +260,7 @@
       "ticker": "HURN",
       "name": "Huron Consulting Group Inc.",
       "changesPercentage": 40.37241,
-      "price": 170.37,
+      "price": 174.0,
       "premarket_change": 40.37241,
       "headline": "Huron Consulting Group (NASDAQ:HURN) Shares Gap Up  on Strong Earnings",
       "news_url": "https://www.defenseworld.net/2026/07/30/huron-consulting-group-nasdaqhurn-shares-gap-up-on-strong-earnings.html",
@@ -275,7 +275,7 @@
       "wk52_low": 84.88,
       "float_m": 14.845456,
       "adr_pct": 5.89,
-      "dollar_volume_m": 0.1,
+      "dollar_volume_m": 0.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -337,7 +337,7 @@
       "ticker": "STFS",
       "name": "Star Fashion Culture Holdings Limited",
       "changesPercentage": 31.68044,
-      "price": 4.78,
+      "price": 4.35,
       "premarket_change": 31.68044,
       "market_cap_m": 1.66736,
       "wk52_high": 104.0,
@@ -348,15 +348,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 45.71,
-      "dollar_volume_m": 0.2,
+      "dollar_volume_m": 0.4,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
       "above_50": false,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 0.1,
-      "rvol": 0.1,
+      "vol_expansion": 0.3,
+      "rvol": 0.3,
       "pct_below_52w_high": 95.6,
       "_avg20_vol": 372358.4,
       "section": "no_catalyst",
@@ -365,7 +365,7 @@
       "info": [
         [
           "RVOL",
-          "0.1x"
+          "0.3x"
         ],
         [
           "Float",
@@ -376,18 +376,18 @@
           "96% below high"
         ]
       ],
-      "catalyst_score": 22,
+      "catalyst_score": 23,
       "neglect_score": 24,
       "technical_score": 7,
-      "total": 53,
+      "total": 54,
       "cbreak": [
         [
           "Gap 31.7% (market voting)",
           "+22"
         ],
         [
-          "Volume 0.1x expansion",
-          "+0"
+          "Volume 0.3x expansion",
+          "+1"
         ]
       ],
       "nbreak": [
@@ -411,7 +411,7 @@
       "ticker": "GWAV",
       "name": "Greenwave Technology Solutions, Inc.",
       "changesPercentage": 23.13883,
-      "price": 3.06,
+      "price": 3.26,
       "premarket_change": 23.13883,
       "market_cap_m": 2.538671,
       "wk52_high": 24.64,
@@ -429,8 +429,8 @@
       "above_50": true,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 2.2,
-      "rvol": 2.2,
+      "vol_expansion": 3.0,
+      "rvol": 3.0,
       "pct_below_52w_high": 86.7,
       "_avg20_vol": 8924.8,
       "section": "no_catalyst",
@@ -439,7 +439,7 @@
       "info": [
         [
           "RVOL",
-          "2.2x"
+          "3.0x"
         ],
         [
           "Float",
@@ -450,18 +450,18 @@
           "87% below high"
         ]
       ],
-      "catalyst_score": 24,
+      "catalyst_score": 26,
       "neglect_score": 24,
       "technical_score": 14,
-      "total": 62,
+      "total": 64,
       "cbreak": [
         [
           "Gap 23.1% (market voting)",
           "+18"
         ],
         [
-          "Volume 2.2x expansion",
-          "+6"
+          "Volume 3.0x expansion",
+          "+8"
         ]
       ],
       "nbreak": [
@@ -489,7 +489,7 @@
       "ticker": "SKYQ",
       "name": "Sky Quarry Inc.",
       "changesPercentage": 22.88828,
-      "price": 4.51,
+      "price": 4.35,
       "premarket_change": 22.88828,
       "market_cap_m": 13.515744,
       "wk52_high": 19.45,
@@ -500,7 +500,7 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 23.92,
-      "dollar_volume_m": 0.8,
+      "dollar_volume_m": 1.7,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -546,7 +546,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $1M",
+          "$ vol $2M",
           "+2"
         ],
         [
@@ -563,7 +563,7 @@
       "ticker": "MPLT",
       "name": "MapLight Therapeutics, Inc.",
       "changesPercentage": 22.01462,
-      "price": 15.02,
+      "price": 15.69,
       "premarket_change": 22.01462,
       "headline": "Maplight Therapeutics (NASDAQ:MPLT) Trading 18.2% Higher  on Insider Buying Activity",
       "news_url": "https://www.defenseworld.net/2026/07/30/maplight-therapeutics-nasdaqmplt-trading-18-2-higher-on-insider-buying-activity.html",
@@ -578,7 +578,7 @@
       "wk52_low": 9.1,
       "float_m": 0.300289,
       "adr_pct": 12.09,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 0.1,
       "gap_pct": null,
       "above_10": false,
       "above_20": false,
@@ -636,7 +636,7 @@
       "ticker": "MANH",
       "name": "Manhattan Associates, Inc.",
       "changesPercentage": 21.31771,
-      "price": 204.02,
+      "price": 206.27,
       "premarket_change": 21.31771,
       "headline": "Manhattan Associates (NASDAQ:MANH) Shares Gap Up  After Strong Earnings",
       "news_url": "https://www.defenseworld.net/2026/07/30/manhattan-associates-nasdaqmanh-shares-gap-up-after-strong-earnings.html",
@@ -651,7 +651,7 @@
       "wk52_low": 119.06,
       "float_m": 58.295235,
       "adr_pct": 5.1,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 0.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -713,7 +713,7 @@
       "ticker": "LAD",
       "name": "Lithia Motors, Inc.",
       "changesPercentage": 19.30451,
-      "price": 427.48,
+      "price": 423.2,
       "premarket_change": 19.30451,
       "headline": "Lithia Motors (NYSE:LAD) Stock Price Up 14.5% Following Strong Earnings",
       "news_url": "https://www.defenseworld.net/2026/07/30/lithia-motors-nyselad-stock-price-up-14-5-following-strong-earnings.html",
@@ -728,24 +728,24 @@
       "wk52_low": 239.78,
       "float_m": 19.986565,
       "adr_pct": 4.29,
-      "dollar_volume_m": 694.2,
+      "dollar_volume_m": 0.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 6.3,
-      "rvol": 6.3,
+      "vol_expansion": 0.0,
+      "rvol": 0.0,
       "pct_below_52w_high": 1.0,
       "_avg20_vol": 259173.65,
       "section": "ep",
-      "cooling": false,
+      "cooling": true,
       "low_float": true,
       "info": [
         [
           "RVOL",
-          "6.3x"
+          "0.0x"
         ],
         [
           "Float",
@@ -756,10 +756,10 @@
           "at highs"
         ]
       ],
-      "catalyst_score": 111,
+      "catalyst_score": 101,
       "neglect_score": 0,
-      "technical_score": 25,
-      "total": 136,
+      "technical_score": 19,
+      "total": 120,
       "cbreak": [
         [
           "Earnings beat with strong sales/EPS growth (Tier A)",
@@ -768,17 +768,13 @@
         [
           "Gap 19.3% (market voting)",
           "+17"
-        ],
-        [
-          "Volume 6.3x expansion",
-          "+10"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $694M",
-          "+8"
+          "$ vol $0M",
+          "+2"
         ],
         [
           "ADR 4.3%",
@@ -794,7 +790,7 @@
       "ticker": "RACC",
       "name": "Research Alliance Corporation III Class A Ordinary Shares",
       "changesPercentage": 19.21893,
-      "price": 16.4999,
+      "price": 20.18,
       "premarket_change": 19.21893,
       "market_cap_m": 171.962915,
       "wk52_high": 16.85,
@@ -867,7 +863,7 @@
       "ticker": "BXBL",
       "name": "BOXABL Inc.",
       "changesPercentage": 18.57143,
-      "price": 4.98,
+      "price": 5.17,
       "premarket_change": 18.57143,
       "market_cap_m": 1758.564392,
       "wk52_high": 15.139,
@@ -932,7 +928,7 @@
       "ticker": "CBZ",
       "name": "CBIZ, Inc.",
       "changesPercentage": 17.55889,
-      "price": 54.9,
+      "price": 54.89,
       "premarket_change": 17.55889,
       "headline": "CBIZ (NYSE:CBZ) Shares Gap Up  on Better-Than-Expected Earnings",
       "news_url": "https://www.defenseworld.net/2026/07/30/cbiz-nysecbz-shares-gap-up-on-better-than-expected-earnings.html",
@@ -947,7 +943,7 @@
       "wk52_low": 24.29,
       "float_m": 46.667647,
       "adr_pct": 4.7,
-      "dollar_volume_m": 831.5,
+      "dollar_volume_m": 829.8,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -996,7 +992,7 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $832M",
+          "$ vol $830M",
           "+8"
         ],
         [
@@ -1013,7 +1009,7 @@
       "ticker": "PN",
       "name": "PN Smart Energy Limited",
       "changesPercentage": 17.54386,
-      "price": 10.72,
+      "price": 15.17,
       "premarket_change": 17.54386,
       "market_cap_m": 14.019745,
       "wk52_high": 83.8,
@@ -1024,15 +1020,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 19.69,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 0.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 0.1,
+      "rvol": 0.1,
       "pct_below_52w_high": 85.6,
       "_avg20_vol": 760837.15,
       "section": "no_catalyst",
@@ -1041,7 +1037,7 @@
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "0.1x"
         ],
         [
           "Float",
@@ -1060,12 +1056,16 @@
         [
           "Gap 17.5% (market voting)",
           "+16"
+        ],
+        [
+          "Volume 0.1x expansion",
+          "+0"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $1M",
           "+2"
         ],
         [
@@ -1082,7 +1082,7 @@
       "ticker": "BLKB",
       "name": "Blackbaud, Inc.",
       "changesPercentage": 17.39493,
-      "price": 42.18,
+      "price": 44.25,
       "premarket_change": 17.39493,
       "headline": "Blackbaud, Inc. (BLKB) Q2 2026 Earnings Call Transcript",
       "news_url": "https://seekingalpha.com/article/4927224-blackbaud-inc-blkb-q2-2026-earnings-call-transcript",
@@ -1163,7 +1163,7 @@
       "ticker": "GRMN",
       "name": "Garmin Ltd.",
       "changesPercentage": 16.23497,
-      "price": 294.83,
+      "price": 299.63,
       "premarket_change": 16.23497,
       "headline": "Garmin (NYSE:GRMN) Reaches New 52-Week High Following Strong Earnings",
       "news_url": "https://www.defenseworld.net/2026/07/30/garmin-nysegrmn-reaches-new-52-week-high-following-strong-earnings.html",
@@ -1245,7 +1245,7 @@
       "ticker": "AVTR",
       "name": "Avantor, Inc.",
       "changesPercentage": 15.781,
-      "price": 14.38,
+      "price": 14.86,
       "premarket_change": 15.781,
       "headline": "Avantor (NYSE:AVTR) Shares Gap Up  Following Earnings Beat",
       "news_url": "https://www.defenseworld.net/2026/07/30/avantor-nyseavtr-shares-gap-up-following-earnings-beat.html",
@@ -1322,7 +1322,7 @@
       "ticker": "EDU",
       "name": "New Oriental Education & Technology Group Inc.",
       "changesPercentage": 15.33766,
-      "price": 58.58,
+      "price": 61.0,
       "premarket_change": 15.33766,
       "headline": "New Oriental Education & Technology Group Q4 Earnings Call Highlights",
       "news_url": "https://www.marketbeat.com/instant-alerts/new-oriental-education-technology-group-q4-earnings-call-highlights-2026-07-29/",
@@ -1337,7 +1337,7 @@
       "wk52_low": 41.62,
       "float_m": 160.979288,
       "adr_pct": 2.86,
-      "dollar_volume_m": 2.3,
+      "dollar_volume_m": 2.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -1403,7 +1403,7 @@
       "ticker": "NNNN",
       "name": "Anbio Biotechnology Class A Ordinary Shares",
       "changesPercentage": 14.18719,
-      "price": 11.59,
+      "price": 13.65,
       "premarket_change": 14.18719,
       "market_cap_m": 508.699008,
       "wk52_high": 54.95,
@@ -1477,7 +1477,7 @@
       "ticker": "SCL",
       "name": "Stepan Co",
       "changesPercentage": 14.01483,
-      "price": 66.14,
+      "price": 78.0,
       "premarket_change": 14.01483,
       "headline": "Stepan Q2 Earnings Call Highlights",
       "news_url": "https://www.marketbeat.com/instant-alerts/stepan-q2-earnings-call-highlights-2026-07-30/",
@@ -1492,7 +1492,7 @@
       "wk52_low": 41.82,
       "float_m": 21.431156,
       "adr_pct": 3.53,
-      "dollar_volume_m": 38.0,
+      "dollar_volume_m": 36.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
@@ -1546,7 +1546,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $38M",
+          "$ vol $36M",
           "+4"
         ],
         [
@@ -1563,7 +1563,7 @@
       "ticker": "NEO",
       "name": "NeoGenomics, Inc.",
       "changesPercentage": 13.95522,
-      "price": 15.27,
+      "price": 16.0,
       "premarket_change": 13.95522,
       "headline": "NeoGenomics (NASDAQ:NEO) Reaches New 12-Month High After Earnings Beat",
       "news_url": "https://www.defenseworld.net/2026/07/30/neogenomics-nasdaqneo-reaches-new-12-month-high-after-earnings-beat.html",
