@@ -1,10 +1,10 @@
 {
-  "generated_utc": "2026-07-31T10:40:16.062677+00:00",
+  "generated_utc": "2026-07-31T12:31:39.280422+00:00",
   "session_date": "2026-07-31",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
   "count": 8,
-  "active_count": 2,
+  "active_count": 3,
   "no_catalyst_count": 4,
   "ai_used": true,
   "fresh_window_ok": true,
@@ -23,7 +23,7 @@
       "ticker": "DFNS",
       "name": "T3 Defense Inc.",
       "changesPercentage": 69.21546,
-      "price": 84.98,
+      "price": 39.5,
       "premarket_change": 69.21546,
       "market_cap_m": 19.829743,
       "wk52_high": 1948.75,
@@ -34,15 +34,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 48.51,
-      "dollar_volume_m": 10.2,
+      "dollar_volume_m": 24.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "low",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 0.1,
+      "rvol": 0.1,
       "pct_below_52w_high": 96.8,
       "_avg20_vol": 8019771.0,
       "section": "no_catalyst",
@@ -51,7 +51,7 @@
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "0.1x"
         ],
         [
           "Float",
@@ -64,19 +64,23 @@
       ],
       "catalyst_score": 22,
       "neglect_score": 0,
-      "technical_score": 14,
-      "total": 36,
+      "technical_score": 16,
+      "total": 38,
       "cbreak": [
         [
           "Gap 69.2% (market voting)",
           "+22"
+        ],
+        [
+          "Volume 0.1x expansion",
+          "+0"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $10M",
-          "+2"
+          "$ vol $24M",
+          "+4"
         ],
         [
           "ADR 48.5%",
@@ -92,7 +96,7 @@
       "ticker": "CMCO",
       "name": "Columbus McKinnon Corporation",
       "changesPercentage": 41.45007,
-      "price": 20.68,
+      "price": 20.8,
       "premarket_change": 41.45007,
       "headline": "Columbus McKinnon Corporation (CMCO) Q1 2027 Earnings Call Transcript",
       "news_url": "https://seekingalpha.com/article/4927859-columbus-mckinnon-corporation-cmco-q1-2027-earnings-call-transcript",
@@ -174,7 +178,7 @@
       "ticker": "FXHO",
       "name": "UTime Limited",
       "changesPercentage": 37.2862,
-      "price": 12.04,
+      "price": 10.45,
       "premarket_change": 37.2862,
       "market_cap_m": 2.376539,
       "wk52_high": 7700.0,
@@ -244,7 +248,7 @@
       "ticker": "MF",
       "name": "MindForge Inc",
       "changesPercentage": 31.18594,
-      "price": 8.96,
+      "price": 9.19,
       "premarket_change": 31.18594,
       "market_cap_m": 16.289558,
       "wk52_high": 112.5,
@@ -318,7 +322,7 @@
       "ticker": "FRVO",
       "name": "Fervo Energy Company",
       "changesPercentage": 30.56206,
-      "price": 22.3,
+      "price": 22.57,
       "premarket_change": 30.56206,
       "market_cap_m": 6396.968233,
       "wk52_high": 42.65,
@@ -383,7 +387,7 @@
       "ticker": "KEEL",
       "name": "Bitfarms Ltd.",
       "changesPercentage": 27.55906,
-      "price": 4.05,
+      "price": 4.27,
       "premarket_change": 27.55906,
       "headline": "Missed Out On Nebius? This Former Crypto Miner Might Be Your Second Chance.",
       "news_url": "https://www.fool.com/investing/2026/07/31/missed-out-on-nebius-this-former-crypto-miner-migh/",
@@ -398,7 +402,7 @@
       "wk52_low": 2.0,
       "float_m": 576.20349,
       "adr_pct": 10.51,
-      "dollar_volume_m": 1.2,
+      "dollar_volume_m": 3.5,
       "gap_pct": null,
       "above_10": true,
       "above_20": false,
@@ -410,7 +414,7 @@
       "pct_below_52w_high": 35.1,
       "_avg20_vol": 30801071.95,
       "section": "ep",
-      "cooling": true,
+      "cooling": false,
       "low_float": false,
       "info": [
         [
@@ -443,7 +447,7 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $1M",
+          "$ vol $4M",
           "+2"
         ],
         [
@@ -460,7 +464,7 @@
       "ticker": "NBIS",
       "name": "Nebius Group N.V.",
       "changesPercentage": 27.12859,
-      "price": 188.43,
+      "price": 203.46,
       "premarket_change": 27.12859,
       "headline": "Missed Out On Nebius? This Former Crypto Miner Might Be Your Second Chance.",
       "news_url": "https://www.fool.com/investing/2026/07/31/missed-out-on-nebius-this-former-crypto-miner-migh/",
@@ -475,15 +479,15 @@
       "wk52_low": 50.098,
       "float_m": 202.062792,
       "adr_pct": 11.56,
-      "dollar_volume_m": 160.8,
+      "dollar_volume_m": 289.6,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 0.1,
+      "rvol": 0.1,
       "pct_below_52w_high": 28.2,
       "_avg20_vol": 20886174.8,
       "section": "ep",
@@ -492,7 +496,7 @@
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "0.1x"
         ],
         [
           "Float",
@@ -515,12 +519,16 @@
         [
           "Gap 27.1% (market voting)",
           "+20"
+        ],
+        [
+          "Volume 0.1x expansion",
+          "+0"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $161M",
+          "$ vol $290M",
           "+8"
         ],
         [
@@ -537,7 +545,7 @@
       "ticker": "AXTI",
       "name": "AXT, Inc.",
       "changesPercentage": 26.96781,
-      "price": 46.94,
+      "price": 64.64,
       "premarket_change": 26.96781,
       "headline": "AXT, Inc. (AXTI) Q2 2026 Earnings Call Transcript",
       "news_url": "https://seekingalpha.com/article/4928416-axt-inc-axti-q2-2026-earnings-call-transcript",
@@ -552,15 +560,15 @@
       "wk52_low": 1.85,
       "float_m": 38.938807,
       "adr_pct": 14.01,
-      "dollar_volume_m": 33.2,
+      "dollar_volume_m": 94.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 0.1,
-      "rvol": 0.1,
+      "vol_expansion": 0.2,
+      "rvol": 0.2,
       "pct_below_52w_high": 56.7,
       "_avg20_vol": 8017184.2,
       "section": "ep",
@@ -569,7 +577,7 @@
       "info": [
         [
           "RVOL",
-          "0.1x"
+          "0.2x"
         ],
         [
           "Float",
@@ -594,14 +602,14 @@
           "+20"
         ],
         [
-          "Volume 0.1x expansion",
+          "Volume 0.2x expansion",
           "+0"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $33M",
+          "$ vol $94M",
           "+4"
         ],
         [
