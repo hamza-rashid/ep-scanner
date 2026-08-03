@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-08-03T13:57:25.424880+00:00",
+  "generated_utc": "2026-08-03T16:27:35.019322+00:00",
   "session_date": "2026-08-03",
   "mode": "refresh",
   "run_label": "scheduled",
-  "count": 25,
-  "active_count": 9,
-  "no_catalyst_count": 13,
+  "count": 29,
+  "active_count": 10,
+  "no_catalyst_count": 15,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -23,7 +23,7 @@
       "ticker": "FCUV",
       "name": "Focus Universal Inc.",
       "changesPercentage": 517.02128,
-      "price": 18.67,
+      "price": 17.75,
       "premarket_change": 517.02128,
       "market_cap_m": 2.335347,
       "wk52_high": 210.0,
@@ -34,15 +34,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 16.53,
-      "dollar_volume_m": 134.4,
+      "dollar_volume_m": 179.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 230.5,
-      "rvol": 230.5,
+      "vol_expansion": 322.7,
+      "rvol": 322.7,
       "pct_below_52w_high": 90.6,
       "_avg20_vol": 31246.7,
       "section": "no_catalyst",
@@ -51,7 +51,7 @@
       "info": [
         [
           "RVOL",
-          "230.5x"
+          "322.7x"
         ],
         [
           "Float",
@@ -72,7 +72,7 @@
           "+22"
         ],
         [
-          "Volume 230.5x expansion",
+          "Volume 322.7x expansion",
           "+10"
         ]
       ],
@@ -84,7 +84,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $134M",
+          "$ vol $179M",
           "+8"
         ],
         [
@@ -137,17 +137,87 @@
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $1M",
+          "$ vol $2M",
           "+2"
         ]
       ],
-      "dollar_volume_m": 1.1
+      "dollar_volume_m": 1.6
+    },
+    {
+      "ticker": "UPC",
+      "name": "Universe Pharmaceuticals Inc.",
+      "changesPercentage": 115.82278,
+      "price": 6.82,
+      "premarket_change": 115.82278,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 16.81,
+      "dollar_volume_m": 156.4,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "med",
+      "vol_expansion": 32.0,
+      "rvol": 32.0,
+      "pct_below_52w_high": 43.8,
+      "market_cap_m": 4.321245,
+      "_avg20_vol": 713887.1,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "32.0x"
+        ],
+        [
+          "52wk",
+          "44% below high"
+        ]
+      ],
+      "catalyst_score": 32,
+      "neglect_score": 24,
+      "technical_score": 25,
+      "total": 81,
+      "cbreak": [
+        [
+          "Gap 115.8% (market voting)",
+          "+22"
+        ],
+        [
+          "Volume 32.0x expansion",
+          "+10"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $156M",
+          "+8"
+        ],
+        [
+          "ADR 16.8%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
     },
     {
       "ticker": "EZRA",
       "name": "Reliance Global Group, Inc.",
       "changesPercentage": 105.70329,
-      "price": 3.755,
+      "price": 3.35,
       "premarket_change": 105.70329,
       "headline": "Reliance Global Group Signs LOI to Sell Altruis Benefit Consulting for $11 Million in Cash",
       "news_url": "https://www.globenewswire.com/news-release/2026/08/03/3337500/0/en/Reliance-Global-Group-Signs-LOI-to-Sell-Altruis-Benefit-Consulting-for-11-Million-in-Cash.html",
@@ -162,15 +232,15 @@
       "wk52_low": 1.75,
       "float_m": 0.287385,
       "adr_pct": 14.47,
-      "dollar_volume_m": 226.9,
+      "dollar_volume_m": 328.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 532.1,
-      "rvol": 532.1,
+      "vol_expansion": 866.2,
+      "rvol": 866.2,
       "pct_below_52w_high": 82.7,
       "_avg20_vol": 113141.05,
       "section": "ep",
@@ -179,7 +249,7 @@
       "info": [
         [
           "RVOL",
-          "532.1x"
+          "866.2x"
         ],
         [
           "Float",
@@ -204,7 +274,7 @@
           "+22"
         ],
         [
-          "Volume 532.1x expansion",
+          "Volume 866.2x expansion",
           "+10"
         ]
       ],
@@ -216,7 +286,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $227M",
+          "$ vol $328M",
           "+8"
         ],
         [
@@ -233,7 +303,7 @@
       "ticker": "ZGM",
       "name": "Zenta Group Company Limited",
       "changesPercentage": 41.59292,
-      "price": 4.98,
+      "price": 5.1,
       "premarket_change": 41.59292,
       "market_cap_m": 56.682422,
       "wk52_high": 6.0,
@@ -306,7 +376,7 @@
       "ticker": "ELOX",
       "name": "Eloxx Pharmaceuticals, Inc.",
       "changesPercentage": 31.05263,
-      "price": 19.06,
+      "price": 18.82,
       "premarket_change": 31.05263,
       "market_cap_m": 131.996902,
       "wk52_high": 18.42,
@@ -317,15 +387,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 16.12,
-      "dollar_volume_m": 0.2,
+      "dollar_volume_m": 0.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.1,
-      "rvol": 0.1,
+      "vol_expansion": 0.7,
+      "rvol": 0.7,
       "pct_below_52w_high": -14.7,
       "_avg20_vol": 69809.3,
       "section": "no_catalyst",
@@ -334,7 +404,7 @@
       "info": [
         [
           "RVOL",
-          "0.1x"
+          "0.7x"
         ],
         [
           "Float",
@@ -345,18 +415,18 @@
           "at highs"
         ]
       ],
-      "catalyst_score": 21,
+      "catalyst_score": 23,
       "neglect_score": 42,
       "technical_score": 19,
-      "total": 82,
+      "total": 84,
       "cbreak": [
         [
           "Gap 31.1% (market voting)",
           "+21"
         ],
         [
-          "Volume 0.1x expansion",
-          "+0"
+          "Volume 0.7x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
@@ -367,7 +437,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $1M",
           "+2"
         ],
         [
@@ -384,7 +454,7 @@
       "ticker": "ZTG",
       "name": "Zenta Group Company Limited Class A Ordinary Shares",
       "changesPercentage": 29.79351,
-      "price": 4.98,
+      "price": 5.24,
       "premarket_change": 29.79351,
       "market_cap_m": 50.953465,
       "wk52_high": 6.0,
@@ -395,15 +465,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 18.43,
-      "dollar_volume_m": 1.0,
+      "dollar_volume_m": 2.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 1.2,
-      "rvol": 1.2,
+      "vol_expansion": 2.6,
+      "rvol": 2.6,
       "pct_below_52w_high": 1.6,
       "_avg20_vol": 163996.85,
       "section": "no_catalyst",
@@ -412,7 +482,7 @@
       "info": [
         [
           "RVOL",
-          "1.2x"
+          "2.6x"
         ],
         [
           "Float",
@@ -423,24 +493,24 @@
           "at highs"
         ]
       ],
-      "catalyst_score": 24,
+      "catalyst_score": 27,
       "neglect_score": 0,
       "technical_score": 19,
-      "total": 43,
+      "total": 46,
       "cbreak": [
         [
           "Gap 29.8% (market voting)",
           "+21"
         ],
         [
-          "Volume 1.2x expansion",
-          "+3"
+          "Volume 2.6x expansion",
+          "+6"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $1M",
+          "$ vol $2M",
           "+2"
         ],
         [
@@ -457,7 +527,7 @@
       "ticker": "SCYX",
       "name": "SCYNEXIS, Inc.",
       "changesPercentage": 29.75871,
-      "price": 6.08,
+      "price": 6.0,
       "premarket_change": 29.75871,
       "market_cap_m": 30.43739,
       "wk52_high": 10.48,
@@ -468,15 +538,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 10.24,
-      "dollar_volume_m": 0.7,
+      "dollar_volume_m": 1.5,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 1.4,
-      "rvol": 1.4,
+      "vol_expansion": 3.2,
+      "rvol": 3.2,
       "pct_below_52w_high": 48.5,
       "_avg20_vol": 79367.3,
       "section": "no_catalyst",
@@ -485,7 +555,7 @@
       "info": [
         [
           "RVOL",
-          "1.4x"
+          "3.2x"
         ],
         [
           "Float",
@@ -496,18 +566,18 @@
           "48% below high"
         ]
       ],
-      "catalyst_score": 25,
+      "catalyst_score": 29,
       "neglect_score": 24,
       "technical_score": 14,
-      "total": 63,
+      "total": 67,
       "cbreak": [
         [
           "Gap 29.8% (market voting)",
           "+21"
         ],
         [
-          "Volume 1.4x expansion",
-          "+4"
+          "Volume 3.2x expansion",
+          "+8"
         ]
       ],
       "nbreak": [
@@ -518,7 +588,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $1M",
+          "$ vol $2M",
           "+2"
         ],
         [
@@ -535,7 +605,7 @@
       "ticker": "ATKR",
       "name": "Atkore Inc.",
       "changesPercentage": 27.98794,
-      "price": 93.38,
+      "price": 93.52,
       "premarket_change": 27.98794,
       "headline": "Atkore Inc. (ATKR) Q3 Earnings and Revenues Top Estimates",
       "news_url": "https://www.zacks.com/stock/news/2966307/atkore-inc-atkr-q3-earnings-and-revenues-top-estimates?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|yseop_template_4-2966307",
@@ -550,15 +620,15 @@
       "wk52_low": 53.49,
       "float_m": 30.68499,
       "adr_pct": 5.18,
-      "dollar_volume_m": 310.4,
+      "dollar_volume_m": 491.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 9.6,
-      "rvol": 9.6,
+      "vol_expansion": 15.3,
+      "rvol": 15.3,
       "pct_below_52w_high": -0.0,
       "_avg20_vol": 344571.25,
       "section": "ep",
@@ -567,7 +637,7 @@
       "info": [
         [
           "RVOL",
-          "9.6x"
+          "15.3x"
         ],
         [
           "Float",
@@ -592,7 +662,7 @@
           "+20"
         ],
         [
-          "Volume 9.6x expansion",
+          "Volume 15.3x expansion",
           "+10"
         ]
       ],
@@ -604,7 +674,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $310M",
+          "$ vol $492M",
           "+8"
         ],
         [
@@ -621,7 +691,7 @@
       "ticker": "FET",
       "name": "Forum Energy Technologies, Inc.",
       "changesPercentage": 21.85495,
-      "price": 65.89,
+      "price": 69.46,
       "premarket_change": 21.85495,
       "headline": "Why Forum Energy Technologies Stock Blasted Nearly 22% Higher on Friday",
       "news_url": "https://www.fool.com/investing/2026/07/31/why-forum-energy-technologies-stock-blasted-nearly/",
@@ -636,15 +706,15 @@
       "wk52_low": 18.12,
       "float_m": 10.194669,
       "adr_pct": 4.82,
-      "dollar_volume_m": 2.2,
+      "dollar_volume_m": 11.6,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.2,
-      "rvol": 0.2,
+      "vol_expansion": 1.1,
+      "rvol": 1.1,
       "pct_below_52w_high": 2.9,
       "_avg20_vol": 146716.75,
       "section": "ep",
@@ -653,7 +723,7 @@
       "info": [
         [
           "RVOL",
-          "0.2x"
+          "1.1x"
         ],
         [
           "Float",
@@ -664,10 +734,10 @@
           "3% below high"
         ]
       ],
-      "catalyst_score": 102,
+      "catalyst_score": 105,
       "neglect_score": 24,
       "technical_score": 19,
-      "total": 145,
+      "total": 148,
       "cbreak": [
         [
           "Earnings beat with strong sales/EPS growth (Tier A)",
@@ -678,8 +748,8 @@
           "+18"
         ],
         [
-          "Volume 0.2x expansion",
-          "+0"
+          "Volume 1.1x expansion",
+          "+3"
         ]
       ],
       "nbreak": [
@@ -690,7 +760,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $2M",
+          "$ vol $12M",
           "+2"
         ],
         [
@@ -704,10 +774,80 @@
       ]
     },
     {
+      "ticker": "SONM",
+      "name": "DNA X, Inc.",
+      "changesPercentage": 21.16745,
+      "price": 4.11,
+      "premarket_change": 21.16745,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 11.0,
+      "dollar_volume_m": 0.2,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": false,
+      "neglect": "med",
+      "vol_expansion": 1.6,
+      "rvol": 1.6,
+      "pct_below_52w_high": 74.3,
+      "market_cap_m": 6.11679,
+      "_avg20_vol": 28812.8,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "1.6x"
+        ],
+        [
+          "52wk",
+          "74% below high"
+        ]
+      ],
+      "catalyst_score": 21,
+      "neglect_score": 24,
+      "technical_score": 14,
+      "total": 59,
+      "cbreak": [
+        [
+          "Gap 21.2% (market voting)",
+          "+17"
+        ],
+        [
+          "Volume 1.6x expansion",
+          "+4"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ],
+        [
+          "ADR 11.0%",
+          "+5"
+        ],
+        [
+          "Above 50d, 20d, 10d",
+          "+7"
+        ]
+      ]
+    },
+    {
       "ticker": "ITGR",
       "name": "Integer Holdings Corporation",
       "changesPercentage": 20.17648,
-      "price": 124.57,
+      "price": 124.47,
       "premarket_change": 20.17648,
       "headline": "KKR to Buy Integer Holdings for $4.3 Billion",
       "news_url": "https://www.wsj.com/business/deals/kkr-to-buy-integer-holdings-for-4-3-billion-a80f2560",
@@ -722,15 +862,15 @@
       "wk52_low": 62.0,
       "float_m": 33.459438,
       "adr_pct": 3.92,
-      "dollar_volume_m": 351.9,
+      "dollar_volume_m": 1091.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 6.4,
-      "rvol": 6.4,
+      "vol_expansion": 20.0,
+      "rvol": 20.0,
       "pct_below_52w_high": -2.5,
       "_avg20_vol": 439150.65,
       "section": "ep",
@@ -739,7 +879,7 @@
       "info": [
         [
           "RVOL",
-          "6.4x"
+          "20.0x"
         ],
         [
           "Float",
@@ -764,7 +904,7 @@
           "+17"
         ],
         [
-          "Volume 6.4x expansion",
+          "Volume 20.0x expansion",
           "+10"
         ]
       ],
@@ -776,7 +916,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $352M",
+          "$ vol $1091M",
           "+8"
         ],
         [
@@ -793,7 +933,7 @@
       "ticker": "CNSP",
       "name": "CNS Pharmaceuticals, Inc.",
       "changesPercentage": 19.93814,
-      "price": 5.83,
+      "price": 5.84,
       "premarket_change": 19.93814,
       "market_cap_m": 3.342332,
       "wk52_high": 10.588,
@@ -811,8 +951,8 @@
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.4,
-      "rvol": 0.4,
+      "vol_expansion": 0.6,
+      "rvol": 0.6,
       "pct_below_52w_high": 44.2,
       "_avg20_vol": 9126.05,
       "section": "no_catalyst",
@@ -821,7 +961,7 @@
       "info": [
         [
           "RVOL",
-          "0.4x"
+          "0.6x"
         ],
         [
           "Float",
@@ -832,18 +972,18 @@
           "44% below high"
         ]
       ],
-      "catalyst_score": 18,
+      "catalyst_score": 19,
       "neglect_score": 42,
       "technical_score": 19,
-      "total": 79,
+      "total": 80,
       "cbreak": [
         [
           "Gap 19.9% (market voting)",
           "+17"
         ],
         [
-          "Volume 0.4x expansion",
-          "+1"
+          "Volume 0.6x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
@@ -871,7 +1011,7 @@
       "ticker": "RYOJ",
       "name": "rYojbaba Co., Ltd. Common Shares",
       "changesPercentage": 19.57447,
-      "price": 6.38,
+      "price": 5.93,
       "premarket_change": 19.57447,
       "market_cap_m": 64.911,
       "wk52_high": 11.43,
@@ -882,15 +1022,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 18.56,
-      "dollar_volume_m": 0.3,
+      "dollar_volume_m": 0.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 0.5,
-      "rvol": 0.5,
+      "vol_expansion": 0.8,
+      "rvol": 0.8,
       "pct_below_52w_high": 42.4,
       "_avg20_vol": 99678.9,
       "section": "no_catalyst",
@@ -899,7 +1039,7 @@
       "info": [
         [
           "RVOL",
-          "0.5x"
+          "0.8x"
         ],
         [
           "Float",
@@ -910,18 +1050,18 @@
           "42% below high"
         ]
       ],
-      "catalyst_score": 18,
+      "catalyst_score": 19,
       "neglect_score": 0,
       "technical_score": 19,
-      "total": 37,
+      "total": 38,
       "cbreak": [
         [
           "Gap 19.6% (market voting)",
           "+17"
         ],
         [
-          "Volume 0.5x expansion",
-          "+1"
+          "Volume 0.8x expansion",
+          "+2"
         ]
       ],
       "nbreak": [],
@@ -944,7 +1084,7 @@
       "ticker": "FVN",
       "name": "Future Vision II Acquisition Corp.",
       "changesPercentage": 17.89925,
-      "price": 11.99,
+      "price": 11.14,
       "premarket_change": 17.89925,
       "market_cap_m": 82.984,
       "wk52_high": 12.7,
@@ -955,15 +1095,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 8.06,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 0.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 0.3,
+      "rvol": 0.3,
       "pct_below_52w_high": -11.2,
       "_avg20_vol": 42735.65,
       "section": "no_catalyst",
@@ -972,7 +1112,7 @@
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "0.3x"
         ],
         [
           "Float",
@@ -983,14 +1123,18 @@
           "at highs"
         ]
       ],
-      "catalyst_score": 16,
+      "catalyst_score": 17,
       "neglect_score": 24,
       "technical_score": 19,
-      "total": 59,
+      "total": 60,
       "cbreak": [
         [
           "Gap 17.9% (market voting)",
           "+16"
+        ],
+        [
+          "Volume 0.3x expansion",
+          "+1"
         ]
       ],
       "nbreak": [
@@ -1018,7 +1162,7 @@
       "ticker": "CCG",
       "name": "Cheche Group Inc.",
       "changesPercentage": 17.48092,
-      "price": 16.36,
+      "price": 14.35,
       "premarket_change": 17.48092,
       "market_cap_m": 36.311997,
       "wk52_high": 16.83,
@@ -1029,15 +1173,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 15.4,
-      "dollar_volume_m": 0.0,
+      "dollar_volume_m": 0.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 1.7,
+      "rvol": 1.7,
       "pct_below_52w_high": 70.7,
       "_avg20_vol": 8722.15,
       "section": "no_catalyst",
@@ -1046,7 +1190,7 @@
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "1.7x"
         ],
         [
           "Float",
@@ -1057,14 +1201,18 @@
           "71% below high"
         ]
       ],
-      "catalyst_score": 16,
+      "catalyst_score": 20,
       "neglect_score": 24,
       "technical_score": 10,
-      "total": 50,
+      "total": 54,
       "cbreak": [
         [
           "Gap 17.5% (market voting)",
           "+16"
+        ],
+        [
+          "Volume 1.7x expansion",
+          "+4"
         ]
       ],
       "nbreak": [
@@ -1092,7 +1240,7 @@
       "ticker": "DSY",
       "name": "Big Tree Cloud Holdings Limited",
       "changesPercentage": 17.44548,
-      "price": 3.85,
+      "price": 3.79,
       "premarket_change": 17.44548,
       "market_cap_m": 17.914557,
       "wk52_high": 146.6,
@@ -1158,10 +1306,156 @@
       ]
     },
     {
+      "ticker": "CRWV",
+      "name": "CoreWeave, Inc. Class A Common Stock",
+      "changesPercentage": 17.30528,
+      "price": 84.24,
+      "premarket_change": 17.30528,
+      "headline": "CoreWeave Jumps 11%, Snowflake Gains 6%, Oracle Climbs 5% as Risk-On Mood Lifts AI Cloud",
+      "news_url": "https://247wallst.com/investing/2026/08/03/coreweave-jumps-11-snowflake-gains-6-oracle-climbs-5-as-risk-on-mood-lifts-ai-cloud/",
+      "news_site": "247wallst.com",
+      "news_time": "2026-08-03 10:40:15",
+      "catalyst_label": "sector_runaway",
+      "catalyst_tier": "A",
+      "catalyst_desc": "Sector runaway move",
+      "catalyst_base_points": 70,
+      "market_cap_m": 45958.850917,
+      "wk52_high": 153.2,
+      "wk52_low": 60.55,
+      "float_m": 339.48349,
+      "adr_pct": 8.75,
+      "dollar_volume_m": 2043.8,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "med",
+      "vol_expansion": 0.9,
+      "rvol": 0.9,
+      "pct_below_52w_high": 40.5,
+      "_avg20_vol": 25341630.35,
+      "section": "ep",
+      "cooling": false,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "0.9x"
+        ],
+        [
+          "Float",
+          "339M"
+        ],
+        [
+          "52wk",
+          "40% below high"
+        ]
+      ],
+      "catalyst_score": 88,
+      "neglect_score": 24,
+      "technical_score": 16,
+      "total": 128,
+      "cbreak": [
+        [
+          "Sector runaway move (Tier A)",
+          "+70"
+        ],
+        [
+          "Gap 17.3% (market voting)",
+          "+16"
+        ],
+        [
+          "Volume 0.9x expansion",
+          "+2"
+        ]
+      ],
+      "nbreak": [
+        [
+          "Med neglect (quiet base)",
+          "+24"
+        ]
+      ],
+      "tbreak": [
+        [
+          "$ vol $2044M",
+          "+8"
+        ],
+        [
+          "ADR 8.8%",
+          "+5"
+        ],
+        [
+          "Above 20d, 10d",
+          "+3"
+        ]
+      ]
+    },
+    {
+      "ticker": "IMC",
+      "name": "IMC Rare Earths Ltd",
+      "changesPercentage": 16.38734,
+      "price": 6.25,
+      "premarket_change": 16.38734,
+      "headline": "NYSE Content Update: Intercontinental Exchange to Acquire MarketAxess in $6 Billion Deal",
+      "news_url": "https://www.prnewswire.com/news-releases/nyse-content-update-intercontinental-exchange-to-acquire-marketaxess-in-6-billion-deal-302841172.html",
+      "news_site": "prnewswire.com",
+      "news_time": "2026-08-03 08:55:00",
+      "catalyst_label": "unclassified_move",
+      "catalyst_tier": "C",
+      "catalyst_desc": "Moving on unclear news",
+      "catalyst_base_points": 22,
+      "market_cap_m": 656.875,
+      "wk52_high": 6.44,
+      "wk52_low": 4.51,
+      "float_m": 3.847866,
+      "adr_pct": null,
+      "dollar_volume_m": 0.4,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "section": "ep",
+      "cooling": true,
+      "low_float": true,
+      "info": [
+        [
+          "Float",
+          "4M \u00b7 LOW"
+        ]
+      ],
+      "catalyst_score": 38,
+      "neglect_score": 0,
+      "technical_score": 2,
+      "total": 40,
+      "cbreak": [
+        [
+          "Moving on unclear news (Tier C)",
+          "+22"
+        ],
+        [
+          "Gap 16.4% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": [
+        [
+          "$ vol $0M",
+          "+2"
+        ]
+      ]
+    },
+    {
       "ticker": "CNH",
       "name": "CNH Industrial N.V.",
       "changesPercentage": 16.14634,
-      "price": 11.905,
+      "price": 11.3,
       "premarket_change": 16.14634,
       "headline": "CNH Industrial (CNH) Q2 Earnings and Revenues Beat Estimates",
       "news_url": "https://www.zacks.com/stock/news/2966315/cnh-industrial-cnh-q2-earnings-and-revenues-beat-estimates?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|yseop_template_4-2966315",
@@ -1176,15 +1470,15 @@
       "wk52_low": 9.0,
       "float_m": 869.252068,
       "adr_pct": 3.56,
-      "dollar_volume_m": 77.8,
+      "dollar_volume_m": 239.5,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "med",
-      "vol_expansion": 0.6,
-      "rvol": 0.6,
+      "vol_expansion": 1.9,
+      "rvol": 1.9,
       "pct_below_52w_high": 9.0,
       "_avg20_vol": 10979972.7,
       "section": "ep",
@@ -1193,7 +1487,7 @@
       "info": [
         [
           "RVOL",
-          "0.6x"
+          "1.9x"
         ],
         [
           "Float",
@@ -1204,10 +1498,10 @@
           "9% below high"
         ]
       ],
-      "catalyst_score": 101,
+      "catalyst_score": 104,
       "neglect_score": 24,
-      "technical_score": 20,
-      "total": 145,
+      "technical_score": 24,
+      "total": 152,
       "cbreak": [
         [
           "Earnings beat with strong sales/EPS growth (Tier A)",
@@ -1218,8 +1512,8 @@
           "+15"
         ],
         [
-          "Volume 0.6x expansion",
-          "+2"
+          "Volume 1.9x expansion",
+          "+5"
         ]
       ],
       "nbreak": [
@@ -1230,8 +1524,8 @@
       ],
       "tbreak": [
         [
-          "$ vol $78M",
-          "+4"
+          "$ vol $240M",
+          "+8"
         ],
         [
           "ADR 3.6%",
@@ -1247,7 +1541,7 @@
       "ticker": "AMBA",
       "name": "Ambarella, Inc.",
       "changesPercentage": 16.07504,
-      "price": 83.74,
+      "price": 84.08,
       "premarket_change": 16.07504,
       "headline": "Strength Seen in Ambarella (AMBA): Can Its 16.1% Jump Turn into More Strength?",
       "news_url": "https://www.zacks.com/stock/news/2966242/strength-seen-in-ambarella-amba-can-its-16-1-jump-turn-into-more-strength?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|daily_price_change_5%-2966242",
@@ -1262,15 +1556,15 @@
       "wk52_low": 48.3,
       "float_m": 41.850687,
       "adr_pct": 8.85,
-      "dollar_volume_m": 25.1,
+      "dollar_volume_m": 102.4,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.2,
-      "rvol": 0.2,
+      "vol_expansion": 0.7,
+      "rvol": 0.7,
       "pct_below_52w_high": 10.5,
       "_avg20_vol": 1686466.2,
       "section": "ep",
@@ -1279,7 +1573,7 @@
       "info": [
         [
           "RVOL",
-          "0.2x"
+          "0.7x"
         ],
         [
           "Float",
@@ -1290,10 +1584,10 @@
           "10% below high"
         ]
       ],
-      "catalyst_score": 111,
+      "catalyst_score": 113,
       "neglect_score": 42,
-      "technical_score": 21,
-      "total": 174,
+      "technical_score": 25,
+      "total": 180,
       "cbreak": [
         [
           "Acquisition / buyout (target) (Tier S)",
@@ -1304,8 +1598,8 @@
           "+15"
         ],
         [
-          "Volume 0.2x expansion",
-          "+0"
+          "Volume 0.7x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
@@ -1316,8 +1610,8 @@
       ],
       "tbreak": [
         [
-          "$ vol $25M",
-          "+4"
+          "$ vol $102M",
+          "+8"
         ],
         [
           "ADR 8.8%",
@@ -1333,7 +1627,7 @@
       "ticker": "ALVO",
       "name": "Alvotech",
       "changesPercentage": 15.40616,
-      "price": 3.89,
+      "price": 3.78,
       "premarket_change": 15.40616,
       "market_cap_m": 1393.465704,
       "wk52_high": 9.25,
@@ -1344,15 +1638,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 6.38,
-      "dollar_volume_m": 0.5,
+      "dollar_volume_m": 1.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.2,
-      "rvol": 0.2,
+      "vol_expansion": 0.7,
+      "rvol": 0.7,
       "pct_below_52w_high": 54.7,
       "_avg20_vol": 723307.85,
       "section": "no_catalyst",
@@ -1361,7 +1655,7 @@
       "info": [
         [
           "RVOL",
-          "0.2x"
+          "0.7x"
         ],
         [
           "Float",
@@ -1372,18 +1666,18 @@
           "55% below high"
         ]
       ],
-      "catalyst_score": 15,
+      "catalyst_score": 17,
       "neglect_score": 42,
       "technical_score": 14,
-      "total": 71,
+      "total": 73,
       "cbreak": [
         [
           "Gap 15.4% (market voting)",
           "+15"
         ],
         [
-          "Volume 0.2x expansion",
-          "+0"
+          "Volume 0.7x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
@@ -1394,7 +1688,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $2M",
           "+2"
         ],
         [
@@ -1411,7 +1705,7 @@
       "ticker": "AMCX",
       "name": "AMC Global Media Inc.",
       "changesPercentage": 15.34501,
-      "price": 11.5,
+      "price": 11.26,
       "premarket_change": 15.34501,
       "market_cap_m": 363.365005,
       "wk52_high": 11.66,
@@ -1422,15 +1716,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 5.43,
-      "dollar_volume_m": 0.9,
+      "dollar_volume_m": 4.9,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.1,
-      "rvol": 0.1,
+      "vol_expansion": 0.8,
+      "rvol": 0.8,
       "pct_below_52w_high": -2.9,
       "_avg20_vol": 529721.1,
       "section": "no_catalyst",
@@ -1439,7 +1733,7 @@
       "info": [
         [
           "RVOL",
-          "0.1x"
+          "0.8x"
         ],
         [
           "Float",
@@ -1450,18 +1744,18 @@
           "at highs"
         ]
       ],
-      "catalyst_score": 15,
+      "catalyst_score": 17,
       "neglect_score": 42,
       "technical_score": 19,
-      "total": 76,
+      "total": 78,
       "cbreak": [
         [
           "Gap 15.3% (market voting)",
           "+15"
         ],
         [
-          "Volume 0.1x expansion",
-          "+0"
+          "Volume 0.8x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
@@ -1472,7 +1766,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $1M",
+          "$ vol $5M",
           "+2"
         ],
         [
@@ -1504,15 +1798,15 @@
       "wk52_low": 196.0,
       "float_m": 9789.154627,
       "adr_pct": 2.6,
-      "dollar_volume_m": 7387.0,
+      "dollar_volume_m": 15554.3,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.6,
-      "rvol": 0.6,
+      "vol_expansion": 1.3,
+      "rvol": 1.3,
       "pct_below_52w_high": -0.4,
       "_avg20_vol": 41513697.05,
       "section": "ep",
@@ -1521,7 +1815,7 @@
       "info": [
         [
           "RVOL",
-          "0.6x"
+          "1.3x"
         ],
         [
           "Float",
@@ -1532,10 +1826,10 @@
           "at highs"
         ]
       ],
-      "catalyst_score": 101,
+      "catalyst_score": 102,
       "neglect_score": 42,
       "technical_score": 23,
-      "total": 166,
+      "total": 167,
       "cbreak": [
         [
           "Earnings beat with strong sales/EPS growth (Tier A)",
@@ -1546,8 +1840,8 @@
           "+15"
         ],
         [
-          "Volume 0.6x expansion",
-          "+2"
+          "Volume 1.3x expansion",
+          "+3"
         ]
       ],
       "nbreak": [
@@ -1558,7 +1852,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $7387M",
+          "$ vol $15554M",
           "+8"
         ],
         [
@@ -1575,7 +1869,7 @@
       "ticker": "CSHR",
       "name": "CoinShares PLC Ordinary Shares",
       "changesPercentage": 14.7541,
-      "price": 6.01,
+      "price": 5.11,
       "premarket_change": 14.7541,
       "market_cap_m": 322.533675,
       "wk52_high": 10.43,
@@ -1586,15 +1880,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 6.34,
-      "dollar_volume_m": 0.3,
+      "dollar_volume_m": 1.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.3,
-      "rvol": 0.3,
+      "vol_expansion": 1.9,
+      "rvol": 1.9,
       "pct_below_52w_high": 50.3,
       "_avg20_vol": 124672.05,
       "section": "no_catalyst",
@@ -1603,7 +1897,7 @@
       "info": [
         [
           "RVOL",
-          "0.3x"
+          "1.9x"
         ],
         [
           "Float",
@@ -1614,18 +1908,18 @@
           "50% below high"
         ]
       ],
-      "catalyst_score": 16,
+      "catalyst_score": 20,
       "neglect_score": 42,
       "technical_score": 14,
-      "total": 72,
+      "total": 76,
       "cbreak": [
         [
           "Gap 14.8% (market voting)",
           "+15"
         ],
         [
-          "Volume 0.3x expansion",
-          "+1"
+          "Volume 1.9x expansion",
+          "+5"
         ]
       ],
       "nbreak": [
@@ -1636,7 +1930,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $0M",
+          "$ vol $1M",
           "+2"
         ],
         [
@@ -1653,7 +1947,7 @@
       "ticker": "CDNA",
       "name": "CareDx, Inc",
       "changesPercentage": 14.72441,
-      "price": 47.71,
+      "price": 49.46,
       "premarket_change": 14.72441,
       "headline": "CareDx Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
       "news_url": "https://www.businesswire.com/news/home/20260731951215/en/CareDx-Announces-Inducement-Grants-Under-Nasdaq-Listing-Rule-5635-c-4/",
@@ -1668,15 +1962,15 @@
       "wk52_low": 11.259,
       "float_m": 49.32496,
       "adr_pct": 5.4,
-      "dollar_volume_m": 19.8,
+      "dollar_volume_m": 63.5,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 0.4,
-      "rvol": 0.4,
+      "vol_expansion": 1.2,
+      "rvol": 1.2,
       "pct_below_52w_high": -8.7,
       "_avg20_vol": 1109986.75,
       "section": "ep",
@@ -1685,7 +1979,7 @@
       "info": [
         [
           "RVOL",
-          "0.4x"
+          "1.2x"
         ],
         [
           "Float",
@@ -1696,10 +1990,10 @@
           "at highs"
         ]
       ],
-      "catalyst_score": 38,
+      "catalyst_score": 40,
       "neglect_score": 0,
-      "technical_score": 19,
-      "total": 57,
+      "technical_score": 21,
+      "total": 61,
       "cbreak": [
         [
           "Moving on unclear news (Tier C)",
@@ -1710,15 +2004,15 @@
           "+15"
         ],
         [
-          "Volume 0.4x expansion",
-          "+1"
+          "Volume 1.2x expansion",
+          "+3"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $20M",
-          "+2"
+          "$ vol $64M",
+          "+4"
         ],
         [
           "ADR 5.4%",
@@ -1734,7 +2028,7 @@
       "ticker": "LIND",
       "name": "Lindblad Expeditions Holdings, Inc.",
       "changesPercentage": 14.58756,
-      "price": 33.895,
+      "price": 32.75,
       "premarket_change": 14.58756,
       "headline": "Lindblad Expeditions (LIND) Reports Q2 Loss, Beats Revenue Estimates",
       "news_url": "https://www.zacks.com/stock/news/2966356/lindblad-expeditions-lind-reports-q2-loss-beats-revenue-estimates?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|yseop_template_4-2966356",
@@ -1749,15 +2043,15 @@
       "wk52_low": 11.37,
       "float_m": 49.16,
       "adr_pct": 4.58,
-      "dollar_volume_m": 9.1,
+      "dollar_volume_m": 29.0,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "low",
-      "vol_expansion": 0.3,
-      "rvol": 0.3,
+      "vol_expansion": 1.2,
+      "rvol": 1.2,
       "pct_below_52w_high": -18.1,
       "_avg20_vol": 757101.15,
       "section": "ep",
@@ -1766,7 +2060,7 @@
       "info": [
         [
           "RVOL",
-          "0.3x"
+          "1.2x"
         ],
         [
           "Float",
@@ -1777,10 +2071,10 @@
           "at highs"
         ]
       ],
-      "catalyst_score": 100,
+      "catalyst_score": 102,
       "neglect_score": 0,
-      "technical_score": 19,
-      "total": 119,
+      "technical_score": 21,
+      "total": 123,
       "cbreak": [
         [
           "Earnings beat with strong sales/EPS growth (Tier A)",
@@ -1791,15 +2085,15 @@
           "+15"
         ],
         [
-          "Volume 0.3x expansion",
-          "+1"
+          "Volume 1.2x expansion",
+          "+3"
         ]
       ],
       "nbreak": [],
       "tbreak": [
         [
-          "$ vol $9M",
-          "+2"
+          "$ vol $29M",
+          "+4"
         ],
         [
           "ADR 4.6%",
@@ -1815,7 +2109,7 @@
       "ticker": "DMRC",
       "name": "Digimarc Corp.",
       "changesPercentage": 12.57622,
-      "price": 7.385,
+      "price": 7.14,
       "premarket_change": 12.57622,
       "headline": "Digimarc Appoints Enterprise Software Executive Ron Thomas as Chief Revenue Officer",
       "news_url": "https://www.businesswire.com/news/home/20260803293241/en/Digimarc-Appoints-Enterprise-Software-Executive-Ron-Thomas-as-Chief-Revenue-Officer/",
@@ -1830,15 +2124,15 @@
       "wk52_low": 4.07,
       "float_m": 16.272,
       "adr_pct": 10.17,
-      "dollar_volume_m": 0.1,
+      "dollar_volume_m": 0.2,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.1,
-      "rvol": 0.1,
+      "vol_expansion": 0.2,
+      "rvol": 0.2,
       "pct_below_52w_high": 55.0,
       "_avg20_vol": 150329.35,
       "section": "ep",
@@ -1847,7 +2141,7 @@
       "info": [
         [
           "RVOL",
-          "0.1x"
+          "0.2x"
         ],
         [
           "Float",
@@ -1872,7 +2166,7 @@
           "+14"
         ],
         [
-          "Volume 0.1x expansion",
+          "Volume 0.2x expansion",
           "+0"
         ]
       ],
@@ -1901,7 +2195,7 @@
       "ticker": "ULH",
       "name": "Universal Logistics Holdings, Inc.",
       "changesPercentage": 12.48132,
-      "price": 15.05,
+      "price": 15.92,
       "premarket_change": 12.48132,
       "headline": "Universal Logistics (ULH) Beats Q2 Earnings Estimates",
       "news_url": "https://www.zacks.com/stock/news/2966154/universal-logistics-ulh-beats-q2-earnings-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2966154",
@@ -1916,15 +2210,15 @@
       "wk52_low": 11.73,
       "float_m": 6.700617,
       "adr_pct": 7.2,
-      "dollar_volume_m": 0.1,
+      "dollar_volume_m": 0.5,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "high",
-      "vol_expansion": 0.1,
-      "rvol": 0.1,
+      "vol_expansion": 0.8,
+      "rvol": 0.8,
       "pct_below_52w_high": 43.4,
       "_avg20_vol": 40097.1,
       "section": "ep",
@@ -1933,7 +2227,7 @@
       "info": [
         [
           "RVOL",
-          "0.1x"
+          "0.8x"
         ],
         [
           "Float",
@@ -1944,10 +2238,10 @@
           "43% below high"
         ]
       ],
-      "catalyst_score": 98,
+      "catalyst_score": 100,
       "neglect_score": 42,
       "technical_score": 10,
-      "total": 150,
+      "total": 152,
       "cbreak": [
         [
           "Earnings beat with strong sales/EPS growth (Tier A)",
@@ -1958,8 +2252,8 @@
           "+14"
         ],
         [
-          "Volume 0.1x expansion",
-          "+0"
+          "Volume 0.8x expansion",
+          "+2"
         ]
       ],
       "nbreak": [
