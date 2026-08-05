@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-05T10:35:46.628885+00:00",
+  "generated_utc": "2026-08-05T12:26:06.682833+00:00",
   "session_date": "2026-08-05",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
   "count": 24,
   "active_count": 0,
@@ -446,7 +446,7 @@
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
       "changesPercentage": 29.45483,
-      "price": 162.66,
+      "price": 163.5,
       "premarket_change": 29.45483,
       "market_cap_m": 373478.7462,
       "wk52_high": 207.52,
@@ -457,15 +457,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 5.13,
-      "dollar_volume_m": 127.4,
+      "dollar_volume_m": 306.1,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.0,
-      "rvol": 0.0,
+      "vol_expansion": 0.1,
+      "rvol": 0.1,
       "pct_below_52w_high": 22.8,
       "_avg20_vol": 36059393.35,
       "section": "no_catalyst",
@@ -474,7 +474,7 @@
       "info": [
         [
           "RVOL",
-          "0.0x"
+          "0.1x"
         ],
         [
           "Float",
@@ -493,6 +493,10 @@
         [
           "Gap 29.5% (market voting)",
           "+21"
+        ],
+        [
+          "Volume 0.1x expansion",
+          "+0"
         ]
       ],
       "nbreak": [
@@ -503,7 +507,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $127M",
+          "$ vol $306M",
           "+8"
         ],
         [
