@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-08-12T15:01:36.310740+00:00",
-  "session_date": "2026-08-12",
-  "mode": "refresh",
+  "generated_utc": "2026-08-13T09:13:15.709321+00:00",
+  "session_date": "2026-08-13",
+  "mode": "full",
   "run_label": "scheduled",
-  "count": 29,
+  "count": 22,
   "active_count": 0,
-  "no_catalyst_count": 29,
+  "no_catalyst_count": 22,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -20,14 +20,14 @@
   },
   "rows": [
     {
-      "ticker": "PLAG",
-      "name": "Planet Green Holdings Corp.",
-      "changesPercentage": 927.04614,
-      "price": 5.81,
-      "premarket_change": 927.04614,
+      "ticker": "BOXL",
+      "name": "Boxlight Corporation",
+      "changesPercentage": 167.68707,
+      "price": 7.87,
+      "premarket_change": 167.68707,
       "market_cap_m": null,
-      "wk52_high": 6.81,
-      "wk52_low": 0.49,
+      "wk52_high": 365.4,
+      "wk52_low": 2.59,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -52,7 +52,7 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 927.0% (market voting)",
+          "Gap 167.7% (market voting)",
           "+22"
         ]
       ],
@@ -60,14 +60,14 @@
       "tbreak": []
     },
     {
-      "ticker": "WXM",
-      "name": "WF International Limited Ordinary Shares",
-      "changesPercentage": 97.5,
-      "price": 7.9,
-      "premarket_change": 97.5,
+      "ticker": "XHLD",
+      "name": "TEN Holdings, Inc. Common Stock",
+      "changesPercentage": 49.85994,
+      "price": 5.35,
+      "premarket_change": 49.85994,
       "market_cap_m": null,
-      "wk52_high": 42.22,
-      "wk52_low": 2.6,
+      "wk52_high": 13.47,
+      "wk52_low": 0.764,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -92,7 +92,7 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 97.5% (market voting)",
+          "Gap 49.9% (market voting)",
           "+22"
         ]
       ],
@@ -100,14 +100,14 @@
       "tbreak": []
     },
     {
-      "ticker": "QMCO",
-      "name": "Quantum Corporation",
-      "changesPercentage": 64.68591,
-      "price": 19.4,
-      "premarket_change": 64.68591,
+      "ticker": "BANL",
+      "name": "CBL International Limited",
+      "changesPercentage": 47.27932,
+      "price": 6.09,
+      "premarket_change": 47.27932,
       "market_cap_m": null,
-      "wk52_high": 19.6,
-      "wk52_low": 4.19,
+      "wk52_high": 12.714,
+      "wk52_low": 3.458,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -132,7 +132,7 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 64.7% (market voting)",
+          "Gap 47.3% (market voting)",
           "+22"
         ]
       ],
@@ -140,14 +140,14 @@
       "tbreak": []
     },
     {
-      "ticker": "AIFA",
-      "name": "All In FutureTech Alliance Inc.",
-      "changesPercentage": 50.7109,
-      "price": 3.18,
-      "premarket_change": 50.7109,
+      "ticker": "CD",
+      "name": "Chaince Digital Holdings Inc.",
+      "changesPercentage": 34.52769,
+      "price": 4.13,
+      "premarket_change": 34.52769,
       "market_cap_m": null,
-      "wk52_high": 13.68,
-      "wk52_low": 1.506,
+      "wk52_high": 36.77,
+      "wk52_low": 2.1,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -172,7 +172,7 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 50.7% (market voting)",
+          "Gap 34.5% (market voting)",
           "+22"
         ]
       ],
@@ -180,14 +180,14 @@
       "tbreak": []
     },
     {
-      "ticker": "MSGY",
-      "name": "Masonglory Ltd",
-      "changesPercentage": 48.20256,
-      "price": 3.43,
-      "premarket_change": 48.20256,
+      "ticker": "NBIS",
+      "name": "Nebius Group N.V.",
+      "changesPercentage": 34.14066,
+      "price": 259.2,
+      "premarket_change": 34.14066,
       "market_cap_m": null,
-      "wk52_high": 177.6,
-      "wk52_low": 1.8312,
+      "wk52_high": 299.86,
+      "wk52_low": 62.01,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -212,7 +212,7 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 48.2% (market voting)",
+          "Gap 34.1% (market voting)",
           "+22"
         ]
       ],
@@ -220,14 +220,14 @@
       "tbreak": []
     },
     {
-      "ticker": "STIM",
-      "name": "Neuronetics, Inc.",
-      "changesPercentage": 47.00461,
-      "price": 3.19,
-      "premarket_change": 47.00461,
+      "ticker": "FXHO",
+      "name": "UTime Limited",
+      "changesPercentage": 34.10405,
+      "price": 13.92,
+      "premarket_change": 34.10405,
       "market_cap_m": null,
-      "wk52_high": 3.98,
-      "wk52_low": 0.8,
+      "wk52_high": 7700.0,
+      "wk52_low": 5.02,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -252,7 +252,7 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 47.0% (market voting)",
+          "Gap 34.1% (market voting)",
           "+22"
         ]
       ],
@@ -260,214 +260,14 @@
       "tbreak": []
     },
     {
-      "ticker": "NIQ",
-      "name": "NIQ Global Intelligence Plc",
-      "changesPercentage": 41.95205,
-      "price": 16.58,
-      "premarket_change": 41.95205,
+      "ticker": "QNT",
+      "name": "Quantinuum Inc. Class A Common Stock",
+      "changesPercentage": 27.97003,
+      "price": 71.74,
+      "premarket_change": 27.97003,
       "market_cap_m": null,
-      "wk52_high": 18.7,
-      "wk52_low": 7.93,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 22,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 22,
-      "cbreak": [
-        [
-          "Gap 42.0% (market voting)",
-          "+22"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "TISI",
-      "name": "Team, Inc.",
-      "changesPercentage": 37.22054,
-      "price": 22.71,
-      "premarket_change": 37.22054,
-      "market_cap_m": null,
-      "wk52_high": 23.48,
-      "wk52_low": 12.34,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 22,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 22,
-      "cbreak": [
-        [
-          "Gap 37.2% (market voting)",
-          "+22"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "ALMR",
-      "name": "Alamar Biosciences, Inc.",
-      "changesPercentage": 30.6538,
-      "price": 36.57,
-      "premarket_change": 30.6538,
-      "market_cap_m": null,
-      "wk52_high": 38.54,
-      "wk52_low": 18.85,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 21,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 21,
-      "cbreak": [
-        [
-          "Gap 30.7% (market voting)",
-          "+21"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "WYHG",
-      "name": "Wing Yip Food Holdings Group Limited American Depositary Shares",
-      "changesPercentage": 29.1958,
-      "price": 7.39,
-      "premarket_change": 29.1958,
-      "market_cap_m": null,
-      "wk52_high": 26.17,
-      "wk52_low": 1.56,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 21,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 21,
-      "cbreak": [
-        [
-          "Gap 29.2% (market voting)",
-          "+21"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "AIAI",
-      "name": "AIAI Holdings Corporation Class A Common Stock",
-      "changesPercentage": 29.1866,
-      "price": 5.4,
-      "premarket_change": 29.1866,
-      "market_cap_m": null,
-      "wk52_high": 19.57,
-      "wk52_low": 3.82,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 21,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 21,
-      "cbreak": [
-        [
-          "Gap 29.2% (market voting)",
-          "+21"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "IPCX",
-      "name": "Inflection Point Acquisition Corp. III",
-      "changesPercentage": 28.6052,
-      "price": 5.44,
-      "premarket_change": 28.6052,
-      "market_cap_m": null,
-      "wk52_high": 11.5,
-      "wk52_low": 3.77,
+      "wk52_high": 86.79,
+      "wk52_low": 47.06,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -492,7 +292,7 @@
       "total": 20,
       "cbreak": [
         [
-          "Gap 28.6% (market voting)",
+          "Gap 28.0% (market voting)",
           "+20"
         ]
       ],
@@ -500,14 +300,14 @@
       "tbreak": []
     },
     {
-      "ticker": "HQI",
-      "name": "HireQuest, Inc.",
-      "changesPercentage": 26.67649,
-      "price": 17.19,
-      "premarket_change": 26.67649,
+      "ticker": "MVIS",
+      "name": "MicroVision, Inc.",
+      "changesPercentage": 27.74725,
+      "price": 4.65,
+      "premarket_change": 27.74725,
       "market_cap_m": null,
-      "wk52_high": 19.0,
-      "wk52_low": 7.38,
+      "wk52_high": 23.1,
+      "wk52_low": 3.11,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -532,7 +332,7 @@
       "total": 20,
       "cbreak": [
         [
-          "Gap 26.7% (market voting)",
+          "Gap 27.7% (market voting)",
           "+20"
         ]
       ],
@@ -540,14 +340,14 @@
       "tbreak": []
     },
     {
-      "ticker": "KPLT",
-      "name": "Katapult Holdings, Inc.",
-      "changesPercentage": 25.78616,
-      "price": 8.0,
-      "premarket_change": 25.78616,
+      "ticker": "PTN",
+      "name": "Palatin Technologies, Inc.",
+      "changesPercentage": 27.45626,
+      "price": 9.47,
+      "premarket_change": 27.45626,
       "market_cap_m": null,
-      "wk52_high": 24.34,
-      "wk52_low": 5.5,
+      "wk52_high": 31.0,
+      "wk52_low": 5.2,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -566,68 +366,28 @@
       "section": "no_catalyst",
       "cooling": false,
       "info": [],
-      "catalyst_score": 19,
+      "catalyst_score": 20,
       "neglect_score": 0,
       "technical_score": 0,
-      "total": 19,
+      "total": 20,
       "cbreak": [
         [
-          "Gap 25.8% (market voting)",
-          "+19"
+          "Gap 27.5% (market voting)",
+          "+20"
         ]
       ],
       "nbreak": [],
       "tbreak": []
     },
     {
-      "ticker": "NTHI",
-      "name": "Neonc Technologies Holdings, Inc.",
-      "changesPercentage": 24.28571,
-      "price": 4.35,
-      "premarket_change": 24.28571,
+      "ticker": "EROC",
+      "name": "ERock, Inc.",
+      "changesPercentage": 22.84444,
+      "price": 13.82,
+      "premarket_change": 22.84444,
       "market_cap_m": null,
-      "wk52_high": 12.99,
-      "wk52_low": 3.005,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 19,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 19,
-      "cbreak": [
-        [
-          "Gap 24.3% (market voting)",
-          "+19"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "KOPN",
-      "name": "Kopin Corp.",
-      "changesPercentage": 23.51544,
-      "price": 5.2,
-      "premarket_change": 23.51544,
-      "market_cap_m": null,
-      "wk52_high": 6.61,
-      "wk52_low": 1.68,
+      "wk52_high": 20.7,
+      "wk52_low": 8.88,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -652,7 +412,7 @@
       "total": 18,
       "cbreak": [
         [
-          "Gap 23.5% (market voting)",
+          "Gap 22.8% (market voting)",
           "+18"
         ]
       ],
@@ -660,14 +420,14 @@
       "tbreak": []
     },
     {
-      "ticker": "FF",
-      "name": "FutureFuel Corp.",
-      "changesPercentage": 23.44961,
-      "price": 6.37,
-      "premarket_change": 23.44961,
+      "ticker": "SION",
+      "name": "Sionna Therapeutics, Inc.",
+      "changesPercentage": 22.54902,
+      "price": 6.25,
+      "premarket_change": 22.54902,
       "market_cap_m": null,
-      "wk52_high": 6.99,
-      "wk52_low": 3.09,
+      "wk52_high": 54.97,
+      "wk52_low": 4.01,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -692,7 +452,7 @@
       "total": 18,
       "cbreak": [
         [
-          "Gap 23.4% (market voting)",
+          "Gap 22.5% (market voting)",
           "+18"
         ]
       ],
@@ -700,14 +460,14 @@
       "tbreak": []
     },
     {
-      "ticker": "SEPN",
-      "name": "Septerna Inc",
-      "changesPercentage": 22.93436,
-      "price": 47.76,
-      "premarket_change": 22.93436,
+      "ticker": "TCGX",
+      "name": "TCGX Acquisition Corp. Class A Ordinary Shares",
+      "changesPercentage": 21.4856,
+      "price": 17.5,
+      "premarket_change": 21.4856,
       "market_cap_m": null,
-      "wk52_high": 48.0,
-      "wk52_low": 10.74,
+      "wk52_high": 18.91,
+      "wk52_low": 10.0,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -732,7 +492,7 @@
       "total": 18,
       "cbreak": [
         [
-          "Gap 22.9% (market voting)",
+          "Gap 21.5% (market voting)",
           "+18"
         ]
       ],
@@ -740,14 +500,14 @@
       "tbreak": []
     },
     {
-      "ticker": "VEEE",
-      "name": "Twin Vee Powercats Co.",
-      "changesPercentage": 22.88462,
-      "price": 12.78,
-      "premarket_change": 22.88462,
+      "ticker": "NXTC",
+      "name": "NextCure, Inc.",
+      "changesPercentage": 21.39673,
+      "price": 8.17,
+      "premarket_change": 21.39673,
       "market_cap_m": null,
-      "wk52_high": 128.02,
-      "wk52_low": 4.16,
+      "wk52_high": 15.74,
+      "wk52_low": 1.55,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -772,7 +532,7 @@
       "total": 18,
       "cbreak": [
         [
-          "Gap 22.9% (market voting)",
+          "Gap 21.4% (market voting)",
           "+18"
         ]
       ],
@@ -780,14 +540,14 @@
       "tbreak": []
     },
     {
-      "ticker": "FRMI",
-      "name": "Fermi Inc. Common Stock",
-      "changesPercentage": 21.08844,
-      "price": 7.12,
-      "premarket_change": 21.08844,
+      "ticker": "SMWB",
+      "name": "Similarweb Ltd.",
+      "changesPercentage": 21.24138,
+      "price": 8.79,
+      "premarket_change": 21.24138,
       "market_cap_m": null,
-      "wk52_high": 36.99,
-      "wk52_low": 4.47,
+      "wk52_high": 10.75,
+      "wk52_low": 2.22,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -812,7 +572,7 @@
       "total": 17,
       "cbreak": [
         [
-          "Gap 21.1% (market voting)",
+          "Gap 21.2% (market voting)",
           "+17"
         ]
       ],
@@ -820,14 +580,14 @@
       "tbreak": []
     },
     {
-      "ticker": "ACB",
-      "name": "Aurora Cannabis Inc.",
-      "changesPercentage": 20.58824,
-      "price": 3.485,
-      "premarket_change": 20.58824,
+      "ticker": "SHAZ",
+      "name": "SharonAI Holdings, Inc. Class A Common Stock",
+      "changesPercentage": 20.99682,
+      "price": 68.46,
+      "premarket_change": 20.99682,
       "market_cap_m": null,
-      "wk52_high": 6.665,
-      "wk52_low": 2.56,
+      "wk52_high": 97.48,
+      "wk52_low": 16.55,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -852,7 +612,7 @@
       "total": 17,
       "cbreak": [
         [
-          "Gap 20.6% (market voting)",
+          "Gap 21.0% (market voting)",
           "+17"
         ]
       ],
@@ -860,14 +620,14 @@
       "tbreak": []
     },
     {
-      "ticker": "BWEN",
-      "name": "Broadwind, Inc.",
-      "changesPercentage": 19.73094,
-      "price": 5.34,
-      "premarket_change": 19.73094,
+      "ticker": "RSKD",
+      "name": "Riskified Ltd.",
+      "changesPercentage": 19.9241,
+      "price": 6.32,
+      "premarket_change": 19.9241,
       "market_cap_m": null,
-      "wk52_high": 5.55,
-      "wk52_low": 1.88,
+      "wk52_high": 6.34,
+      "wk52_low": 3.7,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -892,7 +652,7 @@
       "total": 17,
       "cbreak": [
         [
-          "Gap 19.7% (market voting)",
+          "Gap 19.9% (market voting)",
           "+17"
         ]
       ],
@@ -900,14 +660,14 @@
       "tbreak": []
     },
     {
-      "ticker": "CCM",
-      "name": "Concord Medical Services Holdings Limited",
-      "changesPercentage": 19.35484,
-      "price": 5.18,
-      "premarket_change": 19.35484,
+      "ticker": "HQ",
+      "name": "Horizon Quantum Holdings Ltd. Class A Ordinary Shares",
+      "changesPercentage": 19.53563,
+      "price": 14.93,
+      "premarket_change": 19.53563,
       "market_cap_m": null,
-      "wk52_high": 6.98,
-      "wk52_low": 3.18,
+      "wk52_high": 45.0,
+      "wk52_low": 8.29,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -932,7 +692,7 @@
       "total": 17,
       "cbreak": [
         [
-          "Gap 19.4% (market voting)",
+          "Gap 19.5% (market voting)",
           "+17"
         ]
       ],
@@ -940,14 +700,14 @@
       "tbreak": []
     },
     {
-      "ticker": "MG",
-      "name": "Mistras Group, Inc.",
-      "changesPercentage": 17.73274,
-      "price": 18.59,
-      "premarket_change": 17.73274,
+      "ticker": "CRWV",
+      "name": "CoreWeave, Inc. Class A Common Stock",
+      "changesPercentage": 19.27591,
+      "price": 107.73,
+      "premarket_change": 19.27591,
       "market_cap_m": null,
-      "wk52_high": 19.64,
-      "wk52_low": 8.93,
+      "wk52_high": 153.2,
+      "wk52_low": 60.55,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -966,28 +726,28 @@
       "section": "no_catalyst",
       "cooling": false,
       "info": [],
-      "catalyst_score": 16,
+      "catalyst_score": 17,
       "neglect_score": 0,
       "technical_score": 0,
-      "total": 16,
+      "total": 17,
       "cbreak": [
         [
-          "Gap 17.7% (market voting)",
-          "+16"
+          "Gap 19.3% (market voting)",
+          "+17"
         ]
       ],
       "nbreak": [],
       "tbreak": []
     },
     {
-      "ticker": "CURR",
-      "name": "Currenc Group, Inc.",
-      "changesPercentage": 17.72152,
-      "price": 3.72,
-      "premarket_change": 17.72152,
+      "ticker": "BRUN",
+      "name": "Boost Run Inc. Class A Common Stock",
+      "changesPercentage": 19.1295,
+      "price": 22.17,
+      "premarket_change": 19.1295,
       "market_cap_m": null,
-      "wk52_high": 4.725,
-      "wk52_low": 1.29,
+      "wk52_high": 42.0,
+      "wk52_low": 10.26,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -1006,28 +766,28 @@
       "section": "no_catalyst",
       "cooling": false,
       "info": [],
-      "catalyst_score": 16,
+      "catalyst_score": 17,
       "neglect_score": 0,
       "technical_score": 0,
-      "total": 16,
+      "total": 17,
       "cbreak": [
         [
-          "Gap 17.7% (market voting)",
-          "+16"
+          "Gap 19.1% (market voting)",
+          "+17"
         ]
       ],
       "nbreak": [],
       "tbreak": []
     },
     {
-      "ticker": "CSTE",
-      "name": "Caesarstone Ltd.",
-      "changesPercentage": 17.64706,
-      "price": 3.0,
-      "premarket_change": 17.64706,
+      "ticker": "BRCB",
+      "name": "Black Rock Coffee Bar, Inc.",
+      "changesPercentage": 19.10275,
+      "price": 8.23,
+      "premarket_change": 19.10275,
       "market_cap_m": null,
-      "wk52_high": 3.1,
-      "wk52_low": 0.56,
+      "wk52_high": 30.4,
+      "wk52_low": 6.11,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -1046,28 +806,28 @@
       "section": "no_catalyst",
       "cooling": false,
       "info": [],
-      "catalyst_score": 16,
+      "catalyst_score": 17,
       "neglect_score": 0,
       "technical_score": 0,
-      "total": 16,
+      "total": 17,
       "cbreak": [
         [
-          "Gap 17.6% (market voting)",
-          "+16"
+          "Gap 19.1% (market voting)",
+          "+17"
         ]
       ],
       "nbreak": [],
       "tbreak": []
     },
     {
-      "ticker": "OPTX",
-      "name": "Syntec Optics Holdings, Inc.",
-      "changesPercentage": 17.01847,
-      "price": 8.87,
-      "premarket_change": 17.01847,
+      "ticker": "SMCI",
+      "name": "Super Micro Computer, Inc.",
+      "changesPercentage": 19.01899,
+      "price": 37.61,
+      "premarket_change": 19.01899,
       "market_cap_m": null,
-      "wk52_high": 14.92,
-      "wk52_low": 1.18,
+      "wk52_high": 58.78,
+      "wk52_low": 19.48,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -1086,28 +846,28 @@
       "section": "no_catalyst",
       "cooling": false,
       "info": [],
-      "catalyst_score": 16,
+      "catalyst_score": 17,
       "neglect_score": 0,
       "technical_score": 0,
-      "total": 16,
+      "total": 17,
       "cbreak": [
         [
-          "Gap 17.0% (market voting)",
-          "+16"
+          "Gap 19.0% (market voting)",
+          "+17"
         ]
       ],
       "nbreak": [],
       "tbreak": []
     },
     {
-      "ticker": "AIRS",
-      "name": "AirSculpt Technologies, Inc.",
-      "changesPercentage": 16.90909,
-      "price": 3.215,
-      "premarket_change": 16.90909,
+      "ticker": "MRX",
+      "name": "Marex Group Limited",
+      "changesPercentage": 18.68847,
+      "price": 71.13,
+      "premarket_change": 18.68847,
       "market_cap_m": null,
-      "wk52_high": 12.0,
-      "wk52_low": 1.51,
+      "wk52_high": 71.621,
+      "wk52_low": 27.91,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -1132,47 +892,7 @@
       "total": 16,
       "cbreak": [
         [
-          "Gap 16.9% (market voting)",
-          "+16"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "FENC",
-      "name": "Fennec Pharmaceuticals Inc.",
-      "changesPercentage": 16.81901,
-      "price": 12.78,
-      "premarket_change": 16.81901,
-      "market_cap_m": null,
-      "wk52_high": 13.25,
-      "wk52_low": 5.65,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 16,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 16,
-      "cbreak": [
-        [
-          "Gap 16.8% (market voting)",
+          "Gap 18.7% (market voting)",
           "+16"
         ]
       ],
