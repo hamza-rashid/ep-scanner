@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-20T11:33:36.818856+00:00",
+  "generated_utc": "2026-08-20T11:59:37.393984+00:00",
   "session_date": "2026-08-20",
   "mode": "refresh",
   "run_label": "scheduled",
@@ -23,7 +23,7 @@
       "ticker": "MRNA",
       "name": "Moderna, Inc.",
       "changesPercentage": 176.9695,
-      "price": 160.98,
+      "price": 161.89,
       "premarket_change": 176.9695,
       "market_cap_m": 69191.54268,
       "wk52_high": 176.66,
@@ -34,15 +34,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 8.43,
-      "dollar_volume_m": 797.3,
+      "dollar_volume_m": 897.6,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": true,
       "above_200": true,
       "neglect": "high",
-      "vol_expansion": 0.9,
-      "rvol": 0.9,
+      "vol_expansion": 1.0,
+      "rvol": 1.0,
       "pct_below_52w_high": 12.6,
       "_avg20_vol": 5369283.7,
       "section": "no_catalyst",
@@ -51,7 +51,7 @@
       "info": [
         [
           "RVOL",
-          "0.9x"
+          "1.0x"
         ],
         [
           "Float",
@@ -72,7 +72,7 @@
           "+22"
         ],
         [
-          "Volume 0.9x expansion",
+          "Volume 1.0x expansion",
           "+2"
         ]
       ],
@@ -84,7 +84,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $797M",
+          "$ vol $898M",
           "+8"
         ],
         [
