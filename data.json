@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-08-27T18:54:59.711119+00:00",
+  "generated_utc": "2026-08-27T23:39:18.701155+00:00",
   "session_date": "2026-08-27",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
-  "count": 14,
+  "count": 16,
   "active_count": 0,
-  "no_catalyst_count": 14,
+  "no_catalyst_count": 16,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -260,6 +260,44 @@
       "tbreak": []
     },
     {
+      "ticker": "IMCC",
+      "name": "IM Cannabis Corp.",
+      "changesPercentage": 17.89348,
+      "price": 3.94,
+      "premarket_change": 17.89348,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 16,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 16,
+      "cbreak": [
+        [
+          "Gap 17.9% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "AIOS",
       "name": "AIOS Tech Inc.",
       "changesPercentage": 17.61905,
@@ -373,6 +411,44 @@
       "cbreak": [
         [
           "Gap 17.6% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "AIIR",
+      "name": "Air Global PLC Ordinary Shares",
+      "changesPercentage": 17.18062,
+      "price": 7.98,
+      "premarket_change": 17.18062,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 16,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 16,
+      "cbreak": [
+        [
+          "Gap 17.2% (market voting)",
           "+16"
         ]
       ],
