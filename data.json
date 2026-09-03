@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-09-03T16:41:17.893249+00:00",
+  "generated_utc": "2026-09-03T17:36:24.477901+00:00",
   "session_date": "2026-09-03",
   "mode": "refresh",
   "run_label": "scheduled",
-  "count": 28,
+  "count": 32,
   "active_count": 0,
-  "no_catalyst_count": 28,
+  "no_catalyst_count": 32,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -216,6 +216,82 @@
       "tbreak": []
     },
     {
+      "ticker": "ZOOZ",
+      "name": "ZOOZ Strategy Ltd.",
+      "changesPercentage": 26.76923,
+      "price": 8.24,
+      "premarket_change": 26.76923,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 20,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 20,
+      "cbreak": [
+        [
+          "Gap 26.8% (market voting)",
+          "+20"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "PRHI",
+      "name": "Presurance Holdings, Inc.",
+      "changesPercentage": 24.8062,
+      "price": 8.05,
+      "premarket_change": 24.8062,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 19,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 19,
+      "cbreak": [
+        [
+          "Gap 24.8% (market voting)",
+          "+19"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "EHLD",
       "name": "Euroholdings Ltd.",
       "changesPercentage": 23.95833,
@@ -405,6 +481,44 @@
       "cbreak": [
         [
           "Gap 19.9% (market voting)",
+          "+17"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "ABTC",
+      "name": "American Bitcoin Corp",
+      "changesPercentage": 19.69504,
+      "price": 9.42,
+      "premarket_change": 19.69504,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 17,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 17,
+      "cbreak": [
+        [
+          "Gap 19.7% (market voting)",
           "+17"
         ]
       ],
@@ -719,6 +833,44 @@
       "cbreak": [
         [
           "Gap 18.3% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "KPLT",
+      "name": "Katapult Holdings, Inc.",
+      "changesPercentage": 17.67764,
+      "price": 6.79,
+      "premarket_change": 17.67764,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 16,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 16,
+      "cbreak": [
+        [
+          "Gap 17.7% (market voting)",
           "+16"
         ]
       ],
