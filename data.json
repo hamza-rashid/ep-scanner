@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-09-03T12:38:59.624296+00:00",
+  "generated_utc": "2026-09-03T16:41:17.893249+00:00",
   "session_date": "2026-09-03",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
-  "count": 20,
+  "count": 28,
   "active_count": 0,
-  "no_catalyst_count": 20,
+  "no_catalyst_count": 28,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -19,6 +19,44 @@
     "dollar_volume_pivot": 100
   },
   "rows": [
+    {
+      "ticker": "CHPT",
+      "name": "ChargePoint Holdings, Inc.",
+      "changesPercentage": 57.32177,
+      "price": 8.165,
+      "premarket_change": 57.32177,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 22,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 22,
+      "cbreak": [
+        [
+          "Gap 57.3% (market voting)",
+          "+22"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
     {
       "ticker": "BIAF",
       "name": "bioAffinity Technologies, Inc.",
@@ -53,6 +91,44 @@
       "cbreak": [
         [
           "Gap 48.0% (market voting)",
+          "+22"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "AEHL",
+      "name": "Antelope Enterprise Holdings Limited",
+      "changesPercentage": 33.63352,
+      "price": 7.2563,
+      "premarket_change": 33.63352,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 22,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 22,
+      "cbreak": [
+        [
+          "Gap 33.6% (market voting)",
           "+22"
         ]
       ],
@@ -220,6 +296,82 @@
       "tbreak": []
     },
     {
+      "ticker": "XLAB",
+      "name": "Exascale Labs Holdings Inc.",
+      "changesPercentage": 21.53465,
+      "price": 4.91,
+      "premarket_change": 21.53465,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 18,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 18,
+      "cbreak": [
+        [
+          "Gap 21.5% (market voting)",
+          "+18"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "NTRB",
+      "name": "Nutriband Inc.",
+      "changesPercentage": 21.48936,
+      "price": 5.71,
+      "premarket_change": 21.48936,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 18,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 18,
+      "cbreak": [
+        [
+          "Gap 21.5% (market voting)",
+          "+18"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "HQ",
       "name": "Horizon Quantum Holdings Ltd. Class A Ordinary Shares",
       "changesPercentage": 19.94517,
@@ -380,6 +532,82 @@
       "tbreak": []
     },
     {
+      "ticker": "IMC",
+      "name": "IMC Rare Earths Ltd",
+      "changesPercentage": 18.7404,
+      "price": 7.73,
+      "premarket_change": 18.7404,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 16,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 16,
+      "cbreak": [
+        [
+          "Gap 18.7% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "BUUU",
+      "name": "BUUU Group Ltd",
+      "changesPercentage": 18.71622,
+      "price": 35.14,
+      "premarket_change": 18.71622,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 16,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 16,
+      "cbreak": [
+        [
+          "Gap 18.7% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "PMI",
       "name": "Picard Medical, Inc.",
       "changesPercentage": 18.65285,
@@ -453,6 +681,82 @@
       "cbreak": [
         [
           "Gap 18.6% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "SST",
+      "name": "System1, Inc.",
+      "changesPercentage": 18.25914,
+      "price": 3.5596,
+      "premarket_change": 18.25914,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 16,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 16,
+      "cbreak": [
+        [
+          "Gap 18.3% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "HCM",
+      "name": "HUTCHMED (China) Limited",
+      "changesPercentage": 17.64203,
+      "price": 14.1641,
+      "premarket_change": 17.64203,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 16,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 16,
+      "cbreak": [
+        [
+          "Gap 17.6% (market voting)",
           "+16"
         ]
       ],
