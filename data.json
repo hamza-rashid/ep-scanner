@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-09-04T16:34:56.516228+00:00",
+  "generated_utc": "2026-09-04T17:25:43.419995+00:00",
   "session_date": "2026-09-04",
   "mode": "refresh",
   "run_label": "scheduled",
-  "count": 27,
+  "count": 32,
   "active_count": 0,
-  "no_catalyst_count": 27,
+  "no_catalyst_count": 32,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -338,6 +338,44 @@
       "tbreak": []
     },
     {
+      "ticker": "AIFU",
+      "name": "AIFU Inc.",
+      "changesPercentage": 21.21207,
+      "price": 28.1212,
+      "premarket_change": 21.21207,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 17,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 17,
+      "cbreak": [
+        [
+          "Gap 21.2% (market voting)",
+          "+17"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "NX",
       "name": "Quanex Building Products Corporation",
       "changesPercentage": 21.00213,
@@ -572,6 +610,44 @@
       "tbreak": []
     },
     {
+      "ticker": "TANH",
+      "name": "Tantech Holdings Ltd",
+      "changesPercentage": 16.20636,
+      "price": 22.3,
+      "premarket_change": 16.20636,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 15,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 15,
+      "cbreak": [
+        [
+          "Gap 16.2% (market voting)",
+          "+15"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "PDEX",
       "name": "Pro-Dex, Inc.",
       "changesPercentage": 15.1417,
@@ -603,6 +679,44 @@
       "cbreak": [
         [
           "Gap 15.1% (market voting)",
+          "+15"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "KPLT",
+      "name": "Katapult Holdings, Inc.",
+      "changesPercentage": 14.41176,
+      "price": 7.78,
+      "premarket_change": 14.41176,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 15,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 15,
+      "cbreak": [
+        [
+          "Gap 14.4% (market voting)",
           "+15"
         ]
       ],
@@ -838,6 +952,44 @@
       "tbreak": []
     },
     {
+      "ticker": "PMI",
+      "name": "Picard Medical, Inc.",
+      "changesPercentage": 12.47216,
+      "price": 5.05,
+      "premarket_change": 12.47216,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 12.5% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "CBRS",
       "name": "Cerebras Systems Inc.",
       "changesPercentage": 12.42386,
@@ -907,6 +1059,44 @@
       "cbreak": [
         [
           "Gap 12.3% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "MSGM",
+      "name": "Motorsport Games Inc.",
+      "changesPercentage": 11.9403,
+      "price": 4.5,
+      "premarket_change": 11.9403,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 11.9% (market voting)",
           "+14"
         ]
       ],
