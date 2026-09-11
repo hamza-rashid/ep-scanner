@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-09-11T16:46:05.869621+00:00",
+  "generated_utc": "2026-09-11T17:39:24.172743+00:00",
   "session_date": "2026-09-11",
   "mode": "refresh",
   "run_label": "scheduled",
-  "count": 34,
+  "count": 37,
   "active_count": 0,
-  "no_catalyst_count": 34,
+  "no_catalyst_count": 37,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -566,6 +566,82 @@
       "tbreak": []
     },
     {
+      "ticker": "CCG",
+      "name": "Cheche Group Inc.",
+      "changesPercentage": 17.42424,
+      "price": 15.5,
+      "premarket_change": 17.42424,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 16,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 16,
+      "cbreak": [
+        [
+          "Gap 17.4% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "AEHL",
+      "name": "Antelope Enterprise Holdings Limited",
+      "changesPercentage": 15.92398,
+      "price": 8.845,
+      "premarket_change": 15.92398,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 15,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 15,
+      "cbreak": [
+        [
+          "Gap 15.9% (market voting)",
+          "+15"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "ZSTK",
       "name": "Flora Growth Corp.",
       "changesPercentage": 15.70248,
@@ -1067,6 +1143,44 @@
       "cbreak": [
         [
           "Gap 12.6% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "GURE",
+      "name": "Gulf Resources, Inc.",
+      "changesPercentage": 12.5,
+      "price": 3.6,
+      "premarket_change": 12.5,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 12.5% (market voting)",
           "+14"
         ]
       ],
