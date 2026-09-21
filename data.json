@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-09-21T14:54:14.676705+00:00",
+  "generated_utc": "2026-09-21T19:07:02.184153+00:00",
   "session_date": "2026-09-21",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
-  "count": 13,
+  "count": 15,
   "active_count": 0,
-  "no_catalyst_count": 13,
+  "no_catalyst_count": 15,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -294,6 +294,82 @@
         [
           "Gap 29.4% (market voting)",
           "+21"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "GSUI",
+      "name": "Grayscale Sui Trust",
+      "changesPercentage": 24.36333,
+      "price": 14.65,
+      "premarket_change": 24.36333,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 19,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 19,
+      "cbreak": [
+        [
+          "Gap 24.4% (market voting)",
+          "+19"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "SST",
+      "name": "System1, Inc.",
+      "changesPercentage": 24.02402,
+      "price": 4.13,
+      "premarket_change": 24.02402,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 19,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 19,
+      "cbreak": [
+        [
+          "Gap 24.0% (market voting)",
+          "+19"
         ]
       ],
       "nbreak": [],
