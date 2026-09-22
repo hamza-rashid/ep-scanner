@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-09-21T19:07:02.184153+00:00",
-  "session_date": "2026-09-21",
-  "mode": "refresh",
+  "generated_utc": "2026-09-22T13:10:07.384149+00:00",
+  "session_date": "2026-09-22",
+  "mode": "full",
   "run_label": "scheduled",
-  "count": 15,
+  "count": 12,
   "active_count": 0,
-  "no_catalyst_count": 15,
+  "no_catalyst_count": 12,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -22,11 +22,11 @@
     {
       "ticker": "GRML",
       "name": "Greenland Mines Ltd.",
-      "changesPercentage": 158.94737,
-      "price": 7.38,
-      "premarket_change": 158.94737,
+      "changesPercentage": 230.52632,
+      "price": 9.42,
+      "premarket_change": 230.52632,
       "market_cap_m": null,
-      "wk52_high": 9.71,
+      "wk52_high": 11.57,
       "wk52_low": 0.1578,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
@@ -52,7 +52,7 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 158.9% (market voting)",
+          "Gap 230.5% (market voting)",
           "+22"
         ]
       ],
@@ -62,9 +62,9 @@
     {
       "ticker": "VEEE",
       "name": "Twin Vee Powercats Co.",
-      "changesPercentage": 116.21302,
-      "price": 18.3259,
-      "premarket_change": 116.21302,
+      "changesPercentage": 100.9324,
+      "price": 17.24,
+      "premarket_change": 100.9324,
       "market_cap_m": null,
       "wk52_high": 127.65,
       "wk52_low": 4.16,
@@ -92,7 +92,7 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 116.2% (market voting)",
+          "Gap 100.9% (market voting)",
           "+22"
         ]
       ],
@@ -102,9 +102,9 @@
     {
       "ticker": "SVRN",
       "name": "SVRN, Inc.",
-      "changesPercentage": 37.30315,
-      "price": 27.9,
-      "premarket_change": 37.30315,
+      "changesPercentage": 45.17717,
+      "price": 29.5,
+      "premarket_change": 45.17717,
       "market_cap_m": null,
       "wk52_high": 47.56,
       "wk52_low": 3.12,
@@ -132,7 +132,7 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 37.3% (market voting)",
+          "Gap 45.2% (market voting)",
           "+22"
         ]
       ],
@@ -142,9 +142,9 @@
     {
       "ticker": "CRML",
       "name": "Critical Metals Corp.",
-      "changesPercentage": 36.36999,
-      "price": 9.18,
-      "premarket_change": 36.36999,
+      "changesPercentage": 38.63299,
+      "price": 9.33,
+      "premarket_change": 38.63299,
       "market_cap_m": null,
       "wk52_high": 32.15,
       "wk52_low": 5.115,
@@ -172,47 +172,7 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 36.4% (market voting)",
-          "+22"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "GRAL",
-      "name": "GRAIL Inc.",
-      "changesPercentage": 34.45586,
-      "price": 108.6,
-      "premarket_change": 34.45586,
-      "market_cap_m": null,
-      "wk52_high": 118.84,
-      "wk52_low": 41.5,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 22,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 22,
-      "cbreak": [
-        [
-          "Gap 34.5% (market voting)",
+          "Gap 38.6% (market voting)",
           "+22"
         ]
       ],
@@ -222,9 +182,9 @@
     {
       "ticker": "PRTH",
       "name": "Priority Technology Holdings, Inc.",
-      "changesPercentage": 33.27616,
-      "price": 7.77,
-      "premarket_change": 33.27616,
+      "changesPercentage": 33.79074,
+      "price": 7.8,
+      "premarket_change": 33.79074,
       "market_cap_m": null,
       "wk52_high": 7.91,
       "wk52_low": 4.44,
@@ -252,7 +212,47 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 33.3% (market voting)",
+          "Gap 33.8% (market voting)",
+          "+22"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "GRAL",
+      "name": "GRAIL Inc.",
+      "changesPercentage": 33.67587,
+      "price": 107.97,
+      "premarket_change": 33.67587,
+      "market_cap_m": null,
+      "wk52_high": 118.84,
+      "wk52_low": 41.5,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 22,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 22,
+      "cbreak": [
+        [
+          "Gap 33.7% (market voting)",
           "+22"
         ]
       ],
@@ -262,12 +262,12 @@
     {
       "ticker": "NUAI",
       "name": "New Era Energy & Digital, Inc.",
-      "changesPercentage": 29.35154,
-      "price": 7.58,
-      "premarket_change": 29.35154,
+      "changesPercentage": 30.54608,
+      "price": 7.65,
+      "premarket_change": 30.54608,
       "market_cap_m": null,
       "wk52_high": 9.445,
-      "wk52_low": 0.57,
+      "wk52_low": 0.8,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -292,7 +292,7 @@
       "total": 21,
       "cbreak": [
         [
-          "Gap 29.4% (market voting)",
+          "Gap 30.5% (market voting)",
           "+21"
         ]
       ],
@@ -300,11 +300,14 @@
       "tbreak": []
     },
     {
-      "ticker": "GSUI",
-      "name": "Grayscale Sui Trust",
-      "changesPercentage": 24.36333,
-      "price": 14.65,
-      "premarket_change": 24.36333,
+      "ticker": "HUBC",
+      "name": "HUB Cyber Security Ltd.",
+      "changesPercentage": 30.43478,
+      "price": 6.0,
+      "premarket_change": 30.43478,
+      "market_cap_m": null,
+      "wk52_high": 877500.0,
+      "wk52_low": 4.57,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -320,56 +323,17 @@
       "vol_expansion": null,
       "rvol": null,
       "pct_below_52w_high": null,
-      "market_cap_m": null,
       "section": "no_catalyst",
       "cooling": false,
       "info": [],
-      "catalyst_score": 19,
+      "catalyst_score": 21,
       "neglect_score": 0,
       "technical_score": 0,
-      "total": 19,
+      "total": 21,
       "cbreak": [
         [
-          "Gap 24.4% (market voting)",
-          "+19"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "SST",
-      "name": "System1, Inc.",
-      "changesPercentage": 24.02402,
-      "price": 4.13,
-      "premarket_change": 24.02402,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "market_cap_m": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 19,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 19,
-      "cbreak": [
-        [
-          "Gap 24.0% (market voting)",
-          "+19"
+          "Gap 30.4% (market voting)",
+          "+21"
         ]
       ],
       "nbreak": [],
@@ -378,12 +342,92 @@
     {
       "ticker": "NXTT",
       "name": "Next Technology Holding Inc.",
-      "changesPercentage": 22.76306,
-      "price": 6.5801,
-      "premarket_change": 22.76306,
+      "changesPercentage": 26.1194,
+      "price": 6.76,
+      "premarket_change": 26.1194,
       "market_cap_m": null,
       "wk52_high": 2861.0,
       "wk52_low": 4.603,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 19,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 19,
+      "cbreak": [
+        [
+          "Gap 26.1% (market voting)",
+          "+19"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "SECZ",
+      "name": "Securitize Corp.",
+      "changesPercentage": 24.30939,
+      "price": 13.5,
+      "premarket_change": 24.30939,
+      "market_cap_m": null,
+      "wk52_high": 13.93,
+      "wk52_low": 5.14,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 19,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 19,
+      "cbreak": [
+        [
+          "Gap 24.3% (market voting)",
+          "+19"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "SLMT",
+      "name": "Brera Holdings PLC",
+      "changesPercentage": 22.39264,
+      "price": 3.99,
+      "premarket_change": 22.39264,
+      "market_cap_m": null,
+      "wk52_high": 374.45,
+      "wk52_low": 2.93,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -408,7 +452,7 @@
       "total": 18,
       "cbreak": [
         [
-          "Gap 22.8% (market voting)",
+          "Gap 22.4% (market voting)",
           "+18"
         ]
       ],
@@ -416,14 +460,14 @@
       "tbreak": []
     },
     {
-      "ticker": "SLMT",
-      "name": "Brera Holdings PLC",
-      "changesPercentage": 20.8589,
-      "price": 3.92,
-      "premarket_change": 20.8589,
+      "ticker": "SUPX",
+      "name": "SuperX AI Technology Limited",
+      "changesPercentage": 20.93023,
+      "price": 8.84,
+      "premarket_change": 20.93023,
       "market_cap_m": null,
-      "wk52_high": 374.45,
-      "wk52_low": 2.93,
+      "wk52_high": 76.5,
+      "wk52_low": 5.61,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -450,166 +494,6 @@
         [
           "Gap 20.9% (market voting)",
           "+17"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "OPTX",
-      "name": "Syntec Optics Holdings, Inc.",
-      "changesPercentage": 20.25037,
-      "price": 8.23,
-      "premarket_change": 20.25037,
-      "market_cap_m": null,
-      "wk52_high": 14.92,
-      "wk52_low": 1.18,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 17,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 17,
-      "cbreak": [
-        [
-          "Gap 20.3% (market voting)",
-          "+17"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "AVX",
-      "name": "AgriFORCE Growing Systems Ltd.",
-      "changesPercentage": 18.76607,
-      "price": 4.62,
-      "premarket_change": 18.76607,
-      "market_cap_m": null,
-      "wk52_high": 6.38,
-      "wk52_low": 0.3522,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 17,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 17,
-      "cbreak": [
-        [
-          "Gap 18.8% (market voting)",
-          "+17"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "LGHL",
-      "name": "Lion Group Holding Ltd.",
-      "changesPercentage": 18.60759,
-      "price": 9.37,
-      "premarket_change": 18.60759,
-      "market_cap_m": null,
-      "wk52_high": 3931.2,
-      "wk52_low": 5.68,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 16,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 16,
-      "cbreak": [
-        [
-          "Gap 18.6% (market voting)",
-          "+16"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "DAIC",
-      "name": "CID HoldCo, Inc.",
-      "changesPercentage": 17.79437,
-      "price": 4.19,
-      "premarket_change": 17.79437,
-      "market_cap_m": null,
-      "wk52_high": 91.75,
-      "wk52_low": 0.37,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 16,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 16,
-      "cbreak": [
-        [
-          "Gap 17.8% (market voting)",
-          "+16"
         ]
       ],
       "nbreak": [],
