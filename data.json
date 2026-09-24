@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-09-24T17:52:58.425107+00:00",
+  "generated_utc": "2026-09-24T18:17:44.550444+00:00",
   "session_date": "2026-09-24",
   "mode": "refresh",
   "run_label": "scheduled",
-  "count": 32,
+  "count": 34,
   "active_count": 0,
-  "no_catalyst_count": 32,
+  "no_catalyst_count": 34,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -1183,6 +1183,82 @@
       "cbreak": [
         [
           "Gap 13.1% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "VBIO",
+      "name": "Valion Bio, Inc.",
+      "changesPercentage": 12.78754,
+      "price": 3.0791,
+      "premarket_change": 12.78754,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 12.8% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "GRAL",
+      "name": "GRAIL Inc.",
+      "changesPercentage": 12.52304,
+      "price": 122.11,
+      "premarket_change": 12.52304,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 12.5% (market voting)",
           "+14"
         ]
       ],
