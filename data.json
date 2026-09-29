@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-09-29T14:40:24.652175+00:00",
+  "generated_utc": "2026-09-29T19:10:37.899816+00:00",
   "session_date": "2026-09-29",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
-  "count": 15,
+  "count": 26,
   "active_count": 0,
-  "no_catalyst_count": 15,
+  "no_catalyst_count": 26,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -53,6 +53,44 @@
       "cbreak": [
         [
           "Gap 140.5% (market voting)",
+          "+22"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "SDEV",
+      "name": "NovaBay Pharmaceuticals, Inc.",
+      "changesPercentage": 115.92357,
+      "price": 3.39,
+      "premarket_change": 115.92357,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 22,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 22,
+      "cbreak": [
+        [
+          "Gap 115.9% (market voting)",
           "+22"
         ]
       ],
@@ -140,6 +178,44 @@
       "tbreak": []
     },
     {
+      "ticker": "MSGY",
+      "name": "Masonglory Ltd",
+      "changesPercentage": 36.74122,
+      "price": 4.28,
+      "premarket_change": 36.74122,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 22,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 22,
+      "cbreak": [
+        [
+          "Gap 36.7% (market voting)",
+          "+22"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "SANG",
       "name": "Sangoma Technologies Corporation",
       "changesPercentage": 36.35097,
@@ -214,6 +290,82 @@
         [
           "Gap 24.8% (market voting)",
           "+19"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "WYY",
+      "name": "WidePoint Corporation",
+      "changesPercentage": 23.72881,
+      "price": 7.3,
+      "premarket_change": 23.72881,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 18,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 18,
+      "cbreak": [
+        [
+          "Gap 23.7% (market voting)",
+          "+18"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "SLE",
+      "name": "Super League Enterprise, Inc.",
+      "changesPercentage": 19.72284,
+      "price": 5.3995,
+      "premarket_change": 19.72284,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 17,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 17,
+      "cbreak": [
+        [
+          "Gap 19.7% (market voting)",
+          "+17"
         ]
       ],
       "nbreak": [],
@@ -340,6 +492,82 @@
       "tbreak": []
     },
     {
+      "ticker": "EEIQ",
+      "name": "Elite Education Group International Limited",
+      "changesPercentage": 16.70306,
+      "price": 5.345,
+      "premarket_change": 16.70306,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 16,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 16,
+      "cbreak": [
+        [
+          "Gap 16.7% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "DNA",
+      "name": "Ginkgo Bioworks Holdings, Inc.",
+      "changesPercentage": 15.91778,
+      "price": 12.125,
+      "premarket_change": 15.91778,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 15,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 15,
+      "cbreak": [
+        [
+          "Gap 15.9% (market voting)",
+          "+15"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "MF",
       "name": "MindForge Inc",
       "changesPercentage": 15.02516,
@@ -413,6 +641,82 @@
       "cbreak": [
         [
           "Gap 14.9% (market voting)",
+          "+15"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "KRSA",
+      "name": "Korsana Biosciences, Inc.",
+      "changesPercentage": 14.56374,
+      "price": 35.32,
+      "premarket_change": 14.56374,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 15,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 15,
+      "cbreak": [
+        [
+          "Gap 14.6% (market voting)",
+          "+15"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "ZSTK",
+      "name": "Flora Growth Corp.",
+      "changesPercentage": 13.91509,
+      "price": 4.83,
+      "premarket_change": 13.91509,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 15,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 15,
+      "cbreak": [
+        [
+          "Gap 13.9% (market voting)",
           "+15"
         ]
       ],
@@ -503,7 +807,7 @@
       "ticker": "CCL",
       "name": "Carnival Corporation & plc",
       "changesPercentage": 13.03071,
-      "price": 25.035,
+      "price": 25.12,
       "premarket_change": 13.03071,
       "market_cap_m": 34307.930343,
       "wk52_high": 34.03,
@@ -514,15 +818,15 @@
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
       "adr_pct": 3.07,
-      "dollar_volume_m": 884.8,
+      "dollar_volume_m": 1542.5,
       "gap_pct": null,
       "above_10": true,
       "above_20": true,
       "above_50": false,
       "above_200": false,
       "neglect": "med",
-      "vol_expansion": 1.5,
-      "rvol": 1.5,
+      "vol_expansion": 2.6,
+      "rvol": 2.6,
       "pct_below_52w_high": 26.3,
       "_avg20_vol": 23420553.25,
       "section": "no_catalyst",
@@ -531,7 +835,7 @@
       "info": [
         [
           "RVOL",
-          "1.5x"
+          "2.6x"
         ],
         [
           "Float",
@@ -542,18 +846,18 @@
           "26% below high"
         ]
       ],
-      "catalyst_score": 18,
+      "catalyst_score": 20,
       "neglect_score": 24,
       "technical_score": 15,
-      "total": 57,
+      "total": 59,
       "cbreak": [
         [
           "Gap 13.0% (market voting)",
           "+14"
         ],
         [
-          "Volume 1.5x expansion",
-          "+4"
+          "Volume 2.6x expansion",
+          "+6"
         ]
       ],
       "nbreak": [
@@ -564,7 +868,7 @@
       ],
       "tbreak": [
         [
-          "$ vol $885M",
+          "$ vol $1542M",
           "+8"
         ],
         [
@@ -576,6 +880,82 @@
           "+3"
         ]
       ]
+    },
+    {
+      "ticker": "ASPS",
+      "name": "Altisource Portfolio Solutions S.A.",
+      "changesPercentage": 12.79707,
+      "price": 6.17,
+      "premarket_change": 12.79707,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 12.8% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "KFFB",
+      "name": "Kentucky First Federal Bancorp",
+      "changesPercentage": 12.29975,
+      "price": 6.33,
+      "premarket_change": 12.29975,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 12.3% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
     },
     {
       "ticker": "SVRN",
@@ -641,6 +1021,44 @@
       "vol_expansion": null,
       "rvol": null,
       "pct_below_52w_high": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 12.1% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "MGNI",
+      "name": "Magnite, Inc.",
+      "changesPercentage": 12.05128,
+      "price": 26.22,
+      "premarket_change": 12.05128,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
       "section": "no_catalyst",
       "cooling": false,
       "info": [],
