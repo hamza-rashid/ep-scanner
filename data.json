@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-09-28T20:24:46.685637+00:00",
-  "session_date": "2026-09-28",
-  "mode": "refresh",
+  "generated_utc": "2026-09-29T14:40:24.652175+00:00",
+  "session_date": "2026-09-29",
+  "mode": "full",
   "run_label": "scheduled",
-  "count": 23,
+  "count": 15,
   "active_count": 0,
-  "no_catalyst_count": 23,
+  "no_catalyst_count": 15,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -20,14 +20,14 @@
   },
   "rows": [
     {
-      "ticker": "KOD",
-      "name": "Kodiak Sciences Inc.",
-      "changesPercentage": 173.23029,
-      "price": 88.61,
-      "premarket_change": 173.23029,
+      "ticker": "DXST",
+      "name": "Decent Holding Inc.",
+      "changesPercentage": 140.51282,
+      "price": 4.67,
+      "premarket_change": 140.51282,
       "market_cap_m": null,
-      "wk52_high": 89.52,
-      "wk52_low": 10.94,
+      "wk52_high": 62.0,
+      "wk52_low": 1.5,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -52,7 +52,7 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 173.2% (market voting)",
+          "Gap 140.5% (market voting)",
           "+22"
         ]
       ],
@@ -60,14 +60,14 @@
       "tbreak": []
     },
     {
-      "ticker": "LFCR",
-      "name": "Lifecore Biomedical, Inc.",
-      "changesPercentage": 56.30952,
-      "price": 6.565,
-      "premarket_change": 56.30952,
+      "ticker": "BKYI",
+      "name": "BIO-key International, Inc.",
+      "changesPercentage": 96.13095,
+      "price": 3.29,
+      "premarket_change": 96.13095,
       "market_cap_m": null,
-      "wk52_high": 8.98,
-      "wk52_low": 3.63,
+      "wk52_high": 19.7,
+      "wk52_low": 1.63,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -92,7 +92,7 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 56.3% (market voting)",
+          "Gap 96.1% (market voting)",
           "+22"
         ]
       ],
@@ -100,14 +100,14 @@
       "tbreak": []
     },
     {
-      "ticker": "EGG",
-      "name": "Enigmatig Limited",
-      "changesPercentage": 49.64643,
-      "price": 4.19,
-      "premarket_change": 49.64643,
+      "ticker": "SSTI",
+      "name": "SoundThinking, Inc.",
+      "changesPercentage": 51.03291,
+      "price": 8.2615,
+      "premarket_change": 51.03291,
       "market_cap_m": null,
-      "wk52_high": 13.07,
-      "wk52_low": 2.04,
+      "wk52_high": 12.25,
+      "wk52_low": 5.415,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -132,7 +132,7 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 49.6% (market voting)",
+          "Gap 51.0% (market voting)",
           "+22"
         ]
       ],
@@ -140,14 +140,14 @@
       "tbreak": []
     },
     {
-      "ticker": "CLRO",
-      "name": "ClearOne, Inc.",
-      "changesPercentage": 41.15942,
-      "price": 4.87,
-      "premarket_change": 41.15942,
+      "ticker": "SANG",
+      "name": "Sangoma Technologies Corporation",
+      "changesPercentage": 36.35097,
+      "price": 4.895,
+      "premarket_change": 36.35097,
       "market_cap_m": null,
-      "wk52_high": 16.5,
-      "wk52_low": 2.71,
+      "wk52_high": 5.42,
+      "wk52_low": 3.4,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -172,7 +172,7 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 41.2% (market voting)",
+          "Gap 36.4% (market voting)",
           "+22"
         ]
       ],
@@ -180,14 +180,14 @@
       "tbreak": []
     },
     {
-      "ticker": "MEDS",
-      "name": "DataMEDS AI, Inc.",
-      "changesPercentage": 35.06431,
-      "price": 4.21,
-      "premarket_change": 35.06431,
+      "ticker": "IOVA",
+      "name": "Iovance Biotherapeutics, Inc.",
+      "changesPercentage": 24.84077,
+      "price": 13.705,
+      "premarket_change": 24.84077,
       "market_cap_m": null,
-      "wk52_high": 73.0,
-      "wk52_low": 0.8225,
+      "wk52_high": 14.105,
+      "wk52_low": 1.76,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -206,28 +206,28 @@
       "section": "no_catalyst",
       "cooling": false,
       "info": [],
-      "catalyst_score": 22,
+      "catalyst_score": 19,
       "neglect_score": 0,
       "technical_score": 0,
-      "total": 22,
+      "total": 19,
       "cbreak": [
         [
-          "Gap 35.1% (market voting)",
-          "+22"
+          "Gap 24.8% (market voting)",
+          "+19"
         ]
       ],
       "nbreak": [],
       "tbreak": []
     },
     {
-      "ticker": "YDES",
-      "name": "YD Bio Limited Ordinary Shares",
-      "changesPercentage": 20.41885,
-      "price": 6.9,
-      "premarket_change": 20.41885,
+      "ticker": "LONA",
+      "name": "Athira Pharma, Inc.",
+      "changesPercentage": 18.81533,
+      "price": 3.41,
+      "premarket_change": 18.81533,
       "market_cap_m": null,
-      "wk52_high": 22.0,
-      "wk52_low": 1.7,
+      "wk52_high": 11.91,
+      "wk52_low": 2.21,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -252,7 +252,7 @@
       "total": 17,
       "cbreak": [
         [
-          "Gap 20.4% (market voting)",
+          "Gap 18.8% (market voting)",
           "+17"
         ]
       ],
@@ -260,52 +260,14 @@
       "tbreak": []
     },
     {
-      "ticker": "TANH",
-      "name": "Tantech Holdings Ltd",
-      "changesPercentage": 20.10981,
-      "price": 17.5,
-      "premarket_change": 20.10981,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
+      "ticker": "ITG",
+      "name": "ITG Inc.",
+      "changesPercentage": 18.55485,
+      "price": 8.3534,
+      "premarket_change": 18.55485,
       "market_cap_m": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 17,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 17,
-      "cbreak": [
-        [
-          "Gap 20.1% (market voting)",
-          "+17"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "SVRN",
-      "name": "SVRN, Inc.",
-      "changesPercentage": 18.64156,
-      "price": 56.07,
-      "premarket_change": 18.64156,
-      "market_cap_m": null,
-      "wk52_high": 61.4499,
-      "wk52_low": 3.12,
+      "wk52_high": 19.26,
+      "wk52_low": 7.06,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -338,14 +300,14 @@
       "tbreak": []
     },
     {
-      "ticker": "TMCR",
-      "name": "The Metals Royalty Company Inc.",
-      "changesPercentage": 18.01966,
-      "price": 4.802,
-      "premarket_change": 18.01966,
+      "ticker": "PWP",
+      "name": "Perella Weinberg Partners",
+      "changesPercentage": 17.0082,
+      "price": 17.15,
+      "premarket_change": 17.0082,
       "market_cap_m": null,
-      "wk52_high": 21.38,
-      "wk52_low": 3.655,
+      "wk52_high": 25.93,
+      "wk52_low": 12.515,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -370,7 +332,7 @@
       "total": 16,
       "cbreak": [
         [
-          "Gap 18.0% (market voting)",
+          "Gap 17.0% (market voting)",
           "+16"
         ]
       ],
@@ -378,134 +340,14 @@
       "tbreak": []
     },
     {
-      "ticker": "MX",
-      "name": "MagnaChip Semiconductor",
-      "changesPercentage": 17.87879,
-      "price": 3.895,
-      "premarket_change": 17.87879,
+      "ticker": "MF",
+      "name": "MindForge Inc",
+      "changesPercentage": 15.02516,
+      "price": 16.0,
+      "premarket_change": 15.02516,
       "market_cap_m": null,
-      "wk52_high": 9.86,
-      "wk52_low": 2.18,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 16,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 16,
-      "cbreak": [
-        [
-          "Gap 17.9% (market voting)",
-          "+16"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "BTLN",
-      "name": "Brightline Interactive, Inc.",
-      "changesPercentage": 17.79184,
-      "price": 6.03,
-      "premarket_change": 17.79184,
-      "market_cap_m": null,
-      "wk52_high": 14.8,
-      "wk52_low": 0.42,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 16,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 16,
-      "cbreak": [
-        [
-          "Gap 17.8% (market voting)",
-          "+16"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "ZSQR",
-      "name": "Coeptis Therapeutics Holdings, Inc.",
-      "changesPercentage": 16.40212,
-      "price": 4.4,
-      "premarket_change": 16.40212,
-      "market_cap_m": null,
-      "wk52_high": 18.8,
-      "wk52_low": 2.11,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 16,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 16,
-      "cbreak": [
-        [
-          "Gap 16.4% (market voting)",
-          "+16"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "CD",
-      "name": "Chaince Digital Holdings Inc.",
-      "changesPercentage": 15.94746,
-      "price": 6.19,
-      "premarket_change": 15.94746,
-      "market_cap_m": null,
-      "wk52_high": 36.77,
-      "wk52_low": 2.1,
+      "wk52_high": 83.5,
+      "wk52_low": 2.12,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -530,7 +372,7 @@
       "total": 15,
       "cbreak": [
         [
-          "Gap 15.9% (market voting)",
+          "Gap 15.0% (market voting)",
           "+15"
         ]
       ],
@@ -538,14 +380,14 @@
       "tbreak": []
     },
     {
-      "ticker": "MAAS",
-      "name": "Maase Inc.",
-      "changesPercentage": 15.60963,
-      "price": 17.7677,
-      "premarket_change": 15.60963,
+      "ticker": "AVX",
+      "name": "AgriFORCE Growing Systems Ltd.",
+      "changesPercentage": 14.91614,
+      "price": 7.2627,
+      "premarket_change": 14.91614,
       "market_cap_m": null,
-      "wk52_high": 24.9,
-      "wk52_low": 2.85,
+      "wk52_high": 7.29,
+      "wk52_low": 0.3522,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -570,7 +412,7 @@
       "total": 15,
       "cbreak": [
         [
-          "Gap 15.6% (market voting)",
+          "Gap 14.9% (market voting)",
           "+15"
         ]
       ],
@@ -578,14 +420,14 @@
       "tbreak": []
     },
     {
-      "ticker": "INTJ",
-      "name": "Intelligent Group Limited",
-      "changesPercentage": 14.72593,
-      "price": 3.0976,
-      "premarket_change": 14.72593,
+      "ticker": "BE",
+      "name": "Bloom Energy Corporation",
+      "changesPercentage": 13.59227,
+      "price": 297.69,
+      "premarket_change": 13.59227,
       "market_cap_m": null,
-      "wk52_high": 12.52,
-      "wk52_low": 2.41,
+      "wk52_high": 351.28,
+      "wk52_low": 70.89,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -601,44 +443,6 @@
       "vol_expansion": null,
       "rvol": null,
       "pct_below_52w_high": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 15,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 15,
-      "cbreak": [
-        [
-          "Gap 14.7% (market voting)",
-          "+15"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "RFAI",
-      "name": "RF Acquisition Corp II Ordinary Shares",
-      "changesPercentage": 12.9771,
-      "price": 37.0,
-      "premarket_change": 12.9771,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "market_cap_m": null,
       "section": "no_catalyst",
       "cooling": false,
       "info": [],
@@ -646,138 +450,142 @@
       "neglect_score": 0,
       "technical_score": 0,
       "total": 14,
+      "cbreak": [
+        [
+          "Gap 13.6% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "AIFU",
+      "name": "AIFU Inc.",
+      "changesPercentage": 13.56527,
+      "price": 9.88,
+      "premarket_change": 13.56527,
+      "market_cap_m": null,
+      "wk52_high": 117.4,
+      "wk52_low": 8.17,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 13.6% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "CCL",
+      "name": "Carnival Corporation & plc",
+      "changesPercentage": 13.03071,
+      "price": 25.035,
+      "premarket_change": 13.03071,
+      "market_cap_m": 34307.930343,
+      "wk52_high": 34.03,
+      "wk52_low": 21.45,
+      "float_m": 1364.622507,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 3.07,
+      "dollar_volume_m": 884.8,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "med",
+      "vol_expansion": 1.5,
+      "rvol": 1.5,
+      "pct_below_52w_high": 26.3,
+      "_avg20_vol": 23420553.25,
+      "section": "no_catalyst",
+      "cooling": false,
+      "low_float": false,
+      "info": [
+        [
+          "RVOL",
+          "1.5x"
+        ],
+        [
+          "Float",
+          "1365M"
+        ],
+        [
+          "52wk",
+          "26% below high"
+        ]
+      ],
+      "catalyst_score": 18,
+      "neglect_score": 24,
+      "technical_score": 15,
+      "total": 57,
       "cbreak": [
         [
           "Gap 13.0% (market voting)",
           "+14"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "FBYD",
-      "name": "Falcon's Beyond Global, Inc. Class A Common Stock",
-      "changesPercentage": 12.51682,
-      "price": 8.36,
-      "premarket_change": 12.51682,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "market_cap_m": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 14,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 14,
-      "cbreak": [
+        ],
         [
-          "Gap 12.5% (market voting)",
-          "+14"
+          "Volume 1.5x expansion",
+          "+4"
         ]
       ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "FBGL",
-      "name": "FBS Global Limited Ordinary Shares",
-      "changesPercentage": 12.00834,
-      "price": 4.3,
-      "premarket_change": 12.00834,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "market_cap_m": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 14,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 14,
-      "cbreak": [
+      "nbreak": [
         [
-          "Gap 12.0% (market voting)",
-          "+14"
+          "Med neglect (quiet base)",
+          "+24"
         ]
       ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "BUDA",
-      "name": "Buda Juice Inc.",
-      "changesPercentage": 11.74825,
-      "price": 7.99,
-      "premarket_change": 11.74825,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "market_cap_m": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 14,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 14,
-      "cbreak": [
+      "tbreak": [
         [
-          "Gap 11.7% (market voting)",
-          "+14"
+          "$ vol $885M",
+          "+8"
+        ],
+        [
+          "ADR 3.1%",
+          "+4"
+        ],
+        [
+          "Above 20d, 10d",
+          "+3"
         ]
-      ],
-      "nbreak": [],
-      "tbreak": []
+      ]
     },
     {
-      "ticker": "BUR",
-      "name": "Burford Capital Limited",
-      "changesPercentage": 11.26374,
-      "price": 4.05,
-      "premarket_change": 11.26374,
+      "ticker": "SVRN",
+      "name": "SVRN, Inc.",
+      "changesPercentage": 12.07223,
+      "price": 57.7,
+      "premarket_change": 12.07223,
       "market_cap_m": null,
-      "wk52_high": 12.35,
-      "wk52_low": 3.57,
+      "wk52_high": 63.7499,
+      "wk52_low": 3.12,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -802,7 +610,7 @@
       "total": 14,
       "cbreak": [
         [
-          "Gap 11.3% (market voting)",
+          "Gap 12.1% (market voting)",
           "+14"
         ]
       ],
@@ -810,14 +618,14 @@
       "tbreak": []
     },
     {
-      "ticker": "AMC",
-      "name": "AMC Entertainment Holdings, Inc.",
-      "changesPercentage": 11.17007,
-      "price": 3.26,
-      "premarket_change": 11.17007,
+      "ticker": "XRPN",
+      "name": "Armada Acquisition Corp. II",
+      "changesPercentage": 12.05674,
+      "price": 11.85,
+      "premarket_change": 12.05674,
       "market_cap_m": null,
-      "wk52_high": 3.28,
-      "wk52_low": 0.93,
+      "wk52_high": 13.67,
+      "wk52_low": 10.1,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -836,94 +644,14 @@
       "section": "no_catalyst",
       "cooling": false,
       "info": [],
-      "catalyst_score": 13,
+      "catalyst_score": 14,
       "neglect_score": 0,
       "technical_score": 0,
-      "total": 13,
+      "total": 14,
       "cbreak": [
         [
-          "Gap 11.2% (market voting)",
-          "+13"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "TONX",
-      "name": "TON Strategy Co.",
-      "changesPercentage": 11.16643,
-      "price": 3.9864,
-      "premarket_change": 11.16643,
-      "market_cap_m": null,
-      "wk52_high": 7.51,
-      "wk52_low": 1.75,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 13,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 13,
-      "cbreak": [
-        [
-          "Gap 11.2% (market voting)",
-          "+13"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "GAUZ",
-      "name": "Gauzy Ltd. Ordinary Shares",
-      "changesPercentage": 10.71429,
-      "price": 5.89,
-      "premarket_change": 10.71429,
-      "market_cap_m": null,
-      "wk52_high": 141.6,
-      "wk52_low": 4.6,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 13,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 13,
-      "cbreak": [
-        [
-          "Gap 10.7% (market voting)",
-          "+13"
+          "Gap 12.1% (market voting)",
+          "+14"
         ]
       ],
       "nbreak": [],
