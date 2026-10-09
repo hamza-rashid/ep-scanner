@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-10-09T15:01:29.125640+00:00",
+  "generated_utc": "2026-10-09T19:19:08.152138+00:00",
   "session_date": "2026-10-09",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
-  "count": 18,
+  "count": 36,
   "active_count": 0,
-  "no_catalyst_count": 18,
+  "no_catalyst_count": 36,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -19,6 +19,44 @@
     "dollar_volume_pivot": 100
   },
   "rows": [
+    {
+      "ticker": "WFF",
+      "name": "WF Holding Limited",
+      "changesPercentage": 635.60976,
+      "price": 15.08,
+      "premarket_change": 635.60976,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 22,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 22,
+      "cbreak": [
+        [
+          "Gap 635.6% (market voting)",
+          "+22"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
     {
       "ticker": "QETA",
       "name": "Quetta Acquisition Corporation",
@@ -100,6 +138,44 @@
       "tbreak": []
     },
     {
+      "ticker": "AGRZ",
+      "name": "Agroz Inc. Ordinary Shares",
+      "changesPercentage": 30.1105,
+      "price": 4.71,
+      "premarket_change": 30.1105,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 21,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 21,
+      "cbreak": [
+        [
+          "Gap 30.1% (market voting)",
+          "+21"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "VIVK",
       "name": "Vivakor, Inc.",
       "changesPercentage": 26.91771,
@@ -134,6 +210,44 @@
         [
           "Gap 26.9% (market voting)",
           "+20"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "CCM",
+      "name": "Concord Medical Services Holdings Limited",
+      "changesPercentage": 21.93548,
+      "price": 3.78,
+      "premarket_change": 21.93548,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 18,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 18,
+      "cbreak": [
+        [
+          "Gap 21.9% (market voting)",
+          "+18"
         ]
       ],
       "nbreak": [],
@@ -180,6 +294,234 @@
       "tbreak": []
     },
     {
+      "ticker": "NVAX",
+      "name": "Novavax, Inc.",
+      "changesPercentage": 17.61944,
+      "price": 12.9499,
+      "premarket_change": 17.61944,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 16,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 16,
+      "cbreak": [
+        [
+          "Gap 17.6% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "BOLT",
+      "name": "Bolt Biotherapeutics, Inc.",
+      "changesPercentage": 16.94795,
+      "price": 4.2686,
+      "premarket_change": 16.94795,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 16,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 16,
+      "cbreak": [
+        [
+          "Gap 16.9% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "ZSQR",
+      "name": "Coeptis Therapeutics Holdings, Inc.",
+      "changesPercentage": 16.36364,
+      "price": 5.76,
+      "premarket_change": 16.36364,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 16,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 16,
+      "cbreak": [
+        [
+          "Gap 16.4% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "KLRA",
+      "name": "Kailera Therapeutics, Inc.",
+      "changesPercentage": 16.3,
+      "price": 11.63,
+      "premarket_change": 16.3,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 16,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 16,
+      "cbreak": [
+        [
+          "Gap 16.3% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "TRIB",
+      "name": "Trinity Biotech plc",
+      "changesPercentage": 16.0596,
+      "price": 7.01,
+      "premarket_change": 16.0596,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 15,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 15,
+      "cbreak": [
+        [
+          "Gap 16.1% (market voting)",
+          "+15"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "COE",
+      "name": "51Talk Online Education Group",
+      "changesPercentage": 15.29194,
+      "price": 12.44,
+      "premarket_change": 15.29194,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 15,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 15,
+      "cbreak": [
+        [
+          "Gap 15.3% (market voting)",
+          "+15"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "CNXU",
       "name": "Conexeu Sciences Inc.",
       "changesPercentage": 14.63768,
@@ -213,6 +555,82 @@
       "cbreak": [
         [
           "Gap 14.6% (market voting)",
+          "+15"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "DNA",
+      "name": "Ginkgo Bioworks Holdings, Inc.",
+      "changesPercentage": 14.3739,
+      "price": 12.97,
+      "premarket_change": 14.3739,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 15,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 15,
+      "cbreak": [
+        [
+          "Gap 14.4% (market voting)",
+          "+15"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "PICS",
+      "name": "PicS N.V.",
+      "changesPercentage": 14.26377,
+      "price": 13.6888,
+      "premarket_change": 14.26377,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 15,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 15,
+      "cbreak": [
+        [
+          "Gap 14.3% (market voting)",
           "+15"
         ]
       ],
@@ -260,6 +678,82 @@
       "tbreak": []
     },
     {
+      "ticker": "FEAM",
+      "name": "5E Advanced Materials Inc.",
+      "changesPercentage": 13.89728,
+      "price": 3.77,
+      "premarket_change": 13.89728,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 15,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 15,
+      "cbreak": [
+        [
+          "Gap 13.9% (market voting)",
+          "+15"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "FEDU",
+      "name": "Four Seasons Education (Cayman) Inc.",
+      "changesPercentage": 13.35159,
+      "price": 11.7999,
+      "premarket_change": 13.35159,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 13.4% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "FSLY",
       "name": "Fastly, Inc.",
       "changesPercentage": 13.28549,
@@ -300,6 +794,44 @@
       "tbreak": []
     },
     {
+      "ticker": "AUGO",
+      "name": "Aura Minerals",
+      "changesPercentage": 12.91672,
+      "price": 93.145,
+      "premarket_change": 12.91672,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 12.9% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "SLE",
       "name": "Super League Enterprise, Inc.",
       "changesPercentage": 12.78826,
@@ -333,6 +865,44 @@
       "cbreak": [
         [
           "Gap 12.8% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "HELP",
+      "name": "Helus Pharma Inc.",
+      "changesPercentage": 12.59235,
+      "price": 12.0699,
+      "premarket_change": 12.59235,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 12.6% (market voting)",
           "+14"
         ]
       ],
@@ -420,6 +990,109 @@
       "tbreak": []
     },
     {
+      "ticker": "MRNA",
+      "name": "Moderna, Inc.",
+      "changesPercentage": 12.17766,
+      "price": 220.99,
+      "premarket_change": 12.17766,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": 7.93,
+      "dollar_volume_m": 5373.3,
+      "gap_pct": null,
+      "above_10": true,
+      "above_20": true,
+      "above_50": true,
+      "above_200": true,
+      "neglect": "low",
+      "vol_expansion": 1.4,
+      "rvol": 1.4,
+      "pct_below_52w_high": -1.7,
+      "market_cap_m": 87491.313,
+      "_avg20_vol": 16976252.5,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [
+        [
+          "RVOL",
+          "1.4x"
+        ],
+        [
+          "52wk",
+          "at highs"
+        ]
+      ],
+      "catalyst_score": 18,
+      "neglect_score": 0,
+      "technical_score": 25,
+      "total": 43,
+      "cbreak": [
+        [
+          "Gap 12.2% (market voting)",
+          "+14"
+        ],
+        [
+          "Volume 1.4x expansion",
+          "+4"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": [
+        [
+          "$ vol $5373M",
+          "+8"
+        ],
+        [
+          "ADR 7.9%",
+          "+5"
+        ],
+        [
+          "Above 200d, 50d, 20d, 10d",
+          "+12"
+        ]
+      ]
+    },
+    {
+      "ticker": "CURX",
+      "name": "Curanex Pharmaceuticals Inc Common Stock",
+      "changesPercentage": 12.15966,
+      "price": 5.3388,
+      "premarket_change": 12.15966,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 12.2% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "YDES",
       "name": "YD Bio Limited Ordinary Shares",
       "changesPercentage": 12.08981,
@@ -493,6 +1166,44 @@
       "cbreak": [
         [
           "Gap 12.0% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "QNCX",
+      "name": "Quince Therapeutics, Inc.",
+      "changesPercentage": 11.88692,
+      "price": 32.85,
+      "premarket_change": 11.88692,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 11.9% (market voting)",
           "+14"
         ]
       ],
