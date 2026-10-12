@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-10-12T17:27:54.258719+00:00",
+  "generated_utc": "2026-10-12T21:59:56.781965+00:00",
   "session_date": "2026-10-12",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
-  "count": 20,
+  "count": 26,
   "active_count": 0,
-  "no_catalyst_count": 20,
+  "no_catalyst_count": 26,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -60,6 +60,44 @@
       "tbreak": []
     },
     {
+      "ticker": "BMBL",
+      "name": "Bumble Inc.",
+      "changesPercentage": 49.6063,
+      "price": 3.8,
+      "premarket_change": 49.6063,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 22,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 22,
+      "cbreak": [
+        [
+          "Gap 49.6% (market voting)",
+          "+22"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "WFF",
       "name": "WF Holding Limited",
       "changesPercentage": 44.67046,
@@ -94,6 +132,44 @@
         [
           "Gap 44.7% (market voting)",
           "+22"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "PASG",
+      "name": "Passage Bio, Inc.",
+      "changesPercentage": 23.30623,
+      "price": 4.55,
+      "premarket_change": 23.30623,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 18,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 18,
+      "cbreak": [
+        [
+          "Gap 23.3% (market voting)",
+          "+18"
         ]
       ],
       "nbreak": [],
@@ -300,6 +376,44 @@
       "tbreak": []
     },
     {
+      "ticker": "ARL",
+      "name": "American Realty Investors, Inc.",
+      "changesPercentage": 17.02128,
+      "price": 19.25,
+      "premarket_change": 17.02128,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 16,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 16,
+      "cbreak": [
+        [
+          "Gap 17.0% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "SSEAU",
       "name": "Starry Sea Acquisition Corp Unit",
       "changesPercentage": 13.40996,
@@ -333,6 +447,44 @@
       "cbreak": [
         [
           "Gap 13.4% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "CMCT",
+      "name": "Creative Media & Community Trust Corporation",
+      "changesPercentage": 13.17829,
+      "price": 4.38,
+      "premarket_change": 13.17829,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 13.2% (market voting)",
           "+14"
         ]
       ],
@@ -453,6 +605,44 @@
       "cbreak": [
         [
           "Gap 11.7% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "SKK",
+      "name": "SKK Holdings Limited",
+      "changesPercentage": 11.55963,
+      "price": 6.08,
+      "premarket_change": 11.55963,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 11.6% (market voting)",
           "+14"
         ]
       ],
@@ -653,6 +843,44 @@
       "cbreak": [
         [
           "Gap 10.9% (market voting)",
+          "+13"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "FICO",
+      "name": "Fair Isaac Corporation",
+      "changesPercentage": 10.84814,
+      "price": 740.0,
+      "premarket_change": 10.84814,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 13,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 13,
+      "cbreak": [
+        [
+          "Gap 10.8% (market voting)",
           "+13"
         ]
       ],
