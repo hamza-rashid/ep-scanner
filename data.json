@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-10-13T15:38:21.873114+00:00",
+  "generated_utc": "2026-10-13T20:07:22.731623+00:00",
   "session_date": "2026-10-13",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
-  "count": 19,
+  "count": 24,
   "active_count": 0,
-  "no_catalyst_count": 19,
+  "no_catalyst_count": 24,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -53,6 +53,44 @@
       "cbreak": [
         [
           "Gap 561.0% (market voting)",
+          "+22"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "TCRT",
+      "name": "Alaunos Therapeutics, Inc.",
+      "changesPercentage": 188.57143,
+      "price": 3.03,
+      "premarket_change": 188.57143,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 22,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 22,
+      "cbreak": [
+        [
+          "Gap 188.6% (market voting)",
           "+22"
         ]
       ],
@@ -180,6 +218,82 @@
       "tbreak": []
     },
     {
+      "ticker": "ILAG",
+      "name": "Intelligent Living Application Group Inc.",
+      "changesPercentage": 39.09465,
+      "price": 3.38,
+      "premarket_change": 39.09465,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 22,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 22,
+      "cbreak": [
+        [
+          "Gap 39.1% (market voting)",
+          "+22"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "PMI",
+      "name": "Picard Medical, Inc.",
+      "changesPercentage": 34.12698,
+      "price": 15.21,
+      "premarket_change": 34.12698,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 22,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 22,
+      "cbreak": [
+        [
+          "Gap 34.1% (market voting)",
+          "+22"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "AIXI",
       "name": "Xiao-I Corporation",
       "changesPercentage": 28.3375,
@@ -260,6 +374,44 @@
       "tbreak": []
     },
     {
+      "ticker": "FEDU",
+      "name": "Four Seasons Education (Cayman) Inc.",
+      "changesPercentage": 21.4649,
+      "price": 11.94,
+      "premarket_change": 21.4649,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 18,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 18,
+      "cbreak": [
+        [
+          "Gap 21.5% (market voting)",
+          "+18"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "CANG",
       "name": "Cango Inc.",
       "changesPercentage": 20.86093,
@@ -334,6 +486,44 @@
         [
           "Gap 17.6% (market voting)",
           "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "TCX",
+      "name": "Tucows Inc.",
+      "changesPercentage": 12.5,
+      "price": 9.54,
+      "premarket_change": 12.5,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 12.5% (market voting)",
+          "+14"
         ]
       ],
       "nbreak": [],
