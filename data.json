@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-10-15T17:46:10.707322+00:00",
+  "generated_utc": "2026-10-15T18:05:10.554739+00:00",
   "session_date": "2026-10-15",
   "mode": "refresh",
   "run_label": "scheduled",
-  "count": 35,
+  "count": 38,
   "active_count": 0,
-  "no_catalyst_count": 35,
+  "no_catalyst_count": 38,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -876,6 +876,44 @@
       "tbreak": []
     },
     {
+      "ticker": "MDCX",
+      "name": "Medicus Pharma Ltd. Common Stock",
+      "changesPercentage": 15.38462,
+      "price": 3.6,
+      "premarket_change": 15.38462,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 15,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 15,
+      "cbreak": [
+        [
+          "Gap 15.4% (market voting)",
+          "+15"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "IAM",
       "name": "Iambic Therapeutics Inc.",
       "changesPercentage": 15.375,
@@ -1066,6 +1104,44 @@
       "tbreak": []
     },
     {
+      "ticker": "JG",
+      "name": "Aurora Mobile Limited",
+      "changesPercentage": 15.04212,
+      "price": 9.56,
+      "premarket_change": 15.04212,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 15,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 15,
+      "cbreak": [
+        [
+          "Gap 15.0% (market voting)",
+          "+15"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "CDZI",
       "name": "Cadiz Inc.",
       "changesPercentage": 14.75155,
@@ -1135,6 +1211,44 @@
       "cbreak": [
         [
           "Gap 14.6% (market voting)",
+          "+15"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "RXRX",
+      "name": "Recursion Pharmaceuticals, Inc.",
+      "changesPercentage": 14.4385,
+      "price": 4.28,
+      "premarket_change": 14.4385,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 15,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 15,
+      "cbreak": [
+        [
+          "Gap 14.4% (market voting)",
           "+15"
         ]
       ],
