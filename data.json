@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-10-16T17:21:23.001725+00:00",
+  "generated_utc": "2026-10-16T17:50:26.592811+00:00",
   "session_date": "2026-10-16",
   "mode": "refresh",
   "run_label": "scheduled",
-  "count": 26,
+  "count": 29,
   "active_count": 0,
-  "no_catalyst_count": 26,
+  "no_catalyst_count": 29,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -812,6 +812,44 @@
       "tbreak": []
     },
     {
+      "ticker": "ATGL",
+      "name": "Alpha Technology Group Limited",
+      "changesPercentage": 14.31818,
+      "price": 5.03,
+      "premarket_change": 14.31818,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 15,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 15,
+      "cbreak": [
+        [
+          "Gap 14.3% (market voting)",
+          "+15"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "SITC",
       "name": "SITE Centers Corp.",
       "changesPercentage": 13.78738,
@@ -926,6 +964,44 @@
       "tbreak": []
     },
     {
+      "ticker": "VWAV",
+      "name": "VisionWave Holdings, Inc.",
+      "changesPercentage": 11.22195,
+      "price": 4.46,
+      "premarket_change": 11.22195,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 13,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 13,
+      "cbreak": [
+        [
+          "Gap 11.2% (market voting)",
+          "+13"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "CENN",
       "name": "Cenntro Electric Group Limited",
       "changesPercentage": 10.79365,
@@ -995,6 +1071,44 @@
       "cbreak": [
         [
           "Gap 10.1% (market voting)",
+          "+13"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "ARMP",
+      "name": "Armata Pharmaceuticals, Inc.",
+      "changesPercentage": 10.03236,
+      "price": 3.4,
+      "premarket_change": 10.03236,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 13,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 13,
+      "cbreak": [
+        [
+          "Gap 10.0% (market voting)",
           "+13"
         ]
       ],
