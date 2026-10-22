@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-10-22T18:09:01.271064+00:00",
+  "generated_utc": "2026-10-22T18:22:48.091419+00:00",
   "session_date": "2026-10-22",
   "mode": "refresh",
   "run_label": "scheduled",
-  "count": 31,
+  "count": 34,
   "active_count": 0,
-  "no_catalyst_count": 31,
+  "no_catalyst_count": 34,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -556,6 +556,44 @@
       "tbreak": []
     },
     {
+      "ticker": "EGBN",
+      "name": "Eagle Bancorp, Inc.",
+      "changesPercentage": 13.45952,
+      "price": 32.37,
+      "premarket_change": 13.45952,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 13.5% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "AMRO",
       "name": "Amaero Inc. CDI",
       "changesPercentage": 13.37006,
@@ -587,6 +625,82 @@
       "cbreak": [
         [
           "Gap 13.4% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "ZSQR",
+      "name": "Coeptis Therapeutics Holdings, Inc.",
+      "changesPercentage": 12.63889,
+      "price": 4.055,
+      "premarket_change": 12.63889,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 12.6% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "PHAR",
+      "name": "Pharming Group N.V.",
+      "changesPercentage": 12.43523,
+      "price": 10.85,
+      "premarket_change": 12.43523,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 12.4% (market voting)",
           "+14"
         ]
       ],
