@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-10-23T17:52:42.756379+00:00",
+  "generated_utc": "2026-10-23T18:10:08.390237+00:00",
   "session_date": "2026-10-23",
   "mode": "refresh",
   "run_label": "scheduled",
-  "count": 37,
+  "count": 39,
   "active_count": 0,
-  "no_catalyst_count": 37,
+  "no_catalyst_count": 39,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -1106,6 +1106,44 @@
       "tbreak": []
     },
     {
+      "ticker": "BVC",
+      "name": "BitVentures Limited",
+      "changesPercentage": 14.53815,
+      "price": 14.26,
+      "premarket_change": 14.53815,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 15,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 15,
+      "cbreak": [
+        [
+          "Gap 14.5% (market voting)",
+          "+15"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "POOL",
       "name": "Pool Corporation",
       "changesPercentage": 14.36442,
@@ -1447,6 +1485,44 @@
       "cbreak": [
         [
           "Gap 12.3% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "MF",
+      "name": "MindForge Inc",
+      "changesPercentage": 11.43411,
+      "price": 11.5,
+      "premarket_change": 11.43411,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 11.4% (market voting)",
           "+14"
         ]
       ],
