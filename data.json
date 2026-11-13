@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-11-13T15:57:21.360948+00:00",
+  "generated_utc": "2026-11-13T20:47:17.282663+00:00",
   "session_date": "2026-11-13",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
-  "count": 14,
+  "count": 20,
   "active_count": 0,
-  "no_catalyst_count": 14,
+  "no_catalyst_count": 20,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -60,6 +60,44 @@
       "tbreak": []
     },
     {
+      "ticker": "WWB",
+      "name": "Windward Bio Group AG",
+      "changesPercentage": 71.17647,
+      "price": 29.1,
+      "premarket_change": 71.17647,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 22,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 22,
+      "cbreak": [
+        [
+          "Gap 71.2% (market voting)",
+          "+22"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "VTSI",
       "name": "VirTra, Inc.",
       "changesPercentage": 39.31298,
@@ -93,6 +131,82 @@
       "cbreak": [
         [
           "Gap 39.3% (market voting)",
+          "+22"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "SHIM",
+      "name": "Shimmick Corp.",
+      "changesPercentage": 38.24786,
+      "price": 3.235,
+      "premarket_change": 38.24786,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 22,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 22,
+      "cbreak": [
+        [
+          "Gap 38.2% (market voting)",
+          "+22"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "BGIN",
+      "name": "Bgin Blockchain Limited",
+      "changesPercentage": 32.5942,
+      "price": 3.6596,
+      "premarket_change": 32.5942,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 22,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 22,
+      "cbreak": [
+        [
+          "Gap 32.6% (market voting)",
           "+22"
         ]
       ],
@@ -420,6 +534,44 @@
       "tbreak": []
     },
     {
+      "ticker": "TREO",
+      "name": "Tactical Resources Corp.",
+      "changesPercentage": 18.48485,
+      "price": 3.91,
+      "premarket_change": 18.48485,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 16,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 16,
+      "cbreak": [
+        [
+          "Gap 18.5% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "CDNL",
       "name": "Cardinal Infrastructure Group Inc.",
       "changesPercentage": 18.25887,
@@ -453,6 +605,82 @@
       "cbreak": [
         [
           "Gap 18.3% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "NUAI",
+      "name": "New Era Energy & Digital, Inc.",
+      "changesPercentage": 17.77574,
+      "price": 3.2035,
+      "premarket_change": 17.77574,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 16,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 16,
+      "cbreak": [
+        [
+          "Gap 17.8% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "OBIO",
+      "name": "Orchestra BioMed Holdings, Inc.",
+      "changesPercentage": 17.72358,
+      "price": 7.24,
+      "premarket_change": 17.72358,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 16,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 16,
+      "cbreak": [
+        [
+          "Gap 17.7% (market voting)",
           "+16"
         ]
       ],
