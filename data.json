@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-11-16T18:00:27.519512+00:00",
+  "generated_utc": "2026-11-16T23:14:50.825025+00:00",
   "session_date": "2026-11-16",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
-  "count": 12,
+  "count": 15,
   "active_count": 0,
-  "no_catalyst_count": 12,
+  "no_catalyst_count": 15,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -134,6 +134,44 @@
         [
           "Gap 43.3% (market voting)",
           "+22"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "FEDU",
+      "name": "Four Seasons Education (Cayman) Inc.",
+      "changesPercentage": 20.97501,
+      "price": 9.4,
+      "premarket_change": 20.97501,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 17,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 17,
+      "cbreak": [
+        [
+          "Gap 21.0% (market voting)",
+          "+17"
         ]
       ],
       "nbreak": [],
@@ -420,6 +458,44 @@
       "tbreak": []
     },
     {
+      "ticker": "GYRO",
+      "name": "Gyrodyne, LLC",
+      "changesPercentage": 13.83929,
+      "price": 5.1,
+      "premarket_change": 13.83929,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 15,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 15,
+      "cbreak": [
+        [
+          "Gap 13.8% (market voting)",
+          "+15"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "OFRM",
       "name": "Once Upon A Farm Pbc",
       "changesPercentage": 13.67876,
@@ -453,6 +529,44 @@
       "cbreak": [
         [
           "Gap 13.7% (market voting)",
+          "+14"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "SPCB",
+      "name": "SuperCom Ltd.",
+      "changesPercentage": 13.29011,
+      "price": 6.99,
+      "premarket_change": 13.29011,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 14,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 14,
+      "cbreak": [
+        [
+          "Gap 13.3% (market voting)",
           "+14"
         ]
       ],
