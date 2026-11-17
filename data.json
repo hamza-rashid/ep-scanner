@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-11-17T17:25:49.068016+00:00",
+  "generated_utc": "2026-11-17T22:04:07.436049+00:00",
   "session_date": "2026-11-17",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
-  "count": 16,
+  "count": 22,
   "active_count": 0,
-  "no_catalyst_count": 16,
+  "no_catalyst_count": 22,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -53,6 +53,44 @@
       "cbreak": [
         [
           "Gap 171.4% (market voting)",
+          "+22"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "VAI",
+      "name": "Valor Energy Inc.",
+      "changesPercentage": 40.45455,
+      "price": 3.09,
+      "premarket_change": 40.45455,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 22,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 22,
+      "cbreak": [
+        [
+          "Gap 40.5% (market voting)",
           "+22"
         ]
       ],
@@ -260,6 +298,82 @@
       "tbreak": []
     },
     {
+      "ticker": "IBO",
+      "name": "Impact BioMedical Inc.",
+      "changesPercentage": 24.54175,
+      "price": 6.115,
+      "premarket_change": 24.54175,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 19,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 19,
+      "cbreak": [
+        [
+          "Gap 24.5% (market voting)",
+          "+19"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "IMA",
+      "name": "ImageneBio Inc",
+      "changesPercentage": 21.875,
+      "price": 3.9,
+      "premarket_change": 21.875,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 18,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 18,
+      "cbreak": [
+        [
+          "Gap 21.9% (market voting)",
+          "+18"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "VTSI",
       "name": "VirTra, Inc.",
       "changesPercentage": 21.5736,
@@ -380,6 +494,44 @@
       "tbreak": []
     },
     {
+      "ticker": "BKHA",
+      "name": "Black Hawk Acquisition Corporation",
+      "changesPercentage": 20.13889,
+      "price": 8.65,
+      "premarket_change": 20.13889,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 17,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 17,
+      "cbreak": [
+        [
+          "Gap 20.1% (market voting)",
+          "+17"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "RMIX",
       "name": "Suncrete, Inc. Class A Common Stock",
       "changesPercentage": 19.54887,
@@ -420,6 +572,44 @@
       "tbreak": []
     },
     {
+      "ticker": "CNSP",
+      "name": "CNS Pharmaceuticals, Inc.",
+      "changesPercentage": 19.25287,
+      "price": 4.15,
+      "premarket_change": 19.25287,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 17,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 17,
+      "cbreak": [
+        [
+          "Gap 19.3% (market voting)",
+          "+17"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "SCZM",
       "name": "Santacruz Silver Mining Ltd.",
       "changesPercentage": 18.31153,
@@ -453,6 +643,44 @@
       "cbreak": [
         [
           "Gap 18.3% (market voting)",
+          "+16"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "PNRG",
+      "name": "PrimeEnergy Resources Corporation",
+      "changesPercentage": 16.93155,
+      "price": 220.72,
+      "premarket_change": 16.93155,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 16,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 16,
+      "cbreak": [
+        [
+          "Gap 16.9% (market voting)",
           "+16"
         ]
       ],
