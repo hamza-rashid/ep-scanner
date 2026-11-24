@@ -1,6 +1,6 @@
 {
-  "generated_utc": "2026-11-23T19:54:46.176045+00:00",
-  "session_date": "2026-11-23",
+  "generated_utc": "2026-11-24T01:30:33.889740+00:00",
+  "session_date": "2026-11-24",
   "mode": "full",
   "run_label": "scheduled",
   "count": 9,
@@ -22,9 +22,9 @@
     {
       "ticker": "BNAI",
       "name": "Brand Engagement Network, Inc.",
-      "changesPercentage": 113.69048,
-      "price": 7.18,
-      "premarket_change": 113.69048,
+      "changesPercentage": 117.85714,
+      "price": 7.32,
+      "premarket_change": 117.85714,
       "market_cap_m": null,
       "wk52_high": 86.28,
       "wk52_low": 1.18,
@@ -52,7 +52,7 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 113.7% (market voting)",
+          "Gap 117.9% (market voting)",
           "+22"
         ]
       ],
@@ -62,9 +62,9 @@
     {
       "ticker": "OTLY",
       "name": "Oatly Group AB",
-      "changesPercentage": 92.76136,
-      "price": 13.2706,
-      "premarket_change": 92.76136,
+      "changesPercentage": 109.08435,
+      "price": 14.5,
+      "premarket_change": 109.08435,
       "market_cap_m": null,
       "wk52_high": 16.2,
       "wk52_low": 6.91,
@@ -92,87 +92,7 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 92.8% (market voting)",
-          "+22"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "CUE",
-      "name": "Cue Biopharma, Inc.",
-      "changesPercentage": 54.21687,
-      "price": 6.37,
-      "premarket_change": 54.21687,
-      "market_cap_m": null,
-      "wk52_high": 45.5,
-      "wk52_low": 2.83,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 22,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 22,
-      "cbreak": [
-        [
-          "Gap 54.2% (market voting)",
-          "+22"
-        ]
-      ],
-      "nbreak": [],
-      "tbreak": []
-    },
-    {
-      "ticker": "RSSS",
-      "name": "Research Solutions, Inc.",
-      "changesPercentage": 46.74419,
-      "price": 3.16,
-      "premarket_change": 46.74419,
-      "market_cap_m": null,
-      "wk52_high": 3.38,
-      "wk52_low": 1.77,
-      "catalyst_label": "no_catalyst",
-      "catalyst_tier": null,
-      "catalyst_desc": "No real catalyst",
-      "catalyst_base_points": 0,
-      "adr_pct": null,
-      "dollar_volume_m": null,
-      "gap_pct": null,
-      "above_10": false,
-      "above_20": false,
-      "above_50": false,
-      "above_200": false,
-      "neglect": "low",
-      "vol_expansion": null,
-      "rvol": null,
-      "pct_below_52w_high": null,
-      "section": "no_catalyst",
-      "cooling": false,
-      "info": [],
-      "catalyst_score": 22,
-      "neglect_score": 0,
-      "technical_score": 0,
-      "total": 22,
-      "cbreak": [
-        [
-          "Gap 46.7% (market voting)",
+          "Gap 109.1% (market voting)",
           "+22"
         ]
       ],
@@ -182,9 +102,9 @@
     {
       "ticker": "XCH",
       "name": "XCHG Limited American Depositary Share",
-      "changesPercentage": 42.7027,
-      "price": 3.96,
-      "premarket_change": 42.7027,
+      "changesPercentage": 47.74775,
+      "price": 4.1,
+      "premarket_change": 47.74775,
       "market_cap_m": null,
       "wk52_high": 35.8,
       "wk52_low": 1.26,
@@ -212,7 +132,7 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 42.7% (market voting)",
+          "Gap 47.7% (market voting)",
           "+22"
         ]
       ],
@@ -220,14 +140,14 @@
       "tbreak": []
     },
     {
-      "ticker": "BUUU",
-      "name": "BUUU Group Ltd",
-      "changesPercentage": 35.86626,
-      "price": 4.47,
-      "premarket_change": 35.86626,
+      "ticker": "RSSS",
+      "name": "Research Solutions, Inc.",
+      "changesPercentage": 45.5814,
+      "price": 3.13,
+      "premarket_change": 45.5814,
       "market_cap_m": null,
-      "wk52_high": 8.1,
-      "wk52_low": 0.61,
+      "wk52_high": 3.38,
+      "wk52_low": 1.77,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -252,7 +172,47 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 35.9% (market voting)",
+          "Gap 45.6% (market voting)",
+          "+22"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "GRRR",
+      "name": "Gorilla Technology Group Inc.",
+      "changesPercentage": 44.43387,
+      "price": 7.59,
+      "premarket_change": 44.43387,
+      "market_cap_m": null,
+      "wk52_high": 23.49,
+      "wk52_low": 4.93,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 22,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 22,
+      "cbreak": [
+        [
+          "Gap 44.4% (market voting)",
           "+22"
         ]
       ],
@@ -262,9 +222,9 @@
     {
       "ticker": "PTHS",
       "name": "Pelthos Therapeutics Inc.",
-      "changesPercentage": 32.75862,
-      "price": 8.47,
-      "premarket_change": 32.75862,
+      "changesPercentage": 41.22257,
+      "price": 9.01,
+      "premarket_change": 41.22257,
       "market_cap_m": null,
       "wk52_high": 31.62,
       "wk52_low": 6.02,
@@ -292,7 +252,7 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 32.8% (market voting)",
+          "Gap 41.2% (market voting)",
           "+22"
         ]
       ],
@@ -300,14 +260,14 @@
       "tbreak": []
     },
     {
-      "ticker": "KYMR",
-      "name": "Kymera Therapeutics, Inc.",
-      "changesPercentage": 32.57306,
-      "price": 152.87,
-      "premarket_change": 32.57306,
+      "ticker": "CUE",
+      "name": "Cue Biopharma, Inc.",
+      "changesPercentage": 38.55422,
+      "price": 5.75,
+      "premarket_change": 38.55422,
       "market_cap_m": null,
-      "wk52_high": 161.49,
-      "wk52_low": 63.69,
+      "wk52_high": 45.5,
+      "wk52_low": 2.83,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
@@ -332,7 +292,7 @@
       "total": 22,
       "cbreak": [
         [
-          "Gap 32.6% (market voting)",
+          "Gap 38.6% (market voting)",
           "+22"
         ]
       ],
@@ -340,77 +300,84 @@
       "tbreak": []
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation",
-      "changesPercentage": 31.29929,
-      "price": 164.73,
-      "premarket_change": 31.29929,
-      "market_cap_m": 3971680.0,
-      "wk52_high": 243.37,
-      "wk52_low": 124.5,
-      "float_m": 23138.62622,
+      "ticker": "ITP",
+      "name": "IT Tech Packaging, Inc.",
+      "changesPercentage": 34.36482,
+      "price": 3.3,
+      "premarket_change": 34.36482,
+      "market_cap_m": null,
+      "wk52_high": 13.2,
+      "wk52_low": 0.0435,
       "catalyst_label": "no_catalyst",
       "catalyst_tier": null,
       "catalyst_desc": "No real catalyst",
       "catalyst_base_points": 0,
-      "adr_pct": 5.85,
-      "dollar_volume_m": 103585.5,
+      "adr_pct": null,
+      "dollar_volume_m": null,
       "gap_pct": null,
-      "above_10": true,
+      "above_10": false,
       "above_20": false,
       "above_50": false,
       "above_200": false,
       "neglect": "low",
-      "vol_expansion": 2.2,
-      "rvol": 2.2,
-      "pct_below_52w_high": 31.1,
-      "_avg20_vol": 287643572.7,
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
       "section": "no_catalyst",
       "cooling": false,
-      "low_float": false,
-      "info": [
-        [
-          "RVOL",
-          "2.2x"
-        ],
-        [
-          "Float",
-          "23139M"
-        ],
-        [
-          "52wk",
-          "31% below high"
-        ]
-      ],
-      "catalyst_score": 28,
+      "info": [],
+      "catalyst_score": 22,
       "neglect_score": 0,
-      "technical_score": 14,
-      "total": 42,
+      "technical_score": 0,
+      "total": 22,
       "cbreak": [
         [
-          "Gap 31.3% (market voting)",
+          "Gap 34.4% (market voting)",
           "+22"
-        ],
-        [
-          "Volume 2.2x expansion",
-          "+6"
         ]
       ],
       "nbreak": [],
-      "tbreak": [
+      "tbreak": []
+    },
+    {
+      "ticker": "BUUU",
+      "name": "BUUU Group Ltd",
+      "changesPercentage": 34.04255,
+      "price": 4.41,
+      "premarket_change": 34.04255,
+      "market_cap_m": null,
+      "wk52_high": 8.1,
+      "wk52_low": 0.61,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 22,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 22,
+      "cbreak": [
         [
-          "$ vol $103586M",
-          "+8"
-        ],
-        [
-          "ADR 5.8%",
-          "+5"
-        ],
-        [
-          "Above 10d",
-          "+1"
+          "Gap 34.0% (market voting)",
+          "+22"
         ]
-      ]
+      ],
+      "nbreak": [],
+      "tbreak": []
     }
   ]
 }
