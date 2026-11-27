@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-11-27T17:54:00.623607+00:00",
+  "generated_utc": "2026-11-27T22:31:32.975715+00:00",
   "session_date": "2026-11-27",
-  "mode": "full",
+  "mode": "refresh",
   "run_label": "scheduled",
-  "count": 9,
+  "count": 12,
   "active_count": 0,
-  "no_catalyst_count": 9,
+  "no_catalyst_count": 12,
   "ai_used": true,
   "fresh_window_ok": true,
   "table_filters": {
@@ -220,6 +220,44 @@
       "tbreak": []
     },
     {
+      "ticker": "BBCI",
+      "name": "Bradbury Capital Inc. Ordinary Shares",
+      "changesPercentage": 37.55656,
+      "price": 3.04,
+      "premarket_change": 37.55656,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 22,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 22,
+      "cbreak": [
+        [
+          "Gap 37.6% (market voting)",
+          "+22"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "VEEA",
       "name": "Veea Inc.",
       "changesPercentage": 30.0813,
@@ -340,6 +378,44 @@
       "tbreak": []
     },
     {
+      "ticker": "GUNN",
+      "name": "Gunnison Copper Corp. Spon Ads Each Rep 30 Com",
+      "changesPercentage": 23.8835,
+      "price": 6.38,
+      "premarket_change": 23.8835,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 19,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 19,
+      "cbreak": [
+        [
+          "Gap 23.9% (market voting)",
+          "+19"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
       "ticker": "ARQQ",
       "name": "Arqit Quantum Inc.",
       "changesPercentage": 23.53472,
@@ -373,6 +449,44 @@
       "cbreak": [
         [
           "Gap 23.5% (market voting)",
+          "+18"
+        ]
+      ],
+      "nbreak": [],
+      "tbreak": []
+    },
+    {
+      "ticker": "SMXT",
+      "name": "Solarmax Technology Inc. Common Stock",
+      "changesPercentage": 23.38205,
+      "price": 5.91,
+      "premarket_change": 23.38205,
+      "catalyst_label": "no_catalyst",
+      "catalyst_tier": null,
+      "catalyst_desc": "No real catalyst",
+      "catalyst_base_points": 0,
+      "adr_pct": null,
+      "dollar_volume_m": null,
+      "gap_pct": null,
+      "above_10": false,
+      "above_20": false,
+      "above_50": false,
+      "above_200": false,
+      "neglect": "low",
+      "vol_expansion": null,
+      "rvol": null,
+      "pct_below_52w_high": null,
+      "market_cap_m": null,
+      "section": "no_catalyst",
+      "cooling": false,
+      "info": [],
+      "catalyst_score": 18,
+      "neglect_score": 0,
+      "technical_score": 0,
+      "total": 18,
+      "cbreak": [
+        [
+          "Gap 23.4% (market voting)",
           "+18"
         ]
       ],
